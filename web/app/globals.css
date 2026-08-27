@@ -179,41 +179,43 @@ body {
 }
 
 /*
-  The masthead. The plate's left edge is masked to transparent so it dissolves into
-  the painted wash behind it rather than ending on a seam.
+  The masthead plate runs full bleed, so the type sits on paint. The scrim gives it
+  ground in both themes -- cream-white in the light one, the page surface in the
+  dark -- and is gone by the middle of the band, leaving most of the plate clear.
 
-  In the light theme the wash is close to the interface's own surface and the ink
-  reads straight off it, so no scrim is needed. In the dark theme the band is a lit
-  painting on a dark page: it is dimmed rather than inverted -- a painting does not
-  invert -- and the left of it is veiled so white type has something to sit on.
+  The dark theme dims the plate rather than inverting it: a painting does not invert.
 */
-.masthead-plate {
-  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 18%);
-  mask-image: linear-gradient(90deg, transparent 0%, #000 18%);
+.masthead-scrim {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.94) 0%,
+    rgba(255, 255, 255, 0.72) 26%,
+    rgba(255, 255, 255, 0) 54%
+  );
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .masthead-art {
-    filter: brightness(0.62) saturate(0.85);
+    filter: brightness(0.6) saturate(0.9);
   }
   :root:not([data-theme="light"]) .masthead-scrim {
     background: linear-gradient(
       90deg,
       var(--color-surface-muted) 0%,
-      color-mix(in srgb, var(--color-surface-muted) 55%, transparent) 40%,
-      transparent 66%
+      color-mix(in srgb, var(--color-surface-muted) 72%, transparent) 26%,
+      transparent 56%
     );
   }
 }
 :root[data-theme="dark"] .masthead-art {
-  filter: brightness(0.62) saturate(0.85);
+  filter: brightness(0.6) saturate(0.9);
 }
 :root[data-theme="dark"] .masthead-scrim {
   background: linear-gradient(
     90deg,
     var(--color-surface-muted) 0%,
-    color-mix(in srgb, var(--color-surface-muted) 55%, transparent) 40%,
-    transparent 66%
+    color-mix(in srgb, var(--color-surface-muted) 72%, transparent) 26%,
+    transparent 56%
   );
 }
 

@@ -5,40 +5,35 @@ import type { Journal } from "@/lib/types";
 /*
   The masthead.
 
-  The artwork is a painted plate of two longspurs among poppies (banner.jpg, cropped
-  from the file the owner supplied -- a third-party illustration, fine for a private
-  archive but it would need clearing before this site went public).
+  The artwork is an Audubon blue jay plate (banner.jpg -- a third-party image, fine
+  for a private archive, but it would need clearing before this site went public).
 
-  The plate is 2.2:1 and the band is nearer 9:1, so covering the full width with it
-  would crop away both birds' heads. Instead the plate keeps its proportions at the
-  right, and WASH -- sampled down its own left edge, cream paper above and sand
-  below -- continues that ground across the rest of the band. The join is hidden by
-  masking the plate's left edge to transparent, so the whole banner reads as one
-  painted surface with the birds standing at the end of it.
+  Unlike the longspur plate this one is painted corner to corner, so it can be run
+  full bleed: object-cover crops it to a band through the upper bird, whose tail,
+  wing and head happen to lie across the full width of the plate. The scrim over the
+  left is not decoration -- dark type on painted feathers is unreadable without it,
+  and it fades out by the middle so most of the plate is untouched.
 */
-
-const WASH =
-  "linear-gradient(180deg,#f0eee7 0%,#f0eee8 60%,#e6e2d1 72%,#eae7dc 84%,#e1cfae 100%)";
 
 export default function Masthead({ meta }: { meta: Journal["meta"] }) {
   return (
     <header className="relative isolate overflow-hidden border-b border-line bg-surface-muted">
-      {/* The painted ground, and the plate standing at the right of it. */}
-      <div aria-hidden className="masthead-art absolute inset-0" style={{ background: WASH }}>
+      {/* The plate, run full bleed across the band. */}
+      <div aria-hidden className="masthead-art absolute inset-0">
         <Image
           src="/banner.jpg"
           alt=""
-          width={1425}
-          height={641}
+          fill
           priority
-          className="masthead-plate absolute inset-y-0 right-0 h-full w-auto max-w-none"
+          sizes="100vw"
+          className="object-cover object-[50%_26%]"
         />
       </div>
 
-      {/* Legibility, only where the theme needs it: see globals.css. */}
+      {/* Ground for the type: see globals.css. */}
       <div aria-hidden className="masthead-scrim absolute inset-0" />
 
-      <div className="relative flex min-h-[104px] flex-col justify-center px-5 py-5 sm:min-h-[168px] sm:px-8">
+      <div className="relative flex min-h-[132px] flex-col justify-center px-5 py-5 sm:min-h-[232px] sm:px-8">
         <p className="eyebrow text-fg-subtle">
           Golden Press · Robbins, Bruun &amp; Zim
         </p>
