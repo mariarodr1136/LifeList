@@ -127,11 +127,16 @@ right for the selected bird, and the checklist one on the left for jumping betwe
 groups. Light and dark are both first-class, with the choice
 stored per browser.
 
-The masthead is set in the interface's own language rather than the book's: surface,
-Inter, hairline rules. An earlier version drew it as one of the guide's plates -- sage
-ground, painted plumage, printed captions -- and it read as a scan pasted onto a
-product. The same avocet and stilt survive in `Masthead.tsx`, reduced to a single
-stroke weight in `currentColor`, so they follow the theme instead of fighting it.
+The masthead carries a painted plate of two longspurs among poppies
+(`web/public/banner.jpg`). It is sized to the band's height rather than cropped to
+it, so neither bird loses its head, and its left edge is masked to transparent so it
+dissolves into the page surface instead of ending on a seam — in either theme, with a
+dimming filter in the dark one because a painting does not invert. The artwork is a
+third-party illustration supplied for this archive: fine for something private, but
+it would need clearing before the site went public.
+
+The species placeholder is still line art of our own (see below), so the two do not
+compete.
 
 **Bird artwork is a placeholder.** The guide's plates are not digitised, so every
 species shows the same illustration (`web/public/bird-placeholder.svg`) and the detail
