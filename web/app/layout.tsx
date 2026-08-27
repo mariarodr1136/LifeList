@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Newsreader } from "next/font/google";
+import PlateBanner from "@/components/PlateBanner";
 import Sidebar from "@/components/Sidebar";
 import { getJournal } from "@/lib/data";
 import "./globals.css";
@@ -40,7 +41,10 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} ${newsreader.variable} min-h-screen`}>
         <Sidebar meta={meta} />
-        <div className="flex min-h-screen flex-col lg:pl-[268px]">{children}</div>
+        <div className="flex min-h-screen flex-col lg:pl-[268px]">
+          <PlateBanner meta={meta} />
+          {children}
+        </div>
       </body>
     </html>
   );

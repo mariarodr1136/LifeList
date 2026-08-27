@@ -1,41 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Placeholder bird illustration">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Placeholder plate illustration">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#eef0fe"/>
-      <stop offset="55%" stop-color="#eaf1ee"/>
-      <stop offset="100%" stop-color="#e3e6f7"/>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#a7bdab"/>
+      <stop offset="45%" stop-color="#b4c8b6"/>
+      <stop offset="100%" stop-color="#a2b9a7"/>
     </linearGradient>
-    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#7d78ee"/>
-      <stop offset="100%" stop-color="#5b54dd"/>
-    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <!--
+      The bird is one closed outline: bill, crown, nape, back, tail, belly, throat.
+      Everything else is painted through a clip of that same shape, which is how the
+      guide's plates are printed - no outline, no seam, markings flat on the figure.
+    -->
+    <path id="bird"
+      d="M150 118 C150 96, 166 78, 190 74 C186 66, 190 58, 199 56 C208 54, 216 60, 217 69
+         C232 74, 244 86, 250 102 C258 118, 278 134, 306 148 C286 152, 262 148, 244 138
+         C232 154, 210 162, 190 158 C166 153, 150 138, 150 118 Z"/>
+    <clipPath id="clip-bird"><use href="#bird"/></clipPath>
   </defs>
 
-  <rect width="400" height="300" fill="url(#bg)"/>
-  <circle cx="200" cy="146" r="96" fill="#ffffff" opacity="0.45"/>
+  <rect width="400" height="300" fill="url(#ground)"/>
+  <rect width="400" height="300" filter="url(#grain)" opacity="0.07" style="mix-blend-mode:multiply"/>
 
-  <!-- tail -->
-  <path d="M232 152 L318 200 L300 214 L226 174 Z" fill="#4f46e5" opacity="0.75"/>
+  <!-- the perch, drawn as the plates draw a bare twig -->
+  <path d="M84 214 C140 206, 214 216, 320 204" stroke="#8a7250" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M232 210 c14 -13, 30 -16, 46 -10 c -15 9, -31 12, -46 10 z" fill="#7f9a6d"/>
+  <path d="M150 212 c -13 -11, -28 -14, -42 -9 c 13 8, 28 11, 42 9 z" fill="#7f9a6d"/>
 
-  <!-- body -->
-  <ellipse cx="198" cy="152" rx="54" ry="43" transform="rotate(-16 198 152)" fill="url(#body)"/>
+  <!-- legs, behind the body -->
+  <g stroke="#7d8f9e" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M186 156 L182 206"/>
+    <path d="M206 154 L210 206"/>
+  </g>
 
-  <!-- wing -->
-  <ellipse cx="207" cy="156" rx="36" ry="21" transform="rotate(-22 207 156)" fill="#3f37c4" opacity="0.55"/>
+  <use href="#bird" fill="#f4f2e8"/>
+  <g clip-path="url(#clip-bird)">
+    <!-- cap and nape -->
+    <path d="M186 52 C214 46, 228 68, 222 92 L192 84 Z" fill="#2b281f"/>
+    <!-- mantle and folded wing, the plate's two black masses -->
+    <path d="M206 82 C232 82, 252 100, 262 120 C238 122, 208 112, 196 96 Z" fill="#2b281f"/>
+    <path d="M214 112 C238 116, 268 130, 300 146 C268 150, 232 142, 214 128 Z" fill="#2b281f" opacity="0.9"/>
+    <!-- cinnamon flank, and the belly shaded away from the light -->
+    <path d="M170 120 C190 126, 214 134, 232 146 L226 166 L164 156 Z" fill="#c08551" opacity="0.85"/>
+    <path d="M156 142 C180 158, 214 164, 246 158 L250 182 L150 182 Z" fill="#d8d5c6" opacity="0.6"/>
+  </g>
 
-  <!-- head -->
-  <circle cx="152" cy="110" r="28" fill="url(#body)"/>
+  <!-- bill and eye -->
+  <path d="M186 76 L146 84 L184 92 Z" fill="#c8a05a"/>
+  <circle cx="196" cy="74" r="3.4" fill="#f4f2e8"/>
+  <circle cx="196" cy="74" r="1.7" fill="#2b281f"/>
 
-  <!-- beak -->
-  <path d="M128 105 L96 114 L129 124 Z" fill="#dc9a45"/>
-
-  <!-- eye -->
-  <circle cx="145" cy="104" r="4" fill="#f7f7f5"/>
-
-  <!-- legs -->
-  <path d="M188 192 L186 216 M206 192 L210 216" stroke="#3f37c4" stroke-width="4" stroke-linecap="round" fill="none"/>
-
-  <!-- perch -->
-  <path d="M104 218 C 168 210, 244 224, 306 214" stroke="#2f7d5b" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.65"/>
-  <path d="M214 216 c 14 -12, 30 -14, 44 -8 c -14 8, -30 10, -44 8 z" fill="#2f7d5b" opacity="0.45"/>
+  <ellipse cx="200" cy="212" rx="46" ry="4" fill="#2b281f" opacity="0.09"/>
 </svg>
