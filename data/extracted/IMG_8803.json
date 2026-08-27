@@ -1,0 +1,44 @@
+{
+  "image": "IMG_8803",
+  "page_numbers": [
+    82
+  ],
+  "page_type": "species_account",
+  "section_heading": "GALLINACEOUS BIRDS",
+  "species": [
+    {
+      "common_name": "TURKEY",
+      "scientific_name": "Meleagris gallopavo",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "OCTOBER 1969",
+          "date_iso": null,
+          "location": "QUANTICO, VIRGINIA"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "CHACHALACA",
+      "scientific_name": "Ortalis vetula",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/6/8[1?]",
+          "date_iso": null,
+          "location": "BENAVIDES, TEXAS"
+        }
+      ],
+      "notes": [
+        "Date's final digit uncertain — reads \"8/6/8\" with a partly obscured last figure"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Handwritten word with an arrow pointing toward the turkey illustration on the plate, largely illegible — possibly \"M. MESITH\" or a subspecies name"
+  ],
+  "confidence": "medium"
+}

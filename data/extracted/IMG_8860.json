@@ -1,0 +1,61 @@
+{
+  "image": "IMG_8860",
+  "page_numbers": [],
+  "page_type": "species_account",
+  "section_heading": "OLIVE-SIDED FLYCATCHERS",
+  "species": [
+    {
+      "common_name": "COUES' FLYCATCHER",
+      "scientific_name": "Contopus pertinax",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "EASTERN WOOD PEWEE",
+      "scientific_name": "Contopus virens",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WESTERN WOOD PEWEE",
+      "scientific_name": "Contopus sordidulus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/1/83",
+          "date_iso": "1983-05-01",
+          "location": null
+        }
+      ],
+      "notes": [
+        "A date in ballpoint (read as \"5/1/83\", possibly \"5/13/83\") and an illegible cursive word are written beside/above the WESTERN WOOD PEWEE heading; both are uncertain."
+      ]
+    },
+    {
+      "common_name": "OLIVE-SIDED FLYCATCHER",
+      "scientific_name": "Nuttallornis borealis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/23/81",
+          "date_iso": "1981-05-23",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Cursive words in blue ballpoint follow the date across the heading area; partly legible, possibly a place name ending in \"...VALLEY CREEK\" - transcription uncertain."
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint pencil/ballpoint writing along the right-hand margin of the illustration plate - illegible in this photo",
+    "Faint blue ballpoint marks in the lower left of the plate near the OLIVE-SIDED FLYCATCHER figure - illegible"
+  ],
+  "confidence": "low"
+}

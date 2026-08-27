@@ -1,0 +1,78 @@
+{
+  "image": "IMG_8824",
+  "page_numbers": [
+    124
+  ],
+  "page_type": "species_account",
+  "section_heading": "PEEPS",
+  "species": [
+    {
+      "common_name": "WHITE-RUMPED SANDPIPER",
+      "scientific_name": "Erolia fuscicollis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BAIRD'S SANDPIPER",
+      "scientific_name": "Erolia bairdii",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LEAST SANDPIPER",
+      "scientific_name": "Erolia minutilla",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "2/18/74",
+          "date_iso": "1974-02-18",
+          "location": "UPPER NEWPORT BAY"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "SEMIPALMATED SANDPIPER",
+      "scientific_name": "Ereunetes pusillus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WESTERN SANDPIPER",
+      "scientific_name": "Ereunetes mauri",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "2/18/74",
+          "date_iso": "1974-02-18",
+          "location": "UPPER NEWPORT BAY"
+        }
+      ],
+      "notes": [
+        "Bigger - more white than Least (cursive note in lower margin; wording of first word uncertain)",
+        "\"black\" written beside the legs of the circled summer-plumage Western Sandpiper figure"
+      ]
+    },
+    {
+      "common_name": "RUFOUS-NECKED SANDPIPER",
+      "scientific_name": "Erolia ruficollis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "A hand-drawn ellipse encircles a pale standing peep figure in the Least/Semipalmated area of the plate - which species it belongs to is uncertain",
+    "\"yellow\" (cursive) written beside a summer-plumage figure in the Least/Semipalmated part of the plate; intended species uncertain"
+  ],
+  "confidence": "medium"
+}

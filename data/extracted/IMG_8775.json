@@ -1,0 +1,58 @@
+{
+  "image": "IMG_8775",
+  "page_numbers": [
+    26
+  ],
+  "page_type": "species_account",
+  "section_heading": "DARK SHEARWATERS AND LARGE PETRELS",
+  "species": [
+    {
+      "common_name": "SOOTY SHEARWATER",
+      "scientific_name": "Púffinus gríseus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "11/20/79",
+          "date_iso": "1979-11-20",
+          "location": "NEWPORT BEACH, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "SLENDER-BILLED SHEARWATER",
+      "scientific_name": "Púffinus tenuiróstris",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "PALE-FOOTED SHEARWATER",
+      "scientific_name": "Púffinus carnéipes",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK-CAPPED PETREL",
+      "scientific_name": "Pterodroma hasitáta",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SCALED PETREL",
+      "scientific_name": "Pterodroma inexpectáta",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

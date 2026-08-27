@@ -1,0 +1,34 @@
+{
+  "image": "IMG_8766",
+  "page_numbers": [],
+  "page_type": "front_matter",
+  "section_heading": "BIRDS IN THIS BOOK",
+  "species": [
+    {
+      "common_name": "Robin",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wilson's Petrel",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bridled Tern",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

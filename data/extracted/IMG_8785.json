@@ -1,0 +1,60 @@
+{
+  "image": "IMG_8785",
+  "page_numbers": [
+    46
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "PINTAIL",
+      "scientific_name": "Ánas acúta",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "1/22/74",
+          "date_iso": "1974-01-22",
+          "location": "LAKE MATTHEWS, CALIF"
+        }
+      ],
+      "notes": [
+        "In the top annotation the first word appears to have been written over or corrected before 'MATTHEWS, CALIF'; read as 'LAKE'.",
+        "Blue ellipse drawn around the long central tail feathers of the swimming male Pintail on the plate.",
+        "Two words of cursive in blue above the male Pintail on the plate, with a curved line drawn down to the bird's head; not legible enough to transcribe."
+      ]
+    },
+    {
+      "common_name": "GADWALL",
+      "scientific_name": "Ánas strépera",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "AMERICAN WIDGEON",
+      "scientific_name": "Maréca americána",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/22/74",
+          "date_iso": "1974-01-22",
+          "location": "LAKE MATTHEWS, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "EUROPEAN WIDGEON",
+      "scientific_name": "Maréca penélope",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

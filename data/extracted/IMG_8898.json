@@ -1,0 +1,54 @@
+{
+  "image": "IMG_8898",
+  "page_numbers": [
+    288
+  ],
+  "page_type": "species_account",
+  "section_heading": "TANAGERS",
+  "species": [
+    {
+      "common_name": "WESTERN TANAGER",
+      "scientific_name": "Piranga ludoviciana",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Faint cursive annotation beside the WESTERN TANAGER heading, too light/angled to read"
+      ]
+    },
+    {
+      "common_name": "CARDINAL",
+      "scientific_name": "Richmondena cardinalis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1973",
+          "date_iso": null,
+          "location": "LAKE TENKILLER, OKLA"
+        }
+      ],
+      "notes": [
+        "Handwriting above CARDINAL heading partly illegible; reads approximately \"LAKE TENKILLER 1973 OKLA\""
+      ]
+    },
+    {
+      "common_name": "PYRRHULOXIA",
+      "scientific_name": "Pyrrhuloxia sinuata",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/7/74",
+          "date_iso": "1974-07-07",
+          "location": "SAHUARO MONUMENT ... TUCSON, ARIZ"
+        }
+      ],
+      "notes": [
+        "Written across the column beside the PYRRHULOXIA heading; first word uncertain (SAHUARO/SAGUARO MONUMENT)"
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

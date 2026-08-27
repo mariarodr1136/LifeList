@@ -1,0 +1,151 @@
+{
+  "image": "IMG_8826",
+  "page_numbers": [
+    128,
+    129
+  ],
+  "page_type": "plate",
+  "section_heading": "WINTER PLUMAGE OF SMALLER SHOREBIRDS",
+  "species": [
+    {
+      "common_name": "Knot",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Rock Sandpiper",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Pectoral Sandpiper",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Baird's Sandpiper",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Least Sandpiper",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [],
+      "notes": [
+        "Blue hand-drawn ellipse around the winter-plumage figure labelled \"Least Sandpiper p. 124\" (top row, p. 128); no written text"
+      ]
+    },
+    {
+      "common_name": "Semipalmated Sandpiper",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wilson's Phalarope",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Red Phalarope",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Purple Sandpiper",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Sanderling",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [],
+      "notes": [
+        "Large pink/red hand-drawn ellipse around the figure labelled \"Sanderling p. 122\" (bottom row, p. 129); no written text"
+      ]
+    },
+    {
+      "common_name": "White-rumped Sandpiper",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Curlew Sandpiper",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Western Sandpiper",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [],
+      "notes": [
+        "Blue hand-drawn ellipse around the figure labelled \"Western Sandpiper p. 124\" (top row, p. 129); no written text"
+      ]
+    },
+    {
+      "common_name": "Dunlin",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Northern Phalarope",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Spotted Sandpiper",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [],
+      "notes": [
+        "Blue hand-drawn ellipse around the figure labelled \"Spotted Sandpiper p. 116\" (bottom row, p. 129); no written text"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Small blue check-like squiggle in the margin at the end of the caption text block on p. 129 (near the Northern Phalarope / Spotted Sandpiper lines); too small to read with certainty"
+  ],
+  "confidence": "medium"
+}

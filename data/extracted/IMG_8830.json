@@ -1,0 +1,79 @@
+{
+  "image": "IMG_8830",
+  "page_numbers": [
+    136
+  ],
+  "page_type": "species_account",
+  "section_heading": "SMALL WHITE-HEADED GULLS",
+  "species": [
+    {
+      "common_name": "RING-BILLED GULL",
+      "scientific_name": "Larus delawarensis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/5/74",
+          "date_iso": "1974-01-05",
+          "location": "Long Beach"
+        }
+      ],
+      "notes": [
+        "Cursive annotation beside the date reads something like \"Long Beach Rocky\" - the second word is uncertain"
+      ]
+    },
+    {
+      "common_name": "MEW GULL",
+      "scientific_name": "Larus canus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "HEERMANN'S GULL",
+      "scientific_name": "Larus heermanni",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "9/23/73",
+          "date_iso": "1973-09-23",
+          "location": "Long Beach"
+        }
+      ],
+      "notes": [
+        "Cursive place name beside the date read as \"Long Beach\" (first letter unclear)"
+      ]
+    },
+    {
+      "common_name": "BLACK-LEGGED KITTIWAKE",
+      "scientific_name": "Rissa tridactyla",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "RED-LEGGED KITTIWAKE",
+      "scientific_name": "Rissa brevirostris",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ROSS' GULL",
+      "scientific_name": "Rhodostethia rosea",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Word in pink/red pencil on the plate near the HEERMANN'S GULL figure, apparently \"Common\", with a small star/asterisk mark beside it",
+    "Faint blue scribble on the plate above the RING-BILLED GULL immature figure (illegible)"
+  ],
+  "confidence": "low"
+}

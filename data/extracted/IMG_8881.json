@@ -1,0 +1,102 @@
+{
+  "image": "IMG_8881",
+  "page_numbers": [
+    262
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "BLACKBURNIAN WARBLER",
+      "scientific_name": "Dendroica fusca",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "[CHESTNUT-]SIDED WARBLER",
+      "scientific_name": "Dendroica pensylvanica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "printed heading partly obscured by the curl of the page; only \"-SIDED WARBLER\" legible"
+      ]
+    },
+    {
+      "common_name": "[BAY-BREASTED WARBLER?]",
+      "scientific_name": "Dendroica cast[a]nea",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "heading hidden by the folded/creased page; only fragments of the scientific name legible"
+      ]
+    },
+    {
+      "common_name": "YELLOW-THROATED WARBLER",
+      "scientific_name": "Dendroica dominica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GRACE'S WARBLER",
+      "scientific_name": "Dendroica graciae",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "SANTA RITA MTS, CANYON"
+        },
+        {
+          "date_raw": "8/23/80",
+          "date_iso": "1980-08-23",
+          "location": "B.EAR. CANYON"
+        }
+      ],
+      "notes": [
+        "blue-ink annotation curves around the GRACE'S WARBLER heading; the place name reading \"SANTA RITA MTS, CANYON\" is uncertain",
+        "second line reads \"8/23/80  B.EAR. CANYON\" followed by a further illegible date-like group (possibly \"1?/2?/??\")"
+      ]
+    },
+    {
+      "common_name": "CERULEAN WARBLER",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate caption only: \"CERULEAN WARBLER  L 4\\\"\""
+      ]
+    },
+    {
+      "common_name": "BLACK-THROATED GRAY WARBLER",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate caption only"
+      ]
+    },
+    {
+      "common_name": "TOWNSEND'S WARBLER",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate caption partly cut off at page edge (\"WNSEND'S WARBLER\")"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "illegible blue-ink note beside the top-left range maps, possibly \"Tony sags 82\" – reading uncertain"
+  ],
+  "confidence": "low"
+}

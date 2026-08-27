@@ -1,0 +1,84 @@
+{
+  "image": "IMG_8902",
+  "page_numbers": [
+    304
+  ],
+  "page_type": "species_account",
+  "section_heading": "TOWHEES",
+  "species": [
+    {
+      "common_name": "GREEN-TAILED TOWHEE",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "9/1/73",
+          "date_iso": "1973-09-01",
+          "location": null
+        }
+      ],
+      "notes": [
+        "A short handwritten line above the GREEN-TAILED TOWHEE heading reads \"9/1/73\" followed by a word beginning \"MT\" that is obscured by a paper repair and illegible"
+      ]
+    },
+    {
+      "common_name": "RUFOUS-SIDED TOWHEE",
+      "scientific_name": "Pipilo erythrophthalmus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/14/73",
+          "date_iso": "1973-12-14",
+          "location": "Tucker Sanctuary Orange, Calif"
+        }
+      ],
+      "notes": [
+        "Location wording uncertain; reads as cursive \"Tucker Sanctuary Orange, Calif\" (first word partly obscured)"
+      ]
+    },
+    {
+      "common_name": "BROWN TOWHEE",
+      "scientific_name": "Pipilo fúscus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/6/74",
+          "date_iso": "1974-07-06",
+          "location": "CAVE CREEK CANYON, ARIZ."
+        },
+        {
+          "date_raw": "5/25/80",
+          "date_iso": "1980-05-25",
+          "location": "RANCHO MISSION VIEJO, CALIF"
+        }
+      ],
+      "notes": [
+        "Second entry partly overwritten by printed text; date could be 5/23/80 or 5/25/80"
+      ]
+    },
+    {
+      "common_name": "ABERT'S TOWHEE",
+      "scientific_name": "Pipilo áberti",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "OLIVE SPARROW",
+      "scientific_name": "Arremónops rufivirgáta",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Faint cursive notes across the top of the plate, mostly illegible; the words \"white throat\" (uncertain) and \"can be yellow\" can be partly made out near the Green-tailed Towhee figures",
+    "Additional faint pencil/ink writing in the upper left column area is obscured by tape and paper loss and cannot be read"
+  ],
+  "confidence": "low"
+}

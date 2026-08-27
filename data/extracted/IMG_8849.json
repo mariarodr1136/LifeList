@@ -1,0 +1,81 @@
+{
+  "image": "IMG_8849",
+  "page_numbers": [
+    182
+  ],
+  "page_type": "species_account",
+  "section_heading": "LADDER-BACKED WOODPECKERS",
+  "species": [
+    {
+      "common_name": "RED-BELLIED WOODPECKER",
+      "scientific_name": "Centurus carolinus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GOLDEN-FRONTED WOODPECKER",
+      "scientific_name": "Centurus aurifrons",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GILA WOODPECKER",
+      "scientific_name": "Centurus uropygialis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/4/74",
+          "date_iso": "1974-07-04",
+          "location": "PATAGONIA, ARIZ"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "LADDER-BACKED WOODPECKER",
+      "scientific_name": "Dendrocopos scalaris",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/4/74",
+          "date_iso": "1974-07-04",
+          "location": "SANCTUARY - PATAGONIA, ARIZ (first word uncertain, possibly \"MADERA\" or similar)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "RED-COCKADED WOODPECKER",
+      "scientific_name": "Dendrocopos borealis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "NUTTALL'S WOODPECKER",
+      "scientific_name": "Dendrocopos nuttallii",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "3/23/76",
+          "date_iso": "1976-03-23",
+          "location": "MORENO VALLEY CALIF"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "On the plate near the Gila Woodpecker head: two words, partly legible, possibly \"Hairy from\" - uncertain",
+    "On the plate near the Red-cockaded Woodpecker: faint words including \"white face\" and possibly \"white belly\" - uncertain"
+  ],
+  "confidence": "low"
+}

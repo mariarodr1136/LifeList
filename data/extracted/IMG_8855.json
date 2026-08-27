@@ -1,0 +1,76 @@
+{
+  "image": "IMG_8855",
+  "page_numbers": [
+    192
+  ],
+  "page_type": "species_account",
+  "section_heading": "KINGBIRDS",
+  "species": [
+    {
+      "common_name": "EASTERN KINGBIRD",
+      "scientific_name": "Tyrannus tyrannus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "A small hand-drawn check mark (✓) in the left margin beside the EASTERN KINGBIRD heading; an 'X' is also pencilled/inked in the same margin a little below it (see unattached annotations - it may belong to WESTERN KINGBIRD instead)"
+      ]
+    },
+    {
+      "common_name": "WESTERN KINGBIRD",
+      "scientific_name": "Tyrannus verticalis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "A faint hand-drawn ellipse appears on the facing plate in the vicinity of the WESTERN KINGBIRD figure, but the mark is too indistinct to be certain"
+      ]
+    },
+    {
+      "common_name": "CASSIN'S KINGBIRD",
+      "scientific_name": "Tyrannus vociferans",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "TROPICAL KINGBIRD",
+      "scientific_name": "Tyrannus melancholicus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/31/81",
+          "date_iso": "1981-05-31",
+          "location": "ELECTRA"
+        }
+      ],
+      "notes": [
+        "Blue ballpoint writing beside/above the TROPICAL KINGBIRD heading: a location in block capitals beginning 'ELECTRA' followed by a second word that is not legible (possibly 'RD' or 'PEAK'), plus the date 5/31/81. Placement is ambiguous - the writing straddles the end of the CASSIN'S account and the TROPICAL KINGBIRD heading."
+      ]
+    },
+    {
+      "common_name": "GRAY KINGBIRD",
+      "scientific_name": "Tyrannus dominicensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "THICK-BILLED KINGBIRD",
+      "scientific_name": "Tyrannus crassirostris",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "'X' inked in the left margin of p.192 between the EASTERN KINGBIRD and WESTERN KINGBIRD accounts - cannot be assigned with certainty to either species",
+    "Small check mark (✓) in the same left margin, level with the EASTERN KINGBIRD account",
+    "Faint round/elliptical mark on the facing plate among the right-hand kingbird figures - possibly a drawn circle, too indistinct to confirm"
+  ],
+  "confidence": "low"
+}

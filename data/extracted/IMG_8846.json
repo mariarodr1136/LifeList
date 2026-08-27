@@ -1,0 +1,96 @@
+{
+  "image": "IMG_8846",
+  "page_numbers": [
+    174
+  ],
+  "page_type": "species_account",
+  "section_heading": "SOUTHWEST HUMMINGBIRDS",
+  "species": [
+    {
+      "common_name": "LUCIFER HUMMINGBIRD",
+      "scientific_name": "Calothorax lucifer",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "RIVOLI'S HUMMINGBIRD",
+      "scientific_name": "Eugenes fulgens",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/5/74",
+          "date_iso": "1974-07-05",
+          "location": "MRS PEABODY'S SIERRA VISTA, ARIZ"
+        }
+      ],
+      "notes": [
+        "Location line written above/beside the RIVOLI'S heading; wording partly obscured by tape and hard to read - \"MRS PEABODY'S\" and \"SIERRA VISTA\" are the legible parts"
+      ]
+    },
+    {
+      "common_name": "BLUE-THROATED HUMMINGBIRD",
+      "scientific_name": "Lampornis clemenciae",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/5/74",
+          "date_iso": "1974-07-05",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Date only, written to the right of the BLUE-THROATED heading"
+      ]
+    },
+    {
+      "common_name": "VIOLET-CROWNED HUMMINGBIRD",
+      "scientific_name": "Amazilia verticalis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BUFF-BELLIED HUMMINGBIRD",
+      "scientific_name": "Amazilia yucatanensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BROAD-BILLED HUMMINGBIRD",
+      "scientific_name": "Cynanthus latirostris",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "7/3/74",
+          "date_iso": "1974-07-03",
+          "location": "MADERA CANYON, ARIZ"
+        }
+      ],
+      "notes": [
+        "\"forked tail\" underlined in the printed text",
+        "Cursive \"MADERA CANYON, ARIZ\" written below the account; date 7/3/74 beside it (reading of date uncertain)",
+        "A hand-drawn ellipse encircles one of the Broad-billed figures on the facing plate"
+      ]
+    },
+    {
+      "common_name": "WHITE-EARED HUMMINGBIRD",
+      "scientific_name": "Hylocharis leucotis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Illegible handwritten line at the top of the text column (a few words, possibly a location, not readable in this photo)"
+  ],
+  "confidence": "low"
+}

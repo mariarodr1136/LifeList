@@ -1,0 +1,53 @@
+{
+  "image": "IMG_8877",
+  "page_numbers": [
+    242
+  ],
+  "page_type": "species_account",
+  "section_heading": "SHRIKES",
+  "species": [
+    {
+      "common_name": "NORTHERN SHRIKE",
+      "scientific_name": "Lanius excubitor",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LOGGERHEAD SHRIKE",
+      "scientific_name": "Lanius ludovicianus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "9/23/73",
+          "date_iso": "1973-09-23",
+          "location": "Long Beach, Calif"
+        }
+      ],
+      "notes": [
+        "Illegible underlined words in ink just above the LOGGERHEAD SHRIKE heading, ending in something like \"...lands\" - not confidently readable",
+        "Blue ink written on the plate beside the shrike figures, apparently \"THINKER BIRD\" / \"SOMEWHERE\" - both words uncertain"
+      ]
+    },
+    {
+      "common_name": "STARLING",
+      "scientific_name": "Sturnus vulgaris",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "CRESTED MYNA",
+      "scientific_name": "Acridotheres cristatellus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

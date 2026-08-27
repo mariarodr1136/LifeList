@@ -1,0 +1,36 @@
+{
+  "image": "IMG_8812",
+  "page_numbers": [
+    100
+  ],
+  "page_type": "species_account",
+  "section_heading": "CRANES AND THEIR ALLIES",
+  "species": [
+    {
+      "common_name": "WHOOPING CRANE",
+      "scientific_name": "Grus americana",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SANDHILL CRANE",
+      "scientific_name": "Grus canadensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LIMPKIN",
+      "scientific_name": "Aramus guarauna",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "high"
+}

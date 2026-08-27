@@ -1,0 +1,73 @@
+{
+  "image": "IMG_8874",
+  "page_numbers": [
+    232
+  ],
+  "page_type": "species_account",
+  "section_heading": "SPOTTED-BREASTED THRUSHES",
+  "species": [
+    {
+      "common_name": "WOOD THRUSH",
+      "scientific_name": "Hylocichla mustelina",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "CENTERVILLA?, TENNESSEE"
+        }
+      ],
+      "notes": [
+        "Block-capital annotation in blue written above/beside the WOOD THRUSH heading; the place name is only partly legible - reads something like \"CENTERVILLA\" or \"CENTREVILLE\" followed by \"TENNESSEE\", with a further short word or date that cannot be made out."
+      ]
+    },
+    {
+      "common_name": "HERMIT THRUSH",
+      "scientific_name": "Hylocichla guttata",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "JUNE 18, 197? (final digit illegible)",
+          "date_iso": null,
+          "location": null
+        }
+      ],
+      "notes": [
+        "Blue note beside the heading appears to read \"SAW SONG ONLY\" or \"SONG ONLY\" - wording uncertain."
+      ]
+    },
+    {
+      "common_name": "SWAINSON'S THRUSH",
+      "scientific_name": "Hylocichla ustulata",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GRAY-CHEEKED THRUSH",
+      "scientific_name": "Hylocichla minima",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "VEERY",
+      "scientific_name": "Hylocichla fuscescens",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "A large diagonal annotation in red ballpoint runs across the VEERY / GRAY-CHEEKED THRUSH column; it is mostly illegible, beginning with something like \"RANCHO\" and apparently ending in a year (possibly 1974) - transcription not reliable."
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint blue handwriting on the facing (plate) page along the fold, too smeared/angled to read",
+    "Faint pencil or blue marks in the range-map margin at top of page, illegible"
+  ],
+  "confidence": "low"
+}

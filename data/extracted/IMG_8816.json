@@ -1,0 +1,94 @@
+{
+  "image": "IMG_8816",
+  "page_numbers": [
+    108
+  ],
+  "page_type": "species_account",
+  "section_heading": "DARK-BACKED SHOREBIRDS",
+  "species": [
+    {
+      "common_name": "AMERICAN OYSTERCATCHER",
+      "scientific_name": "Haematopus palliatus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK OYSTERCATCHER",
+      "scientific_name": "Haematopus bachmani",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/19/80",
+          "date_iso": "1980-10-19",
+          "location": "POINT LOBOS, SAN DIEGO CALIF"
+        }
+      ],
+      "notes": [
+        "Handwriting is small and angled; the place name reads something like \"POINT LOBOS\" followed by what may be \"SAN DIEGO CALIF\" - both uncertain."
+      ]
+    },
+    {
+      "common_name": "AMERICAN AVOCET",
+      "scientific_name": "Recurvirostra americana",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1973",
+          "date_iso": null,
+          "location": "UPPER NEWPORT BAY, CALIF"
+        }
+      ],
+      "notes": [
+        "A short word or number precedes \"1973\" (possibly a month/day) but is illegible."
+      ]
+    },
+    {
+      "common_name": "BLACK-NECKED STILT",
+      "scientific_name": "Himantopus mexicanus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/19/15",
+          "date_iso": "1915-01-19",
+          "location": null
+        },
+        {
+          "date_raw": "3/1/79",
+          "date_iso": "1979-03-01",
+          "location": "UPPER NEWPORT BAY"
+        },
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "CASPER PARK, ORANGE) CALIFORNIA"
+        }
+      ],
+      "notes": [
+        "Annotations here are crowded and overlapping; \"1/19/15\" may be \"1/19/75\", and the park name may be \"CASPERS PARK\" - uncertain."
+      ]
+    },
+    {
+      "common_name": "LAPWING",
+      "scientific_name": "Vanellus vanellus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "JACANA",
+      "scientific_name": "Jacana spinosa",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

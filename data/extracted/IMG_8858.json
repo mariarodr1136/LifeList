@@ -1,0 +1,57 @@
+{
+  "image": "IMG_8858",
+  "page_numbers": [
+    198
+  ],
+  "page_type": "species_account",
+  "section_heading": "THE GENUS EMPIDONAX",
+  "species": [
+    {
+      "common_name": "YELLOW-BELLIED FLYCATCHER",
+      "scientific_name": "Empidonax flaviventris",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ACADIAN FLYCATCHER",
+      "scientific_name": "Empidonax virescens",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "TRAILL'S FLYCATCHER",
+      "scientific_name": "Empidonax traillii",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/25/80",
+          "date_iso": "1980-05-25",
+          "location": "ROWLAND MISSION VIEJO, CALIF"
+        }
+      ],
+      "notes": [
+        "\"fitz-bew\" written in the margin beside the range maps (attribution to Traill's inferred from position; handwriting faint)",
+        "First word of the location is uncertain, read as \"ROWLAND\""
+      ]
+    },
+    {
+      "common_name": "LEAST FLYCATCHER",
+      "scientific_name": "Empidonax minimus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "\"tail wag\" written on the plate beside the small flycatcher at the top",
+    "Several lines of blue cursive writing along the lower edge of the plate, too faint and cropped to read",
+    "Faint pencil/ink lines drawn over the range maps at the top of page 198"
+  ],
+  "confidence": "low"
+}

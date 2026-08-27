@@ -1,0 +1,56 @@
+{
+  "image": "IMG_8794",
+  "page_numbers": [
+    64
+  ],
+  "page_type": "species_account",
+  "section_heading": "VULTURES, HAWKS, AND FALCONS / FAMILIES OF VULTURES, HAWKS, AND FALCONS / VULTURES (plate)",
+  "species": [
+    {
+      "common_name": "TURKEY VULTURE",
+      "scientific_name": "Cathartes aura",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "EARLY 1950'S",
+          "date_iso": null,
+          "location": "No. Califoania"
+        }
+      ],
+      "notes": [
+        "Location written above the TURKEY VULTURE heading; reads \"No. Califoania\" (owner's spelling of No. California, second word partly unclear) followed by \"EARLY 1950'S\"."
+      ]
+    },
+    {
+      "common_name": "BLACK VULTURE",
+      "scientific_name": "Coragyps atratus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "PHOENIX"
+        }
+      ],
+      "notes": [
+        "Blue cursive beside the BLACK VULTURE heading: \"PHOENIX,\" followed by one or two illegible words (possibly a state abbreviation); no legible date."
+      ]
+    },
+    {
+      "common_name": "CALIFORNIA CONDOR",
+      "scientific_name": "Gymnogyps californianus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Faint blue cursive marginal writing near the CALIFORNIA CONDOR account, mostly illegible; a word that may read \"birds\" and another ending in \"-ing\" are the only partly legible parts."
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Illegible faint cursive words in the left margin of the text column near the bottom of page 64"
+  ],
+  "confidence": "low"
+}

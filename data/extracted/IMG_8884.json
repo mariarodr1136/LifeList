@@ -1,0 +1,58 @@
+{
+  "image": "IMG_8884",
+  "page_numbers": [],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "BARN OWL",
+      "scientific_name": "Tyto alba",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SNOWY OWL",
+      "scientific_name": "Nyctea scandiaca",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BARRED OWL",
+      "scientific_name": "Strix varia",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SPOTTED OWL",
+      "scientific_name": "Strix occidentalis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1950",
+          "date_iso": null,
+          "location": "MADERA, CALIF"
+        }
+      ],
+      "notes": [
+        "Blue ballpoint annotation \"MADERA, CALIF - 1950\" (year underlined) written in the gap immediately above the SPOTTED OWL heading; placement is slightly ambiguous between the SPOTTED OWL and BARRED OWL columns, and the place name reading \"MADERA\" is somewhat uncertain."
+      ]
+    },
+    {
+      "common_name": "GREAT GRAY OWL",
+      "scientific_name": "Strix nebulosa",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

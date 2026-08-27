@@ -1,0 +1,63 @@
+{
+  "image": "IMG_8880",
+  "page_numbers": [
+    258
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "VIRGINIA'S WARBLER",
+      "scientific_name": "Vermivora virginiae",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "COLIMA WARBLER",
+      "scientific_name": "Vermivora crissalis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LUCY'S WARBLER",
+      "scientific_name": "Vermivora luciae",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "9/4/70",
+          "date_iso": "1970-09-04",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Cursive annotation written vertically in the margin beside the LUCY'S WARBLER account, in two lines; only partly legible. First line appears to begin with a date ('9/4/70' or '1/4/70') followed by a canyon/place name; both lines appear to end in 'Ariz.' The place names cannot be read with confidence."
+      ]
+    },
+    {
+      "common_name": "PARULA WARBLER",
+      "scientific_name": "Parula americana",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "OLIVE-BACKED WARBLER",
+      "scientific_name": "Parula pitiayumi",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Faint blue ballpoint writing in the top corner of p. 258, above the range maps - illegible",
+    "Faint cursive pencil/ink writing on the plate near the VIRGINIA'S WARBLER / COLIMA WARBLER captions - illegible"
+  ],
+  "confidence": "low"
+}

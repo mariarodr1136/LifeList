@@ -1,0 +1,84 @@
+{
+  "image": "IMG_8838",
+  "page_numbers": [
+    52
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "CASSIN'S AUKLET",
+      "scientific_name": "Ptychorámphus aleutica",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/16/82",
+          "date_iso": "1982-05-16",
+          "location": "PELAGIC TRIP OFF S.D. CALIF."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "LEAST AUKLET",
+      "scientific_name": "Aethia pusilla",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "MARBLED MURRELET",
+      "scientific_name": "Brachyrámphus marmorátum",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "KITTLITZ'S MURRELET",
+      "scientific_name": "Brachyrámphus brevirostre",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "XANTUS' MURRELET",
+      "scientific_name": "Endomychura hypoleúca",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/16/82",
+          "date_iso": "1982-05-16",
+          "location": "PELAGIC TRIP OFF S.D. CALIF."
+        }
+      ],
+      "notes": [
+        "Note on plate beside the Xantus' Murrelet figures, only partly legible: \"longer neck action ... out\" and a second line ending \"...grebe-like\" (wording uncertain)"
+      ]
+    },
+    {
+      "common_name": "ANCIENT MURRELET",
+      "scientific_name": "Synthliborámphus antiquum",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "PARAKEET AUKLET",
+      "scientific_name": "Cyclorhynchus psittácula",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Faint word(s) written vertically on the plate near the centre, illegible; appears to begin \"MARBLED\" (uncertain)"
+  ],
+  "confidence": "low"
+}

@@ -1,0 +1,42 @@
+{
+  "image": "IMG_8773",
+  "page_numbers": [
+    22
+  ],
+  "page_type": "species_account",
+  "section_heading": "TUBENOSES",
+  "species": [
+    {
+      "common_name": "LAYSAN ALBATROSS",
+      "scientific_name": "Diomedéa immutábilis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK-FOOTED ALBATROSS",
+      "scientific_name": "Diomedéa nigripes",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "FULMAR",
+      "scientific_name": "Fulmárus glaciális",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/16/82",
+          "date_iso": "1982-05-16",
+          "location": "PELAGIC TRIP OFF S.D., CALIF"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

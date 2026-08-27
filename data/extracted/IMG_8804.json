@@ -1,0 +1,69 @@
+{
+  "image": "IMG_8804",
+  "page_numbers": [
+    84
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "BLUE GROUSE",
+      "scientific_name": "Dendragapus obscurus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/26/79",
+          "date_iso": "1979-07-26",
+          "location": "Idaho Springs, Colo"
+        }
+      ],
+      "notes": [
+        "Handwritten in cursive above/beside the BLUE GROUSE heading; final digit of the year and the spelling of \"Colo\" are somewhat uncertain"
+      ]
+    },
+    {
+      "common_name": "SPRUCE GROUSE",
+      "scientific_name": "Canachites canadensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "RUFFED GROUSE",
+      "scientific_name": "Bonasa umbellus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SHARP-TAILED GROUSE",
+      "scientific_name": "Pediocetes phasianellus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SAGE GROUSE",
+      "scientific_name": "Centrocercus urophasianus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "4/77",
+          "date_iso": null,
+          "location": "LAKE CROWLEY, CALIF"
+        }
+      ],
+      "notes": [
+        "Location and date written in block capitals just left of the SAGE GROUSE heading",
+        "A small hand-drawn ellipse appears near the displaying Sage Grouse figure on the facing plate, but the mark is faint and its target is uncertain"
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

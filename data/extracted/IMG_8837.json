@@ -1,0 +1,68 @@
+{
+  "image": "IMG_8837",
+  "page_numbers": [
+    150
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "COMMON PUFFIN",
+      "scientific_name": "Fratercula arctica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "HORNED PUFFIN",
+      "scientific_name": "Fratercula corniculata",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "TUFTED PUFFIN",
+      "scientific_name": "Lunda cirrhata",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "RHINOCEROS AUKLET",
+      "scientific_name": "Cerorhinca monocerata",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/16/8?",
+          "date_iso": null,
+          "location": "PELAGIC TRIP OFF S.D. CALIF."
+        }
+      ],
+      "notes": [
+        "Date written in blue ballpoint beside the RHINOCEROS AUKLET heading; final digit of the year is unclear (reads like 5/16/87 or 5/16/83)."
+      ]
+    },
+    {
+      "common_name": "CRESTED AUKLET",
+      "scientific_name": "Aethia cristatella",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WHISKERED AUKLET",
+      "scientific_name": "Aethia pygmaea",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

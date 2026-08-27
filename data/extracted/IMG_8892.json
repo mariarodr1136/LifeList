@@ -1,0 +1,68 @@
+{
+  "image": "IMG_8892",
+  "page_numbers": [
+    278
+  ],
+  "page_type": "species_account",
+  "section_heading": "WEAVER FINCHES",
+  "species": [
+    {
+      "common_name": "HOUSE SPARROW",
+      "scientific_name": "Passer domesticus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "An 'X' is written just before the printed HOUSE SPARROW heading"
+      ]
+    },
+    {
+      "common_name": "EUROPEAN TREE SPARROW",
+      "scientific_name": "Passer montanus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BOBOLINK",
+      "scientific_name": "Dolichonyx oryzivorus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "EASTERN MEADOWLARK",
+      "scientific_name": "Sturnella magna",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/27/76",
+          "date_iso": "1976-05-27",
+          "location": "CHATTANOOGA TENNESSEE"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "WESTERN MEADOWLARK",
+      "scientific_name": "Sturnella neglecta",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "2/11/74",
+          "date_iso": "1974-02-11",
+          "location": "MARINA DEL REY"
+        }
+      ],
+      "notes": [
+        "Location reading uncertain - written as 'MARIN(A) DEL REY'"
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

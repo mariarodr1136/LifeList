@@ -1,0 +1,67 @@
+{
+  "image": "IMG_8911",
+  "page_numbers": [
+    314,
+    316
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "RUFOUS-CROWNED SPARROW",
+      "scientific_name": "Aimophila ruficeps",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Cursive annotation written above the printed heading, only partly legible: appears to read \"Mtns\" (or \"Mtn\") followed by two more words ending in something like \"...ariz\" - the middle words cannot be read with confidence"
+      ]
+    },
+    {
+      "common_name": "CASSIN'S SPARROW",
+      "scientific_name": "Aimophila cassinii",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/4/74",
+          "date_iso": "1974-07-04",
+          "location": "NOGALES ... ARIZ"
+        }
+      ],
+      "notes": [
+        "Location line written beside/above the heading reads \"NOGALES\" then an illegible word (possibly \"SPARROW\" or a place word) and an abbreviation for Arizona, followed by the date 7/4/74"
+      ]
+    },
+    {
+      "common_name": "BOTTERI'S SPARROW",
+      "scientific_name": "Aimophila botterii",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BACHMAN'S SPARROW",
+      "scientific_name": "Aimophila aestivalis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "RUFOUS-WINGED SPARROW",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Only the plate label is visible on this spread (\"...-WINGED SPARROW L 5 1/4\"); its printed account text is cut off at the top edge of the photo"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint pencil/ink marks on the plate near the RUFOUS-WINGED SPARROW figures - illegible"
+  ],
+  "confidence": "low"
+}

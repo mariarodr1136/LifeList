@@ -1,0 +1,85 @@
+{
+  "image": "IMG_8809",
+  "page_numbers": [
+    94
+  ],
+  "page_type": "species_account",
+  "section_heading": "BLUISH HERONS",
+  "species": [
+    {
+      "common_name": "GREAT BLUE HERON",
+      "scientific_name": "Ardea herodias",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "2/15/70",
+          "date_iso": "1970-02-15",
+          "location": "Upper Newport Bay, Calif."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "REDDISH EGRET",
+      "scientific_name": "Dichromanassa rufescens",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LOUISIANA HERON",
+      "scientific_name": "Hydranassa tricolor",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/24/75",
+          "date_iso": "1975-01-24",
+          "location": "BOLSA CHICA, CALIF."
+        }
+      ],
+      "notes": [
+        "A cursive note reading something like \"thicker bill\" appears on the facing plate beside the Louisiana Heron figure (partly illegible)"
+      ]
+    },
+    {
+      "common_name": "LITTLE BLUE HERON",
+      "scientific_name": "Florida caerulea",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/6/75",
+          "date_iso": "1975-12-06",
+          "location": "BOLSA CHICA, CALIF."
+        }
+      ],
+      "notes": [
+        "date reading uncertain - could be 12/6/75 or 12/8/75"
+      ]
+    },
+    {
+      "common_name": "GREEN HERON",
+      "scientific_name": "Butorides virescens",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/1/74",
+          "date_iso": "1974-12-01",
+          "location": "Upper Newport Bay, Calif."
+        }
+      ],
+      "notes": [
+        "date reading uncertain (12/1/74 or 12/11/74)"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Cursive pencil/pen note in the lower left of the plate, only partly legible: appears to begin \"Long white leg... legs...\" - remainder illegible",
+    "Short cursive word beside the Green Heron figure on the plate, possibly \"Green\" (illegible)"
+  ],
+  "confidence": "low"
+}

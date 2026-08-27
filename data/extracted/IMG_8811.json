@@ -1,0 +1,76 @@
+{
+  "image": "IMG_8811",
+  "page_numbers": [
+    98
+  ],
+  "page_type": "species_account",
+  "section_heading": "IBISES AND SPOONBILLS",
+  "species": [
+    {
+      "common_name": "WOOD IBIS",
+      "scientific_name": "Mycteria americana",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WHITE-FACED IBIS",
+      "scientific_name": "Plegadis chihi",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "1/11/81",
+          "date_iso": "1981-01-11",
+          "location": "SAN ELIJO LAGOON DEL MAR"
+        }
+      ],
+      "notes": [
+        "Handwritten date and place written beside/above the WHITE-FACED IBIS heading; the day/year digits are cramped and the reading \"1/11/81\" is uncertain. On the facing plate an ellipse is drawn around the flying white-faced ibis figure."
+      ]
+    },
+    {
+      "common_name": "GLOSSY IBIS",
+      "scientific_name": "Plegadis falcinellus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WHITE IBIS",
+      "scientific_name": "Eudocimus albus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ROSEATE SPOONBILL",
+      "scientific_name": "Ajaia ajaja",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/15/80",
+          "date_iso": "1980-07-15",
+          "location": "CARLSBAD, CALIF"
+        }
+      ],
+      "notes": [
+        "A parenthetical word follows the place name, possibly \"(INTRODUCED)\" - not clearly legible."
+      ]
+    },
+    {
+      "common_name": "AMERICAN FLAMINGO",
+      "scientific_name": "Phoenicopterus ruber",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

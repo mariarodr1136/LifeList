@@ -1,0 +1,78 @@
+{
+  "image": "IMG_8852",
+  "page_numbers": [
+    186
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "ARIZONA WOODPECKER",
+      "scientific_name": "Dendrocopos arizonae",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "7/6/70",
+          "date_iso": "1970-07-06",
+          "location": "CAVE CREEK CANYON, ARIZ."
+        }
+      ],
+      "notes": [
+        "Cursive note beside the Arizona Woodpecker figure on the plate, possibly \"Brown back\" (partly illegible)"
+      ]
+    },
+    {
+      "common_name": "HAIRY WOODPECKER",
+      "scientific_name": "Dendrocopos villosus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/11/74",
+          "date_iso": "1974-08-11",
+          "location": "CALIF"
+        }
+      ],
+      "notes": [
+        "\"seen similar calif\" (written above/beside the heading, wording uncertain)"
+      ]
+    },
+    {
+      "common_name": "DOWNY WOODPECKER",
+      "scientific_name": "Dendrocopos pubescens",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/20/79",
+          "date_iso": "1979-07-20",
+          "location": "Calif"
+        }
+      ],
+      "notes": [
+        "\"lots of Spring Calif\" (cursive, partly illegible)"
+      ]
+    },
+    {
+      "common_name": "BLACK-BACKED THREE-TOED WOODPECKER",
+      "scientific_name": "Picoides arcticus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "NORTHERN THREE-TOED WOODPECKER",
+      "scientific_name": "Picoides tridactylus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "\"BRISBANE LAKE CALIF (BAY AREA)\" written in the lower text column, with an illegible word before it and what appears to read \"MAY DIFFICULT\" - cannot be tied with certainty to a single species heading"
+  ],
+  "confidence": "low"
+}

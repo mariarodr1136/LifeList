@@ -1,0 +1,82 @@
+{
+  "image": "IMG_8904",
+  "page_numbers": [
+    314
+  ],
+  "page_type": "species_account",
+  "section_heading": "JUNCOS",
+  "species": [
+    {
+      "common_name": "WHITE-WINGED JUNCO",
+      "scientific_name": "Junco aikeni",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SLATE-COLORED JUNCO",
+      "scientific_name": "Junco hyemalis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "OREGON JUNCO",
+      "scientific_name": "Junco oreganus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/27/73",
+          "date_iso": "1973-05-27",
+          "location": "SODA SPRINGS, CALIFORNIA"
+        }
+      ],
+      "notes": [
+        "Location written above the OREGON JUNCO heading; first word partly obscured but reads as \"SODA SPRINGS\""
+      ]
+    },
+    {
+      "common_name": "GRAY-HEADED JUNCO",
+      "scientific_name": "Junco caniceps",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/10/60",
+          "date_iso": "1960-10-10",
+          "location": "POINT LO... , S.D."
+        }
+      ],
+      "notes": [
+        "Annotation in blue ink above the heading is only partly legible: \"10/10/60 POINT LO(?)..., S.D., CA(?)...\" - the place name and final word cannot be read with confidence"
+      ]
+    },
+    {
+      "common_name": "MEXICAN JUNCO",
+      "scientific_name": "Junco phaeonotus",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "7/2/74",
+          "date_iso": "1974-07-02",
+          "location": "Mt. Lemmon"
+        }
+      ],
+      "notes": [
+        "(yellow eyed) written in cursive before the printed heading",
+        "Illustration on facing plate has a hand-drawn ellipse around the Mexican Junco figure(s)",
+        "Word on plate near Mexican Junco appears to read \"yellow\" (uncertain)",
+        "Another faint word on plate below, possibly \"light\" (uncertain)",
+        "Faint cursive word at left of plate, possibly \"Transition\" (uncertain)"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint blue-ink writing across the top of the plate beside the printed silhouettes is illegible"
+  ],
+  "confidence": "low"
+}

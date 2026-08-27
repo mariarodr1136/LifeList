@@ -1,0 +1,60 @@
+{
+  "image": "IMG_8789",
+  "page_numbers": [
+    54
+  ],
+  "page_type": "species_account",
+  "section_heading": "SEA DUCKS",
+  "species": [
+    {
+      "common_name": "COMMON GOLDENEYE",
+      "scientific_name": "Bucéphala clángula",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BARROW'S GOLDENEYE",
+      "scientific_name": "Bucéphala islándica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BUFFLEHEAD",
+      "scientific_name": "Bucéphala albéola",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/18/74",
+          "date_iso": "1974-07-18",
+          "location": "Upper Newport Bay"
+        }
+      ],
+      "notes": [
+        "[the printed words \"diving ducks\" in the species paragraph are circled in blue ink]"
+      ]
+    },
+    {
+      "common_name": "HARLEQUIN DUCK",
+      "scientific_name": "Histriónicus histriónicus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/17/81",
+          "date_iso": "1981-05-17",
+          "location": "AGUA HEDIONDA, CARLSBAD, CALIF."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Blackish   more white   wing [final word illegible] — blue cursive written on the plate between the Barrow's Goldeneye figures and the printed BUFFLEHEAD label; cannot be assigned to either species with certainty"
+  ],
+  "confidence": "medium"
+}

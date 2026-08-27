@@ -1,0 +1,74 @@
+{
+  "image": "IMG_8871",
+  "page_numbers": [
+    226
+  ],
+  "page_type": "species_account",
+  "section_heading": "MOCKINGBIRDS AND THRASHERS (Family Mimidae)",
+  "species": [
+    {
+      "common_name": "MOCKINGBIRD",
+      "scientific_name": "Mimus polyglottos",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "An 'X' pen mark placed beside the printed MOCKINGBIRD heading",
+        "Blue ballpoint writing overlies the Mockingbird/Catbird paragraphs but is largely illegible in this photo; a date ending in something like '5/6/0?' or '3/6/0?' may be present"
+      ]
+    },
+    {
+      "common_name": "CATBIRD",
+      "scientific_name": "Dumetella carolinensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BROWN THRASHER",
+      "scientific_name": "Toxostoma rufum",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/16/6",
+          "date_iso": null,
+          "location": "TENNESSEE"
+        }
+      ],
+      "notes": [
+        "Blue cursive line written across the Brown Thrasher paragraph; a word precedes 'TENNESSEE' (possibly a city name) but is illegible, and the final digit of the date is uncertain"
+      ]
+    },
+    {
+      "common_name": "LONG-BILLED THRASHER",
+      "scientific_name": "Toxostoma longirostre",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SAGE THRASHER",
+      "scientific_name": "Oreoscoptes montanus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/3/6",
+          "date_iso": null,
+          "location": "MORENO VALLEY, CALIF."
+        }
+      ],
+      "notes": [
+        "Written in blue block capitals beside/above the Sage Thrasher heading; final digits of the date are unclear"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "A second blue-ink line reading 'MORENO VALLEY 3/3/6(?)' appears lower in the same column - date and which species it belongs to are unclear",
+    "Large hand-drawn X strokes and faint blue writing across the upper part of the facing colour plate; the words are not legible in this photo"
+  ],
+  "confidence": "low"
+}

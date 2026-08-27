@@ -1,0 +1,783 @@
+{
+  "image": "IMG_8918",
+  "page_numbers": [
+    334,
+    335
+  ],
+  "page_type": "index",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "Limpkin",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Longspur, Chestnut-collared",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Longspur, Lapland",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "checkbox appears marked; image angled, mark uncertain"
+      ]
+    },
+    {
+      "common_name": "Longspur, McCown's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Longspur, Smith's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Loon, Arctic (Pacific)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Loon, Common",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "checkbox appears to carry an X"
+      ]
+    },
+    {
+      "common_name": "Loon, Red-throated",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Loon, Yellow-billed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Magpie, Black-billed",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "box appears marked, uncertain"
+      ]
+    },
+    {
+      "common_name": "Magpie, Yellow-billed",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "box appears marked, uncertain"
+      ]
+    },
+    {
+      "common_name": "Mallard",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "checkbox marked with an X"
+      ]
+    },
+    {
+      "common_name": "Man-o'-war-bird, see Frigatebird, Magnificent",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Martin, Purple",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Meadowlark, Eastern",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Meadowlark, Western",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Merganser, Common",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Merganser, Hooded",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Merganser, Red-breasted",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Mockingbird",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "checkbox appears marked with an X"
+      ]
+    },
+    {
+      "common_name": "Murre, Common (California)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Murre, Thick-billed (Brunnich's)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Murrelet, Ancient",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Murrelet, Craveri's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Murrelet, Kittlitz's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Murrelet, Marbled",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Murrelet, Xantus's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Myna, Crested",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Nighthawk, Common",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "checkbox appears marked"
+      ]
+    },
+    {
+      "common_name": "Nighthawk, Lesser",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Nutcracker, Clark's",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "checkbox appears marked, uncertain"
+      ]
+    },
+    {
+      "common_name": "Nuthatch, Brown-headed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Nuthatch, Pygmy",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Nuthatch, Red-breasted",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Nuthatch, White-breasted",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "one of the nuthatch boxes carries a mark; which line is uncertain"
+      ]
+    },
+    {
+      "common_name": "Oldsquaw",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "box appears marked, uncertain"
+      ]
+    },
+    {
+      "common_name": "Oriole, Baltimore",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "cluster of marked boxes in the oriole list; individual lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Oriole, Black-headed",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "mark uncertain"
+      ]
+    },
+    {
+      "common_name": "Oriole, Bullock's",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "mark uncertain"
+      ]
+    },
+    {
+      "common_name": "Oriole, Hooded",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "mark uncertain"
+      ]
+    },
+    {
+      "common_name": "Oriole, Lichtenstein's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Oriole, Orchard",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Oriole, Scott's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Oriole, Spotted-breasted",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Osprey",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "checkbox marked with an X"
+      ]
+    },
+    {
+      "common_name": "Ovenbird",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "checkbox appears marked"
+      ]
+    },
+    {
+      "common_name": "Owl, Barn",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Barred",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Boreal (Richardson's)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Burrowing",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "one box in the owl list is marked; the exact line is uncertain"
+      ]
+    },
+    {
+      "common_name": "Owl, Elf",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Ferruginous",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Flammulated",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Great Gray",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Great Horned",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Hawk",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Long-eared",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Pygmy",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Saw-whet",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Screech",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Short-eared",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Snowy",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Spotted",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Owl, Whiskered",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Oystercatcher, American",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "box appears marked, uncertain"
+      ]
+    },
+    {
+      "common_name": "Oystercatcher, Black",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Parrot, Thick-billed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Partridge, Gray (Hungarian)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Chukar",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Pauraque",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Peeps",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "checkbox appears marked"
+      ]
+    },
+    {
+      "common_name": "Pelican, Brown",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "box appears marked, uncertain"
+      ]
+    },
+    {
+      "common_name": "Pelican, White",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "box appears marked, uncertain"
+      ]
+    },
+    {
+      "common_name": "Petrel, Ashy",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Petrel, Black",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Petrel, Black-capped",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Petrel, Fork-tailed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Petrel, Harcourt's (Madeira)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Petrel, Leach's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Petrel, Scaled",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Pewee, Western Wood",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "box appears marked, uncertain"
+      ]
+    },
+    {
+      "common_name": "Pewee, Eastern Wood",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Phalarope, Northern",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "cluster of marked boxes in phalarope list"
+      ]
+    },
+    {
+      "common_name": "Phalarope, Red",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "mark uncertain"
+      ]
+    },
+    {
+      "common_name": "Phalarope, Wilson's",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "mark uncertain"
+      ]
+    },
+    {
+      "common_name": "Pheasant, Ring-necked",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "box appears marked, uncertain"
+      ]
+    },
+    {
+      "common_name": "Phoebe, Black",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "box appears marked, uncertain"
+      ]
+    },
+    {
+      "common_name": "Phoebe, Eastern",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Phoebe, Say's",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "box appears marked, uncertain"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint blue ballpoint writing bled through onto the middle column of p. 335 (near Parus/Parula entries) — illegible from this side of the page"
+  ],
+  "confidence": "low"
+}

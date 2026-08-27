@@ -1,0 +1,78 @@
+{
+  "image": "IMG_8823",
+  "page_numbers": [
+    122
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "PECTORAL SANDPIPER",
+      "scientific_name": "Erolia melanotos",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "KNOT",
+      "scientific_name": "Calidris canutus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "RUFF (female, Reeve)",
+      "scientific_name": "Philomachus pugnax",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "CURLEW SANDPIPER",
+      "scientific_name": "Erolia ferruginea",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "DUNLIN",
+      "scientific_name": "Erolia alpina",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "12/1/74",
+          "date_iso": "1974-12-01",
+          "location": "Upper Newport Bay, Calif."
+        }
+      ],
+      "notes": [
+        "A small ink ellipse is drawn on the plate at the head of the winter Dunlin figure",
+        "There is an additional short cursive word written on the plate beside the Dunlin figures that is illegible in this photo",
+        "The written location/date appear in cursive beside the DUNLIN heading; the day of the month is uncertain (reads like 12/1/74)"
+      ]
+    },
+    {
+      "common_name": "SANDERLING",
+      "scientific_name": "Crocethia alba",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "9/23/73",
+          "date_iso": "1973-09-23",
+          "location": "Long Beach"
+        }
+      ],
+      "notes": [
+        "Location written in cursive rather than block capitals; reads \"Long Beach\""
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

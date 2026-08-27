@@ -1,0 +1,91 @@
+{
+  "image": "IMG_8831",
+  "page_numbers": [
+    138
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "LAUGHING GULL",
+      "scientific_name": "Larus atricilla",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/23/60",
+          "date_iso": "1960-08-23",
+          "location": "SALTON SEA, CALIF."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "FRANKLIN'S GULL",
+      "scientific_name": "Larus pipixcan",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "3/21/75",
+          "date_iso": "1975-03-21",
+          "location": "NEW ORLEANS, LOUISIANA"
+        }
+      ],
+      "notes": [
+        "Hand-drawn ellipse around the summer adult figure labelled FRANKLIN'S GULL on the facing plate"
+      ]
+    },
+    {
+      "common_name": "BONAPARTE'S GULL",
+      "scientific_name": "Larus philadelphia",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/26/75",
+          "date_iso": "1975-01-26",
+          "location": "MALIBU LAGOON, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "SABINE'S GULL",
+      "scientific_name": "Xema sabini",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "3/14/8? (year digit illegible, could be 5/14/82)",
+          "date_iso": "1982-05-14",
+          "location": "PELAGIC TRIP OFF S.D, CALIF"
+        }
+      ],
+      "notes": [
+        "On the plate, near the summer figure: \"BLACKISH HEAD\" and \"YELLOW\" (both words partly illegible; the second may read \"yellow bill\")",
+        "Two small blue circles pencilled on the plate in the Sabine's/Black-headed column"
+      ]
+    },
+    {
+      "common_name": "BLACK-HEADED GULL",
+      "scientific_name": "Larus ridibundus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LITTLE GULL",
+      "scientific_name": "Larus minutus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Printed checklist grid at top right of page has ticks/marks in it (illegible at this angle)"
+  ],
+  "confidence": "medium"
+}

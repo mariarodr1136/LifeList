@@ -1,0 +1,74 @@
+{
+  "image": "IMG_8840",
+  "page_numbers": [
+    136
+  ],
+  "page_type": "species_account",
+  "section_heading": "INTRODUCED AND SMALL DOVES",
+  "species": [
+    {
+      "common_name": "SPOTTED DOVE",
+      "scientific_name": "Streptopelia chinensis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "Apl 1973",
+          "date_iso": null,
+          "location": "L.A."
+        }
+      ],
+      "notes": [
+        "Date abbreviation uncertain — reads \"Apl\" or \"Apr\" 1973"
+      ]
+    },
+    {
+      "common_name": "RINGED TURTLE DOVE",
+      "scientific_name": "Streptopelia risoria",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "Apl 1973",
+          "date_iso": null,
+          "location": "L.A."
+        }
+      ],
+      "notes": [
+        "Date abbreviation uncertain — reads \"Apl\" or \"Apr\" 1973"
+      ]
+    },
+    {
+      "common_name": "GROUND DOVE",
+      "scientific_name": "Columbigallina passerina",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "INCA DOVE",
+      "scientific_name": "Scardafella inca",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/13/80",
+          "date_iso": "1980-05-13",
+          "location": "TUCSON, ARIZ."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "WHITE-FRONTED DOVE",
+      "scientific_name": "Leptotila verreauxi",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

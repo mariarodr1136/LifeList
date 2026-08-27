@@ -1,0 +1,57 @@
+{
+  "image": "IMG_8895",
+  "page_numbers": [
+    288
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "[heading obscured by overlying page]",
+      "scientific_name": "Icterus spurius",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Printed account largely hidden by a torn/overlapping page; only the italic scientific name Icterus spurius and fragments of text are legible."
+      ]
+    },
+    {
+      "common_name": "[heading obscured — account partly hidden]",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Fragmentary printed text visible: \"...Fla.; the only oriole east of the ... solid black tail. First-year male ... yellow rather than orange-yellow ... Song is a medley of melodious whistles and flute-like notes, quite different from the short phrases of the Baltimore, 4-8/min.\" Heading not legible."
+      ]
+    },
+    {
+      "common_name": "BLACK-HEADED ORIOLE",
+      "scientific_name": "Icterus graduacauda",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SCOTT'S ORIOLE",
+      "scientific_name": "Icterus parisorum",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/19/73",
+          "date_iso": "1973-05-19",
+          "location": "PIONEER TOWN, CALIF."
+        }
+      ],
+      "notes": [
+        "Handwritten location and date in the margin beside the SCOTT'S ORIOLE account; date could read 5/14/73 or 5/19/73 (middle digit uncertain).",
+        "A small handwritten \"X\" tick to the left of the SCOTT'S ORIOLE heading."
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

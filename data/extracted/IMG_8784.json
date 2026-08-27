@@ -1,0 +1,58 @@
+{
+  "image": "IMG_8784",
+  "page_numbers": [
+    44
+  ],
+  "page_type": "species_account",
+  "section_heading": "SURFACE-FEEDING DUCKS",
+  "species": [
+    {
+      "common_name": "Mallard",
+      "scientific_name": "Ánas platyrhýnchos",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "EARLY 1950s",
+          "date_iso": null,
+          "location": "SODA SPRINGS CALIF."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "Mexican Duck",
+      "scientific_name": "Ánas diazi",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Black Duck",
+      "scientific_name": "Ánas rúbripes",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/11/79",
+          "date_iso": "1979-08-11",
+          "location": "UPPER NEWPORT BAY"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "Mottled Duck",
+      "scientific_name": "Ánas fulvigula",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Faint blue cursive line written across the top margin of the illustration plate, above the printed 'SURFACE-FEEDING DUCKS' heading; too light and low-contrast to read reliably — appears to be two or three words, possibly ending in something like 'Susan', but not legible enough to transcribe."
+  ],
+  "confidence": "medium"
+}

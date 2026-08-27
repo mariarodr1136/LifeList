@@ -1,0 +1,70 @@
+{
+  "image": "IMG_8856",
+  "page_numbers": [
+    194
+  ],
+  "page_type": "species_account",
+  "section_heading": "MYIARCHUS FLYCATCHERS",
+  "species": [
+    {
+      "common_name": "GREAT CRESTED FLYCATCHER",
+      "scientific_name": "Myiarchus crinitus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/2/8[?]",
+          "date_iso": null,
+          "location": "ELECTRA, TEXAS"
+        }
+      ],
+      "notes": [
+        "Cursive note in blue running down beside the Great Crested account, mostly illegible in this photo",
+        "Date's final digit unclear (reads like 5/2/81 or 5/2/87)"
+      ]
+    },
+    {
+      "common_name": "WIED'S CRESTED FLYCATCHER",
+      "scientific_name": "Myiarchus tyrannulus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Small handwritten 'X' in the margin beside the species heading"
+      ]
+    },
+    {
+      "common_name": "ASH-THROATED FLYCATCHER",
+      "scientific_name": "Myiarchus cinerascens",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Small handwritten 'X' in the margin beside the species heading",
+        "Cursive note in blue alongside the account, illegible except possibly a date"
+      ]
+    },
+    {
+      "common_name": "OLIVACEOUS FLYCATCHER",
+      "scientific_name": "Myiarchus tuberculifer",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "SOUTH FORK CANYON"
+        }
+      ],
+      "notes": [
+        "Cursive note written across the account beginning 'ONE GREAT...' - remainder illegible",
+        "A looped blue pen line encircles/overlies the Olivaceous Flycatcher figure on the facing plate; could be an intentional circle or a stray mark"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint cursive writing beside the top range map, illegible",
+    "Illegible cursive fragment reading like '50/0' or '5/1/0' in the middle of the text column"
+  ],
+  "confidence": "low"
+}

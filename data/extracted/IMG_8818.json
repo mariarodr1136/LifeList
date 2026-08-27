@@ -1,0 +1,76 @@
+{
+  "image": "IMG_8818",
+  "page_numbers": [
+    112
+  ],
+  "page_type": "species_account",
+  "section_heading": "BANDED PLOVERS",
+  "species": [
+    {
+      "common_name": "PIPING PLOVER",
+      "scientific_name": "Charadrius melodus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SNOWY PLOVER",
+      "scientific_name": "Charadrius alexandrinus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SEMIPALMATED PLOVER",
+      "scientific_name": "Charadrius semipalmatus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/11/79",
+          "date_iso": "1979-05-11",
+          "location": "Upper Newport Bay"
+        },
+        {
+          "date_raw": "12/1/79",
+          "date_iso": "1979-12-01",
+          "location": "BOLSA CHICA"
+        }
+      ],
+      "notes": [
+        "Two sighting notes written beside the SEMIPALMATED PLOVER heading; \"Upper Newport Bay\" is in cursive and both dates are partly obscured/uncertain (year may not be 79)"
+      ]
+    },
+    {
+      "common_name": "WILSON'S PLOVER",
+      "scientific_name": "Charadrius wilsonia",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "KILLDEER",
+      "scientific_name": "Charadrius vociferus",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "5/19/73",
+          "date_iso": "1973-05-19",
+          "location": "YUCCA VALLEY, CALIF."
+        }
+      ],
+      "notes": [
+        "A check/tick mark drawn beside the printed KILLDEER heading",
+        "Hand-drawn ellipse around the head/breast of the standing Killdeer figure on the facing plate"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Blue cursive writing across the upper right of the plate, near the winter Piping Plover figures - illegible in this photograph"
+  ],
+  "confidence": "medium"
+}

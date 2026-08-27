@@ -1,0 +1,68 @@
+{
+  "image": "IMG_8865",
+  "page_numbers": [
+    212
+  ],
+  "page_type": "species_account",
+  "section_heading": "RAVENS AND CROWS",
+  "species": [
+    {
+      "common_name": "COMMON RAVEN",
+      "scientific_name": "Corvus corax",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WHITE-NECKED RAVEN",
+      "scientific_name": "Corvus cryptoleucus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/3/74",
+          "date_iso": "1974-07-03",
+          "location": "SIERRA VISTA, ARIZ"
+        }
+      ],
+      "notes": [
+        "Handwriting after \"SIERRA VISTA, ARIZ\" continues with a few words that are not legible in this photo"
+      ]
+    },
+    {
+      "common_name": "COMMON CROW",
+      "scientific_name": "Corvus brachyrhynchos",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "early 1950's",
+          "date_iso": null,
+          "location": "San Francisco"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "NORTHWESTERN CROW",
+      "scientific_name": "Corvus caurinus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "FISH CROW",
+      "scientific_name": "Corvus ossifragus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Faint blue pen scribbles/marks in the range-map margin and on the facing plate near the White-necked Raven figure - illegible"
+  ],
+  "confidence": "low"
+}

@@ -1,0 +1,85 @@
+{
+  "image": "IMG_8899",
+  "page_numbers": [
+    292
+  ],
+  "page_type": "species_account",
+  "section_heading": "GROSBEAKS",
+  "species": [
+    {
+      "common_name": "ROSE-BREASTED GROSBEAK",
+      "scientific_name": "Pheucticus ludovicianus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK-HEADED GROSBEAK",
+      "scientific_name": "Pheucticus melanocephalus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/2",
+          "date_iso": null,
+          "location": "Rose Campground(?), ARIZ"
+        },
+        {
+          "date_raw": "7/6/74",
+          "date_iso": "1974-07-06",
+          "location": "also CAVE CREEK"
+        }
+      ],
+      "notes": [
+        "Handwriting above the heading is crowded and partly illegible; reads approximately \"7/2 Rose Campground(?), Ariz\" with \"also CAVE CREEK - some\" and the date \"7/6/74\" at the right margin",
+        "A short cursive word is written on the plate beside the BLACK-HEADED GROSBEAK label (illegible, possibly \"shading\"/\"shaley\")"
+      ]
+    },
+    {
+      "common_name": "EVENING GROSBEAK",
+      "scientific_name": "Hesperiphona vespertina",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/6/73",
+          "date_iso": "1973-10-06",
+          "location": "YOSEMITE"
+        },
+        {
+          "date_raw": "7/6/7? (last digit unclear)",
+          "date_iso": null,
+          "location": null
+        }
+      ],
+      "notes": [
+        "Second line begins with a word read as \"also\"/\"and\" followed by a date whose final digit is unclear"
+      ]
+    },
+    {
+      "common_name": "BLUE GROSBEAK",
+      "scientific_name": "Guiraca caerulea",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/20/83",
+          "date_iso": "1983-05-20",
+          "location": "RANCHO MISSION VIEJO CALIF"
+        },
+        {
+          "date_raw": "7/4/74",
+          "date_iso": "1974-07-04",
+          "location": "NOGALES AIRPORT, ARIZONA"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Illegible cursive word(s) on the plate near the ROSE-BREASTED GROSBEAK label at upper right",
+    "Pencil/ink underlining in the printed text of BLACK-HEADED GROSBEAK: \"orange underparts\", \"black head\", \"white wing patches\""
+  ],
+  "confidence": "low"
+}

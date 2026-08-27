@@ -1,0 +1,131 @@
+{
+  "image": "IMG_8843",
+  "page_numbers": [
+    158,
+    172
+  ],
+  "page_type": "species_account",
+  "section_heading": "CUCKOOS, ANIS, AND ROADRUNNERS / HUMMINGBIRDS",
+  "species": [
+    {
+      "common_name": "MANGROVE CUCKOO",
+      "scientific_name": "Coccyzus minor",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "YELLOW-BILLED CUCKOO",
+      "scientific_name": "Coccyzus americanus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK-BILLED CUCKOO",
+      "scientific_name": "Coccyzus erythropthalmus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SMOOTH-BILLED ANI",
+      "scientific_name": "Crotophaga ani",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ROADRUNNER",
+      "scientific_name": "Geococcyx californianus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1970",
+          "date_iso": null,
+          "location": "PHOENIX, ARIZONA"
+        },
+        {
+          "date_raw": "5/25/60",
+          "date_iso": "1960-05-25",
+          "location": "RANCHO MISSION VIEJO"
+        }
+      ],
+      "notes": [
+        "Both annotations are written beside/above the ROADRUNNER heading; the second date reads \"5/25/60\" but the last digits are indistinct"
+      ]
+    },
+    {
+      "common_name": "RUBY-THROATED HUMMINGBIRD",
+      "scientific_name": "Archilochus colubris",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BROAD-TAILED HUMMINGBIRD",
+      "scientific_name": "Selasphorus platycercus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "4/25/81",
+          "date_iso": "1981-04-25",
+          "location": null
+        },
+        {
+          "date_raw": "5/9/80",
+          "date_iso": "1980-05-09",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Cursive note beside the 5/9/80 date largely illegible, appears to begin \"MRS ...\" (uncertain)"
+      ]
+    },
+    {
+      "common_name": "CALLIOPE HUMMINGBIRD",
+      "scientific_name": "Stellula calliope",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "Point Loma, San Diego area"
+        }
+      ],
+      "notes": [
+        "Location written in cursive across the Calliope entry; reading of \"San Diego area\" uncertain"
+      ]
+    },
+    {
+      "common_name": "ANNA'S HUMMINGBIRD",
+      "scientific_name": "Calypte anna",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/16/13",
+          "date_iso": "1913-10-16",
+          "location": "Tucker Sanctuary"
+        }
+      ],
+      "notes": [
+        "Date and place partly illegible; a further word reading possibly \"Prescott\" follows the sanctuary name (uncertain)"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Writing along the top edge of p. 172, partly cut off by the photo: \"ALSO ... Mexican ...\" and below it a word beginning \"BERD\" (illegible)",
+    "Faint handwriting on the migration graph beside the YELLOW-BILLED CUCKOO range map on p. 158 - illegible",
+    "Reddish/rust-coloured writing along the margin of the p. 158 range maps - illegible"
+  ],
+  "confidence": "low"
+}

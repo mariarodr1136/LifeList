@@ -1,0 +1,64 @@
+{
+  "image": "IMG_8894",
+  "page_numbers": [
+    280
+  ],
+  "page_type": "species_account",
+  "section_heading": "GRACKLES AND COWBIRDS",
+  "species": [
+    {
+      "common_name": "BOAT-TAILED GRACKLE",
+      "scientific_name": "Cassidix mexicanus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/3/74",
+          "date_iso": "1974-07-03",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Cursive place name written beside the date is only partly legible - appears to read something like \"Hickory Sta...\" followed by a word that may be \"Oregon\"; uncertain."
+      ]
+    },
+    {
+      "common_name": "COMMON GRACKLE",
+      "scientific_name": "Quiscalus quiscula",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/31/72",
+          "date_iso": "1972-05-31",
+          "location": "CHATTANOOGA, TENNESSEE"
+        }
+      ],
+      "notes": [
+        "A second line of smaller blue writing below runs across the column and is largely illegible; it appears to begin \"LAKE ...\" and to include \"TENNESSEE\" and a date that may be \"5/18/73\", plus a further word possibly \"VIRGINIA\" - all uncertain."
+      ]
+    },
+    {
+      "common_name": "BROWN-HEADED COWBIRD",
+      "scientific_name": "Molothrus ater",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BRONZED COWBIRD",
+      "scientific_name": "Tangavius aeneus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "in Summer (written in blue beside the first range map)",
+    "7/2/74",
+    "Two words of cursive writing below the maps, illegible"
+  ],
+  "confidence": "low"
+}

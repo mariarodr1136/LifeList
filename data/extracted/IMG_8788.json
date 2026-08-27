@@ -1,0 +1,86 @@
+{
+  "image": "IMG_8788",
+  "page_numbers": [
+    52
+  ],
+  "page_type": "species_account",
+  "section_heading": "BAY DUCKS",
+  "species": [
+    {
+      "common_name": "REDHEAD",
+      "scientific_name": "Aýthya americána",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "LAKEVIEW, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "CANVASBACK",
+      "scientific_name": "Aýthya valisinéria",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "RING-NECKED DUCK",
+      "scientific_name": "Aýthya colláris",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "LAKE MATTHEWS"
+        },
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "& LAKEVIEW"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "TUFTED DUCK",
+      "scientific_name": "Aýthya fuligula",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GREATER SCAUP",
+      "scientific_name": "Aýthya marila",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "green is very hard to see",
+        "more [illegible] ... [illegible] to see ... so far (four short lines in blue ballpoint in the left margin beside the Greater Scaup range map; only the first word and the phrase \"to see\" are legible in this photo)"
+      ]
+    },
+    {
+      "common_name": "LESSER SCAUP",
+      "scientific_name": "Aýthya affinis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/1/74",
+          "date_iso": "1974-12-01",
+          "location": "BOLSA CHICA, CALIF"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

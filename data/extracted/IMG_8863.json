@@ -1,0 +1,69 @@
+{
+  "image": "IMG_8863",
+  "page_numbers": [
+    208
+  ],
+  "page_type": "species_account",
+  "section_heading": "JAYS, MAGPIES, AND CROWS",
+  "species": [
+    {
+      "common_name": "BLUE JAY",
+      "scientific_name": "Cyanocitta cristata",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "An X-like pencil/pen mark appears in the margin beside the Blue Jay range map/graph (identification of which species it belongs to is uncertain)"
+      ]
+    },
+    {
+      "common_name": "STELLER'S JAY",
+      "scientific_name": "Cyanocitta stelleri",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Handwritten X in the margin beside the STELLER'S JAY heading"
+      ]
+    },
+    {
+      "common_name": "SCRUB JAY",
+      "scientific_name": "Aphelocoma coerulescens",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Handwritten X in the margin beside the SCRUB JAY heading"
+      ]
+    },
+    {
+      "common_name": "MEXICAN JAY",
+      "scientific_name": "Aphelocoma ultramarina",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/3/79",
+          "date_iso": "1979-07-03",
+          "location": "MIDLAND VALLEY, ARIZ."
+        }
+      ],
+      "notes": [
+        "Location and date written in block capitals beneath the MEXICAN JAY heading; the place name is only partly legible - reads something like \"MIDLAND VALLEY, ARIZ.\" and the year could be 74 or 79",
+        "Handwritten X in the margin beside the heading"
+      ]
+    },
+    {
+      "common_name": "PINYON JAY",
+      "scientific_name": "Gymnorhinus cyanocephalus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Small tally/tick marks and X's written inside the migration-timing graphs beside the range maps at the top of the page (not clearly assignable to a single species)"
+  ],
+  "confidence": "low"
+}

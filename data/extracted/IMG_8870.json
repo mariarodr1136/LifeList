@@ -1,0 +1,87 @@
+{
+  "image": "IMG_8870",
+  "page_numbers": [
+    224
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "CACTUS WREN",
+      "scientific_name": "Campylorhynchus brunneicapillus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "2/15/79",
+          "date_iso": "1979-02-15",
+          "location": "illegible block-capital place name (2-3 words) written beside the heading, ending in what may be \"3x\""
+        },
+        {
+          "date_raw": "5/25/85",
+          "date_iso": "1985-05-25",
+          "location": null
+        }
+      ],
+      "notes": [
+        "A date \"5/25/85\" is written vertically in the outer margin alongside the Cactus Wren text; attribution to this species is probable but not certain."
+      ]
+    },
+    {
+      "common_name": "CANYON WREN",
+      "scientific_name": "Catherpes mexicanus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/6/74",
+          "date_iso": "1974-07-06",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Cursive marginal note beside this account, largely illegible; the printed phrase \"A clear white throat and\" and \"chestnut-brown belly\" are underlined by hand.",
+        "Partly legible handwritten word above the underlining, possibly \"blackish\" or \"...ish\" — uncertain."
+      ]
+    },
+    {
+      "common_name": "ROCK WREN",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Printed account text is obscured/damaged; species name appears as a label on the facing plate (\"ROCK WREN L 4½\"\")."
+      ]
+    },
+    {
+      "common_name": "LONG-BILLED MARSH WREN",
+      "scientific_name": "Telmatodytes palustris",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/17/73",
+          "date_iso": "1973-12-17",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Cursive note running down the margin beside this account, only partly legible; appears to end \"...Newport Bay Cit...\" — transcription uncertain."
+      ]
+    },
+    {
+      "common_name": "SHORT-BILLED MARSH WREN",
+      "scientific_name": "Cistothorus platensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Several faint cursive words and a possible sketch/scribble across the water-damaged centre of the text page are illegible.",
+    "Faint pencil/ink marks along the top edge of the facing plate are illegible."
+  ],
+  "confidence": "low"
+}

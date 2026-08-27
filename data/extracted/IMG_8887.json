@@ -1,0 +1,84 @@
+{
+  "image": "IMG_8887",
+  "page_numbers": [
+    168
+  ],
+  "page_type": "species_account",
+  "section_heading": "GOATSUCKERS",
+  "species": [
+    {
+      "common_name": "CHUCK-WILL'S-WIDOW",
+      "scientific_name": "Caprimulgus carolinensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WHIP-POOR-WILL",
+      "scientific_name": "Caprimulgus vociferus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/5/79",
+          "date_iso": "1979-07-05",
+          "location": "MILLER CANYON, ARIZ"
+        }
+      ],
+      "notes": [
+        "Note beside the WHIP-POOR-WILL heading in blue ink; date reads approximately \"7/5/79\" followed by what appears to be \"heard only\" (uncertain), with \"MILLER CANYON, ARIZ\" below. Two further short words are illegible."
+      ]
+    },
+    {
+      "common_name": "POOR-WILL",
+      "scientific_name": "Phalaenoptilus nuttallii",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "PAURAQUE",
+      "scientific_name": "Nyctidromus albicollis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "COMMON NIGHTHAWK",
+      "scientific_name": "Chordeiles minor",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/9/81",
+          "date_iso": "1981-08-09",
+          "location": "LAKE, SODA SPRINGS CALIF."
+        }
+      ],
+      "notes": [
+        "Location written in blue capitals beside the COMMON NIGHTHAWK heading; the first word of the lake name is unclear (possibly \"PAIUTE\" or \"PAIUTES\") followed by \"LAKE, SODA SPRINGS CALIF.\""
+      ]
+    },
+    {
+      "common_name": "LESSER NIGHTHAWK",
+      "scientific_name": "Chordeiles acutipennis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "VICTORIA, TEXAS"
+        }
+      ],
+      "notes": [
+        "A date precedes \"VICTORIA, TEXAS\" but is only partly legible (appears to begin \"5/2...\" with an unclear year)."
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

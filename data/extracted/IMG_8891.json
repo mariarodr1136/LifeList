@@ -1,0 +1,292 @@
+{
+  "image": "IMG_8891",
+  "page_numbers": [
+    274
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "HOODED WARBLER",
+      "scientific_name": "Wilsonia citrina",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "4/26/83",
+          "date_iso": "1983-04-26",
+          "location": "POINT LOMA, SAN DIEGO AREA"
+        }
+      ],
+      "notes": [
+        "Blue handwriting above the HOODED WARBLER heading; the date reads approximately \"4/26/83\" but the digits are cramped and uncertain",
+        "A short cursive word is written under the scientific name (possibly a place or observer name) - illegible",
+        "Further blue handwriting appears on the facing plate beside the Hooded Warbler figures but is too faint/angled to read"
+      ]
+    },
+    {
+      "common_name": "WILSON'S WARBLER (printed heading largely torn/taped over, reading \"...'S WARBLER\")",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Handwritten in the margin beside the heading: \"black cap\" (following words, possibly about the head or bill, are obscured by tape and illegible)"
+      ]
+    },
+    {
+      "common_name": "Virginia's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Nashville",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Orange-crowned",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Tennessee",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label, partly hidden by thumb"
+      ]
+    },
+    {
+      "common_name": "Prothonotary",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label; printed note \"tail spots\""
+      ]
+    },
+    {
+      "common_name": "Bl.-thr. Blue",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label; printed note \"Very slender bill, no tail spots\""
+      ]
+    },
+    {
+      "common_name": "Canada",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Kentucky",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Yellowthroat",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label, male and female figures; printed note \"Seen near ground, no tail spots\""
+      ]
+    },
+    {
+      "common_name": "Kirtland's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label under \"Tail waggers\""
+      ]
+    },
+    {
+      "common_name": "Prairie",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label under \"Tail waggers\""
+      ]
+    },
+    {
+      "common_name": "Palm (yellow race)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Palm (western race)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Yellow",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label under \"Yellow rumps\""
+      ]
+    },
+    {
+      "common_name": "Myrtle",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Audubon's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Magnolia",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Cape May",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Pine",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label under \"Unstreaked backs\""
+      ]
+    },
+    {
+      "common_name": "Chestnut-sided",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Bl.-thr. Gray",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Townsend's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Bl.-thr. Green",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label"
+      ]
+    },
+    {
+      "common_name": "Bay-breasted",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label, partly obscured by tape (\"Bay-br...\")"
+      ]
+    },
+    {
+      "common_name": "Blackburnian",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "plate legend label, partly obscured by tape"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint blue handwriting on the facing plate near the Hooded Warbler illustration - a few words plus what may be a date, illegible in this photo"
+  ],
+  "confidence": "low"
+}

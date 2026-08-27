@@ -1,0 +1,47 @@
+{
+  "image": "IMG_8857",
+  "page_numbers": [
+    196
+  ],
+  "page_type": "species_account",
+  "section_heading": "PHOEBES",
+  "species": [
+    {
+      "common_name": "EASTERN PHOEBE",
+      "scientific_name": "Sayornis phoebe",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK PHOEBE",
+      "scientific_name": "Sayornis nigricans",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "LAKEVIEW"
+        }
+      ],
+      "notes": [
+        "\"CALIF.\" written below the date/location",
+        "Faint illegible cursive pencil/ink writing on the facing plate beside the Black Phoebe figure - not legible"
+      ]
+    },
+    {
+      "common_name": "SAY'S PHOEBE",
+      "scientific_name": "Sayornis saya",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Cursive note in the right-hand margin of the text page, partly legible: \"pale\" ... \"Cave Wall\" (?) followed by a date that appears to begin \"3/1/7\" - remainder illegible"
+  ],
+  "confidence": "low"
+}

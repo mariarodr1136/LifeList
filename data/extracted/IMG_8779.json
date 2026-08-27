@@ -1,0 +1,100 @@
+{
+  "image": "IMG_8779",
+  "page_numbers": [
+    34
+  ],
+  "page_type": "species_account",
+  "section_heading": "CORMORANTS AND ANHINGA",
+  "species": [
+    {
+      "common_name": "GREAT CORMORANT",
+      "scientific_name": "Phalacrócorax cárbo",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BRANDT'S CORMORANT",
+      "scientific_name": "Phalacrócorax penicillátus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/19/80",
+          "date_iso": "1980-10-19",
+          "location": "SUNSET CLIFFS, SAN DIEGO, CALIF."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "DOUBLE-CRESTED CORMORANT",
+      "scientific_name": "Phalacrócorax auritus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "2/18/74",
+          "date_iso": "1974-02-18",
+          "location": "UPPER NEWPORT BAY"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "PELAGIC CORMORANT",
+      "scientific_name": "Phalacrócorax pelágicus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/19/80",
+          "date_iso": "1980-10-19",
+          "location": "POINT LOMA, SAN DIEGO, CALIF."
+        }
+      ],
+      "notes": [
+        "Year digits of the date are indistinct; read as 80 but could be 85."
+      ]
+    },
+    {
+      "common_name": "OLIVACEOUS CORMORANT",
+      "scientific_name": "Phalacrócorax olivéceus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "RED-FACED CORMORANT",
+      "scientific_name": "Phalacrócorax úrile",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ANHINGA",
+      "scientific_name": "Anhinga anhinga",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "10/26/80",
+          "date_iso": "1980-10-26",
+          "location": "SWEETWATER RESERVOIR, BONITA, CALIF."
+        }
+      ],
+      "notes": [
+        "THIN (written on the plate beside the anhinga's bill, with a mark alongside that may be a sex symbol; not clearly legible)",
+        "SILVER (written on the plate below the ANHINGA caption)",
+        "A hand-drawn circle encloses the neck/upper breast of the perched buff-necked anhinga figure."
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint blue ballpoint writing in the bottom margin of page 34, below the Anhinga account — too small and light in this photo to read."
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,74 @@
+{
+  "image": "IMG_8774",
+  "page_numbers": [
+    24
+  ],
+  "page_type": "species_account",
+  "section_heading": "SHEARWATERS",
+  "species": [
+    {
+      "common_name": "Pink-footed Shearwater",
+      "scientific_name": "Púffinus creátopus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/16/82",
+          "date_iso": "1982-05-16",
+          "location": "PELAGIC TRIP OFF S.D, CALIF"
+        }
+      ],
+      "notes": [
+        "A small handwritten blue X is placed on the plate just above the printed \"PINK-FOOTED SHEARWATER L 18\" W 43\"\" label"
+      ]
+    },
+    {
+      "common_name": "Cory's Shearwater",
+      "scientific_name": "Púffinus diomedéa",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Greater Shearwater",
+      "scientific_name": "Púffinus grávis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Audubon's Shearwater",
+      "scientific_name": "Púffinus lherminiéri",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "New Zealand Shearwater",
+      "scientific_name": "Púffinus búlleri",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Manx Shearwater",
+      "scientific_name": "Púffinus púffinus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/16/82",
+          "date_iso": "1982-05-16",
+          "location": "PELAGIC TRIP OFF S.D, CALIF"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "high"
+}

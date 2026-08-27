@@ -1,0 +1,434 @@
+{
+  "image": "IMG_8915",
+  "page_numbers": [
+    328,
+    329
+  ],
+  "page_type": "index",
+  "section_heading": "INDEX",
+  "species": [
+    {
+      "common_name": "Albatross, Black-footed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Two empty checkboxes appear beside the Albatross(es) 22-23 entries; neither appears marked"
+      ]
+    },
+    {
+      "common_name": "Albatross, Layson",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Ani, Groove-billed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Ani, Smooth-billed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Anhinga",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox beside \"Anhinga, 34-35\" carries an X"
+      ]
+    },
+    {
+      "common_name": "Auklet, Cassin's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "A run of checkboxes precedes the Auklet entries; one of them appears to carry an X but it cannot be aligned to a single species with confidence"
+      ]
+    },
+    {
+      "common_name": "Auklet, Crested",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Auklet, Least",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Auklet, Parakeet",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Auklet, Rhinoceros",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Auklet, Whiskered",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Avocet, American",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox beside \"Avocet, American, 218, 106, 107, 108\" carries an X"
+      ]
+    },
+    {
+      "common_name": "Baldpate, see Widgeon",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Becard, Rose-throated (Xantus')",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox beside the Becard entry appears to carry an X"
+      ]
+    },
+    {
+      "common_name": "Bittern, American",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Part of a run of boxes; marks in this run could not be reliably aligned"
+      ]
+    },
+    {
+      "common_name": "Bittern, Least",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Blackbird, Brewer's",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Marks appear in the run of checkboxes beside the Blackbird entries; assignment to individual blackbird species is uncertain"
+      ]
+    },
+    {
+      "common_name": "Blackbird, Red-winged",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Mark in the Blackbird checkbox run; exact alignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Blackbird, Rusty",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Blackbird, Tricolored",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Blackbird, Yellow-headed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bluebird, Eastern",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "A row of several X-marked boxes sits beside the Bluebird/Bluethroat/Bobolink/Bobwhite block, but the marks cannot be matched to individual lines with confidence"
+      ]
+    },
+    {
+      "common_name": "Bluebird, Mountain",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bluebird, Western",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bluethroat",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bobolink",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bobwhite",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Booby, Blue-faced",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Booby, Blue-footed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Booby, Brown (White-bellied)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Brant",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox beside \"Brant, 40\" carries an X"
+      ]
+    },
+    {
+      "common_name": "Brant, Black",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bufflehead",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox beside \"Bufflehead, 54, 63\" carries an X"
+      ]
+    },
+    {
+      "common_name": "Bulbul, Red-whiskered",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bunting, Indigo",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bunting, Lark",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bunting, McKay's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bunting, Painted",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bunting, Snow",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bunting, Varied",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bushtit, Black-eared",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Bushtit, Common",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "An X appears at the Bushtit(s), 218-219 block; whether it belongs to Common or Black-eared is uncertain"
+      ]
+    },
+    {
+      "common_name": "Canvasback",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox beside \"Canvasback, 52, 62\" carries an X"
+      ]
+    },
+    {
+      "common_name": "Caracara",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Mark appears beside the Caracara entry (Caracara cheriway, 76)"
+      ]
+    },
+    {
+      "common_name": "Cardinal",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Mark appears beside \"Cardinal, 290\""
+      ]
+    },
+    {
+      "common_name": "Catbird",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox beside \"Catbird, 188, 226\" carries an X"
+      ]
+    },
+    {
+      "common_name": "Chachalaca",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Chat, Yellow-breasted",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Mark appears beside \"Chat, Yellow-breasted, 250, 270\""
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Several X marks in the checkbox columns of both index pages sit between adjacent lines and cannot be assigned to a single species with certainty (notably in the Bittern/Blackbird and Bluebird/Bobolink/Bobwhite blocks and in the Auklet run).",
+    "Blue ink X marks also appear beside some scientific-name entries (e.g. near Cassidix mexicanus, Centurus aurifrons, Cepphus/Charadrius area) but the exact lines are not legible in this photograph."
+  ],
+  "confidence": "low"
+}

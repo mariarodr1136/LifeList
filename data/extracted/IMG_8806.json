@@ -1,0 +1,80 @@
+{
+  "image": "IMG_8806",
+  "page_numbers": [
+    88
+  ],
+  "page_type": "species_account",
+  "section_heading": "WESTERN QUAILS",
+  "species": [
+    {
+      "common_name": "SCALED QUAIL",
+      "scientific_name": "Callipepla squamata",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/6/74",
+          "date_iso": "1974-07-06",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Cursive note in margin beside heading, only partly legible: appears to read \"...from Fort Worth ...\" — remainder illegible"
+      ]
+    },
+    {
+      "common_name": "CALIFORNIA QUAIL",
+      "scientific_name": "Lophortyx californicus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "EARLY 1980's",
+          "date_iso": null,
+          "location": "SAN FRANCISCO, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "GAMBEL'S QUAIL",
+      "scientific_name": "Lophortyx gambelii",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/19/73",
+          "date_iso": "1973-05-19",
+          "location": "MORONGO VALLEY, CALIF."
+        }
+      ],
+      "notes": [
+        "Handwritten \"X\" placed before the printed heading"
+      ]
+    },
+    {
+      "common_name": "MOUNTAIN QUAIL",
+      "scientific_name": "Oreortyx pictus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/6/73",
+          "date_iso": "1973-10-06",
+          "location": "YOSEMITE VALLEY, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "HARLEQUIN QUAIL",
+      "scientific_name": "Cyrtonyx montezumae",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

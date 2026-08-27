@@ -1,0 +1,90 @@
+{
+  "image": "IMG_8872",
+  "page_numbers": [
+    228
+  ],
+  "page_type": "species_account",
+  "section_heading": "UNSTREAKED THRASHERS",
+  "species": [
+    {
+      "common_name": "BENDIRE'S THRASHER",
+      "scientific_name": "Toxostoma bendirei",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "7/1/74",
+          "date_iso": "1974-07-01",
+          "location": "CAVE CREEK CANYON, ARIZ."
+        }
+      ],
+      "notes": [
+        "A pen loop is drawn around the head/bill of the Bendire's Thrasher figure on the plate"
+      ]
+    },
+    {
+      "common_name": "CURVE-BILLED THRASHER",
+      "scientific_name": "Toxostoma curvirostre",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "7/7/74",
+          "date_iso": "1974-07-07",
+          "location": "SAHUARO NAT'L MONUMENT, TUCSON ARIZ"
+        }
+      ],
+      "notes": [
+        "Location wording partly illegible; reads approximately \"SAHUARO (or SAGUARO) NATL MONUMENT TUCSON ARIZ\"",
+        "A pen loop is drawn around the head/bill of the Curve-billed Thrasher figure",
+        "Faint cursive on the plate beside CURVE-BILLED THRASHER, possibly \"and so pretty\" - uncertain"
+      ]
+    },
+    {
+      "common_name": "CALIFORNIA THRASHER",
+      "scientific_name": "Toxostoma redivivum",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "2/15/80",
+          "date_iso": "1980-02-15",
+          "location": "LAGUNA BEACH, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "LE CONTE'S THRASHER",
+      "scientific_name": "Toxostoma lecontei",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/22/80",
+          "date_iso": "1980-08-22",
+          "location": null
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "CRISSAL THRASHER",
+      "scientific_name": "Toxostoma dorsale",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "TUCSON, ARIZ"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Pencil/pen tick marks on the small range-map grids at the top of the page"
+  ],
+  "confidence": "low"
+}

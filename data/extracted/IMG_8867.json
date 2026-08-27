@@ -1,0 +1,70 @@
+{
+  "image": "IMG_8867",
+  "page_numbers": [
+    216
+  ],
+  "page_type": "species_account",
+  "section_heading": "TITMICE",
+  "species": [
+    {
+      "common_name": "TUFTED TITMOUSE",
+      "scientific_name": "Parus bicolor",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK-CRESTED TITMOUSE",
+      "scientific_name": "Parus atricristatus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/25/59",
+          "date_iso": "1959-05-25",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Date written vertically in the margin beside the BLACK-CRESTED TITMOUSE account; digits are indistinct and could read differently"
+      ]
+    },
+    {
+      "common_name": "PLAIN TITMOUSE",
+      "scientific_name": "Parus inornatus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/6/74",
+          "date_iso": "1974-07-06",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Cursive note written across the PLAIN TITMOUSE heading and into the margin; largely illegible - appears to begin \"Ranch...\" or \"Rancho\" and may include a place name, not confidently transcribable"
+      ]
+    },
+    {
+      "common_name": "BRIDLED TITMOUSE",
+      "scientific_name": "Parus wollweberi",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/2/74",
+          "date_iso": "1974-07-02",
+          "location": "Mt. Lemmon"
+        }
+      ],
+      "notes": [
+        "Location written in cursive, reads like \"Mt. Lemmon\" but is faint and uncertain"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint cursive words in the lower margin of the text page (right of the PLAIN TITMOUSE account) - illegible"
+  ],
+  "confidence": "low"
+}

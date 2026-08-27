@@ -1,0 +1,71 @@
+{
+  "image": "IMG_8808",
+  "page_numbers": [
+    92
+  ],
+  "page_type": "species_account",
+  "section_heading": "HERONS AND THEIR ALLIES",
+  "species": [
+    {
+      "common_name": "GREAT WHITE HERON",
+      "scientific_name": "Ardea occidentalis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "COMMON EGRET",
+      "scientific_name": "Casmerodius albus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/11/79",
+          "date_iso": "1979-08-11",
+          "location": "Upper Newport Bay"
+        }
+      ],
+      "notes": [
+        "Cursive note above the COMMON EGRET heading, reads approximately \"Upper Newport Bay\" - first word uncertain, possibly abbreviated"
+      ]
+    },
+    {
+      "common_name": "SNOWY EGRET",
+      "scientific_name": "Leucophoyx thula",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1973",
+          "date_iso": null,
+          "location": "UPPER NEWPORT BAY"
+        }
+      ],
+      "notes": [
+        "A short word (possibly \"Ca\" or similar) precedes UPPER NEWPORT BAY; uncertain"
+      ]
+    },
+    {
+      "common_name": "CATTLE EGRET",
+      "scientific_name": "Bubulcus ibis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/19/75",
+          "date_iso": "1975-01-19",
+          "location": "CHINO BASIN, ONTARIO, CALIF"
+        }
+      ],
+      "notes": [
+        "Annotation begins with something like \"Cattle Egret's\" in cursive before the location; first word of the location is uncertain (read as CHINO BASIN)"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "On the plate near the Snowy Egret head: two short cursive words, possibly \"Black\" and \"yellow\" (illegible)",
+    "On the plate near the Snowy Egret legs: short cursive note ending in \"im.\" - possibly a leg-colour field mark for immature; largely illegible"
+  ],
+  "confidence": "low"
+}

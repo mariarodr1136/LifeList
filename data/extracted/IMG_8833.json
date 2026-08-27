@@ -1,0 +1,77 @@
+{
+  "image": "IMG_8833",
+  "page_numbers": [
+    142
+  ],
+  "page_type": "species_account",
+  "section_heading": "TERNS",
+  "species": [
+    {
+      "common_name": "LEAST TERN",
+      "scientific_name": "Sterna albifrons",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "6/28/80",
+          "date_iso": "1980-06-28",
+          "location": "DEL MAR, CALIF."
+        }
+      ],
+      "notes": [
+        "Circle drawn around the immature head study at the top right of the plate, beside the \"LIGHT-WINGED TERNS\" title"
+      ]
+    },
+    {
+      "common_name": "ARCTIC TERN",
+      "scientific_name": "Sterna paradisaea",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/16/82",
+          "date_iso": "1982-05-16",
+          "location": "PELAGIC TRIP OFF S.D. COUNTY"
+        }
+      ],
+      "notes": [
+        "Location reading \"PELAGIC TRIP OFF S.D. COUNTY\" - the final word is partly cut off at the page edge and is uncertain"
+      ]
+    },
+    {
+      "common_name": "COMMON TERN",
+      "scientific_name": "Sterna hirundo",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ROSEATE TERN",
+      "scientific_name": "Sterna dougallii",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "FORSTER'S TERN",
+      "scientific_name": "Sterna forsteri",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "2/15/74",
+          "date_iso": "1974-02-15",
+          "location": "Upper Newport Bay Calif."
+        }
+      ],
+      "notes": [
+        "Circle around the head study at upper left of the plate with a short cursive note reading something like \"Head Autumn\" (wording uncertain)",
+        "Circle around the head labeled \"Winter\" at the left of the plate above the FORSTER'S TERN figure"
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

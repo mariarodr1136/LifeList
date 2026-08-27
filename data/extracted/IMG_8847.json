@@ -1,0 +1,65 @@
+{
+  "image": "IMG_8847",
+  "page_numbers": [],
+  "page_type": "species_account",
+  "section_heading": "KINGFISHERS",
+  "species": [
+    {
+      "common_name": "THICK-BILLED PARROT",
+      "scientific_name": "Rhynchopsitta pachyrhyncha",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "COPPERY-TAILED TROGON",
+      "scientific_name": "Trogon elegans",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "SOUTH FORK CAVE CREEK CANYON, ARIZ"
+        }
+      ],
+      "notes": [
+        "A date appears written above/beside the heading but is not legible in this photo"
+      ]
+    },
+    {
+      "common_name": "BELTED KINGFISHER",
+      "scientific_name": "Megaceryle alcyon",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/11/79",
+          "date_iso": "1979-08-11",
+          "location": "MALIBU LAGOON"
+        },
+        {
+          "date_raw": "1/14/75",
+          "date_iso": "1975-01-14",
+          "location": null
+        }
+      ],
+      "notes": [
+        "A second, partly illegible place name is written beneath \"MALIBU LAGOON\" (something like \"...CREEK...\"), followed by \"CALIF\" - uncertain"
+      ]
+    },
+    {
+      "common_name": "GREEN KINGFISHER",
+      "scientific_name": "Chloroceryle americana",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Several lines of faint handwriting in the upper margin of the colour plate page (beside the Thick-billed Parrot illustration) are illegible in this photo"
+  ],
+  "confidence": "low"
+}

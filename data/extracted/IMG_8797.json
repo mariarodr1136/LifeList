@@ -1,0 +1,78 @@
+{
+  "image": "IMG_8797",
+  "page_numbers": [
+    70
+  ],
+  "page_type": "species_account",
+  "section_heading": "BUTEOS",
+  "species": [
+    {
+      "common_name": "ROUGH-LEGGED HAWK",
+      "scientific_name": "Buteo lagopus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "4/6/75",
+          "date_iso": "1975-04-06",
+          "location": "N. of BISHOP, CALIF."
+        }
+      ],
+      "notes": [
+        "Date could be 4/6/75 or 4/8/75 — digits unclear"
+      ]
+    },
+    {
+      "common_name": "FERRUGINOUS HAWK",
+      "scientific_name": "Buteo regalis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/13/80",
+          "date_iso": "1980-12-13",
+          "location": "LAKE HENSHAW, CALIF."
+        }
+      ],
+      "notes": [
+        "Date written vertically at the left edge of the heading; year reading 80 is uncertain"
+      ]
+    },
+    {
+      "common_name": "RED-TAILED HAWK",
+      "scientific_name": "Buteo jamaicensis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "3/29/74",
+          "date_iso": "1974-03-29",
+          "location": "LAKE MATTHEWS, CALIF."
+        }
+      ],
+      "notes": [
+        "Day of month uncertain (3/29/74 or 3/27/74)"
+      ]
+    },
+    {
+      "common_name": "RED-SHOULDERED HAWK",
+      "scientific_name": "Buteo lineatus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "LAKE MATTHEWS"
+        }
+      ],
+      "notes": [
+        "An additional short word in green/blue ink above the heading is illegible"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Cursive note in blue ink written across the first (Rough-legged Hawk) range map — mostly illegible"
+  ],
+  "confidence": "low"
+}

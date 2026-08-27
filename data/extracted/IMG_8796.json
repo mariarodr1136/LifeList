@@ -1,0 +1,73 @@
+{
+  "image": "IMG_8796",
+  "page_numbers": [
+    68
+  ],
+  "page_type": "species_account",
+  "section_heading": "ACCIPITERS",
+  "species": [
+    {
+      "common_name": "GOSHAWK",
+      "scientific_name": "Accipiter gentilis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "A short illegible cursive word is written in the Goshawk paragraph, after \"Call, a long series of short high notes.\""
+      ]
+    },
+    {
+      "common_name": "COOPER'S HAWK",
+      "scientific_name": "Accipiter cooperii",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "3/30/85",
+          "date_iso": "1985-03-30",
+          "location": "MORENO VALLEY, CALIF."
+        }
+      ],
+      "notes": [
+        "Below \"MORENO VALLEY, CALIF.\" there are two or three lines of small blue cursive that are not legible in this photo (possibly a place/habitat note)."
+      ]
+    },
+    {
+      "common_name": "SHARP-SHINNED HAWK",
+      "scientific_name": "Accipiter striatus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "9/21/80",
+          "date_iso": "1980-09-21",
+          "location": "ENBEARDO BAY, CALIF."
+        }
+      ],
+      "notes": [
+        "Location word before \"BAY, CALIF.\" is unclear; reads something like \"ENBEARDO\"/\"EMBEARDO\"."
+      ]
+    },
+    {
+      "common_name": "MARSH HAWK",
+      "scientific_name": "Circus cyaneus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "11/27/74",
+          "date_iso": "1974-11-27",
+          "location": null
+        }
+      ],
+      "notes": [
+        "A cursive place name is written above the date, beginning with \"L\" - not legible enough to transcribe (something like \"Lyerteleny Calif\").",
+        "On the plate near the Marsh Hawk figures: \"PATCH\" and a cursive note about hovering (\"...hovering in flight\"), plus \"WINTER RESIDENT?\" in blue ink."
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint pencil/ink scribbles on the plate between the Sharp-shinned and Marsh Hawk figures (illegible)"
+  ],
+  "confidence": "low"
+}

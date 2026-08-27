@@ -1,0 +1,52 @@
+{
+  "image": "IMG_8799",
+  "page_numbers": [
+    74
+  ],
+  "page_type": "species_account",
+  "section_heading": "SOUTHERN BUTEOS",
+  "species": [
+    {
+      "common_name": "BLACK HAWK",
+      "scientific_name": "Buteogallus anthracinus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ZONE-TAILED HAWK",
+      "scientific_name": "Buteo albonotatus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WHITE-TAILED HAWK",
+      "scientific_name": "Buteo albicaudatus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SHORT-TAILED HAWK",
+      "scientific_name": "Buteo brachyurus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GRAY HAWK",
+      "scientific_name": "Buteo nitidus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "high"
+}

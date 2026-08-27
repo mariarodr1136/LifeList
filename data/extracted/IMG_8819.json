@@ -1,0 +1,84 @@
+{
+  "image": "IMG_8819",
+  "page_numbers": [
+    114
+  ],
+  "page_type": "species_account",
+  "section_heading": "SANDPIPERS",
+  "species": [
+    {
+      "common_name": "LONG-BILLED CURLEW",
+      "scientific_name": "Numenius americanus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "UPPER NEWPORT BAY, CALIF"
+        }
+      ],
+      "notes": [
+        "Blue block-capital annotation written across the LONG-BILLED CURLEW heading; wording partly obscured by the printed text - reads approximately \"UPPER NEWPORT BAY, CALIF\" with possibly a further illegible word/date"
+      ]
+    },
+    {
+      "common_name": "WHIMBREL",
+      "scientific_name": "Numenius phaeopus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/1/74",
+          "date_iso": "1974-12-01",
+          "location": "Upper Newport Bay, Calif."
+        }
+      ],
+      "notes": [
+        "Date written in blue ink beside the heading; location in cursive alongside; date reading uncertain (could be 12/1/74)"
+      ]
+    },
+    {
+      "common_name": "ESKIMO CURLEW",
+      "scientific_name": "Numenius borealis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "MARBLED GODWIT",
+      "scientific_name": "Limosa fedoa",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/14/73",
+          "date_iso": "1973-01-14",
+          "location": "LONG BEACH, CALIF"
+        }
+      ],
+      "notes": [
+        "Written in blue ink beside the MARBLED GODWIT heading; date could also read 1/19/73"
+      ]
+    },
+    {
+      "common_name": "HUDSONIAN GODWIT",
+      "scientific_name": "Limosa haemastica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BAR-TAILED GODWIT",
+      "scientific_name": "Limosa lapponica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

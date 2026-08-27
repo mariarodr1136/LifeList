@@ -1,0 +1,52 @@
+{
+  "image": "IMG_8885",
+  "page_numbers": [
+    164
+  ],
+  "page_type": "species_account",
+  "section_heading": "SMALL OWLS",
+  "species": [
+    {
+      "common_name": "HAWK-OWL",
+      "scientific_name": "Surnia ulula",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BURROWING OWL",
+      "scientific_name": "Speotyto cunicularia",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/16/79",
+          "date_iso": "1979-12-16",
+          "location": "IRVINE, CALIF."
+        }
+      ],
+      "notes": [
+        "Handwritten in blue ballpoint immediately above/beside the BURROWING OWL heading; the day figure of the date is somewhat unclear (read as 12/16/79)."
+      ]
+    },
+    {
+      "common_name": "BOREAL OWL",
+      "scientific_name": "Aegolius funereus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SAW-WHET OWL",
+      "scientific_name": "Aegolius acadicus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

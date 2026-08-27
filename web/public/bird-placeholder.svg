@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Placeholder bird illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef0fe"/>
+      <stop offset="55%" stop-color="#eaf1ee"/>
+      <stop offset="100%" stop-color="#e3e6f7"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7d78ee"/>
+      <stop offset="100%" stop-color="#5b54dd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <circle cx="200" cy="146" r="96" fill="#ffffff" opacity="0.45"/>
+
+  <!-- tail -->
+  <path d="M232 152 L318 200 L300 214 L226 174 Z" fill="#4f46e5" opacity="0.75"/>
+
+  <!-- body -->
+  <ellipse cx="198" cy="152" rx="54" ry="43" transform="rotate(-16 198 152)" fill="url(#body)"/>
+
+  <!-- wing -->
+  <ellipse cx="207" cy="156" rx="36" ry="21" transform="rotate(-22 207 156)" fill="#3f37c4" opacity="0.55"/>
+
+  <!-- head -->
+  <circle cx="152" cy="110" r="28" fill="url(#body)"/>
+
+  <!-- beak -->
+  <path d="M128 105 L96 114 L129 124 Z" fill="#dc9a45"/>
+
+  <!-- eye -->
+  <circle cx="145" cy="104" r="4" fill="#f7f7f5"/>
+
+  <!-- legs -->
+  <path d="M188 192 L186 216 M206 192 L210 216" stroke="#3f37c4" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- perch -->
+  <path d="M104 218 C 168 210, 244 224, 306 214" stroke="#2f7d5b" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.65"/>
+  <path d="M214 216 c 14 -12, 30 -14, 44 -8 c -14 8, -30 10, -44 8 z" fill="#2f7d5b" opacity="0.45"/>
+</svg>

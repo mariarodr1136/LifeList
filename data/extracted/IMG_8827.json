@@ -1,0 +1,54 @@
+{
+  "image": "IMG_8827",
+  "page_numbers": [
+    130
+  ],
+  "page_type": "species_account",
+  "section_heading": "JAEGERS AND SKUAS",
+  "species": [
+    {
+      "common_name": "PARASITIC JAEGER",
+      "scientific_name": "Stercorarius parasiticus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "POMARINE JAEGER",
+      "scientific_name": "Stercorarius pomarinus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/16/87",
+          "date_iso": "1987-05-16",
+          "location": "PELAGIC TRIP OFF S.D. CALIF."
+        }
+      ],
+      "notes": [
+        "Date could read 5/16/87 or 5/14/87 - digits uncertain"
+      ]
+    },
+    {
+      "common_name": "LONG-TAILED JAEGER",
+      "scientific_name": "Stercorarius longicaudus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SKUA",
+      "scientific_name": "Catharacta skua",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Large hand-drawn pink/red ellipse over the upper part of the introductory text column (no words legible inside)"
+  ],
+  "confidence": "medium"
+}

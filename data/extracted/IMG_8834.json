@@ -1,0 +1,79 @@
+{
+  "image": "IMG_8834",
+  "page_numbers": [
+    144
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "SANDWICH TERN",
+      "scientific_name": "Thalasseus sandvicensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GULL-BILLED TERN",
+      "scientific_name": "Gelochelidon nilotica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ELEGANT TERN",
+      "scientific_name": "Thalasseus elegans",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/14/87",
+          "date_iso": "1987-05-14",
+          "location": "PELAGIC TRIP OFF S.D., CALIF"
+        }
+      ],
+      "notes": [
+        "Date could read 5/14/87 or 5/16/87 - handwriting unclear"
+      ]
+    },
+    {
+      "common_name": "ROYAL TERN",
+      "scientific_name": "Thalasseus maximus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "3/21/91",
+          "date_iso": "1991-03-21",
+          "location": "SAN ELIJO LAGOON, SOLANA BEACH"
+        }
+      ],
+      "notes": [
+        "Location written in cursive across the column; \"SOLANA BEACH\" partly cramped and uncertain"
+      ]
+    },
+    {
+      "common_name": "CASPIAN TERN",
+      "scientific_name": "Hydroprogne caspia",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/1/74",
+          "date_iso": "1974-12-01",
+          "location": "Upper Newport Bay"
+        }
+      ],
+      "notes": [
+        "Date may be 12/1/74 or 12/11/74; location in cursive rather than block capitals"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "A hand-drawn ellipse on the plate around the perched tern/post figure in the left-hand group (winter plumage bird) - cannot be assigned with certainty to Caspian or Royal Tern",
+    "Blue ballpoint writing on the upper right of the plate, illegible (possibly ending in \"winter\")"
+  ],
+  "confidence": "low"
+}

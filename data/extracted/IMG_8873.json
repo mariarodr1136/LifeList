@@ -1,0 +1,56 @@
+{
+  "image": "IMG_8873",
+  "page_numbers": [
+    232
+  ],
+  "page_type": "species_account",
+  "section_heading": "SPOTTED-BREASTED THRUSHES",
+  "species": [
+    {
+      "common_name": "TOWNSEND'S SOLITAIRE",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "6/9/6? (illegible - blue ink, possibly a date)",
+          "date_iso": null,
+          "location": null
+        }
+      ],
+      "notes": [
+        "Short handwritten mark in blue ink immediately above the TOWNSEND'S SOLITAIRE heading; only partly legible, appears to be a short date-like notation"
+      ]
+    },
+    {
+      "common_name": "BLUETHROAT",
+      "scientific_name": "Luscinia svecica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WHEATEAR",
+      "scientific_name": "Oenanthe oenanthe",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "VARIED THRUSH",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Labelled on the facing plate (L 8\"); its printed account is obscured/off-page in this photo"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint blue and black handwriting shows through from the reverse side of both leaves; not legible from this side"
+  ],
+  "confidence": "low"
+}

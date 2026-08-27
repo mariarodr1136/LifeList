@@ -1,0 +1,64 @@
+{
+  "image": "IMG_8805",
+  "page_numbers": [
+    86
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "GREATER PRAIRIE CHICKEN",
+      "scientific_name": "Tympanuchus cupido",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LESSER PRAIRIE CHICKEN",
+      "scientific_name": "Tympanuchus pallidicinctus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WILLOW PTARMIGAN",
+      "scientific_name": "Lagopus lagopus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "An illegible cursive word (reddish ink) is written on the plate across the summer male Willow Ptarmigan figure - too faint to transcribe"
+      ]
+    },
+    {
+      "common_name": "ROCK PTARMIGAN",
+      "scientific_name": "Lagopus mutus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "A hand-drawn line/arrow in reddish ink points to the male Rock Ptarmigan figure with a short cursive word beside it, possibly \"molt\" - uncertain, largely illegible"
+      ]
+    },
+    {
+      "common_name": "WHITE-TAILED PTARMIGAN",
+      "scientific_name": "Lagopus leucurus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "Colo"
+        }
+      ],
+      "notes": [
+        "Cursive annotation in reddish ink beside the WHITE-TAILED PTARMIGAN account reading approximately \"Colo\" - reading uncertain"
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

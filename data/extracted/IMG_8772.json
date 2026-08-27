@@ -1,0 +1,99 @@
+{
+  "image": "IMG_8772",
+  "page_numbers": [
+    20
+  ],
+  "page_type": "species_account",
+  "section_heading": "GREBES",
+  "species": [
+    {
+      "common_name": "WESTERN GREBE",
+      "scientific_name": "Aechmóphorus occidentális",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/20/7",
+          "date_iso": null,
+          "location": "LAKE MATHEWS"
+        }
+      ],
+      "notes": [
+        "Date written over the printed text as \"1/20/7\" with the final digit of the year illegible/obscured by the printing; place name in block capitals reads \"LAKE MATHEWS\" (second word could also be \"MATHEWS\"/\"MATTHEWS\" — the letters run together)."
+      ]
+    },
+    {
+      "common_name": "RED-NECKED GREBE",
+      "scientific_name": "Pódiceps grisegéna",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "HORNED GREBE",
+      "scientific_name": "Pódiceps auritus",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "12/1/74",
+          "date_iso": "1974-12-01",
+          "location": "Upper Newport Bay, Calif"
+        }
+      ],
+      "notes": [
+        "Hand-drawn ellipse around the winter-plumage swimming Horned Grebe on the facing plate."
+      ]
+    },
+    {
+      "common_name": "EARED GREBE",
+      "scientific_name": "Pódiceps cáspicus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/1/74",
+          "date_iso": "1974-12-01",
+          "location": "UPPER NEWPORT BAY, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "PIED-BILLED GREBE",
+      "scientific_name": "Podilýmbus pódiceps",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "8/4/79",
+          "date_iso": "1979-08-04",
+          "location": "upper Newport"
+        },
+        {
+          "date_raw": "7/3/74",
+          "date_iso": "1974-07-03",
+          "location": "Hwy 59 35 mi N of Nogales"
+        }
+      ],
+      "notes": [
+        "The line above the heading is cramped and partly illegible; the highway number could be 59 or 89, and a trailing word after \"Nogales\" (possibly a state abbreviation such as \"Ariz\") could not be read with confidence.",
+        "On the plate: \"orange\" written with a line pointing to the Pied-billed Grebe's bill/eye area, and \"im.\" beside one of the birds.",
+        "Hand-drawn circle/ellipse around the Pied-billed Grebe figures on the plate."
+      ]
+    },
+    {
+      "common_name": "LEAST GREBE",
+      "scientific_name": "Pódiceps dominicus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "A short faint pen stroke in the right margin beside the end of the Red-necked Grebe account, too indistinct to read."
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,90 @@
+{
+  "image": "IMG_8792",
+  "page_numbers": [
+    60
+  ],
+  "page_type": "species_account",
+  "section_heading": "STIFF-TAILED DUCKS",
+  "species": [
+    {
+      "common_name": "RUDDY DUCK",
+      "scientific_name": "Oxyura jamaicensis",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "LAKEVIEW, CALIF"
+        }
+      ],
+      "notes": [
+        "Illustration of Ruddy Duck (summer male / swimming bird) encircled in blue ink on the plate"
+      ]
+    },
+    {
+      "common_name": "MASKED DUCK",
+      "scientific_name": "Oxyura dominica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "COMMON MERGANSER",
+      "scientific_name": "Mergus merganser",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "LAKE MATTHEWS, CALIF"
+        },
+        {
+          "date_raw": "5/27/74 (uncertain - digits unclear)",
+          "date_iso": "1974-05-27",
+          "location": null
+        }
+      ],
+      "notes": [
+        "A second short handwritten date follows the first; only partly legible",
+        "Small blue cursive word on the plate near the Common Merganser head, possibly \"bill\" (uncertain)"
+      ]
+    },
+    {
+      "common_name": "RED-BREASTED MERGANSER",
+      "scientific_name": "Mergus serrator",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/1/74",
+          "date_iso": "1974-12-01",
+          "location": "BOLSA CHICA, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "HOODED MERGANSER",
+      "scientific_name": "Lophodytes cucullatus",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "1/1/75",
+          "date_iso": "1975-01-01",
+          "location": "MALIBU LAGOON, CALIF"
+        }
+      ],
+      "notes": [
+        "Female Hooded Merganser figures encircled in blue ink on the plate",
+        "Marginal cursive on plate: \"not so reddish\"",
+        "Marginal cursive on plate: \"more brown\""
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

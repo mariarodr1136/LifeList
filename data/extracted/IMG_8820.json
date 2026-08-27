@@ -1,0 +1,68 @@
+{
+  "image": "IMG_8820",
+  "page_numbers": [
+    116,
+    29
+  ],
+  "page_type": "species_account",
+  "section_heading": "UPLAND SANDPIPERS",
+  "species": [
+    {
+      "common_name": "UPLAND PLOVER",
+      "scientific_name": "Bartramia longicauda",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BUFF-BREASTED SANDPIPER",
+      "scientific_name": "Tryngites subruficollis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SOLITARY SANDPIPER",
+      "scientific_name": "Tringa solitaria",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/23/80",
+          "date_iso": "1980-08-23",
+          "location": "SALTON SEA, CALIF."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "SPOTTED SANDPIPER",
+      "scientific_name": "Actitis macularia",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "YUCCA VALLEY, CALIF."
+        }
+      ],
+      "notes": [
+        "An X is marked beside the printed SPOTTED SANDPIPER heading",
+        "A short word written above 'YUCCA VALLEY, CALIF.' is illegible (possibly 'Dates?')"
+      ]
+    },
+    {
+      "common_name": "WANDERING TATTLER",
+      "scientific_name": "Heteroscelus incanum",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

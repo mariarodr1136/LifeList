@@ -1,0 +1,65 @@
+{
+  "image": "IMG_8848",
+  "page_numbers": [
+    180
+  ],
+  "page_type": "species_account",
+  "section_heading": "WOODPECKERS",
+  "species": [
+    {
+      "common_name": "YELLOW-SHAFTED FLICKER",
+      "scientific_name": "Colaptes auratus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "A line of handwriting above/beside the heading has been scribbled out and is illegible"
+      ]
+    },
+    {
+      "common_name": "RED-SHAFTED FLICKER",
+      "scientific_name": "Colaptes cafer",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "4/2/78",
+          "date_iso": "1978-04-02",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Cursive note beside the heading, only partly legible: appears to read \"... DEL BAK, ARIZONA\" with a word above it (possibly \"SAN RAFAEL\") and \"flight\" — reading uncertain",
+        "A short word preceding the date (possibly \"Mt. Home\" or \"Pvt Home\") is uncertain"
+      ]
+    },
+    {
+      "common_name": "GILDED FLICKER",
+      "scientific_name": "Colaptes chrysoides",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "PILEATED WOODPECKER",
+      "scientific_name": "Dryocopus pileatus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "IVORY-BILLED WOODPECKER",
+      "scientific_name": "Campephilus principalis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "A wavy line drawn in red ink down the right-hand silhouette key column of the plate"
+  ],
+  "confidence": "low"
+}

@@ -1,0 +1,102 @@
+{
+  "image": "IMG_8851",
+  "page_numbers": [
+    158
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "RED-HEADED WOODPECKER",
+      "scientific_name": "Melanerpes erythrocephalus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ACORN WOODPECKER",
+      "scientific_name": "Melanerpes formicivorus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "3/16/75",
+          "date_iso": "1975-03-16",
+          "location": "TUCKER SANCTUARY, ORANGE CALIF"
+        }
+      ],
+      "notes": [
+        "Location wording partly illegible; reads approximately \"Tucker Sanctuary, Orange Calif\"",
+        "A short word (possibly \"yellow\") is written on the plate beside the Acorn Woodpecker figure - uncertain"
+      ]
+    },
+    {
+      "common_name": "WHITE-HEADED WOODPECKER",
+      "scientific_name": "Dendrocopos albolarvatus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LEWIS' WOODPECKER",
+      "scientific_name": "Asyndesmus lewis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/3/75",
+          "date_iso": "1975-07-03",
+          "location": null
+        }
+      ],
+      "notes": [
+        "A place name in block capitals precedes the date but is too faint/angled to read reliably (appears to end in \"CALIF\")"
+      ]
+    },
+    {
+      "common_name": "YELLOW-BELLIED SAPSUCKER",
+      "scientific_name": "Sphyrapicus varius",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "6/1/74",
+          "date_iso": "1974-06-01",
+          "location": "SODA SPRINGS, CALIF"
+        }
+      ],
+      "notes": [
+        "\"RED RACE\" written beside the entry, with an asterisk-like mark",
+        "Date could also read 8/1/74 - uncertain"
+      ]
+    },
+    {
+      "common_name": "WILLIAMSON'S SAPSUCKER",
+      "scientific_name": "Sphyrapicus thyroideus",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "7/3/73",
+          "date_iso": "1973-07-03",
+          "location": "SODA SPRINGS, CALIF"
+        },
+        {
+          "date_raw": "6/16/74",
+          "date_iso": "1974-06-16",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Sex symbols written after the dates: 7/3/73 with a male-type symbol and 6/16/74 with a female-type symbol (symbols uncertain)",
+        "An ink circle/ellipse appears drawn around one of the Williamson's Sapsucker figures on the plate"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint pencil/ink marks and a small tally-like grid at the top edge of the text page (illegible)"
+  ],
+  "confidence": "low"
+}

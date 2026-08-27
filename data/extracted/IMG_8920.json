@@ -1,0 +1,1086 @@
+{
+  "image": "IMG_8920",
+  "page_numbers": [
+    338,
+    339
+  ],
+  "page_type": "index",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "Spoonbill, Roseate",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Starling",
+      "scientific_name": "Sturnus vulgaris",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears to carry an X (page angled; mapping of box to line uncertain)"
+      ]
+    },
+    {
+      "common_name": "Stilt, Black-necked",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Storks",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Storm petrels",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Surfbird",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swallow(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swallow, Bank",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swallow, Barn",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "X in checkbox (uncertain which swallow line the mark belongs to)"
+      ]
+    },
+    {
+      "common_name": "Swallow, Cave",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swallow, Cliff",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swallow, Rough-winged",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swallow, Tree",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swallow, Violet-green",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swan(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swan, Mute",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Row of marked boxes runs across the Swan entries; individual line assignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Swan, Trumpeter",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Row of marked boxes runs across the Swan entries; individual line assignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Swan, Whistling",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Row of marked boxes runs across the Swan entries; individual line assignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Swift(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swift, Black",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swift, Chimney",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "X in checkbox (line assignment uncertain within the Swift group)"
+      ]
+    },
+    {
+      "common_name": "Swift, Vaux's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Swift, White-throated",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tanager(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tanager, Blue-gray",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tanager, Hepatic",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tanager, Scarlet",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Two marked boxes in the Tanager block; exact lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Tanager, Summer",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tanager, Western",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Two marked boxes in the Tanager block; exact lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Tattler, Wandering",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Box appears marked"
+      ]
+    },
+    {
+      "common_name": "Teal, Baikal",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Teal, Blue-winged",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Several marked boxes in the Teal block; exact lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Teal, Cinnamon",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Several marked boxes in the Teal block; exact lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Teal, Common (European)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Teal, Green-winged",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Several marked boxes in the Teal block; exact lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Tern(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tern, Aleutian",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tern, Arctic",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tern, Black",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Long run of marked boxes down the Tern (cont'd) list; individual lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Tern, Black Noddy",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tern, Bridled",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tern, Caspian",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Long run of marked boxes down the Tern (cont'd) list; individual lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Tern, Common",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Long run of marked boxes down the Tern (cont'd) list; individual lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Tern, Elegant",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tern, Forster's",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Long run of marked boxes down the Tern (cont'd) list; individual lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Tern, Gull-billed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tern, Least",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Long run of marked boxes down the Tern (cont'd) list; individual lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Tern, Noddy",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tern, Roseate",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tern, Royal",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Long run of marked boxes down the Tern (cont'd) list; individual lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Tern, Sandwich (Cabot's)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tern, Sooty",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tern, White-winged Black",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Thrasher(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Thrasher, Bendire's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Thrasher, Brown",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Marked boxes in the Thrasher block; exact lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Thrasher, California",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Marked boxes in the Thrasher block; exact lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Thrasher, Crissal",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Thrasher, Curve-billed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Thrasher, Le Conte's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Thrasher, Long-billed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Thrasher, Sage",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Marked box at the end of the Thrasher block; line assignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Thrush(es)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Thrush, Gray-cheeked",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Thrush, Hermit",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Marked box in Thrush block; line assignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Thrush, Swainson's (Olive-backed)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Thrush, Russet-backed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Titmouse, Black-crested",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Titmouse, Bridled",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Titmouse, Plain",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Marked box in Titmouse block; line assignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Titmouse, Tufted",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Towhee(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Towhee, Abert's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Towhee, Brown",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Run of three or four marked boxes across the Towhee block; individual lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Towhee, Green-tailed",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Run of marked boxes across the Towhee block; individual lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Towhee, Rufous-sided (Red-eyed, Spotted)",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Run of marked boxes across the Towhee block; individual lines uncertain"
+      ]
+    },
+    {
+      "common_name": "Trogon, Coppery-tailed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tropicbird(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tropicbird, Red-billed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Tropicbird, White-tailed (Yellow-billed)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Turkey",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Marked box near Turkey / Turnstone lines; assignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Turnstone, Black",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Turnstone, Ruddy",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Marked box in the Turnstone block; assignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Tyrant flycatchers",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Veery",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Verdin",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Bell's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Black-capped",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Black-whiskered",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Blue-headed (see Vireo, Solitary)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Gray",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Hutton's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Philadelphia",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Plumbeous (see Vireo, Solitary)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Red-eyed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Solitary",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Marked box in the Vireo block; assignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Vireo, Warbling",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, White-eyed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Yellow-green",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vireo, Yellow-throated",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vulture(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vulture, Black",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Vulture, Turkey",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Marked box at the Vulture entries; assignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Wagtail(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wagtail, White",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wagtail, Yellow",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Arctic (Kennicott's Willow)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Audubon's",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Marked box at the Audubon's Warbler line"
+      ]
+    },
+    {
+      "common_name": "Warbler, Bachman's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Bay-breasted",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Black-and-white",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Blackburnian",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Blackpoll",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Black-throated Blue",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Black-throated Gray",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Black-throated Green",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Blue-winged",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Brewster's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Canada",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Cape May",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Cerulean",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Chestnut-sided",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Colima",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Connecticut",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Several lines of blue-ballpoint cursive writing in the lower margin of p. 339 (beside the Tyrannus / Tyto entries) - illegible at this angle and exposure",
+    "Scattered blue ballpoint tick/X marks and a few stray pen strokes in the checkbox columns of both index pages; because the photo is angled, some marks cannot be assigned to a specific line with certainty"
+  ],
+  "confidence": "low"
+}

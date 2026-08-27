@@ -1,0 +1,90 @@
+{
+  "image": "IMG_8893",
+  "page_numbers": [
+    280
+  ],
+  "page_type": "species_account",
+  "section_heading": "BLACKBIRDS",
+  "species": [
+    {
+      "common_name": "YELLOW-HEADED BLACKBIRD",
+      "scientific_name": "Xanthocephalus xanthocephalus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "LAKEVIEW CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "RED-WINGED BLACKBIRD",
+      "scientific_name": "Agelaius phoeniceus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/11/79",
+          "date_iso": "1979-08-11",
+          "location": null
+        }
+      ],
+      "notes": [
+        "A blue-ink location is written alongside this heading but is largely illegible in the photo (appears to be a California place name); only the date 8/11/79 can be read with confidence."
+      ]
+    },
+    {
+      "common_name": "TRICOLORED BLACKBIRD",
+      "scientific_name": "Agelaius tricolor",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "IRVINE, CALIF"
+        },
+        {
+          "date_raw": "1/19/75",
+          "date_iso": "1975-01-19",
+          "location": "MALIBU LAGOON, CALIF"
+        }
+      ],
+      "notes": [
+        "Handwritten quotation marks added around the printed heading \"TRICOLORED BLACKBIRD\"",
+        "The \"MALIBU LAGOON, CALIF\" / 1/19/75 entry sits between the Tricolored and Rusty headings, so its attachment to Tricolored is uncertain"
+      ]
+    },
+    {
+      "common_name": "RUSTY BLACKBIRD",
+      "scientific_name": "Euphagus carolinus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BREWER'S BLACKBIRD",
+      "scientific_name": "Euphagus cyanocephalus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "PIONEER TOWN, CALIF."
+        }
+      ],
+      "notes": [
+        "Handwritten X beside the printed heading",
+        "\"Song is high, squeaky-\" (cursive marginal note)",
+        "A short date follows the heading (something like 5/14/72) but the digits are not legible enough to transcribe with confidence"
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

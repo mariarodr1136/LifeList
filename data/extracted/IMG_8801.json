@@ -1,0 +1,89 @@
+{
+  "image": "IMG_8801",
+  "page_numbers": [
+    78
+  ],
+  "page_type": "species_account",
+  "section_heading": "FALCONS",
+  "species": [
+    {
+      "common_name": "GYRFALCON",
+      "scientific_name": "Falco rusticolus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "PRAIRIE FALCON",
+      "scientific_name": "Falco mexicanus",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "4/5/75",
+          "date_iso": "1975-04-05",
+          "location": "SAN DIEGO, CALIF."
+        },
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "BELOW LEVEL PASS CALIF."
+        }
+      ],
+      "notes": [
+        "Circled note beside heading reading something like \"or (3 gs)\" - partly illegible",
+        "On the plate, in blue ink beside the flying Prairie Falcon: \"Bolder\" (word uncertain), with a hand-drawn ellipse around that figure"
+      ]
+    },
+    {
+      "common_name": "PEREGRINE FALCON",
+      "scientific_name": "Falco peregrinus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "PIGEON HAWK",
+      "scientific_name": "Falco columbarius",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SPARROW HAWK",
+      "scientific_name": "Falco sparverius",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "11/8/12",
+          "date_iso": "1912-11-08",
+          "location": "3600A SPRUCE"
+        },
+        {
+          "date_raw": "EARLY 1960'S",
+          "date_iso": null,
+          "location": "CALIF"
+        }
+      ],
+      "notes": [
+        "An \"X\" is written before the printed SPARROW HAWK heading",
+        "A short word precedes the date, possibly \"KEATING\" or similar - illegible",
+        "Further cursive writing after \"EARLY 1960'S CALIF\" is scribbled/illegible"
+      ]
+    },
+    {
+      "common_name": "APLOMADO FALCON",
+      "scientific_name": "Falco femoralis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

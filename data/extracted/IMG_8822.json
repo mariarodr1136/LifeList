@@ -1,0 +1,72 @@
+{
+  "image": "IMG_8822",
+  "page_numbers": [
+    120
+  ],
+  "page_type": "species_account",
+  "section_heading": "ROCK SHOREBIRDS",
+  "species": [
+    {
+      "common_name": "SURFBIRD",
+      "scientific_name": "Aphriza virgata",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/10/78",
+          "date_iso": "1978-12-10",
+          "location": "LAGUNA BEACH CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "RUDDY TURNSTONE",
+      "scientific_name": "Arenaria interpres",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "3/18/74",
+          "date_iso": "1974-03-18",
+          "location": "Upper Newport Bay, Calif"
+        }
+      ],
+      "notes": [
+        "Printed words underlined in the account: \"slender pointed bills\", \"turned\" and \"orange\"/\"yellow legs\" (underlining, no words added)"
+      ]
+    },
+    {
+      "common_name": "BLACK TURNSTONE",
+      "scientific_name": "Arenaria melanocephala",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/19/75",
+          "date_iso": "1975-01-19",
+          "location": "MALIBU LAGOON CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "PURPLE SANDPIPER",
+      "scientific_name": "Erolia maritima",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ROCK SANDPIPER",
+      "scientific_name": "Erolia ptilocnemis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

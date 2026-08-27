@@ -1,0 +1,68 @@
+{
+  "image": "IMG_8886",
+  "page_numbers": [
+    166
+  ],
+  "page_type": "species_account",
+  "section_heading": "GOATSUCKERS",
+  "species": [
+    {
+      "common_name": "WHISKERED OWL",
+      "scientific_name": "Otus trichopsis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/1/7? (last digit unclear, possibly 7/1/74)",
+          "date_iso": "1974-07-01",
+          "location": "[illegible word] CANYON , ARIZ"
+        }
+      ],
+      "notes": [
+        "Printed phrase in the account circled in ink: \"9 high-pitched hoos slowing at the end\" (circle drawn around the printed words, no added handwriting)"
+      ]
+    },
+    {
+      "common_name": "FLAMMULATED OWL",
+      "scientific_name": "Otus flammeolus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "PYGMY OWL",
+      "scientific_name": "Glaucidium gnoma",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/8/73",
+          "date_iso": "1973-10-08",
+          "location": "YOSEMITE"
+        }
+      ],
+      "notes": [
+        "Written in blue ballpoint vertically in the margin beside the PYGMY OWL heading"
+      ]
+    },
+    {
+      "common_name": "ELF OWL",
+      "scientific_name": "Micrathene whitneyi",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "FERRUGINOUS OWL",
+      "scientific_name": "Glaucidium brasilianum",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

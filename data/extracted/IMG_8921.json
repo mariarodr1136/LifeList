@@ -1,0 +1,767 @@
+{
+  "image": "IMG_8921",
+  "page_numbers": [
+    340
+  ],
+  "page_type": "index",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "Warbler, Golden-cheeked",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Golden-winged",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Grace's",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked with a blue X"
+      ]
+    },
+    {
+      "common_name": "Warbler, Hermit",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked with a blue X"
+      ]
+    },
+    {
+      "common_name": "Warbler, Hooded",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Kentucky",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Kirtland's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Lawrence's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Lucy's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, MacGillivray's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Magnolia",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Mourning",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Myrtle",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Nashville",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Olive",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Olive-backed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Orange-crowned",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Palm",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Parula",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Pine",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Prairie",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Prothonotary",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Red-faced",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Sutton's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Swainson's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Tennessee",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Townsend's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Virginia's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Wilson's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Worm-eating",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Warbler, Yellow",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked"
+      ]
+    },
+    {
+      "common_name": "Warbler, Yellow-throated",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Waterthrush, Louisiana",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Waterthrush, Northern",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Waxwing(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Waxwing, Bohemian",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Waxwing, Cedar",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked; assignment within the Waxwing group uncertain due to camera angle"
+      ]
+    },
+    {
+      "common_name": "Weaver finch(es)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wheatear",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Whimbrel",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Whip-poor-will",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Widgeon, American",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Widgeon, European",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Willet",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked"
+      ]
+    },
+    {
+      "common_name": "Wilsonia canadensis",
+      "scientific_name": "Wilsonia canadensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wilsonia citrina",
+      "scientific_name": "Wilsonia citrina",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wilsonia pusilla",
+      "scientific_name": "Wilsonia pusilla",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodcock, American",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Acorn",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked"
+      ]
+    },
+    {
+      "common_name": "Woodpecker, Arizona",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Black-backed Three-toed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Downy",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Gila",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Golden-fronted",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Hairy",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Ivory-billed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Ladder-backed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Lewis'",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Northern Three-toed (American)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Nuttall's",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Pileated",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Red-bellied",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, Red-cockaded",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Woodpecker, White-headed",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wood Pewee",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wren(s)",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wren, Bewick's",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Part of a run of marked checkboxes in the Wren block; exact alignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Wren, Brown-throated",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wren, Cactus",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked"
+      ]
+    },
+    {
+      "common_name": "Wren, Canyon",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked"
+      ]
+    },
+    {
+      "common_name": "Wren, Carolina",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wren, House",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked"
+      ]
+    },
+    {
+      "common_name": "Wren, Long-billed Marsh",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked; alignment uncertain"
+      ]
+    },
+    {
+      "common_name": "Wren, Rock",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wren, Short-billed Marsh",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Wren, Winter",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked"
+      ]
+    },
+    {
+      "common_name": "Wrentit",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked with a blue X"
+      ]
+    },
+    {
+      "common_name": "Xanthocephalus xanthocephalus",
+      "scientific_name": "Xanthocephalus xanthocephalus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Xema sabinii",
+      "scientific_name": "Xema sabinii",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Yellowlegs, Greater",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Yellowlegs, Lesser",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Yellowthroat",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Checkbox appears marked"
+      ]
+    },
+    {
+      "common_name": "Yellowthroat, Rio Grande, see Ground-chat",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Zenaida asiatica",
+      "scientific_name": "Zenaida asiatica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Zenaidura macroura",
+      "scientific_name": "Zenaidura macroura",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Zonotrichia albicollis",
+      "scientific_name": "Zonotrichia albicollis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Zonotrichia atricapilla",
+      "scientific_name": "Zonotrichia atricapilla",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Zonotrichia leucophrys",
+      "scientific_name": "Zonotrichia leucophrys",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Zonotrichia querula",
+      "scientific_name": "Zonotrichia querula",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "shorebirds - (Sept to ?74 good) — written in the left margin of p. 340; middle word uncertain",
+    "Boxed marginal note in blue ink, only partly legible: \"Bushtit\" / \"Bushtit\" ... \"Sparrow etc\" / \"Box 5\" / \"Amsterdam ... N.J. (Cape May?)\" — several words illegible",
+    "A cluster of short cursive notes with dates along the bottom/outer margin of p. 340; partly legible bird names appear to include \"Tree Swallow\", \"Black-bellied Plover\", \"California ...\" and possibly \"Hooded ...\", with dates such as \"4/16\", \"4/10\", \"4/9\", \"6/22/74\" — transcription uncertain",
+    "On the yellow inside back cover, in blue ink: \"Pelagic Trip - May : Sept\" (last word uncertain)",
+    "On the yellow inside back cover, lower edge: \"Rita : Maria Rebeca  753-2686\" (names uncertain)",
+    "Many index checkboxes on this page carry blue X marks; because the photo is angled some marks cannot be assigned to a specific entry with certainty"
+  ],
+  "confidence": "low"
+}

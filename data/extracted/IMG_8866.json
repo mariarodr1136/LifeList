@@ -1,0 +1,91 @@
+{
+  "image": "IMG_8866",
+  "page_numbers": [
+    214
+  ],
+  "page_type": "species_account",
+  "section_heading": "CHICKADEES",
+  "species": [
+    {
+      "common_name": "BLACK-CAPPED CHICKADEE",
+      "scientific_name": "Parus atricapillus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/8/93",
+          "date_iso": "1993-07-08",
+          "location": "SODA SPRINGS, CALIF"
+        }
+      ],
+      "notes": [
+        "Handwriting is partly obscured by damage to the page; place reads \"SODA SPRINGS CALIF\" and date appears to be 7/8/93 (last digits uncertain)"
+      ]
+    },
+    {
+      "common_name": "CAROLINA CHICKADEE",
+      "scientific_name": "Parus carolinensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Printed entry largely obliterated by page damage; only \"Carolin...\" legible"
+      ]
+    },
+    {
+      "common_name": "MOUNTAIN CHICKADEE",
+      "scientific_name": "Parus gambeli",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/2/93",
+          "date_iso": "1993-07-02",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Date written beside the heading line; reading of \"7/2/93\" uncertain"
+      ]
+    },
+    {
+      "common_name": "MEXICAN CHICKADEE",
+      "scientific_name": "Parus sclateri",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BOREAL CHICKADEE",
+      "scientific_name": "Parus hudsonicus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "CHESTNUT-BACKED CHICKADEE",
+      "scientific_name": "Parus rufescens",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GRAY-HEADED CHICKADEE",
+      "scientific_name": "Parus cinctus",
+      "marked": false,
+      "illustration_circled": true,
+      "observations": [],
+      "notes": [
+        "A faint hand-drawn ellipse appears to enclose the top-left figure labelled GRAY-HEADED CHICKADEE; the line is indistinct"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "song usually whistles (cursive note in the middle column, wording uncertain)",
+    "Additional handwriting near the \"Black-capped\" song line including what may read \"BR. CREEK\" and a date ending in a year; too damaged/illegible to transcribe reliably"
+  ],
+  "confidence": "low"
+}

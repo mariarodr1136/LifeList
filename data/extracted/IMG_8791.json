@@ -1,0 +1,52 @@
+{
+  "image": "IMG_8791",
+  "page_numbers": [
+    58
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "OLDSQUAW",
+      "scientific_name": "Clángula hyemális",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "COMMON SCOTER",
+      "scientific_name": "Oidémia nigra",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WHITE-WINGED SCOTER",
+      "scientific_name": "Melanitta deglándi",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SURF SCOTER",
+      "scientific_name": "Melanitta perspicilláta",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/6/7?",
+          "date_iso": null,
+          "location": "Long Beach, Calif."
+        }
+      ],
+      "notes": [
+        "Date written in blue ballpoint above the SURF SCOTER heading; the first three characters read clearly as \"1/6/7\" but the final digit of the year is not legible enough to transcribe."
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

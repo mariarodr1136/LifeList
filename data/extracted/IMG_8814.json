@@ -1,0 +1,70 @@
+{
+  "image": "IMG_8814",
+  "page_numbers": [
+    104
+  ],
+  "page_type": "species_account",
+  "section_heading": "LARGE RAILS / GALLINULES",
+  "species": [
+    {
+      "common_name": "CLAPPER RAIL",
+      "scientific_name": "Rallus longirostris",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/10/79",
+          "date_iso": "1979-08-10",
+          "location": "Upper Newport Bay, Calif."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "KING RAIL",
+      "scientific_name": "Rallus elegans",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "COMMON GALLINULE",
+      "scientific_name": "Gallinula chloropus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/22/80",
+          "date_iso": "1980-10-22",
+          "location": "DAIRY MART RD. SAN DIEGO, CALIF."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "PURPLE GALLINULE",
+      "scientific_name": "Porphyrula martinica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "AMERICAN COOT",
+      "scientific_name": "Fulica americana",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "JANUARY 1973",
+          "date_iso": null,
+          "location": "UPPER NEWPORT BAY, CALIF."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

@@ -1,0 +1,83 @@
+{
+  "image": "IMG_8800",
+  "page_numbers": [
+    76
+  ],
+  "page_type": "species_account",
+  "section_heading": "OSPREYS; CARACARAS AND FALCONS",
+  "species": [
+    {
+      "common_name": "GOLDEN EAGLE",
+      "scientific_name": "Aquila chrysaetos",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "LATE 1960's",
+          "date_iso": null,
+          "location": "YELLOWSTONE NAT'L PARK"
+        },
+        {
+          "date_raw": "4/5/17",
+          "date_iso": "1917-04-05",
+          "location": null
+        }
+      ],
+      "notes": [
+        "\"4YRS TO MATURE 3-4\" written beside the range map (reading of the figures uncertain)",
+        "A short blue note under the heading, partly illegible: \"below 3...\" followed by two or three unreadable words",
+        "Beside the \"4/5/17\" date a word that appears to read \"adults\" (uncertain)",
+        "On the plate, near the GOLDEN EAGLE label: \"WNTL DIFF\" (abbreviation uncertain)",
+        "On the plate, beside the immature figure: a two-line cursive note beginning \"mottled...\" - remainder illegible"
+      ]
+    },
+    {
+      "common_name": "BALD EAGLE",
+      "scientific_name": "Haliaeetus leucocephalus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/21/79",
+          "date_iso": "1979-01-21",
+          "location": "LAKE MATTHEWS, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "OSPREY",
+      "scientific_name": "Pandion haliaetus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/26/17",
+          "date_iso": "1917-07-26",
+          "location": "EMERSON BEACH"
+        }
+      ],
+      "notes": [
+        "A second blue place name written above the heading, partly illegible - possibly \"FAIRFIELD BAY\" or similar; the date beside it is unclear"
+      ]
+    },
+    {
+      "common_name": "CARACARA",
+      "scientific_name": "Caracara cheriway",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "8/6/81",
+          "date_iso": "1981-08-06",
+          "location": "BENAVIDES, TEXAS"
+        }
+      ],
+      "notes": [
+        "Hand-drawn blue ellipses around the perched Caracara figures on the facing plate"
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

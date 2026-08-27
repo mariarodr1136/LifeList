@@ -1,0 +1,70 @@
+{
+  "image": "IMG_8836",
+  "page_numbers": [
+    148
+  ],
+  "page_type": "species_account",
+  "section_heading": "ALCIDS",
+  "species": [
+    {
+      "common_name": "RAZORBILL",
+      "scientific_name": "Alca torda",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "COMMON MURRE",
+      "scientific_name": "Uria aalge",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/14/82",
+          "date_iso": "1982-05-14",
+          "location": "PELAGIC TRIP OFF S. CRUZ"
+        }
+      ],
+      "notes": [
+        "Annotation in blue ballpoint written across the COMMON MURRE heading/text; reads approximately \"5/14/82 PELAGIC TRIP OFF S. CRUZ\" - the final place abbreviation (possibly \"S.D.\" or \"S. CRUZ\") is uncertain."
+      ]
+    },
+    {
+      "common_name": "THICK-BILLED MURRE",
+      "scientific_name": "Uria lomvia",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "DOVEKIE",
+      "scientific_name": "Plautus alle",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK GUILLEMOT",
+      "scientific_name": "Cepphus grylle",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "PIGEON GUILLEMOT",
+      "scientific_name": "Cepphus columba",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Faint handwriting on the plate near the top right, above the 'murre colony' illustration - illegible in this photograph"
+  ],
+  "confidence": "low"
+}

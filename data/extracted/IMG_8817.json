@@ -1,0 +1,55 @@
+{
+  "image": "IMG_8817",
+  "page_numbers": [
+    110
+  ],
+  "page_type": "species_account",
+  "section_heading": "PLOVERS",
+  "species": [
+    {
+      "common_name": "DOTTEREL",
+      "scientific_name": "Eudromias morinellus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "MOUNTAIN PLOVER",
+      "scientific_name": "Eupoda montana",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "AMERICAN GOLDEN PLOVER",
+      "scientific_name": "Pluvialis dominica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK-BELLIED PLOVER",
+      "scientific_name": "Squatarola squatarola",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "2/18/74",
+          "date_iso": "1974-02-18",
+          "location": "UPPER NEWPORT BAY"
+        }
+      ],
+      "notes": [
+        "Cursive marginal note in left margin, read as \"white rump in flight\" (wording uncertain, faint)",
+        "A hand-drawn ellipse encircles the rump/tail area of a flying bird on the facing plate"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "A second hand-drawn ellipse on the plate around the rump area of another flying plover figure - cannot be reliably tied to a single species"
+  ],
+  "confidence": "medium"
+}

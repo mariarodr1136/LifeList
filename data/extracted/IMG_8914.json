@@ -1,0 +1,60 @@
+{
+  "image": "IMG_8914",
+  "page_numbers": [
+    324
+  ],
+  "page_type": "species_account",
+  "section_heading": "LONGSPURS AND SNOW BUNTINGS",
+  "species": [
+    {
+      "common_name": "McCOWN'S LONGSPUR",
+      "scientific_name": "Rhynchophanes mccownii",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "CHESTNUT-COLLARED LONGSPUR",
+      "scientific_name": "Calcarius ornatus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LAPLAND LONGSPUR",
+      "scientific_name": "Calcarius lapponicus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SMITH'S LONGSPUR",
+      "scientific_name": "Calcarius pictus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SNOW BUNTING",
+      "scientific_name": "Plectrophenax nivalis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "McKAY'S BUNTING",
+      "scientific_name": "Plectrophenax hyperboreus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

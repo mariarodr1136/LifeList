@@ -1,0 +1,110 @@
+{
+  "image": "IMG_8888",
+  "page_numbers": [
+    170
+  ],
+  "page_type": "species_account",
+  "section_heading": "SWIFTS",
+  "species": [
+    {
+      "common_name": "BLACK SWIFT",
+      "scientific_name": "Cypseloides niger",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/9/87",
+          "date_iso": "1987-05-09",
+          "location": "PISMO MISSION VIEJO CALIF"
+        }
+      ],
+      "notes": [
+        "Handwriting above/beside the BLACK SWIFT heading is faint and partly illegible; the date reads as \"5/9/87\" (could be 5/9/82) and the place as \"PISMO MISSION VIEJO CALIF\" (wording uncertain)"
+      ]
+    },
+    {
+      "common_name": "CHIMNEY SWIFT",
+      "scientific_name": "Chaetura pelagica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "VAUX'S SWIFT",
+      "scientific_name": "Chaetura vauxi",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "4/8/73",
+          "date_iso": "1973-04-08",
+          "location": null
+        }
+      ],
+      "notes": [
+        "A faint date, read as \"4/8/73\", is written beside the VAUX'S SWIFT heading, followed by further words that are illegible"
+      ]
+    },
+    {
+      "common_name": "WHITE-THROATED SWIFT",
+      "scientific_name": "Aëronautes saxatalis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "6/1/73",
+          "date_iso": "1973-06-01",
+          "location": "BIG SUR CALIF"
+        }
+      ],
+      "notes": [
+        "Date read as \"6/1/73\" (could be 6/11/73); location written in block capitals as \"BIG SUR CALIF\""
+      ]
+    },
+    {
+      "common_name": "YELLOW-BREASTED CHAT",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "YELLOWTHROAT",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LOUISIANA WATERTHRUSH",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "NORTHERN WATERTHRUSH",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "OVENBIRD",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Pink/red underline beneath the VAUX'S SWIFT area of text"
+  ],
+  "confidence": "low"
+}

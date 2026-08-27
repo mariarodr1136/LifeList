@@ -1,0 +1,80 @@
+{
+  "image": "IMG_8835",
+  "page_numbers": [
+    146
+  ],
+  "page_type": "species_account",
+  "section_heading": "DARK-WINGED TERNS",
+  "species": [
+    {
+      "common_name": "BLACK TERN",
+      "scientific_name": "Chlidonias niger",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/23/80",
+          "date_iso": "1980-08-23",
+          "location": "SALTON SEA CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "SOOTY TERN",
+      "scientific_name": "Sterna fuscata",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ALEUTIAN TERN",
+      "scientific_name": "Sterna aleutica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BRIDLED TERN",
+      "scientific_name": "Sterna anaethetus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "NODDY TERN",
+      "scientific_name": "Anoüs stolidus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK NODDY TERN",
+      "scientific_name": "Anoüs tenuirostris",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK SKIMMER",
+      "scientific_name": "Rynchops nigra",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/26/80",
+          "date_iso": "1980-10-26",
+          "location": "IMPERIAL BEACH (13th ST) CALIF"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

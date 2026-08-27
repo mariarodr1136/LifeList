@@ -1,0 +1,121 @@
+{
+  "image": "IMG_8903",
+  "page_numbers": [
+    312
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "LARK BUNTING",
+      "scientific_name": "Calamospiza melanocorys",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Some faded blue handwriting crosses the printed Lark Bunting paragraph but is illegible"
+      ]
+    },
+    {
+      "common_name": "VESPER SPARROW",
+      "scientific_name": "Pooecetes gramineus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/23/7? (last digit unclear)",
+          "date_iso": null,
+          "location": "SANTA ISABEL, CALIF"
+        }
+      ],
+      "notes": [
+        "Word written beside the heading appears to read \"no reco...\" (possibly \"no record\"); uncertain",
+        "Additional blue writing above the heading is largely obscured; a partial date reading like \"MAY 27\" is uncertain"
+      ]
+    },
+    {
+      "common_name": "LARK SPARROW",
+      "scientific_name": "Chondestes grammacus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "9/9/73",
+          "date_iso": "1973-09-09",
+          "location": "LONG BEACH, CALIF"
+        },
+        {
+          "date_raw": "9/28/78",
+          "date_iso": "1978-09-28",
+          "location": null
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK-THROATED SPARROW",
+      "scientific_name": "Amphispiza bilineata",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/19/72 (uncertain)",
+          "date_iso": "1972-05-19",
+          "location": "PINEGROVE? CALIF (first word uncertain)"
+        },
+        {
+          "date_raw": "7/4/74",
+          "date_iso": "1974-07-04",
+          "location": "NOGALES ARIZONA"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "SAGE SPARROW",
+      "scientific_name": "Amphispiza belli",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "LAKE MATTHEWS, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "FIVE STRIPED SPARROW",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/4/74",
+          "date_iso": "1974-07-04",
+          "location": "\"ROADSIDE REST\" - NOGALES/PATAGONIA"
+        }
+      ],
+      "notes": [
+        "Entire entry is handwritten (species not printed in the guide)",
+        "\"2 pair known in U.S. One white stripe middle of head - one by each eye and two whisker stripes - Buff breast with black 'dot' in mid...\" (end of note runs off the page and is partly illegible)"
+      ]
+    },
+    {
+      "common_name": "MEXICAN JUNCO",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Printed on the facing plate only (L 5½\"); small handwritten words near this figure are illegible, one may read \"Yello...\" and another \"Twis...\""
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint handwritten words on the plate near the juncos, apparently field marks, too small/blurred to read reliably (possibly \"Yello...\", \"Twis...\", \"lig...\")",
+    "Blue handwriting on the right-hand plate over the Lark Sparrow / Black-throated Sparrow figures is obscured by the overlapping torn page and cannot be read"
+  ],
+  "confidence": "low"
+}

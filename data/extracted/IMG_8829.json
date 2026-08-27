@@ -1,0 +1,67 @@
+{
+  "image": "IMG_8829",
+  "page_numbers": [
+    134
+  ],
+  "page_type": "species_account",
+  "section_heading": "LARGE WHITE-HEADED GULLS",
+  "species": [
+    {
+      "common_name": "GREAT BLACK-BACKED GULL",
+      "scientific_name": "Larus marinus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WESTERN GULL",
+      "scientific_name": "Larus occidentalis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/10/80",
+          "date_iso": "1980-08-10",
+          "location": "DEL MAR, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "HERRING GULL",
+      "scientific_name": "Larus argentatus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "JUNE 1981",
+          "date_iso": null,
+          "location": "MONO LAKE"
+        }
+      ],
+      "notes": [
+        "A check mark appears beside the printed HERRING GULL heading next to the Mono Lake note"
+      ]
+    },
+    {
+      "common_name": "CALIFORNIA GULL",
+      "scientific_name": "Larus californicus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "JUNE 1981",
+          "date_iso": null,
+          "location": "BRIDGEPORT"
+        }
+      ],
+      "notes": [
+        "Common now (in red ink)",
+        "A further short note in red ink below the entry is illegible; it appears to end in \"Bays\" (possibly \"...Bays.\")"
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

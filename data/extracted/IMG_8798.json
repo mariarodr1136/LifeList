@@ -1,0 +1,64 @@
+{
+  "image": "IMG_8798",
+  "page_numbers": [
+    72
+  ],
+  "page_type": "species_account",
+  "section_heading": "BUTEOS",
+  "species": [
+    {
+      "common_name": "SWAINSON'S HAWK",
+      "scientific_name": "Buteo swainsoni",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/30/85",
+          "date_iso": "1985-05-30",
+          "location": "CLANCHA CREEK"
+        },
+        {
+          "date_raw": "4/6/95",
+          "date_iso": "1995-04-06",
+          "location": "RANCHO MISSION VIEJO"
+        }
+      ],
+      "notes": [
+        "\"(Rufous Phase)\" and \"(Light Phase)\" written in the top margin beside the location/date notes",
+        "Cursive \"Buteo swainsoni\" written in the upper right margin",
+        "Locations and dates are hard to read at this angle; \"CLANCHA CREEK\" and the two dates are uncertain readings"
+      ]
+    },
+    {
+      "common_name": "BROAD-WINGED HAWK",
+      "scientific_name": "Buteo platypterus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "HARLAN'S HAWK",
+      "scientific_name": "Buteo harlani",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "HARRIS' HAWK",
+      "scientific_name": "Parabuteo unicinctus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "A circled number in the top margin of p. 72, possibly \"375\" (uncertain)",
+    "On the plate, right-hand margin: cursive \"Band\" with a line to a tail band",
+    "On the plate, right-hand margin: \"white\" written twice with lines to the illustrations",
+    "On the plate, upper right: a short cursive phrase, largely illegible (possibly two words ending in \"...cheek\" or \"...circle\")"
+  ],
+  "confidence": "low"
+}

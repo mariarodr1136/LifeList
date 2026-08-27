@@ -1,0 +1,58 @@
+{
+  "image": "IMG_8777",
+  "page_numbers": [
+    30
+  ],
+  "page_type": "species_account",
+  "section_heading": "PELICANS AND THEIR ALLIES",
+  "species": [
+    {
+      "common_name": "RED-BILLED TROPICBIRD",
+      "scientific_name": "Phaëthon aethéreus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WHITE-TAILED TROPICBIRD",
+      "scientific_name": "Phaëthon leptúrus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BROWN PELICAN",
+      "scientific_name": "Pelecanus occidentális",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "11/11/74",
+          "date_iso": "1974-11-11",
+          "location": "Marina Del Rey, Calif."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "WHITE PELICAN",
+      "scientific_name": "Pelecanus erythrorhýnchos",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/18/74",
+          "date_iso": "1974-07-18",
+          "location": "Upper Newport Bay, Calif."
+        }
+      ],
+      "notes": [
+        "First digit of the date is smudged; read as '7' but could be a '2'."
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

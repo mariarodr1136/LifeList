@@ -1,0 +1,79 @@
+{
+  "image": "IMG_8859",
+  "page_numbers": [
+    200
+  ],
+  "page_type": "species_account",
+  "section_heading": "WESTERN EMPIDONAX FLYCATCHERS",
+  "species": [
+    {
+      "common_name": "HAMMOND'S FLYCATCHER",
+      "scientific_name": "Empidonax hammondii",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "4/25/7[?]",
+          "date_iso": null,
+          "location": null
+        }
+      ],
+      "notes": [
+        "Handwritten above the heading, partly illegible: \"MOST COMM. SAN DIEGO CNTY...\" (exact wording and the trailing words uncertain)"
+      ]
+    },
+    {
+      "common_name": "DUSKY FLYCATCHER",
+      "scientific_name": "Empidonax oberholseri",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GRAY FLYCATCHER",
+      "scientific_name": "Empidonax wrightii",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WESTERN FLYCATCHER",
+      "scientific_name": "Empidonax difficilis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/4/75",
+          "date_iso": "1975-05-04",
+          "location": "[?]RROYO ... CANY. (block-capital place name only partly legible)"
+        }
+      ],
+      "notes": [
+        "An X mark is pencilled/inked in the song–call grid beside this species' range map"
+      ]
+    },
+    {
+      "common_name": "BUFF-BREASTED FLYCATCHER",
+      "scientific_name": "Empidonax fulvifrons",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BEARDLESS FLYCATCHER",
+      "scientific_name": "Camptostoma imberbe",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Several cursive notes in blue ink across the facing plate, mostly illegible in this photo; legible fragments include \"...yellow...\" and \"...in conif...\"",
+    "Faint blue writing in the top margin of both pages, illegible"
+  ],
+  "confidence": "low"
+}

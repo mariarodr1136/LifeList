@@ -1,0 +1,74 @@
+{
+  "image": "IMG_8776",
+  "page_numbers": [
+    28
+  ],
+  "page_type": "species_account",
+  "section_heading": "STORM PETRELS",
+  "species": [
+    {
+      "common_name": "BLACK PETREL",
+      "scientific_name": "Loomelánia melánia",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "11/20/79",
+          "date_iso": "1979-11-20",
+          "location": "NEWPORT BEACH, CALIF."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "ASHY PETREL",
+      "scientific_name": "Oceanódroma homóchroa",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "FORK-TAILED PETREL",
+      "scientific_name": "Oceanódroma furcáta",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LEACH'S PETREL",
+      "scientific_name": "Oceanódroma leucórhoa",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WILSON'S PETREL",
+      "scientific_name": "Oceanites oceánicus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "HARCOURT'S PETREL",
+      "scientific_name": "Oceanódroma cástro",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LEAST PETREL",
+      "scientific_name": "Halocypténa microsóma",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

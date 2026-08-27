@@ -1,0 +1,72 @@
+{
+  "image": "IMG_8864",
+  "page_numbers": [
+    210
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "GRAY JAY",
+      "scientific_name": "Perisoreus canadensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GREEN JAY",
+      "scientific_name": "Cyanocorax yncas",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK-BILLED MAGPIE",
+      "scientific_name": "Pica pica",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "JUNE 18, 1974",
+          "date_iso": null,
+          "location": "BRUNEAU CANY? (first word illegible, possibly \"NORTH...\"; place reads roughly \"BRUNEAU CANYON\")"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "YELLOW-BILLED MAGPIE",
+      "scientific_name": "Pica nuttalli",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/5/75",
+          "date_iso": "1975-07-05",
+          "location": "STOCKTON, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "CLARK'S NUTCRACKER",
+      "scientific_name": "Nucifraga columbiana",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "9/1?/73 (day digit uncertain)",
+          "date_iso": null,
+          "location": "MT ---- (place name illegible, begins \"MT\")"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Cursive note in blue beside the range maps at the top of p. 210 — largely illegible, possibly a place name of two words"
+  ],
+  "confidence": "low"
+}

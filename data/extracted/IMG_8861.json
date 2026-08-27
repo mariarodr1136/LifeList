@@ -1,0 +1,123 @@
+{
+  "image": "IMG_8861",
+  "page_numbers": [],
+  "page_type": "species_account",
+  "section_heading": "SWALLOWS",
+  "species": [
+    {
+      "common_name": "BARN SWALLOW",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/3/74",
+          "date_iso": "1974-01-03",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Handwriting beside the BARN SWALLOW heading appears to read something like \"UPPER DELL W VA\" plus \"ALSO IN ... Nogales\" - largely illegible at this angle, place names uncertain"
+      ]
+    },
+    {
+      "common_name": "CLIFF SWALLOW",
+      "scientific_name": "Petrochelidon pyrrhonota",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "SUMMER 1974",
+          "date_iso": null,
+          "location": "STOCKTON"
+        },
+        {
+          "date_raw": "JUNE 5, 1974",
+          "date_iso": null,
+          "location": null
+        }
+      ],
+      "notes": [
+        "\"MIXED FLOCKS\" written in the margin next to the Cliff Swallow account/map",
+        "A further word above the June date looks like \"BALBOA\" or \"8410\" CREEK - illegible, not certain"
+      ]
+    },
+    {
+      "common_name": "CAVE SWALLOW",
+      "scientific_name": "Petrochelidon fulva",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "TREE SWALLOW",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ROUGH-WINGED SWALLOW",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "PURPLE MARTIN",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BANK SWALLOW",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Name appears only as a printed label/heading on the partly hidden facing page"
+      ]
+    },
+    {
+      "common_name": "Violet-green Swallow",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Visible only as the wing-pattern label \"Violet\" on the comparison strip at the plate edge"
+      ]
+    },
+    {
+      "common_name": "SKYLARK",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Printed on the partly visible LARKS page beneath the folded leaf"
+      ]
+    },
+    {
+      "common_name": "HORNED LARK",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Only \"...D LARK L 6½\" is legible on the folded-back page; identification of the species name is inferred from the partial label and is uncertain"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Cursive notes on the folded-back LARKS/swallow page are visible but too obscured to transcribe (fragments include words like \"white\", \"thousands of\", \"Coast in fall\")",
+    "A short cursive note at the lower right edge of the plate, possibly beginning \"very ...\" - illegible"
+  ],
+  "confidence": "low"
+}

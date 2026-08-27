@@ -1,0 +1,99 @@
+{
+  "image": "IMG_8821",
+  "page_numbers": [
+    118
+  ],
+  "page_type": "species_account",
+  "section_heading": "MEDIUM-SIZED WADERS",
+  "species": [
+    {
+      "common_name": "WILLET",
+      "scientific_name": "Catoptrophorus semipalmatus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "2/18/74",
+          "date_iso": "1974-02-18",
+          "location": "UPPER NEWPORT BAY"
+        }
+      ],
+      "notes": [
+        "Printed phrase \"diagnostic wing pattern\" underlined in ink",
+        "Printed phrase \"thicker bill\" underlined in ink"
+      ]
+    },
+    {
+      "common_name": "GREATER YELLOWLEGS",
+      "scientific_name": "Totanus melanoleucus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/1/74",
+          "date_iso": "1974-12-01",
+          "location": "Upper Newport Bay"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "LESSER YELLOWLEGS",
+      "scientific_name": "Totanus flavipes",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "STILT SANDPIPER",
+      "scientific_name": "Micropalama himantopus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SHORT-BILLED DOWITCHER",
+      "scientific_name": "Limnodromus griseus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/1/74",
+          "date_iso": "1974-12-01",
+          "location": "UPPER NEWPORT BAY, CALIF"
+        },
+        {
+          "date_raw": "8/11/74",
+          "date_iso": "1974-08-11",
+          "location": "Upper Newport Beach, calif"
+        }
+      ],
+      "notes": [
+        "Printed phrase \"long bill\" underlined in ink",
+        "Printed phrase \"other shorebirds\" underlined in ink",
+        "Cursive note written on the plate beside the Short-billed Dowitcher figures, largely illegible; possibly begins \"mostly to west ... this bird ...\" (uncertain)"
+      ]
+    },
+    {
+      "common_name": "LONG-BILLED DOWITCHER",
+      "scientific_name": "Limnodromus scolopaceus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/11/74",
+          "date_iso": "1974-08-11",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Cursive marginal note beside the heading, only partly legible; includes the word \"chunky\" and what may read \"not certainly\" (uncertain)",
+        "Further faint cursive words in the outer margin, illegible; possibly include \"wading\", \"back\" (uncertain)"
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

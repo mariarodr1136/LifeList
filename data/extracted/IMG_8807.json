@@ -1,0 +1,58 @@
+{
+  "image": "IMG_8807",
+  "page_numbers": [
+    90
+  ],
+  "page_type": "species_account",
+  "section_heading": "INTRODUCED GALLINACEOUS BIRDS",
+  "species": [
+    {
+      "common_name": "BOBWHITE",
+      "scientific_name": "Colinus virginianus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "CHUKAR",
+      "scientific_name": "Alectoris graeca",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "4/12/75",
+          "date_iso": "1975-04-12",
+          "location": "WESTGARD PASS OFF HWY 395, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "RING-NECKED PHEASANT",
+      "scientific_name": "Phasianus colchicus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "EARLY 1930's",
+          "date_iso": null,
+          "location": "FRESNO CALIF."
+        }
+      ],
+      "notes": [
+        "Date written as \"EARLY 19??'s\" - decade digits uncertain, read as 1930's"
+      ]
+    },
+    {
+      "common_name": "GRAY PARTRIDGE",
+      "scientific_name": "Perdix perdix",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

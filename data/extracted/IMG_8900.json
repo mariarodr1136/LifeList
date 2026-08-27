@@ -1,0 +1,87 @@
+{
+  "image": "IMG_8900",
+  "page_numbers": [
+    296
+  ],
+  "page_type": "species_account",
+  "section_heading": "RED FINCHES",
+  "species": [
+    {
+      "common_name": "PURPLE FINCH",
+      "scientific_name": "Carpodacus purpureus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/3/23",
+          "date_iso": "1923-07-03",
+          "location": "SODA SPRINGS, CALIF"
+        },
+        {
+          "date_raw": "7/24/?",
+          "date_iso": null,
+          "location": "[Squaw?] CALIF"
+        },
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "DONNER LAKE"
+        }
+      ],
+      "notes": [
+        "Top-of-page annotation reads \"SODA SPRINGS, CALIF 7/3/23\" (year could be 73) followed by \"7/24/\" and a partly illegible place, possibly \"Squaw ... Calif\"",
+        "A second line in blue over the printed text begins \"DONNER LAKE\" but the rest is illegible/obscured by tape residue",
+        "Further faint blue writing across the Purple Finch paragraph is illegible"
+      ]
+    },
+    {
+      "common_name": "CASSIN'S FINCH",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Several lines of faint blue handwriting run across the Cassin's Finch paragraph; only fragments are visible (a possible \"SODA SPRINGS\" and a date ending \"/74\") - too obscured by tape residue to transcribe reliably"
+      ]
+    },
+    {
+      "common_name": "HOUSF FINCH",
+      "scientific_name": "Carpodacus mexicanus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "?/?/73",
+          "date_iso": null,
+          "location": "... VALLEY, CALIF"
+        }
+      ],
+      "notes": [
+        "A handwritten \"X\" precedes the printed HOUSE FINCH heading",
+        "Annotation above the heading: first word illegible then \"VALLEY, CALIF\", with a date below ending in \"/73\"",
+        "A small handwritten mark that may read \"#4\" appears at the right end of that line"
+      ]
+    },
+    {
+      "common_name": "PINE GROSBEAK",
+      "scientific_name": "Pinicola enucleator",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "6/27/75",
+          "date_iso": "1975-06-27",
+          "location": "SODA SPRINGS, CALIF"
+        }
+      ],
+      "notes": [
+        "Year could be 75 or 76"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "A pink/red hand-drawn ellipse in the blank area of the plate, between the Cassin's Finch figures and the House Finch figures (does not clearly enclose a bird)",
+    "Faint blue handwriting scattered across the upper part of the plate near the Purple Finch figures - illegible"
+  ],
+  "confidence": "low"
+}

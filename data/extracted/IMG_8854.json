@@ -1,0 +1,88 @@
+{
+  "image": "IMG_8854",
+  "page_numbers": [
+    190
+  ],
+  "page_type": "species_account",
+  "section_heading": "COTINGAS",
+  "species": [
+    {
+      "common_name": "ROSE-THROATED BECARD",
+      "scientific_name": "Platypsaris aglaiae",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/4/9? (last digit unclear)",
+          "date_iso": null,
+          "location": "PATAGONIA"
+        }
+      ],
+      "notes": [
+        "Blue ballpoint above the heading, partly illegible: something like \"PATAGONIA REST\" followed by \"NO NESTS / PATAGONIA\" and a date; only \"PATAGONIA\" and \"NO NESTS\" are reasonably legible"
+      ]
+    },
+    {
+      "common_name": "TYRANT FLYCATCHERS",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SCISSOR-TAILED FLYCATCHER",
+      "scientific_name": "Muscivora forficata",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "6/11/8? (partly illegible)",
+          "date_iso": null,
+          "location": "HEBBRONVILLE, TEXAS"
+        }
+      ],
+      "notes": [
+        "Written in blue ballpoint beside the heading; the date digits are unclear"
+      ]
+    },
+    {
+      "common_name": "KISKADEE FLYCATCHER",
+      "scientific_name": "Pitangus sulphuratus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "VERMILION FLYCATCHER",
+      "scientific_name": "Pyrocephalus rubinus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "MORONGO VALLEY, CALIF."
+        }
+      ],
+      "notes": [
+        "An \"X\" mark in the margin beside the printed heading",
+        "Location written in blue ballpoint; no legible date"
+      ]
+    },
+    {
+      "common_name": "SULPHUR-BELLIED FLYCATCHER",
+      "scientific_name": "Myiodynastes luteiventris",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "\"much brighter\" in cursive on the plate near the upper-left figure",
+    "A short pencil/ink word on the plate near the \"im.\" label, illegible"
+  ],
+  "confidence": "low"
+}

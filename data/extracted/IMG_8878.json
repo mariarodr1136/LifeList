@@ -1,0 +1,78 @@
+{
+  "image": "IMG_8878",
+  "page_numbers": [
+    246,
+    242
+  ],
+  "page_type": "species_account",
+  "section_heading": "WING-BARRED VIREOS",
+  "species": [
+    {
+      "common_name": "WHITE-EYED VIREO",
+      "scientific_name": "Vireo griseus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BELL'S VIREO",
+      "scientific_name": "Vireo bellii",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Cursive note running beside/below the BELL'S VIREO paragraph, mostly illegible; appears to begin \"SOUTH FORK\" followed by further words and possibly a date that cannot be read"
+      ]
+    },
+    {
+      "common_name": "HUTTON'S VIREO",
+      "scientific_name": "Vireo huttoni",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "MISSION VIEJO"
+        }
+      ],
+      "notes": [
+        "Handwriting beside the HUTTON'S VIREO heading reads \"MISSION VIEJO\" (fairly clear) followed by further cursive words and what may be dates; the remainder is illegible in this photo"
+      ]
+    },
+    {
+      "common_name": "YELLOW-THROATED VIREO",
+      "scientific_name": "Vireo flavifrons",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "Pine Warbler",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Printed on plate as \"Pine Warbler for comparison\""
+      ]
+    },
+    {
+      "common_name": "Ruby-crowned Kinglet",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Printed on plate as \"Ruby-crowned Kinglet for comparison\""
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint handwriting inside the small graph grid at the top of the WHITE-EYED VIREO column, possibly a date; not legible",
+    "Faint blue ink marks/squiggles on the facing plate and in the gutter, plus writing showing through from the previous page; not legible"
+  ],
+  "confidence": "low"
+}

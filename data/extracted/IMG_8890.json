@@ -1,0 +1,98 @@
+{
+  "image": "IMG_8890",
+  "page_numbers": [
+    274
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "HOODED WARBLER",
+      "scientific_name": "Wilsonia citrina",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "6/25/8?",
+          "date_iso": null,
+          "location": "PONT LOMA, SAN DIEGO CA"
+        }
+      ],
+      "notes": [
+        "Date written at top of page above HOODED WARBLER heading; final digit of year and end of place name illegible (possibly \"POINT LOMA, SAN DIEGO CALIF\")"
+      ]
+    },
+    {
+      "common_name": "WILSON'S WARBLER",
+      "scientific_name": "Wilsonia pusilla",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "\"X\" inked immediately before the printed heading",
+        "cursive marginal words beside heading, partly legible: \"black cap\" and \"common warbler\" (rest illegible)",
+        "two short dates written vertically in the range-map margin, illegible (possibly \"3/14/7?\" and \"5/24/7?\")"
+      ]
+    },
+    {
+      "common_name": "CANADA WARBLER",
+      "scientific_name": "Wilsonia canadensis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "single cursive word beside the heading, illegible (possibly \"Eastern\")"
+      ]
+    },
+    {
+      "common_name": "RED-FACED WARBLER",
+      "scientific_name": "Cardellina rubrifrons",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/13/80",
+          "date_iso": "1980-08-13",
+          "location": "BEAR CANYON, ARIZ."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "AMERICAN REDSTART",
+      "scientific_name": "Setophaga ruticilla",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/25/80",
+          "date_iso": "1980-10-25",
+          "location": "POINT LOMA (SAN DIEGO CALIF-"
+        }
+      ],
+      "notes": [
+        "Place name written across the column; the parenthetical wording and its ending are uncertain"
+      ]
+    },
+    {
+      "common_name": "PAINTED REDSTART",
+      "scientific_name": "Setophaga picta",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/3/74",
+          "date_iso": "1974-07-03",
+          "location": null
+        }
+      ],
+      "notes": [
+        "A place name in capitals follows the date but is only partly legible, appearing to end \"...CANYON, ARIZONA\"; a further short cursive word/number follows and cannot be read"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "faint blue writing along the right edge of the colour plate, illegible"
+  ],
+  "confidence": "low"
+}

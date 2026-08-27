@@ -1,0 +1,58 @@
+{
+  "image": "IMG_8813",
+  "page_numbers": [
+    102
+  ],
+  "page_type": "species_account",
+  "section_heading": "SMALL RAILS",
+  "species": [
+    {
+      "common_name": "VIRGINIA RAIL",
+      "scientific_name": "Rallus limicola",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SORA",
+      "scientific_name": "Porzana carolina",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/19/75",
+          "date_iso": "1975-01-19",
+          "location": "MALIBU LAGOON CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "CORN CRAKE",
+      "scientific_name": "Crex crex",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "YELLOW RAIL",
+      "scientific_name": "Coturnicops noveboracensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK RAIL",
+      "scientific_name": "Laterallus jamaicensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

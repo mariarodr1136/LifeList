@@ -1,0 +1,70 @@
+{
+  "image": "IMG_8782",
+  "page_numbers": [
+    40
+  ],
+  "page_type": "species_account",
+  "section_heading": "GEESE",
+  "species": [
+    {
+      "common_name": "CANADA GOOSE",
+      "scientific_name": "Bránta canadénsis",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "2/18/74",
+          "date_iso": "1974-02-18",
+          "location": "UPPER NEWPORT BAY, CALIF"
+        }
+      ],
+      "notes": [
+        "printed phrase \"characteristic honking\" underlined in blue ballpoint"
+      ]
+    },
+    {
+      "common_name": "BRANT",
+      "scientific_name": "Bránta bérnicla",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK BRANT",
+      "scientific_name": "Bránta nigricans",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/4/82",
+          "date_iso": "1982-05-04",
+          "location": "DEL MAR, CALIF"
+        }
+      ],
+      "notes": [
+        "printed heading \"BLACK BRANT\" circled/underlined in blue ballpoint; the location word reads \"DEL MAR\" or possibly \"DEC MAR\" — the middle letter is not clearly legible"
+      ]
+    },
+    {
+      "common_name": "BARNACLE GOOSE",
+      "scientific_name": "Bránta leucópsis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "EMPEROR GOOSE",
+      "scientific_name": "Philácte canágica",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "printed phrase \"Sexes look alike\" in the GEESE introduction circled in blue ballpoint"
+  ],
+  "confidence": "medium"
+}

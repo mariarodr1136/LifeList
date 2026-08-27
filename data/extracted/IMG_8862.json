@@ -1,0 +1,101 @@
+{
+  "image": "IMG_8862",
+  "page_numbers": [
+    206
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "VIOLET-GREEN SWALLOW",
+      "scientific_name": "Tachycineta thalassina",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/2/74",
+          "date_iso": "1974-07-02",
+          "location": null
+        },
+        {
+          "date_raw": "5/25/8? (last digit unclear)",
+          "date_iso": null,
+          "location": "YOSEMITE N.P. (reading uncertain)"
+        }
+      ],
+      "notes": [
+        "Faint cursive annotation above the heading is only partly legible; a place name reading like \"Yosemite N.P.\" and a date are visible but cannot be read with certainty."
+      ]
+    },
+    {
+      "common_name": "TREE SWALLOW",
+      "scientific_name": "Iridoprocne bicolor",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "JUNE 17, 1974",
+          "date_iso": null,
+          "location": "SCOTT SPRING(S), COLO. (reading uncertain)"
+        },
+        {
+          "date_raw": "5/2/68 (uncertain)",
+          "date_iso": "1968-05-02",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Additional small vertical writing beside the range maps is illegible; a word that may read \"Kansas\" appears."
+      ]
+    },
+    {
+      "common_name": "BANK SWALLOW",
+      "scientific_name": "Riparia riparia",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ROUGH-WINGED SWALLOW",
+      "scientific_name": "Stelgidopteryx ruficollis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "JUNE 1?, 1966 (day uncertain)",
+          "date_iso": null,
+          "location": "BELOW LOWER ... (rest illegible)"
+        },
+        {
+          "date_raw": "8/5/72 (uncertain)",
+          "date_iso": "1972-08-05",
+          "location": null
+        }
+      ],
+      "notes": [
+        "A number that may read \"355\" is written next to the date line."
+      ]
+    },
+    {
+      "common_name": "PURPLE MARTIN",
+      "scientific_name": "Progne subis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "APRIL 1973",
+          "date_iso": null,
+          "location": "LAKE THUNDERBIRD, OKLAHOMA"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Small cursive words written on the plate beside the VIOLET-GREEN SWALLOW figure, possibly \"violet metallic\" (uncertain)",
+    "Faint cursive words on the plate beside the PURPLE MARTIN silhouette column, illegible",
+    "Pencil/pen scribbles over the perched swallow figures at upper right of the plate"
+  ],
+  "confidence": "low"
+}

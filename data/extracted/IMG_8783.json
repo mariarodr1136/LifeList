@@ -1,0 +1,54 @@
+{
+  "image": "IMG_8783",
+  "page_numbers": [
+    42
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "WHITE-FRONTED GOOSE",
+      "scientific_name": "Ánser álbifrons",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [],
+      "notes": [
+        "Hand-drawn ellipse on the plate around the legs/feet of the standing adult White-fronted Goose (no words written with it)"
+      ]
+    },
+    {
+      "common_name": "BLUE GOOSE",
+      "scientific_name": "Chén caeruléscens",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SNOW GOOSE",
+      "scientific_name": "Chén hyperbórea",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/19/75",
+          "date_iso": "1975-01-19",
+          "location": "Malibu Lagoon Calif."
+        }
+      ],
+      "notes": [
+        "Written in blue ballpoint cursive on the line directly above the SNOW GOOSE heading; the place name is not fully crisp in the photo but reads as \"Malibu Lagoon Calif.\""
+      ]
+    },
+    {
+      "common_name": "ROSS' GOOSE",
+      "scientific_name": "Chén róssii",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

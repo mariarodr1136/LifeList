@@ -1,0 +1,44 @@
+{
+  "image": "IMG_8828",
+  "page_numbers": [
+    132
+  ],
+  "page_type": "species_account",
+  "section_heading": "GULLS",
+  "species": [
+    {
+      "common_name": "IVORY GULL",
+      "scientific_name": "Pagophila eburnea",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GLAUCOUS GULL",
+      "scientific_name": "Larus hyperboreus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ICELAND GULL",
+      "scientific_name": "Larus glaucoides",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GLAUCOUS-WINGED GULL",
+      "scientific_name": "Larus glaucescens",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "high"
+}

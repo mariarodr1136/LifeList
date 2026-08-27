@@ -1,0 +1,50 @@
+{
+  "image": "IMG_8795",
+  "page_numbers": [
+    66
+  ],
+  "page_type": "species_account",
+  "section_heading": "KITES",
+  "species": [
+    {
+      "common_name": "WHITE-TAILED KITE",
+      "scientific_name": "Elanus leucurus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/11/76",
+          "date_iso": "1976-01-11",
+          "location": "OCEANSIDE CALIF."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "MISSISSIPPI KITE",
+      "scientific_name": "Ictinia misisippiensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SWALLOW-TAILED KITE",
+      "scientific_name": "Elanoides forficatus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "EVERGLADE KITE",
+      "scientific_name": "Rostrhamus sociabilis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

@@ -1,0 +1,69 @@
+{
+  "image": "IMG_8875",
+  "page_numbers": [
+    232
+  ],
+  "page_type": "species_account",
+  "section_heading": "SPOTTED-BREASTED THRUSHES",
+  "species": [
+    {
+      "common_name": "WOOD THRUSH",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "CAMBRIA, CA"
+        }
+      ],
+      "notes": [
+        "Handwriting near the WOOD THRUSH heading is badly smeared/faded; legible fragments are \"CAMBRIA CA\" and a second word beginning \"TRANC\" or \"TRANQU\" — remainder illegible."
+      ]
+    },
+    {
+      "common_name": "HERMIT THRUSH",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Printed heading is mostly obscured by damage/tape — only \"...RUSH\" and the italic genus beginning \"Hyloc...\" are visible; identification of the account as Hermit Thrush is inferred from the printed text and is uncertain."
+      ]
+    },
+    {
+      "common_name": "WESTERN BLUEBIRD",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Printed heading largely obscured; only \"ern Bluebird\" legible in the paragraph. Plate label reads \"WESTERN BLUEBIRD L 5½\"\"."
+      ]
+    },
+    {
+      "common_name": "MOUNTAIN BLUEBIRD",
+      "scientific_name": "Sialia currucoides",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/26/73",
+          "date_iso": "1973-05-26",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Date \"5/26/73\" written in ink directly after the printed MOUNTAIN BLUEBIRD heading.",
+        "Plate label reads \"MOUNTAIN BLUEBIRD L 6\"\" with a figure marked \"hovering\"."
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "\"...NES CALIF\" (place name partly illegible, written in the middle of the text column)",
+    "\"JUNE 18\" or \"JUNE 1?\" (rest of date illegible)",
+    "\"SO?? ???NUS, CALIF\" — place name largely illegible, written low in the text column"
+  ],
+  "confidence": "low"
+}

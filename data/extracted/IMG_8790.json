@@ -1,0 +1,44 @@
+{
+  "image": "IMG_8790",
+  "page_numbers": [
+    56
+  ],
+  "page_type": "species_account",
+  "section_heading": "EIDERS",
+  "species": [
+    {
+      "common_name": "COMMON EIDER",
+      "scientific_name": "Somatéria mollissima",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "KING EIDER",
+      "scientific_name": "Somatéria spectábilis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SPECTACLED EIDER",
+      "scientific_name": "Lampronétta fischeri",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "STELLER'S EIDER",
+      "scientific_name": "Polysticta stélleri",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "high"
+}

@@ -1,0 +1,50 @@
+{
+  "image": "IMG_8787",
+  "page_numbers": [
+    50
+  ],
+  "page_type": "species_account",
+  "section_heading": "TREE DUCKS",
+  "species": [
+    {
+      "common_name": "WOOD DUCK",
+      "scientific_name": "Aix spónsa",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/27/73",
+          "date_iso": "1973-05-27",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Annotation at top margin above the WOOD DUCK heading begins with a handwritten \"?\" followed by a block-capital place name that is too small and blurred to read (something like \"POLI...H...S\"), then the date 5/27/73. Only the date and the leading question mark are legible with confidence."
+      ]
+    },
+    {
+      "common_name": "FULVOUS TREE DUCK",
+      "scientific_name": "Dendrocygna bicolor",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/9/81",
+          "date_iso": "1981-05-09",
+          "location": "SAN DIEGO, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK-BELLIED TREE DUCK",
+      "scientific_name": "Dendrocygna autumnális",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

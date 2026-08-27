@@ -1,0 +1,60 @@
+{
+  "image": "IMG_8778",
+  "page_numbers": [
+    32
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "MAGNIFICENT FRIGATEBIRD",
+      "scientific_name": "Fregáta magníficens",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "4/6/79",
+          "date_iso": "1979-04-06",
+          "location": "MAZATLAN, MEX."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "GANNET",
+      "scientific_name": "Mórus bassánus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLUE-FACED BOOBY",
+      "scientific_name": "Súla dactylátra",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BROWN BOOBY",
+      "scientific_name": "Súla leucogáster",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLUE-FOOTED BOOBY",
+      "scientific_name": "Súla nebouxii",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "faint blue cursive word on the plate just left of the BLUE-FOOTED BOOBY label; largely illegible at this resolution, possibly a place name beginning with 'M' — not transcribed with confidence"
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

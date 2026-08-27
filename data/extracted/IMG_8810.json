@@ -1,0 +1,47 @@
+{
+  "image": "IMG_8810",
+  "page_numbers": [
+    96
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "BLACK-CROWNED NIGHT HERON",
+      "scientific_name": "Nycticorax nycticorax",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "YELLOW-CROWNED NIGHT HERON",
+      "scientific_name": "Nyctanassa violacea",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "AMERICAN BITTERN",
+      "scientific_name": "Botaurus lentiginosus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LEAST BITTERN",
+      "scientific_name": "Ixobrychus exilis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Blue ballpoint in the left-hand text columns (between the AMERICAN BITTERN and LEAST BITTERN accounts, cannot be tied reliably to one heading): a date reading roughly \"19/1/70\" (digits uncertain) followed by \"Upper Newport Bay, Cal\"",
+    "Blue ballpoint cursive on the facing colour plate, beside the immature night heron figures: two short lines, the lower one appears to read \"Neck down\"; the upper line is illegible"
+  ],
+  "confidence": "low"
+}

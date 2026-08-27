@@ -1,0 +1,114 @@
+{
+  "image": "IMG_8882",
+  "page_numbers": [],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "OVENBIRD",
+      "scientific_name": "Seiurus aurocapillus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "NORTHERN WATERTHRUSH",
+      "scientific_name": "Seiurus noveboracensis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "LOUISIANA WATERTHRUSH",
+      "scientific_name": "Seiurus motacilla",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "LAKEVIEW"
+        }
+      ],
+      "notes": [
+        "Faint pencil/ink writing beside the heading reading \"LAKEVIEW\" followed by a date that is largely illegible (possibly a day/month/year, digits unclear)"
+      ]
+    },
+    {
+      "common_name": "YELLOWTHROAT",
+      "scientific_name": "Geothlypis trichas",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "YELLOW-BREASTED CHAT",
+      "scientific_name": "Icteria virens",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/4/74",
+          "date_iso": "1974-07-04",
+          "location": "AUDUBON SANCTUARY - PATAGONIA, ARIZ"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "ROADRUNNER",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GROOVE-BILLED ANI",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SMOOTH-BILLED ANI",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLACK-BILLED CUCKOO",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "YELLOW-BILLED CUCKOO",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "MANGROVE CUCKOO",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Numerous small hand-drawn tick/tally marks in the seasonal-occurrence graphs at the top of the left page, including the Yellow-breasted Chat graph column"
+  ],
+  "confidence": "low"
+}

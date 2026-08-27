@@ -1,0 +1,56 @@
+{
+  "image": "IMG_8771",
+  "page_numbers": [
+    18
+  ],
+  "page_type": "species_account",
+  "section_heading": "LOONS",
+  "species": [
+    {
+      "common_name": "COMMON LOON",
+      "scientific_name": "Gávia immer",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "2/7/82",
+          "date_iso": "1982-02-07",
+          "location": "AGUA HEDIONDA LAGOON, CARLSBAD CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "YELLOW-BILLED LOON",
+      "scientific_name": "Gávia ádamsii",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ARCTIC LOON",
+      "scientific_name": "Gávia árctica",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/16/82",
+          "date_iso": "1982-05-16",
+          "location": "PELAGIC TRIP OFF S.D. CALIF."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "RED-THROATED LOON",
+      "scientific_name": "Gávia stelláta",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

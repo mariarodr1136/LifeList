@@ -1,0 +1,88 @@
+{
+  "image": "IMG_8876",
+  "page_numbers": [
+    236
+  ],
+  "page_type": "species_account",
+  "section_heading": "GNATCATCHERS AND KINGLETS",
+  "species": [
+    {
+      "common_name": "BLUE-GRAY GNATCATCHER",
+      "scientific_name": "Polioptila caerulea",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "LAKE MATTHEWS"
+        }
+      ],
+      "notes": [
+        "Written beside the sighting line: \"CALIF.\" (abbreviation uncertain)",
+        "Cursive note on the plate beside the Blue-gray Gnatcatcher figures, only partly legible: \"...breast...\" (remainder illegible)"
+      ]
+    },
+    {
+      "common_name": "BLACK-TAILED GNATCATCHER",
+      "scientific_name": "Polioptila melanura",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/3",
+          "date_iso": null,
+          "location": null
+        }
+      ],
+      "notes": [
+        "A short handwritten date-like mark \"7/3\" beside the heading, plus an adjacent cursive word that is illegible"
+      ]
+    },
+    {
+      "common_name": "GOLDEN-CROWNED KINGLET",
+      "scientific_name": "Regulus satrapa",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/6/85",
+          "date_iso": "1985-10-06",
+          "location": null
+        }
+      ],
+      "notes": [
+        "Handwritten line beside the heading is only partly legible; appears to read a date such as \"6/2/85\" followed by \"...LAKE PARK 10/6/85\" — place name uncertain"
+      ]
+    },
+    {
+      "common_name": "RUBY-CROWNED KINGLET",
+      "scientific_name": "Regulus calendula",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": null,
+          "date_iso": null,
+          "location": "YOSEMITE"
+        }
+      ],
+      "notes": [
+        "Handwriting beside the heading reads \"YOSEMITE\" followed by an illegible word (possibly NAT'L PARK) and a date that cannot be read with confidence"
+      ]
+    },
+    {
+      "common_name": "ARCTIC WARBLER",
+      "scientific_name": "Phylloscopus borealis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Vertical cursive note written across the range maps at the top of p. 236, largely illegible (appears to mention \"eye ring\" and \"white\")",
+    "Small cursive note on the plate near the upper gnatcatcher figures, illegible"
+  ],
+  "confidence": "low"
+}

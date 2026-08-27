@@ -1,0 +1,36 @@
+{
+  "image": "IMG_8781",
+  "page_numbers": [
+    38
+  ],
+  "page_type": "species_account",
+  "section_heading": "SWANS",
+  "species": [
+    {
+      "common_name": "MUTE SWAN",
+      "scientific_name": "Cýgnus ólor",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WHISTLING SWAN",
+      "scientific_name": "Ólor columbiánus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "TRUMPETER SWAN",
+      "scientific_name": "Ólor buccinátor",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

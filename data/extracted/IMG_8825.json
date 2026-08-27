@@ -1,0 +1,88 @@
+{
+  "image": "IMG_8825",
+  "page_numbers": [
+    126,
+    129
+  ],
+  "page_type": "species_account",
+  "section_heading": "PHALAROPES",
+  "species": [
+    {
+      "common_name": "WILSON'S PHALAROPE",
+      "scientific_name": "Steganopus tricolor",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/25/82",
+          "date_iso": "1982-08-25",
+          "location": "COLORADO RIVER, GRAND CANYON, ARIZ"
+        }
+      ],
+      "notes": [
+        "Location written in block capitals beside the WILSON'S PHALAROPE heading; \"ARIZ\" abbreviation as written."
+      ]
+    },
+    {
+      "common_name": "RED PHALAROPE",
+      "scientific_name": "Phalaropus fulicarius",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "8/30/85",
+          "date_iso": "1985-08-30",
+          "location": "PACIFIC TRIP OFF S.D. CALIF."
+        }
+      ],
+      "notes": [
+        "This annotation sits in the gap between the RED PHALAROPE and NORTHERN PHALAROPE headings, so the species it belongs to is not certain."
+      ]
+    },
+    {
+      "common_name": "NORTHERN PHALAROPE",
+      "scientific_name": "Lobipes lobatus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "3/14/82",
+          "date_iso": "1982-03-14",
+          "location": "CARLSBAD CALIF."
+        }
+      ],
+      "notes": [
+        "\"CARLSBAD CALIF.\" with \"3/14/82\" is written in the margin between the RED PHALAROPE and NORTHERN PHALAROPE headings; assignment to Northern Phalarope is uncertain."
+      ]
+    },
+    {
+      "common_name": "AMERICAN WOODCOCK",
+      "scientific_name": "Philohela minor",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "COMMON SNIPE",
+      "scientific_name": "Capella gallinago",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "LAKESIDE CALIF."
+        }
+      ],
+      "notes": [
+        "Written in blue below/beside the COMMON SNIPE heading; the place name reads \"LAKESIDE CALIF.\" (first word slightly unclear)."
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "A short word in blue ink at the top outer corner of p. 126 (possibly \"peeps\"), too faint/angled to read with certainty",
+    "Printed section heading WOODCOCK AND SNIPE (Family Scolopacidae) carries no handwriting"
+  ],
+  "confidence": "medium"
+}

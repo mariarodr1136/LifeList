@@ -1,0 +1,52 @@
+{
+  "image": "IMG_8889",
+  "page_numbers": [
+    272
+  ],
+  "page_type": "species_account",
+  "section_heading": "OPORORNIS WARBLERS",
+  "species": [
+    {
+      "common_name": "KENTUCKY WARBLER",
+      "scientific_name": "Oporornis formosus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "MACGILLIVRAY'S WARBLER",
+      "scientific_name": "Oporornis tolmiei",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "MOURNING WARBLER",
+      "scientific_name": "Oporornis philadelphia",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "CONNECTICUT WARBLER",
+      "scientific_name": "Oporornis agilis",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/19/58",
+          "date_iso": "1958-10-19",
+          "location": "POINT LOMA, SAN DIEGO, CALIF"
+        }
+      ],
+      "notes": [
+        "Date and place written in blue ballpoint beside/above the CONNECTICUT WARBLER heading; year digits partly unclear (reads 10/19/58, possibly 10/19/68)"
+      ]
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

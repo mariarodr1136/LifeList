@@ -1,0 +1,70 @@
+{
+  "image": "IMG_8897",
+  "page_numbers": [
+    288
+  ],
+  "page_type": "species_account",
+  "section_heading": "TANAGERS",
+  "species": [
+    {
+      "common_name": "WESTERN TANAGER",
+      "scientific_name": "Piranga ludoviciana",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SCARLET TANAGER",
+      "scientific_name": "Piranga olivacea",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SUMMER TANAGER",
+      "scientific_name": "Piranga rubra",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/4/74",
+          "date_iso": "1974-07-04",
+          "location": "AUDUBON SANCTUARY - PATAGONIA, ARIZ"
+        }
+      ],
+      "notes": [
+        "This location/date is written at the foot of the Scarlet Tanager paragraph, immediately above the SUMMER TANAGER heading; attribution to Summer Tanager is probable but not certain."
+      ]
+    },
+    {
+      "common_name": "HEPATIC TANAGER",
+      "scientific_name": "Piranga flava",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "7/4/74",
+          "date_iso": "1974-07-04",
+          "location": "?ISLER'S PARK, CAVE CREEK, ARIZONA"
+        }
+      ],
+      "notes": [
+        "First word of the place name is unclear (possibly \"PAISLEY'S\" or \"WISTLER'S\"); written at the end of the Summer Tanager text just above the HEPATIC TANAGER heading, so the species attribution is uncertain."
+      ]
+    },
+    {
+      "common_name": "BLUE-GRAY TANAGER",
+      "scientific_name": "Thraupis virens",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Faint illegible pencil/ink writing across the range-map column at the top of the page"
+  ],
+  "confidence": "low"
+}

@@ -1,0 +1,93 @@
+{
+  "image": "IMG_8786",
+  "page_numbers": [
+    48
+  ],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "SHOVELER",
+      "scientific_name": "Spátula clypeáta",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/19/75",
+          "date_iso": "1975-01-19",
+          "location": "CASPER ROAD, OXNARD, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "BLUE-WINGED TEAL",
+      "scientific_name": "Ánas discors",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "2/18/74",
+          "date_iso": "1974-02-18",
+          "location": "UPPER NEWPORT BAY"
+        }
+      ],
+      "notes": [
+        "never see male (cursive note on the plate beside the female Blue-winged Teal; wording partly illegible)"
+      ]
+    },
+    {
+      "common_name": "CINNAMON TEAL",
+      "scientific_name": "Anas cyanóptera",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "12/11/74",
+          "date_iso": "1974-12-11",
+          "location": "BOLSA CHICA, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "GREEN-WINGED TEAL",
+      "scientific_name": "Ánas carolinénsis",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "1/27/74",
+          "date_iso": "1974-01-27",
+          "location": "LAKE MATTHEWS, CALIF"
+        }
+      ],
+      "notes": [
+        "Ink ellipse drawn on the swimming male's flank, around the vertical white side stripe"
+      ]
+    },
+    {
+      "common_name": "COMMON TEAL",
+      "scientific_name": "Ánas crécca",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BAIKAL TEAL",
+      "scientific_name": "Ánas formósa",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "white — written on the plate above the BLUE-WINGED TEAL label with a leader line running up toward the drake above it; cannot tell which figure it refers to",
+    "A short word at the end of a long ink arrow drawn down-left from the swimming female on the plate; illegible (possibly 'Seine' or 'female')",
+    "Vertical cursive in the left margin beside the second range map, reading approximately 'Bolsa Chica' with '12/1' below it; too small and faint to read with certainty",
+    "Blue ink loop drawn across the southwest portion of the top (Shoveler) range map"
+  ],
+  "confidence": "medium"
+}

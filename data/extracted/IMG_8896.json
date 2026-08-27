@@ -1,0 +1,67 @@
+{
+  "image": "IMG_8896",
+  "page_numbers": [
+    288
+  ],
+  "page_type": "species_account",
+  "section_heading": "TANAGERS",
+  "species": [
+    {
+      "common_name": "WESTERN TANAGER",
+      "scientific_name": "Piranga ludoviciana",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SCARLET TANAGER",
+      "scientific_name": "Piranga olivacea",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BULLOCK'S ORIOLE",
+      "scientific_name": "Icterus bullockii",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Faded blue cursive writing runs across the printed BULLOCK'S ORIOLE account, but the page is torn away at that point and the words are illegible in this photo"
+      ]
+    },
+    {
+      "common_name": "LICHTENSTEIN'S ORIOLE",
+      "scientific_name": "Icterus gularis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SPOTTED-BREASTED ORIOLE",
+      "scientific_name": "Icterus pectoralis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "BLUE-GRAY TANAGER",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Only partially visible on the plate as \"...-GRAY TANAGER L 6\\\"\" at the torn lower edge"
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Illegible faded blue cursive over the middle of the text column, near the BULLOCK'S ORIOLE entry (page torn here)",
+    "Faint pencil/ink marks in the top margin above the range maps, not legible"
+  ],
+  "confidence": "low"
+}

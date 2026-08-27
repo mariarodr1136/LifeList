@@ -1,0 +1,65 @@
+{
+  "image": "IMG_8845",
+  "page_numbers": [
+    174
+  ],
+  "page_type": "species_account",
+  "section_heading": "HUMMINGBIRDS",
+  "species": [
+    {
+      "common_name": "COSTA'S HUMMINGBIRD",
+      "scientific_name": "Calypte costae",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "6/30/17 (digits uncertain, could be 6/30/77)",
+          "date_iso": "1917-06-30",
+          "location": "SODA SPRINGS, CALIF."
+        }
+      ],
+      "notes": [
+        "A further handwritten place name in block capitals appears above the heading, ending \"...CALIF\" - too faint/angled to read fully"
+      ]
+    },
+    {
+      "common_name": "RUFOUS HUMMINGBIRD",
+      "scientific_name": "Selasphorus rufus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "ALLEN'S HUMMINGBIRD",
+      "scientific_name": "Selasphorus sasin",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "illegible date preceding the location (looks like a day/month/year in blue ink)",
+          "date_iso": null,
+          "location": "LAGUNA BEACH, CALIF."
+        }
+      ],
+      "notes": [
+        "Hand-drawn ellipse encircles the male ALLEN'S HUMMINGBIRD figure on the facing plate"
+      ]
+    },
+    {
+      "common_name": "BROAD-BILLED HUMMINGBIRD",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": [
+        "Printed on the plate only; label partly obscured, reads \"...BIRD 3¼\\\"\""
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint cursive writing at the top of the plate near the SOUTHWEST heading - illegible",
+    "Small blue ink marks near the \"Rufous display flight\" diagram - illegible"
+  ],
+  "confidence": "low"
+}

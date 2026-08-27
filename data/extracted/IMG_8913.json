@@ -1,0 +1,63 @@
+{
+  "image": "IMG_8913",
+  "page_numbers": [
+    322
+  ],
+  "page_type": "species_account",
+  "section_heading": "FOX AND ROUND-TAILED SPARROWS",
+  "species": [
+    {
+      "common_name": "FOX SPARROW",
+      "scientific_name": null,
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "71",
+          "date_iso": null,
+          "location": "(illegible) Springs, Colo."
+        }
+      ],
+      "notes": [
+        "Cursive annotation above the FOX SPARROW heading; only \"...Springs, Colo\" and what appears to be \"71\" are legible - the first word(s) are illegible."
+      ]
+    },
+    {
+      "common_name": "LINCOLN'S SPARROW",
+      "scientific_name": "Melospiza lincolnii",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SWAMP SPARROW",
+      "scientific_name": "Melospiza georgiana",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "SONG SPARROW",
+      "scientific_name": "Melospiza melodia",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1/27/75",
+          "date_iso": "1975-01-27",
+          "location": "LAGUNITAS, CALIF"
+        }
+      ],
+      "notes": [
+        "Block-capital location written just below/beside the SONG SPARROW heading; place name reading \"LAGUNITAS, CALIF\" is uncertain."
+      ]
+    }
+  ],
+  "unattached_annotations": [
+    "Faint cursive word written on the plate near the \"gray race\" figure - illegible",
+    "Faint pencil/ink writing on the plate to the right of the Fox Sparrow figures - illegible"
+  ],
+  "confidence": "low"
+}

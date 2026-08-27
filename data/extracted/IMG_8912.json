@@ -1,0 +1,56 @@
+{
+  "image": "IMG_8912",
+  "page_numbers": [
+    320
+  ],
+  "page_type": "species_account",
+  "section_heading": "CROWNED SPARROWS",
+  "species": [
+    {
+      "common_name": "HARRIS' SPARROW",
+      "scientific_name": "Zonotrichia querula",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "WHITE-CROWNED SPARROW",
+      "scientific_name": "Zonotrichia leucophrys",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/6/73",
+          "date_iso": "1973-10-06",
+          "location": "YOSEMITE"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "GOLDEN-CROWNED SPARROW",
+      "scientific_name": "Zonotrichia atricapilla",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/25/80",
+          "date_iso": "1980-10-25",
+          "location": "POINT LOMA SAN DIEGO, CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "WHITE-THROATED SPARROW",
+      "scientific_name": "Zonotrichia albicollis",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "medium"
+}

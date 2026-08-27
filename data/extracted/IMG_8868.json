@@ -1,0 +1,43 @@
+{
+  "image": "IMG_8868",
+  "page_numbers": [],
+  "page_type": "species_account",
+  "section_heading": "BULBULS (Family Pycnono...)",
+  "species": [
+    {
+      "common_name": "RED-WHISKERED BULBUL",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "DIPPER",
+      "scientific_name": "Cinclus mexicanu(s)",
+      "marked": true,
+      "illustration_circled": true,
+      "observations": [
+        {
+          "date_raw": "JUNE 17, 197?",
+          "date_iso": null,
+          "location": "THE PALISADES SODA SPRINGS CREEK"
+        }
+      ],
+      "notes": [
+        "WATER OUZEL",
+        "Date year partly obscured/illegible (appears to be 1974); a leading mark that may read \"'11\" precedes \"THE PALISADES\""
+      ]
+    },
+    {
+      "common_name": "WREN (name partly hidden by hand on plate, \"WRE... L 5 1/4\\\"\")",
+      "scientific_name": null,
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [],
+  "confidence": "low"
+}

@@ -1,0 +1,101 @@
+{
+  "image": "IMG_8839",
+  "page_numbers": [
+    154
+  ],
+  "page_type": "species_account",
+  "section_heading": "PIGEONS AND DOVES",
+  "species": [
+    {
+      "common_name": "BAND-TAILED PIGEON",
+      "scientific_name": "Columba fasciata",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "10/6/93",
+          "date_iso": "1993-10-06",
+          "location": "YOSEMITE"
+        }
+      ],
+      "notes": [
+        "A short cursive word is written under \"YOSEMITE\" that I cannot read with confidence (possibly \"Pacific\" or \"backyard\")",
+        "The year in the date is uncertain - could read 10/6/93, 10/6/73 or 10/6/53"
+      ]
+    },
+    {
+      "common_name": "ROCK DOVE",
+      "scientific_name": "Columba livia",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "late 1940s",
+          "date_iso": null,
+          "location": "SAN FRANCISCO"
+        }
+      ],
+      "notes": [
+        "A figure that appears to read \"1976\" is written in the same cluster as \"SAN FRANCISCO\"; its attachment is uncertain"
+      ]
+    },
+    {
+      "common_name": "WHITE-WINGED DOVE",
+      "scientific_name": "Zenaida asiatica",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1978",
+          "date_iso": null,
+          "location": "YUMA, ARIZONA"
+        }
+      ],
+      "notes": [
+        "Year could possibly read 1970 rather than 1978 - handwriting is small and angled"
+      ]
+    },
+    {
+      "common_name": "MOURNING DOVE",
+      "scientific_name": "Zenaidura macroura",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "1970",
+          "date_iso": null,
+          "location": "YUMA, ARIZONA"
+        },
+        {
+          "date_raw": "1976",
+          "date_iso": null,
+          "location": "LAGUNA BEACH"
+        }
+      ],
+      "notes": [
+        "\"1.970\" is written immediately beside the printed MOURNING DOVE heading",
+        "The \"LAGUNA BEACH\" / \"1976\" entry sits between the Rock Dove and Mourning Dove columns, so its attachment is uncertain"
+      ]
+    },
+    {
+      "common_name": "WHITE-CROWNED PIGEON",
+      "scientific_name": "Columba leucocephala",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "RED-BILLED PIGEON",
+      "scientific_name": "Columba flavirostris",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "A dense cluster of blue ballpoint place-names and dates is written down the middle of the text column; several words are only partly legible at this angle"
+  ],
+  "confidence": "low"
+}

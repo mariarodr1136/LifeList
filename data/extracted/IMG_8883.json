@@ -1,0 +1,64 @@
+{
+  "image": "IMG_8883",
+  "page_numbers": [],
+  "page_type": "species_account",
+  "section_heading": null,
+  "species": [
+    {
+      "common_name": "SCREECH OWL",
+      "scientific_name": "Otus asio",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    },
+    {
+      "common_name": "GREAT HORNED OWL",
+      "scientific_name": "Bubo virginianus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "JULY 1975",
+          "date_iso": null,
+          "location": "SANTA MONICA MTNS"
+        },
+        {
+          "date_raw": "10/6/73",
+          "date_iso": "1973-10-06",
+          "location": "YOSEMITE"
+        }
+      ],
+      "notes": [
+        "\"SANTA MONICA MTNS\" written in pencil/ink above the heading; the second entry in blue ink reads \"YOSEMITE 10/6/73\" - both partly faint and the abbreviation for mountains is uncertain"
+      ]
+    },
+    {
+      "common_name": "LONG-EARED OWL",
+      "scientific_name": "Asio otus",
+      "marked": true,
+      "illustration_circled": false,
+      "observations": [
+        {
+          "date_raw": "5/4/75",
+          "date_iso": "1975-05-04",
+          "location": "MORONGO VALLEY CALIF"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "common_name": "SHORT-EARED OWL",
+      "scientific_name": "Asio flammeus",
+      "marked": false,
+      "illustration_circled": false,
+      "observations": [],
+      "notes": []
+    }
+  ],
+  "unattached_annotations": [
+    "Small tally-type pen marks drawn on two of the marginal range/season charts",
+    "Faint illegible scribble in ink at the lower edge of the colour plate"
+  ],
+  "confidence": "low"
+}

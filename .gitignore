@@ -1,0 +1,19 @@
+# Secrets. Nothing here needs an API key any more, but never risk the old one.
+.env
+
+# Environments and build output
+.venv/
+node_modules/
+.next/
+out/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+.DS_Store
+.vercel
+
+# The 428 MB of original HEICs, and the full-size JPEG conversions derived from
+# them. Both are regenerable (see the convert step in the README), and the archive
+# itself is committed at web resolution in web/public/pages.
+data/raw_heic/
+data/pages/
