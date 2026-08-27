@@ -5,14 +5,15 @@ import type { Journal } from "@/lib/types";
 /*
   The masthead.
 
-  The artwork is an Audubon blue jay plate (banner.jpg -- a third-party image, fine
-  for a private archive, but it would need clearing before this site went public).
+  The artwork is an Audubon plate of Carolina parakeets (banner.jpg -- a third-party
+  image, fine for a private archive, but it would need clearing before this site went
+  public).
 
-  Unlike the longspur plate this one is painted corner to corner, so it can be run
-  full bleed: object-cover crops it to a band through the upper bird, whose tail,
-  wing and head happen to lie across the full width of the plate. The scrim over the
-  left is not decoration -- dark type on painted feathers is unreadable without it,
-  and it fades out by the middle so most of the plate is untouched.
+  The file arrives already cropped to 3:1, so running it full bleed costs far less
+  than the plates before it: the band shows about half the strip's height rather than
+  a fifth of a portrait plate, and the birds survive the crop. Its left end is pale
+  paper and bare branches, which is where the type goes -- the scrim there only has
+  to take the edge off, not blot the picture out.
 */
 
 export default function Masthead({ meta }: { meta: Journal["meta"] }) {
@@ -26,7 +27,7 @@ export default function Masthead({ meta }: { meta: Journal["meta"] }) {
           fill
           priority
           sizes="100vw"
-          className="object-cover object-[50%_26%]"
+          className="object-cover object-[50%_66%]"
         />
       </div>
 

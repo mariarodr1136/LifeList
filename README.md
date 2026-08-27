@@ -127,16 +127,15 @@ right for the selected bird, and the checklist one on the left for jumping betwe
 groups. Light and dark are both first-class, with the choice
 stored per browser.
 
-The masthead runs an Audubon blue jay plate full bleed across the band
-(`web/public/banner.jpg`). The plate is painted corner to corner, so `object-cover`
-can crop it to a band through the upper bird — whose tail, wing and head happen to
-lie right across the width — instead of leaving paper to fill. The band is 232px on
-a wide screen because a shorter one crops the plate to abstract feather texture
-rather than to a bird. A scrim over the left third is not decoration: type on painted
-feathers is unreadable without it, and it fades out by the middle so most of the
-plate is untouched. The dark theme dims the plate rather than inverting it. The
-artwork is third-party: fine for something private, but it would need clearing before
-the site went public.
+The masthead runs an Audubon plate of Carolina parakeets full bleed across the band
+(`web/public/banner.jpg`). The file arrives already cropped to 3:1, so the band shows
+about half the strip's height rather than a fifth of a portrait plate, and the birds
+survive the crop; `object-position: 50% 66%` frames the lower bird's head at the
+centre and keeps every face clear of the edges. Its left end is pale paper and bare
+branches, which is where the type goes — the scrim there only has to take the edge
+off. The dark theme dims the plate rather than inverting it. The artwork is
+third-party: fine for something private, but it would need clearing before the site
+went public.
 
 The species placeholder is still line art of our own (see below), so the two do not
 compete.
