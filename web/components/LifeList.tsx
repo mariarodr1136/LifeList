@@ -213,7 +213,7 @@ export default function LifeList({ species, groups, locations, decades }: Props)
               note="Try widening the place or decade — most entries in the book carry only one of the two."
             />
           ) : view === "grid" ? (
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+            <div className="grid grid-cols-[repeat(auto-fill,minmax(15rem,1fr))] gap-4">
               {filtered.map((s) => (
                 <SpeciesCard
                   key={s.key}
@@ -233,21 +233,14 @@ export default function LifeList({ species, groups, locations, decades }: Props)
         </div>
       </div>
 
-      {/* Detail rail on a wide screen; the same panel as a slide-over below it. */}
-      <aside className="sticky top-12 hidden h-[calc(100vh-3rem)] w-[368px] shrink-0 overflow-y-auto border-l border-line bg-surface scroll-thin xl:block">
-        {current ? (
+      {/* The rail only exists once a bird is chosen: an empty panel is 368px of
+          nothing, and the list would rather have the room. Below xl the same panel
+          arrives as a slide-over instead. */}
+      {current && (
+        <aside className="sticky top-12 hidden h-[calc(100vh-3rem)] w-[368px] shrink-0 overflow-y-auto border-l border-line bg-surface scroll-thin xl:block">
           <SpeciesDetail species={current} onClose={() => setSelected(null)} />
-        ) : (
-          <div className="flex h-full flex-col items-center justify-center gap-2 px-8 text-center">
-            <Icon name="bird" className="h-6 w-6 text-fg-subtle" />
-            <p className="text-[0.875rem] font-medium text-fg">Nothing selected</p>
-            <p className="text-[0.8125rem] leading-relaxed text-fg-muted">
-              Pick a bird to read its sightings, the dates and places he wrote beside
-              it, and any note in his own hand.
-            </p>
-          </div>
-        )}
-      </aside>
+        </aside>
+      )}
 
       {current && (
         <div className="fixed inset-0 z-40 xl:hidden">

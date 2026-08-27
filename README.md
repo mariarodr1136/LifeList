@@ -123,8 +123,10 @@ dropped whenever you are sure you want the scans gone.
 
 The masthead runs the full width of the window, and the navigation is a bar beneath
 it rather than a rail beside it — 48px tall and sticky, which every in-page rail and
-toolbar is offset against (`top-12`). The life list adds a rail on the right for the
-selected bird, and the checklist one on the left for jumping between groups. Light and dark are both first-class, with the choice
+toolbar is offset against (`top-12`). The life list adds a rail on the right once a
+bird is chosen — the grid is laid out on `auto-fill`, so it reflows to fewer columns
+when the rail opens and takes the room back when it closes — and the checklist has
+one on the left for jumping between groups. Light and dark are both first-class, with the choice
 stored per browser.
 
 The masthead carries an Audubon plate of Carolina parakeets
