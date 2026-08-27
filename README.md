@@ -121,9 +121,10 @@ dropped whenever you are sure you want the scans gone.
 | `/overview` | **Overview** — the totals, entries by year, most-visited places, best-recorded groups |
 | `/review` | **Review** — the 43 flagged entries, each beside the photograph it was read from, with a place to record what the page actually says |
 
-A fixed left sidebar carries the navigation and the running total; the life list adds
-a second rail on the right for the selected bird, and the checklist one on the left
-for jumping between groups. Light and dark are both first-class, with the choice
+The masthead runs the full width of the window; the sidebar beneath it starts at the
+navigation and carries the running total. The life list adds a second rail on the
+right for the selected bird, and the checklist one on the left for jumping between
+groups. Light and dark are both first-class, with the choice
 stored per browser.
 
 The masthead is set in the interface's own language rather than the book's: surface,

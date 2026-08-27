@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Newsreader } from "next/font/google";
 import Masthead from "@/components/Masthead";
-import Sidebar from "@/components/Sidebar";
+import Sidebar, { MobileNav } from "@/components/Sidebar";
 import { getJournal } from "@/lib/data";
 import "./globals.css";
 
@@ -40,10 +40,12 @@ export default function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: THEME_BOOT }} />
       </head>
       <body className={`${inter.variable} ${newsreader.variable} min-h-screen`}>
-        <Sidebar meta={meta} />
-        <div className="flex min-h-screen flex-col lg:pl-[268px]">
-          <Masthead meta={meta} />
-          {children}
+        {/* The masthead runs the full width of the window, above the navigation. */}
+        <Masthead meta={meta} />
+        <MobileNav meta={meta} />
+        <div className="flex min-h-screen items-start">
+          <Sidebar meta={meta} />
+          <div className="flex min-h-screen min-w-0 flex-1 flex-col">{children}</div>
         </div>
       </body>
     </html>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Journal } from "@/lib/types";
 
 /*
@@ -18,8 +19,12 @@ export default function Masthead({ meta }: { meta: Journal["meta"] }) {
           <p className="eyebrow text-fg-subtle">
             Golden Press · Robbins, Bruun &amp; Zim
           </p>
-          <h1 className="mt-1.5 text-[1.5rem] font-semibold leading-none tracking-[-0.025em] text-fg sm:text-[1.875rem]">
-            A Life List
+          {/* The name lives here now rather than in the sidebar, so it doubles as
+              the way home. */}
+          <h1 className="mt-1.5 text-[1.5rem] font-semibold leading-none tracking-[-0.025em] sm:text-[1.875rem]">
+            <Link href="/" className="text-fg no-underline transition-colors hover:text-accent">
+              A Life List
+            </Link>
           </h1>
           <p className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.8125rem] text-fg-muted">
             <span>Birds of North America</span>
