@@ -126,19 +126,17 @@ a second rail on the right for the selected bird, and the checklist one on the l
 for jumping between groups. Light and dark are both first-class, with the choice
 stored per browser.
 
-The masthead is drawn as one of the book's own plates: the ground is sampled from
-the shorebird plate photographed on page 109 (`#b2c6b4`), and the avocet and stilt
-are captioned in small capitals with their lengths, the way the guide captions its
-figures. Each bird is a single closed outline with its plumage painted through a
-clip of that same outline — no stroke, no seam where the head meets the neck — which
-is what makes a flat drawing read as a printed plate. `PlateBanner.tsx` is SVG, so it
-stays sharp at any width, and it is dimmed rather than inverted in the dark theme,
-because a printed page does not invert.
+The masthead is set in the interface's own language rather than the book's: surface,
+Inter, hairline rules. An earlier version drew it as one of the guide's plates -- sage
+ground, painted plumage, printed captions -- and it read as a scan pasted onto a
+product. The same avocet and stilt survive in `Masthead.tsx`, reduced to a single
+stroke weight in `currentColor`, so they follow the theme instead of fighting it.
 
 **Bird artwork is a placeholder.** The guide's plates are not digitised, so every
-species shows the same illustration (`web/public/bird-placeholder.svg`, drawn in the
-same plate language as the masthead) and the detail panel says so outright rather
-than implying a photograph exists.
+species shows the same illustration (`web/public/bird-placeholder.svg`) and the detail
+panel says so outright rather than implying a photograph exists. It is line art on a
+transparent ground, matching the masthead: the card's own surface shows through, so
+one file reads correctly in both themes.
 
 ### The review loop
 

@@ -95,7 +95,7 @@ export function BirdImage({
       width={400}
       height={300}
       sizes={sizes}
-      className={`h-full w-full object-cover ${className}`}
+      className={`h-full w-full object-contain ${className}`}
     />
   );
 }

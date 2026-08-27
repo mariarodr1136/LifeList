@@ -178,20 +178,6 @@ body {
   background: transparent;
 }
 
-/*
-  The plate keeps the book's own colours in both themes -- a printed page does not
-  invert -- but it is dimmed in the dark one so it reads as paper under a lamp
-  rather than a lightbox.
-*/
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .plate-band {
-    filter: brightness(0.66) saturate(0.8);
-  }
-}
-:root[data-theme="dark"] .plate-band {
-  filter: brightness(0.66) saturate(0.8);
-}
-
 @keyframes panel-in {
   from { opacity: 0; transform: translateX(12px); }
   to { opacity: 1; transform: none; }

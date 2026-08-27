@@ -285,7 +285,7 @@ function SpeciesCard({
         active ? "border-accent ring-1 ring-accent" : ""
       }`}
     >
-      <div className="relative aspect-[16/10] overflow-hidden bg-surface-sunk">
+      <div className="relative aspect-[16/10] overflow-hidden bg-surface-muted p-6">
         <BirdImage sizes="(max-width: 640px) 100vw, 320px" />
         <div className="absolute right-2 top-2 flex gap-1">
           {species.marked && (
@@ -381,7 +381,7 @@ function SpeciesTable({
               >
                 <td className="px-4 py-2.5">
                   <span className="flex items-center gap-2.5">
-                    <span className="h-8 w-11 shrink-0 overflow-hidden rounded-md bg-surface-sunk">
+                    <span className="h-8 w-11 shrink-0 overflow-hidden rounded-md bg-surface-muted p-1">
                       <BirdImage sizes="44px" />
                     </span>
                     <span>
@@ -434,7 +434,7 @@ function SpeciesDetail({
 
   return (
     <div className="panel-in">
-      <div className="relative aspect-[16/10] bg-surface-sunk">
+      <div className="relative aspect-[16/10] bg-surface-muted p-7">
         <BirdImage sizes="368px" />
         <button
           onClick={onClose}
