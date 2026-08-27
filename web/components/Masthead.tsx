@@ -7,31 +7,38 @@ import type { Journal } from "@/lib/types";
 
   The artwork is a painted plate of two longspurs among poppies (banner.jpg, cropped
   from the file the owner supplied -- a third-party illustration, fine for a private
-  archive but it would need clearing before this site went public). It is set to the
-  band's height rather than cropped to it, so neither bird loses its head, and its
-  left edge is masked to transparent rather than covered by a matching rectangle --
-  the image dissolves into whatever surface is behind it, in either theme.
+  archive but it would need clearing before this site went public).
+
+  The plate is 2.2:1 and the band is nearer 9:1, so covering the full width with it
+  would crop away both birds' heads. Instead the plate keeps its proportions at the
+  right, and WASH -- sampled down its own left edge, cream paper above and sand
+  below -- continues that ground across the rest of the band. The join is hidden by
+  masking the plate's left edge to transparent, so the whole banner reads as one
+  painted surface with the birds standing at the end of it.
 */
+
+const WASH =
+  "linear-gradient(180deg,#f0eee7 0%,#f0eee8 60%,#e6e2d1 72%,#eae7dc 84%,#e1cfae 100%)";
 
 export default function Masthead({ meta }: { meta: Journal["meta"] }) {
   return (
     <header className="relative isolate overflow-hidden border-b border-line bg-surface-muted">
-      {/* The plate, flush with the right edge and the full height of the band. */}
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-y-0 right-0 hidden sm:block"
-      >
+      {/* The painted ground, and the plate standing at the right of it. */}
+      <div aria-hidden className="masthead-art absolute inset-0" style={{ background: WASH }}>
         <Image
           src="/banner.jpg"
           alt=""
           width={1425}
           height={641}
           priority
-          className="masthead-art h-full w-auto max-w-none object-cover"
+          className="masthead-plate absolute inset-y-0 right-0 h-full w-auto max-w-none"
         />
       </div>
 
-      <div className="relative flex min-h-[104px] flex-col justify-center px-5 py-5 sm:min-h-[160px] sm:px-8">
+      {/* Legibility, only where the theme needs it: see globals.css. */}
+      <div aria-hidden className="masthead-scrim absolute inset-0" />
+
+      <div className="relative flex min-h-[104px] flex-col justify-center px-5 py-5 sm:min-h-[168px] sm:px-8">
         <p className="eyebrow text-fg-subtle">
           Golden Press · Robbins, Bruun &amp; Zim
         </p>
