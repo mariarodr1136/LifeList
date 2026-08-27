@@ -88,6 +88,7 @@ function span(s: Species): { firstDate: string | null; lastDate: string | null }
 export function getLifeList(): LifeSpecies[] {
   const j = getJournal();
   const groups = groupIndex(j);
+  const spreads = new Map(j.spreads.map((s) => [s.id, s]));
 
   return j.species
     .filter((s) => s.marked || s.observations.length > 0)
@@ -95,6 +96,7 @@ export function getLifeList(): LifeSpecies[] {
       key: s.key,
       name: s.name,
       scientific: s.scientific,
+      plate: s.plate,
       group: groups.get(s.key) ?? UNGROUPED,
       marked: s.marked,
       circled: s.circled,
@@ -102,6 +104,7 @@ export function getLifeList(): LifeSpecies[] {
       editorial: s.editorial,
       observations: s.observations,
       pages: s.pages,
+      spreads: s.pages.map((image) => ({ image, label: pageLabel(spreads.get(image)) })),
       places: [...new Set(s.observations.map((o) => o.location).filter((l): l is string => !!l))],
       flagged: s.observations.some((o) => o.uncertain),
       ...span(s),

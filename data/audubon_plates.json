@@ -1,0 +1,3202 @@
+{
+ "ACADIAN FLYCATCHER": {
+  "audubonName": "Small Green Crested Flycatcher",
+  "file": "plate-144-small-green-crested-flycatcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/small-green-crested-flycatcher",
+  "plate": 144,
+  "scientific": "Empidonax virescens"
+ },
+ "AMERICAN AVOCET": {
+  "audubonName": "American Avocet",
+  "file": "plate-318-american-avocet.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-avocet",
+  "plate": 318,
+  "scientific": "Recurvirostra americana"
+ },
+ "AMERICAN BITTERN": {
+  "audubonName": "American Bittern",
+  "file": "plate-337-american-bittern.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-bittern",
+  "plate": 337,
+  "scientific": "Botaurus lentiginosus"
+ },
+ "AMERICAN COOT": {
+  "audubonName": "American Coot",
+  "file": "plate-239-american-coot.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-coot",
+  "plate": 239,
+  "scientific": "Fulica americana"
+ },
+ "AMERICAN FLAMINGO": {
+  "audubonName": "American Flamingo",
+  "file": "plate-431-american-flamingo.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-flamingo",
+  "plate": 431,
+  "scientific": "Phoenicopterus ruber"
+ },
+ "AMERICAN GOLDEN PLOVER": {
+  "audubonName": "Golden Plover",
+  "file": "plate-300-golden-plover.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/golden-plover",
+  "plate": 300,
+  "scientific": "Pluvialis dominica"
+ },
+ "AMERICAN GOLDFINCH": {
+  "audubonName": "American Goldfinch",
+  "file": "plate-33-american-goldfinch.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/american-goldfinch",
+  "plate": 33,
+  "scientific": "Spinus tristis"
+ },
+ "AMERICAN OYSTERCATCHER": {
+  "audubonName": "Pied oyster-catcher",
+  "file": "plate-223-pied-oyster-catcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/pied-oyster-catcher",
+  "plate": 223,
+  "scientific": "Haematopus palliatus"
+ },
+ "AMERICAN REDSTART": {
+  "audubonName": "American Redstart",
+  "file": "plate-40-american-redstart.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-redstart",
+  "plate": 40,
+  "scientific": "Setophaga ruticilla"
+ },
+ "AMERICAN WIDGEON": {
+  "audubonName": "American Widgeon",
+  "file": "plate-345-american-widgeon.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-widgeon",
+  "plate": 345,
+  "scientific": "Mareca americana"
+ },
+ "AMERICAN WOODCOCK": {
+  "audubonName": "American Woodcock",
+  "file": "plate-268-american-woodcock.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/american-woodcock",
+  "plate": 268,
+  "scientific": "Scolopax minor"
+ },
+ "ANCIENT MURRELET": {
+  "audubonName": "Black-throated Guillemot, Nobbed-billed Auk, Curled-crested Auk, Horned-billed Guillemot",
+  "file": "plate-402-black-throated-guillemot.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/black-throated-guillemot-nobbed-billed-auk-curled-crested-auk-horned-billed",
+  "plate": 402,
+  "scientific": "Synthliboramphus antiquus"
+ },
+ "ANHINGA": {
+  "audubonName": "Black-bellied Darter",
+  "file": "plate-316-black-bellied-darter.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/black-bellied-darter",
+  "plate": 316,
+  "scientific": "Anhinga anhinga"
+ },
+ "ANNA S HUMMINGBIRD": {
+  "audubonName": "Columbian Humming Bird",
+  "file": "plate-425-columbian-humming-bird.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/columbian-humming-bird",
+  "plate": 425,
+  "scientific": "Calypte anna"
+ },
+ "ARCTIC TERN": {
+  "audubonName": "Arctic Tern",
+  "file": "plate-250-arctic-tern.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/arctic-tern",
+  "plate": 250,
+  "scientific": "Sterna paradisaea"
+ },
+ "AUDUBON S SHEARWATER": {
+  "audubonName": "Dusky Petrel",
+  "file": "plate-299-dusky-petrel.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/dusky-petrel",
+  "plate": 299,
+  "scientific": "Puffinus lherminieri"
+ },
+ "AUDUBON S WARBLER": {
+  "audubonName": "Audubon’s Warbler, Hermit Warbler, Black-throated gray Warbler",
+  "file": "plate-395-audubons-warbler.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/audubons-warbler-hermit-warbler-black-throated-gray-warbler",
+  "plate": 395,
+  "scientific": "Setophaga occidentalis"
+ },
+ "BACHMAN S SPARROW": {
+  "audubonName": "Bachman’s Finch",
+  "file": "plate-165-bachmans-finch.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/bachmans-finch",
+  "plate": 165,
+  "scientific": "Peucaea aestivalis"
+ },
+ "BACHMAN S WARBLER": {
+  "audubonName": "Bachman’s Warbler",
+  "file": "plate-185-bachmans-warbler.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/bachmans-warbler",
+  "plate": 185,
+  "scientific": null
+ },
+ "BALD EAGLE": {
+  "audubonName": "White-headed Eagle",
+  "file": "plate-31-white-headed-eagle.jpg",
+  "matchedBy": "override",
+  "page": "https://www.audubon.org/art/birds-of-america/white-headed-eagle",
+  "plate": 31,
+  "scientific": "Haliaeetus leucocephalus"
+ },
+ "BALTIMORE ORIOLE": {
+  "audubonName": "Baltimore Oriole",
+  "file": "plate-12-baltimore-oriole.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/baltimore-oriole",
+  "plate": 12,
+  "scientific": "Icterus galbula"
+ },
+ "BAND TAILED PIGEON": {
+  "audubonName": "Band-tailed Pigeon",
+  "file": "plate-367-band-tailed-pigeon.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/band-tailed-pigeon",
+  "plate": 367,
+  "scientific": "Patagioenas fasciata"
+ },
+ "BANK SWALLOW": {
+  "audubonName": "Bank Swallow and Violet-green Swallow",
+  "file": "plate-385-bank-swallow.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/bank-swallow-and-violet-green-swallow",
+  "plate": 385,
+  "scientific": "Riparia riparia"
+ },
+ "BARN OWL": {
+  "audubonName": "Barn Owl",
+  "file": "plate-171-barn-owl.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/barn-owl",
+  "plate": 171,
+  "scientific": "Tyto furcata"
+ },
+ "BARN SWALLOW": {
+  "audubonName": "Barn Swallow",
+  "file": "plate-173-barn-swallow.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/barn-swallow",
+  "plate": 173,
+  "scientific": "Hirundo rustica"
+ },
+ "BARNACLE GOOSE": {
+  "audubonName": "Barnacle Goose",
+  "file": "plate-296-barnacle-goose.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/barnacle-goose",
+  "plate": 296,
+  "scientific": "Branta leucopsis"
+ },
+ "BARRED OWL": {
+  "audubonName": "Barred Owl",
+  "file": "plate-46-barred-owl.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/barred-owl",
+  "plate": 46,
+  "scientific": "Strix varia"
+ },
+ "BARROW S GOLDENEYE": {
+  "audubonName": "Golden-eye Duck",
+  "file": "plate-403-golden-eye-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/golden-eye-duck",
+  "plate": 403,
+  "scientific": "Bucephala islandica"
+ },
+ "BAY BREASTED WARBLER": {
+  "audubonName": "Bay-breasted Warbler",
+  "file": "plate-69-bay-breasted-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/bay-breasted-warbler",
+  "plate": 69,
+  "scientific": "Setophaga castanea"
+ },
+ "BELTED KINGFISHER": {
+  "audubonName": "Belted Kingfisher",
+  "file": "plate-77-belted-kingfisher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/belted-kingfisher",
+  "plate": 77,
+  "scientific": "Megaceryle alcyon"
+ },
+ "BEWICK S WREN": {
+  "audubonName": "Bewick’s Wren",
+  "file": "plate-18-bewicks-wren.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/bewicks-wren",
+  "plate": 18,
+  "scientific": "Thryomanes bewickii"
+ },
+ "BLACK AND WHITE WARBLER": {
+  "audubonName": "Black & White Creeper",
+  "file": "plate-90-black-white-creeper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/black-white-creeper",
+  "plate": 90,
+  "scientific": "Mniotilta varia"
+ },
+ "BLACK BACKED THREE TOED WOODPECKER": {
+  "audubonName": "Three-toed Woodpecker",
+  "file": "plate-132-three-toed-woodpecker.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/three-toed-woodpecker",
+  "plate": 132,
+  "scientific": "Picoides arcticus"
+ },
+ "BLACK BELLIED PLOVER": {
+  "audubonName": "Black-bellied Plover",
+  "file": "plate-334-black-bellied-plover.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/black-bellied-plover",
+  "plate": 334,
+  "scientific": "Pluvialis squatarola"
+ },
+ "BLACK BILLED CUCKOO": {
+  "audubonName": "Black-billed Cuckoo",
+  "file": "plate-32-black-billed-cuckoo.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/black-billed-cuckoo",
+  "plate": 32,
+  "scientific": "Coccyzus erythropthalmus"
+ },
+ "BLACK BILLED MAGPIE": {
+  "audubonName": "American Magpie",
+  "file": "plate-357-american-magpie.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/american-magpie",
+  "plate": 357,
+  "scientific": "Pica hudsonia"
+ },
+ "BLACK BRANT": {
+  "audubonName": "Brant Goose",
+  "file": "plate-391-brant-goose.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/brant-goose",
+  "plate": 391,
+  "scientific": "Branta bernicla"
+ },
+ "BLACK CAPPED CHICKADEE": {
+  "audubonName": "Chesnut-backed Titmouse, Black-capt Titmouse, and Chesnut-crowned Titmouse",
+  "file": "plate-353-chesnut-backed-titmouse.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/chesnut-backed-titmouse-black-capt-titmouse-and-chesnut-crowned-titmouse",
+  "plate": 353,
+  "scientific": "Poecile atricapillus"
+ },
+ "BLACK CROWNED NIGHT HERON": {
+  "audubonName": "Night Heron, or Qua bird",
+  "file": "plate-236-night-heron.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/night-heron-or-qua-bird",
+  "plate": 236,
+  "scientific": "Nycticorax nycticorax"
+ },
+ "BLACK DUCK": {
+  "audubonName": "Dusky Duck",
+  "file": "plate-302-dusky-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/dusky-duck",
+  "plate": 302,
+  "scientific": "Anas rubripes"
+ },
+ "BLACK GUILLEMOT": {
+  "audubonName": "Black Guillemot",
+  "file": "plate-219-black-guillemot.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/black-guillemot",
+  "plate": 219,
+  "scientific": "Cepphus grylle"
+ },
+ "BLACK HEADED GULL": {
+  "audubonName": "Black-headed Gull",
+  "file": "plate-314-black-headed-gull.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/black-headed-gull",
+  "plate": 314,
+  "scientific": "Leucophaeus atricilla"
+ },
+ "BLACK LEGGED KITTIWAKE": {
+  "audubonName": "Kittiwake Gull",
+  "file": "plate-224-kittiwake-gull.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/kittiwake-gull",
+  "plate": 224,
+  "scientific": "Rissa tridactyla"
+ },
+ "BLACK NECKED STILT": {
+  "audubonName": "Long-legged Avocet",
+  "file": "plate-328-long-legged-avocet.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/long-legged-avocet",
+  "plate": 328,
+  "scientific": "Himantopus mexicanus"
+ },
+ "BLACK OYSTERCATCHER": {
+  "audubonName": "White-legged Oyster-catcher, or Slender-billed Oyster-catcher",
+  "file": "plate-427-white-legged-oyster-catcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/white-legged-oyster-catcher-or-slender-billed-oyster-catcher",
+  "plate": 427,
+  "scientific": "Haematopus bachmani"
+ },
+ "BLACK PHOEBE": {
+  "audubonName": "Little Tyrant Flycatcher, Small-headed Flycatcher, Blue Mountain Warbler, Bartram’s Vireo, Short-legged Pewee, Rocky Mountain Fly-catcher",
+  "file": "plate-434-little-tyrant-flycatcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/little-tyrant-flycatcher-small-headed-flycatcher-blue-mountain-warbler",
+  "plate": 434,
+  "scientific": "Sayornis nigricans"
+ },
+ "BLACK RAIL": {
+  "audubonName": "Least Water-hen",
+  "file": "plate-349-least-water-hen.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/least-water-hen",
+  "plate": 349,
+  "scientific": "Laterallus jamaicensis"
+ },
+ "BLACK SKIMMER": {
+  "audubonName": "Black Skimmer, or Shearwater",
+  "file": "plate-323-black-skimmer-or-shearwater.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/black-skimmer-or-shearwater",
+  "plate": 323,
+  "scientific": "Rynchops niger"
+ },
+ "BLACK TERN": {
+  "audubonName": "Black Tern",
+  "file": "plate-280-black-tern.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/black-tern",
+  "plate": 280,
+  "scientific": "Chlidonias niger"
+ },
+ "BLACK THROATED BLUE WARBLER": {
+  "audubonName": "Black-throated Blue Warbler",
+  "file": "plate-155-black-throated-blue-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/black-throated-blue-warbler",
+  "plate": 155,
+  "scientific": "Setophaga caerulescens"
+ },
+ "BLACK THROATED GRAY WARBLER": {
+  "audubonName": "Audubon’s Warbler, Hermit Warbler, Black-throated gray Warbler",
+  "file": "plate-395-audubons-warbler.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/audubons-warbler-hermit-warbler-black-throated-gray-warbler",
+  "plate": 395,
+  "scientific": "Setophaga occidentalis"
+ },
+ "BLACK THROATED GREEN WARBLER": {
+  "audubonName": "Black-throated green Warbler, Blackburnian, Mourning Warbler",
+  "file": "plate-399-black-throated-green-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/black-throated-green-warbler-blackburnian-mourning-warbler",
+  "plate": 399,
+  "scientific": "Setophaga virens"
+ },
+ "BLACK VULTURE": {
+  "audubonName": "Black Vulture, or Carrion Crow",
+  "file": "plate-106-black-vulture-or-carrion-crow.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/black-vulture-or-carrion-crow",
+  "plate": 106,
+  "scientific": "Coragyps atratus"
+ },
+ "BLACKBURNIAN": {
+  "audubonName": "Black-throated green Warbler, Blackburnian, Mourning Warbler",
+  "file": "plate-399-black-throated-green-warbler.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/black-throated-green-warbler-blackburnian-mourning-warbler",
+  "plate": 399,
+  "scientific": "Setophaga virens"
+ },
+ "BLACKBURNIAN WARBLER": {
+  "audubonName": "Blackburnian Warbler",
+  "file": "plate-135-blackburnian-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/blackburnian-warbler",
+  "plate": 135,
+  "scientific": "Setophaga fusca"
+ },
+ "BLACKPOLL WARBLER": {
+  "audubonName": "Black-poll Warbler",
+  "file": "plate-133-black-poll-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/black-poll-warbler",
+  "plate": 133,
+  "scientific": "Setophaga striata"
+ },
+ "BLUE GOOSE": {
+  "audubonName": "Snow Goose",
+  "file": "plate-381-snow-goose.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/snow-goose",
+  "plate": 381,
+  "scientific": "Anser caerulescens"
+ },
+ "BLUE GRAY GNATCATCHER": {
+  "audubonName": "Blue-Grey Fly-catcher",
+  "file": "plate-84-blue-grey-fly-catcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/blue-grey-fly-catcher",
+  "plate": 84,
+  "scientific": "Polioptila caerulea"
+ },
+ "BLUE GROSBEAK": {
+  "audubonName": "Blue Grosbeak",
+  "file": "plate-122-blue-grosbeak.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/blue-grosbeak",
+  "plate": 122,
+  "scientific": "Passerina caerulea"
+ },
+ "BLUE GROUSE": {
+  "audubonName": "Long-tailed, or Dusky Grous",
+  "file": "plate-361-long-tailed-or-dusky-grous.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/long-tailed-or-dusky-grous",
+  "plate": 361,
+  "scientific": "Dendragapus obscurus"
+ },
+ "BLUE JAY": {
+  "audubonName": "Blue Jay",
+  "file": "plate-102-blue-jay.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/blue-jay",
+  "plate": 102,
+  "scientific": "Cyanocitta cristata"
+ },
+ "BLUE WINGED TEAL": {
+  "audubonName": "Blue-Winged Teal",
+  "file": "plate-313-blue-winged-teal.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/blue-winged-teal",
+  "plate": 313,
+  "scientific": "Spatula discors"
+ },
+ "BLUE WINGED WARBLER": {
+  "audubonName": "Blue-winged Yellow Warbler",
+  "file": "plate-20-blue-winged-yellow-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/blue-winged-yellow-warbler",
+  "plate": 20,
+  "scientific": "Vermivora cyanoptera"
+ },
+ "BOAT TAILED GRACKLE": {
+  "audubonName": "Boat-tailed Grackle",
+  "file": "plate-187-boat-tailed-grackle.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/boat-tailed-grackle",
+  "plate": 187,
+  "scientific": "Quiscalus major"
+ },
+ "BOBOLINK": {
+  "audubonName": "Rice Bird",
+  "file": "plate-54-rice-bird.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/rice-bird",
+  "plate": 54,
+  "scientific": "Dolichonyx oryzivorus"
+ },
+ "BOBWHITE": {
+  "audubonName": "Virginian Partridge",
+  "file": "plate-76-virginian-partridge.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/virginian-partridge",
+  "plate": 76,
+  "scientific": "Colinus virginianus"
+ },
+ "BOHEMIAN WAXWING": {
+  "audubonName": "Bohemian Chatterer",
+  "file": "plate-363-bohemian-chatterer.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/bohemian-chatterer",
+  "plate": 363,
+  "scientific": "Bombycilla garrulus"
+ },
+ "BONAPARTE S GULL": {
+  "audubonName": "Bonapartian Gull",
+  "file": "plate-324-bonapartian-gull.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/bonapartian-gull",
+  "plate": 324,
+  "scientific": "Chroicocephalus philadelphia"
+ },
+ "BOREAL CHICKADEE": {
+  "audubonName": "Canadian Titmouse",
+  "file": "plate-194-canadian-titmouse.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/canadian-titmouse",
+  "plate": 194,
+  "scientific": "Poecile hudsonicus"
+ },
+ "BOREAL OWL": {
+  "audubonName": "Tengmalm’s Owl",
+  "file": "plate-380-tengmalms-owl.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/tengmalms-owl",
+  "plate": 380,
+  "scientific": "Aegolius funereus"
+ },
+ "BRANT": {
+  "audubonName": "Brant Goose",
+  "file": "plate-391-brant-goose.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/brant-goose",
+  "plate": 391,
+  "scientific": "Branta bernicla"
+ },
+ "BROAD WINGED HAWK": {
+  "audubonName": "Broad-winged Hawk",
+  "file": "plate-91-broad-winged-hawk.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/broad-winged-hawk",
+  "plate": 91,
+  "scientific": "Buteo platypterus"
+ },
+ "BROWN BOOBY": {
+  "audubonName": "Booby Gannet",
+  "file": "plate-207-booby-gannet.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/booby-gannet",
+  "plate": 207,
+  "scientific": "Sula leucogaster"
+ },
+ "BROWN CREEPER": {
+  "audubonName": "Brown Creeper and Californian Nuthatch",
+  "file": "plate-415-brown-creeper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/brown-creeper-and-californian-nuthatch",
+  "plate": 415,
+  "scientific": "Certhia americana"
+ },
+ "BROWN HEADED COWBIRD": {
+  "audubonName": "Cow-pen Bird",
+  "file": "plate-99-cow-pen-bird.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/cow-pen-bird",
+  "plate": 99,
+  "scientific": "Molothrus ater"
+ },
+ "BROWN HEADED NUTHATCH": {
+  "audubonName": "Brown-headed Nuthatch",
+  "file": "plate-125-brown-headed-nuthatch.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/brown-headed-nuthatch",
+  "plate": 125,
+  "scientific": "Sitta pusilla"
+ },
+ "BROWN PELICAN": {
+  "audubonName": "Brown Pelican",
+  "file": "plate-251-brown-pelican.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/brown-pelican-0",
+  "plate": 251,
+  "scientific": "Pelecanus occidentalis"
+ },
+ "BROWN THRASHER": {
+  "audubonName": "Ferruginous Thrush",
+  "file": "plate-116-ferruginous-thrush.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/ferruginous-thrush",
+  "plate": 116,
+  "scientific": "Toxostoma rufum"
+ },
+ "BUFF BREASTED SANDPIPER": {
+  "audubonName": "Buff breasted Sandpiper",
+  "file": "plate-265-buff-breasted-sandpiper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/buff-breasted-sandpiper",
+  "plate": 265,
+  "scientific": "Calidris subruficollis"
+ },
+ "BUFFLEHEAD": {
+  "audubonName": "Buffel-headed Duck",
+  "file": "plate-325-buffel-headed-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/buffel-headed-duck",
+  "plate": 325,
+  "scientific": "Bucephala albeola"
+ },
+ "BULLOCK S ORIOLE": {
+  "audubonName": "Bullock’s Oriole, Baltimore Oriole, Mexican Goldfinch, Varied Thrush, Common Water Thrush",
+  "file": "plate-433-bullocks-oriole.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/bullocks-oriole-baltimore-oriole-mexican-goldfinch-varied-thrush-common-water",
+  "plate": 433,
+  "scientific": "Icterus bullockii"
+ },
+ "BURROWING OWL": {
+  "audubonName": "Burrowing Owl, Large-headed Burrowing Owl, Little night Owl, Columbian Owl, Short-eared Owl",
+  "file": "plate-432-burrowing-owl.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/burrowing-owl-large-headed-burrowing-owl-little-night-owl-columbian-owl-short",
+  "plate": 432,
+  "scientific": "Athene cunicularia"
+ },
+ "CALIFORNIA CONDOR": {
+  "audubonName": "Californian Vulture",
+  "file": "plate-426-californian-vulture.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/californian-vulture",
+  "plate": 426,
+  "scientific": "Gymnogyps californianus"
+ },
+ "CALIFORNIA QUAIL": {
+  "audubonName": "California Partridge",
+  "file": "plate-413-california-partridge.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/california-partridge",
+  "plate": 413,
+  "scientific": "Callipepla californica"
+ },
+ "CANADA GOOSE": {
+  "audubonName": "Canada Goose",
+  "file": "plate-201-canada-goose.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/canada-goose",
+  "plate": 201,
+  "scientific": "Branta canadensis"
+ },
+ "CANADA WARBLER": {
+  "audubonName": "Canada Warbler",
+  "file": "plate-103-canada-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/canada-warbler",
+  "plate": 103,
+  "scientific": "Cardellina canadensis"
+ },
+ "CANVASBACK": {
+  "audubonName": "Canvas backed Duck",
+  "file": "plate-301-canvas-backed-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/canvas-backed-duck",
+  "plate": 301,
+  "scientific": "Aythya valisineria"
+ },
+ "CAPE MAY WARBLER": {
+  "audubonName": "Golden-winged Warbler and Cape May Warbler",
+  "file": "plate-414-golden-winged-warbler.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/golden-winged-warbler-and-cape-may-warbler",
+  "plate": 414,
+  "scientific": "Vermivora chrysoptera"
+ },
+ "CARACARA": {
+  "audubonName": "Brasilian Caracara Eagle",
+  "file": "plate-161-brasilian-caracara-eagle.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/brasilian-caracara-eagle",
+  "plate": 161,
+  "scientific": "Caracara plancus"
+ },
+ "CARDINAL": {
+  "audubonName": "Cardinal Grosbeak",
+  "file": "plate-159-cardinal-grosbeak.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/cardinal-grosbeak",
+  "plate": 159,
+  "scientific": "Cardinalis cardinalis"
+ },
+ "CAROLINA CHICKADEE": {
+  "audubonName": "Carolina Titmouse",
+  "file": "plate-160-carolina-titmouse.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/carolina-titmouse",
+  "plate": 160,
+  "scientific": "Poecile carolinensis"
+ },
+ "CAROLINA WREN": {
+  "audubonName": "Great Carolina Wren",
+  "file": "plate-78-great-carolina-wren.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/great-carolina-wren",
+  "plate": 78,
+  "scientific": "Thryothorus ludovicianus"
+ },
+ "CATBIRD": {
+  "audubonName": "Cat Bird",
+  "file": "plate-128-cat-bird.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/cat-bird",
+  "plate": 128,
+  "scientific": "Dumetella carolinensis"
+ },
+ "CEDAR WAXWING": {
+  "audubonName": "Cedar Bird",
+  "file": "plate-43-cedar-bird.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/cedar-bird",
+  "plate": 43,
+  "scientific": "Bombycilla cedrorum"
+ },
+ "CERULEAN WARBLER": {
+  "audubonName": "Azure Warbler",
+  "file": "plate-48-azure-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/azure-warbler",
+  "plate": 48,
+  "scientific": "Setophaga cerulea"
+ },
+ "CHESTNUT COLLARED LONGSPUR": {
+  "audubonName": "Chestnut-coloured Finch, Black-headed Siskin, Black crown Bunting, Arctic Ground Finch",
+  "file": "plate-394-chestnut-coloured-finch.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/chestnut-coloured-finch-black-headed-siskin-black-crown-bunting-arctic-ground",
+  "plate": 394,
+  "scientific": "Calcarius ornatus"
+ },
+ "CHESTNUT SIDED WARBLER": {
+  "audubonName": "Chestnut-sided Warbler",
+  "file": "plate-59-chestnut-sided-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/chestnut-sided-warbler",
+  "plate": 59,
+  "scientific": "Setophaga pensylvanica"
+ },
+ "CHIMNEY SWIFT": {
+  "audubonName": "American Swift",
+  "file": "plate-158-american-swift.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-swift",
+  "plate": 158,
+  "scientific": "Chaetura pelagica"
+ },
+ "CHIPPING SPARROW": {
+  "audubonName": "Chipping Sparrow",
+  "file": "plate-104-chipping-sparrow.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/chipping-sparrow",
+  "plate": 104,
+  "scientific": "Spizella passerina"
+ },
+ "CHUCK WILL S WIDOW": {
+  "audubonName": "Chuck-will’s Widow",
+  "file": "plate-52-chuck-wills-widow.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/chuck-wills-widow",
+  "plate": 52,
+  "scientific": "Antrostomus carolinensis"
+ },
+ "CLAPPER RAIL": {
+  "audubonName": "Salt Water Marsh Hen",
+  "file": "plate-204-salt-water-marsh-hen.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/salt-water-marsh-hen",
+  "plate": 204,
+  "scientific": "Rallus crepitans"
+ },
+ "CLIFF SWALLOW": {
+  "audubonName": "Republican, or Cliff Swallow",
+  "file": "plate-68-republican-or-cliff-swallow.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/republican-or-cliff-swallow",
+  "plate": 68,
+  "scientific": "Petrochelidon pyrrhonota"
+ },
+ "COMMON CROW": {
+  "audubonName": "American Crow",
+  "file": "plate-156-american-crow.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-crow",
+  "plate": 156,
+  "scientific": "Corvus brachyrhynchos"
+ },
+ "COMMON EGRET": {
+  "audubonName": "White Heron",
+  "file": "plate-386-white-heron.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/white-heron",
+  "plate": 386,
+  "scientific": "Ardea alba"
+ },
+ "COMMON EIDER": {
+  "audubonName": "Eider Duck",
+  "file": "plate-246-eider-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/eider-duck",
+  "plate": 246,
+  "scientific": "Somateria mollissima"
+ },
+ "COMMON GALLINULE": {
+  "audubonName": "Common Gallinule",
+  "file": "plate-244-common-gallinule.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/common-gallinule",
+  "plate": 244,
+  "scientific": "Gallinula galeata"
+ },
+ "COMMON GOLDENEYE": {
+  "audubonName": "Golden-Eye Duck",
+  "file": "plate-342-golden-eye-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/golden-eye-duck-0",
+  "plate": 342,
+  "scientific": "Bucephala clangula"
+ },
+ "COMMON GRACKLE": {
+  "audubonName": "Purple Grakle, or Common Crow Blackbird",
+  "file": "plate-7-purple-grakle.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/purple-grakle-or-common-crow-blackbird",
+  "plate": 7,
+  "scientific": "Quiscalus quiscula"
+ },
+ "COMMON LOON": {
+  "audubonName": "Great Northern Diver, or Loon",
+  "file": "plate-306-great-northern-diver-or-loon.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/great-northern-diver-or-loon",
+  "plate": 306,
+  "scientific": "Gavia immer"
+ },
+ "COMMON MERGANSER": {
+  "audubonName": "Goosander",
+  "file": "plate-331-goosander.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/goosander",
+  "plate": 331,
+  "scientific": "Mergus merganser"
+ },
+ "COMMON MURRE": {
+  "audubonName": "Foolish Guillemot",
+  "file": "plate-218-foolish-guillemot.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/foolish-guillemot",
+  "plate": 218,
+  "scientific": "Uria aalge"
+ },
+ "COMMON NIGHTHAWK": {
+  "audubonName": "Night Hawk",
+  "file": "plate-147-night-hawk.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/night-hawk",
+  "plate": 147,
+  "scientific": "Chordeiles minor"
+ },
+ "COMMON PUFFIN": {
+  "audubonName": "Puffin",
+  "file": "plate-213-puffin.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/puffin",
+  "plate": 213,
+  "scientific": "Fratercula arctica"
+ },
+ "COMMON RAVEN": {
+  "audubonName": "Raven",
+  "file": "plate-101-raven.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/raven",
+  "plate": 101,
+  "scientific": "Corvus corax"
+ },
+ "COMMON TEAL": {
+  "audubonName": "Green winged Teal",
+  "file": "plate-228-green-winged-teal.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/green-winged-teal",
+  "plate": 228,
+  "scientific": "Anas crecca"
+ },
+ "COMMON TERN": {
+  "audubonName": "Great Tern",
+  "file": "plate-309-great-tern.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/great-tern",
+  "plate": 309,
+  "scientific": "Sterna hirundo"
+ },
+ "CONNECTICUT WARBLER": {
+  "audubonName": "Connecticut Warbler",
+  "file": "plate-138-connecticut-warbler.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/connecticut-warbler",
+  "plate": 138,
+  "scientific": "Oporornis agilis"
+ },
+ "COOPER S HAWK": {
+  "audubonName": "Stanley Hawk",
+  "file": "plate-36-stanley-hawk.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/stanley-hawk",
+  "plate": 36,
+  "scientific": "Astur cooperii"
+ },
+ "CURLEW SANDPIPER": {
+  "audubonName": "Pigmy Curlew",
+  "file": "plate-263-pigmy-curlew.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/pigmy-curlew",
+  "plate": 263,
+  "scientific": "Calidris ferruginea"
+ },
+ "DICKCISSEL": {
+  "audubonName": "Black-Throated Bunting",
+  "file": "plate-384-black-throated-bunting.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/black-throated-bunting",
+  "plate": 384,
+  "scientific": "Spiza americana"
+ },
+ "DIPPER": {
+  "audubonName": "American Water Ouzel",
+  "file": "plate-370-american-water-ouzel.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-water-ouzel",
+  "plate": 370,
+  "scientific": "Cinclus mexicanus"
+ },
+ "DOUBLE CRESTED CORMORANT": {
+  "audubonName": "Double-crested Cormorant",
+  "file": "plate-257-double-crested-cormorant.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/double-crested-cormorant",
+  "plate": 257,
+  "scientific": "Nannopterum auritum"
+ },
+ "DOVEKIE": {
+  "audubonName": "Little Auk",
+  "file": "plate-339-little-auk.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/little-auk",
+  "plate": 339,
+  "scientific": "Alle alle"
+ },
+ "DOWNY WOODPECKER": {
+  "audubonName": "Downy Woodpecker",
+  "file": "plate-112-downy-woodpecker.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/downy-woodpecker",
+  "plate": 112,
+  "scientific": "Dryobates pubescens"
+ },
+ "DUNLIN": {
+  "audubonName": "Red backed Sandpiper",
+  "file": "plate-290-red-backed-sandpiper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/red-backed-sandpiper",
+  "plate": 290,
+  "scientific": "Calidris alpina"
+ },
+ "EARED GREBE": {
+  "audubonName": "Eared Grebe",
+  "file": "plate-404-eared-grebe.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/eared-grebe",
+  "plate": 404,
+  "scientific": "Podiceps nigricollis"
+ },
+ "EASTERN BLUEBIRD": {
+  "audubonName": "Blue-bird",
+  "file": "plate-113-blue-bird.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/blue-bird",
+  "plate": 113,
+  "scientific": "Sialia sialis"
+ },
+ "EASTERN KINGBIRD": {
+  "audubonName": "Tyrant Fly-catcher",
+  "file": "plate-79-tyrant-fly-catcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/tyrant-fly-catcher",
+  "plate": 79,
+  "scientific": "Tyrannus tyrannus"
+ },
+ "EASTERN MEADOWLARK": {
+  "audubonName": "Meadow Lark",
+  "file": "plate-136-meadow-lark.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/meadow-lark",
+  "plate": 136,
+  "scientific": "Sturnella magna"
+ },
+ "EASTERN PHOEBE": {
+  "audubonName": "Pewit Flycatcher",
+  "file": "plate-120-pewit-flycatcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/pewit-flycatcher",
+  "plate": 120,
+  "scientific": "Sayornis phoebe"
+ },
+ "EASTERN WOOD PEWEE": {
+  "audubonName": "Wood Pewee",
+  "file": "plate-115-wood-pewee.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/wood-pewee",
+  "plate": 115,
+  "scientific": "Contopus virens"
+ },
+ "EUROPEAN TREE SPARROW": {
+  "audubonName": "Tree Sparrow",
+  "file": "plate-188-tree-sparrow.jpg",
+  "matchedBy": "composite-modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/tree-sparrow",
+  "plate": 188,
+  "scientific": "Spizelloides arborea"
+ },
+ "EVENING GROSBEAK": {
+  "audubonName": "Evening Grosbeak and Spotted Grosbeak",
+  "file": "plate-373-evening-grosbeak.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/evening-grosbeak-and-spotted-grosbeak",
+  "plate": 373,
+  "scientific": "Coccothraustes vespertinus"
+ },
+ "FIELD SPARROW": {
+  "audubonName": "Field Sparrow",
+  "file": "plate-139-field-sparrow.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/field-sparrow",
+  "plate": 139,
+  "scientific": "Spizella pusilla"
+ },
+ "FISH CROW": {
+  "audubonName": "Fish Crow",
+  "file": "plate-146-fish-crow.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/fish-crow",
+  "plate": 146,
+  "scientific": "Corvus ossifragus"
+ },
+ "FORK TAILED FLYCATCHER": {
+  "audubonName": "Fork-tailed Flycatcher",
+  "file": "plate-168-fork-tailed-flycatcher.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/fork-tailed-flycatcher",
+  "plate": 168,
+  "scientific": "Tyrannus savana"
+ },
+ "FORSTER S TERN": {
+  "audubonName": "Havell’s Tern and Trudeau’s Tern",
+  "file": "plate-409-havells-tern.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/havells-tern-and-trudeaus-tern",
+  "plate": 409,
+  "scientific": "Sterna forsteri"
+ },
+ "FOX SPARROW": {
+  "audubonName": "Fox-coloured Sparrow",
+  "file": "plate-108-fox-coloured-sparrow.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/fox-coloured-sparrow",
+  "plate": 108,
+  "scientific": "Passerella iliaca"
+ },
+ "FULMAR": {
+  "audubonName": "Fulmar Petrel",
+  "file": "plate-264-fulmar-petrel.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/fulmar-petrel",
+  "plate": 264,
+  "scientific": "Fulmarus glacialis"
+ },
+ "GADWALL": {
+  "audubonName": "Gadwall Duck",
+  "file": "plate-348-gadwall-duck.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/gadwall-duck",
+  "plate": 348,
+  "scientific": "Mareca strepera"
+ },
+ "GANNET": {
+  "audubonName": "Gannet",
+  "file": "plate-326-gannet.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/gannet",
+  "plate": 326,
+  "scientific": "Morus bassanus"
+ },
+ "GLAUCOUS GULL": {
+  "audubonName": "Burgomaster Gull",
+  "file": "plate-396-burgomaster-gull.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/burgomaster-gull",
+  "plate": 396,
+  "scientific": "Larus hyperboreus"
+ },
+ "GLOSSY IBIS": {
+  "audubonName": "Glossy Ibis",
+  "file": "plate-387-glossy-ibis.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/glossy-ibis",
+  "plate": 387,
+  "scientific": "Plegadis falcinellus"
+ },
+ "GOLDEN CROWNED KINGLET": {
+  "audubonName": "American Golden crested-Wren",
+  "file": "plate-183-american-golden-crested-wren.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-golden-crested-wren",
+  "plate": 183,
+  "scientific": "Regulus satrapa"
+ },
+ "GOLDEN EAGLE": {
+  "audubonName": "Golden Eagle",
+  "file": "plate-181-golden-eagle.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/golden-eagle",
+  "plate": 181,
+  "scientific": "Aquila chrysaetos"
+ },
+ "GOLDEN WINGED WARBLER": {
+  "audubonName": "Golden-winged Warbler and Cape May Warbler",
+  "file": "plate-414-golden-winged-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/golden-winged-warbler-and-cape-may-warbler",
+  "plate": 414,
+  "scientific": "Vermivora chrysoptera"
+ },
+ "GOSHAWK": {
+  "audubonName": "Goshawk and Stanley Hawk",
+  "file": "plate-141-goshawk-and-stanley-hawk.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/goshawk-and-stanley-hawk",
+  "plate": 141,
+  "scientific": "Astur atricapillus"
+ },
+ "GRASSHOPPER SPARROW": {
+  "audubonName": "Yellow-winged Sparrow",
+  "file": "plate-130-yellow-winged-sparrow.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-winged-sparrow",
+  "plate": 130,
+  "scientific": "Ammodramus savannarum"
+ },
+ "GRAY HEADED JUNCO": {
+  "audubonName": "Snow Bird",
+  "file": "plate-13-snow-bird.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/snow-bird",
+  "plate": 13,
+  "scientific": "Junco hyemalis"
+ },
+ "GRAY JAY": {
+  "audubonName": "Canada Jay",
+  "file": "plate-107-canada-jay.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/canada-jay",
+  "plate": 107,
+  "scientific": "Perisoreus canadensis"
+ },
+ "GRAY KINGBIRD": {
+  "audubonName": "Piping Flycatcher",
+  "file": "plate-170-piping-flycatcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/piping-flycatcher",
+  "plate": 170,
+  "scientific": "Tyrannus dominicensis"
+ },
+ "GREAT BLACK BACKED GULL": {
+  "audubonName": "Black Backed Gull",
+  "file": "plate-241-black-backed-gull.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/black-backed-gull",
+  "plate": 241,
+  "scientific": "Larus marinus"
+ },
+ "GREAT BLUE HERON": {
+  "audubonName": "Great blue Heron",
+  "file": "plate-211-great-blue-heron.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/great-blue-heron",
+  "plate": 211,
+  "scientific": "Ardea herodias"
+ },
+ "GREAT CORMORANT": {
+  "audubonName": "Common Cormorant",
+  "file": "plate-266-common-cormorant.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/common-cormorant",
+  "plate": 266,
+  "scientific": "Phalacrocorax carbo"
+ },
+ "GREAT CRESTED FLYCATCHER": {
+  "audubonName": "Great Crested Flycatcher",
+  "file": "plate-129-great-crested-flycatcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/great-crested-flycatcher",
+  "plate": 129,
+  "scientific": "Myiarchus crinitus"
+ },
+ "GREAT GRAY OWL": {
+  "audubonName": "Great Cinereous Owl",
+  "file": "plate-351-great-cinereous-owl.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/great-cinereous-owl",
+  "plate": 351,
+  "scientific": "Strix nebulosa"
+ },
+ "GREAT HORNED OWL": {
+  "audubonName": "Great Horned Owl",
+  "file": "plate-61-great-horned-owl.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/great-horned-owl",
+  "plate": 61,
+  "scientific": "Bubo virginianus"
+ },
+ "GREAT WHITE HERON": {
+  "audubonName": "Great White Heron",
+  "file": "plate-281-great-white-heron.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/great-white-heron",
+  "plate": 281,
+  "scientific": "Ardea herodias"
+ },
+ "GREATER PRAIRIE CHICKEN": {
+  "audubonName": "Pinnated Grouse",
+  "file": "plate-186-pinnated-grouse.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/pinnated-grouse",
+  "plate": 186,
+  "scientific": "Tympanuchus cupido"
+ },
+ "GREATER SHEARWATER": {
+  "audubonName": "Wandering Shearwater",
+  "file": "plate-283-wandering-shearwater.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/wandering-shearwater",
+  "plate": 283,
+  "scientific": "Ardenna gravis"
+ },
+ "GREATER YELLOWLEGS": {
+  "audubonName": "Tell-tale Godwit, or Snipe",
+  "file": "plate-308-tell-tale-godwit-or-snipe.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/tell-tale-godwit-or-snipe",
+  "plate": 308,
+  "scientific": "Tringa melanoleuca"
+ },
+ "GREEN HERON": {
+  "audubonName": "Green Heron",
+  "file": "plate-333-green-heron.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/green-heron",
+  "plate": 333,
+  "scientific": "Butorides virescens"
+ },
+ "GREEN WINGED TEAL": {
+  "audubonName": "Green winged Teal",
+  "file": "plate-228-green-winged-teal.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/green-winged-teal",
+  "plate": 228,
+  "scientific": "Anas crecca"
+ },
+ "GROUND DOVE": {
+  "audubonName": "Ground Dove",
+  "file": "plate-182-ground-dove.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/ground-dove",
+  "plate": 182,
+  "scientific": "Columbina passerina"
+ },
+ "GULL BILLED TERN": {
+  "audubonName": "Marsh Tern",
+  "file": "plate-410-marsh-tern.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/marsh-tern",
+  "plate": 410,
+  "scientific": "Gelochelidon nilotica"
+ },
+ "GYRFALCON": {
+  "audubonName": "Labrador Falcon",
+  "file": "plate-196-labrador-falcon.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/labrador-falcon",
+  "plate": 196,
+  "scientific": "Falco rusticolus"
+ },
+ "HAIRY WOODPECKER": {
+  "audubonName": "Hairy Woodpecker, Red-bellied Woodpecker, Red-shafted Woodpecker, Lewis’ Woodpecker, Red-breasted Woodpecker",
+  "file": "plate-416-hairy-woodpecker.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/hairy-woodpecker-red-bellied-woodpecker-red-shafted-woodpecker-lewis",
+  "plate": 416,
+  "scientific": "Leuconotopicus villosus"
+ },
+ "HARLEQUIN DUCK": {
+  "audubonName": "Harlequin Duck",
+  "file": "plate-297-harlequin-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/harlequin-duck",
+  "plate": 297,
+  "scientific": "Histrionicus histrionicus"
+ },
+ "HARRIS HAWK": {
+  "audubonName": "Louisiana Hawk",
+  "file": "plate-392-louisiana-hawk.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/louisiana-hawk",
+  "plate": 392,
+  "scientific": "Parabuteo unicinctus"
+ },
+ "HAWK OWL": {
+  "audubonName": "Hawk Owl",
+  "file": "plate-378-hawk-owl.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/hawk-owl",
+  "plate": 378,
+  "scientific": "Surnia ulula"
+ },
+ "HEADING OBSCURED BY OVERLYING PAGE": {
+  "audubonName": "Orchard Oriole",
+  "file": "plate-42-orchard-oriole.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/orchard-oriole",
+  "plate": 42,
+  "scientific": "Icterus spurius"
+ },
+ "HENSLOW S SPARROW": {
+  "audubonName": "Henslow’s Bunting",
+  "file": "plate-70-henslows-bunting.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/henslows-bunting",
+  "plate": 70,
+  "scientific": "Centronyx henslowii"
+ },
+ "HERMIT THRUSH": {
+  "audubonName": "Hermit Thrush",
+  "file": "plate-58-hermit-thrush.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/hermit-thrush",
+  "plate": 58,
+  "scientific": "Catharus guttatus"
+ },
+ "HERMIT WARBLER": {
+  "audubonName": "Audubon’s Warbler, Hermit Warbler, Black-throated gray Warbler",
+  "file": "plate-395-audubons-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/audubons-warbler-hermit-warbler-black-throated-gray-warbler",
+  "plate": 395,
+  "scientific": "Setophaga occidentalis"
+ },
+ "HERRING GULL": {
+  "audubonName": "Herring Gull",
+  "file": "plate-291-herring-gull.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/herring-gull",
+  "plate": 291,
+  "scientific": null
+ },
+ "HOODED MERGANSER": {
+  "audubonName": "Hooded Merganser",
+  "file": "plate-232-hooded-merganser.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/hooded-merganser",
+  "plate": 232,
+  "scientific": "Lophodytes cucullatus"
+ },
+ "HOODED WARBLER": {
+  "audubonName": "Hooded Warbler",
+  "file": "plate-110-hooded-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/hooded-warbler",
+  "plate": 110,
+  "scientific": "Setophaga citrina"
+ },
+ "HORNED GREBE": {
+  "audubonName": "Horned Grebe",
+  "file": "plate-259-horned-grebe.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/horned-grebe",
+  "plate": 259,
+  "scientific": "Podiceps auritus"
+ },
+ "HORNED LARK": {
+  "audubonName": "Shore Lark",
+  "file": "plate-200-shore-lark.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/shore-lark",
+  "plate": 200,
+  "scientific": "Eremophila alpestris"
+ },
+ "HORNED PUFFIN": {
+  "audubonName": "Large billed Puffin",
+  "file": "plate-293-large-billed-puffin.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/large-billed-puffin",
+  "plate": 293,
+  "scientific": "Fratercula corniculata"
+ },
+ "HOUSE WREN": {
+  "audubonName": "House Wren",
+  "file": "plate-83-house-wren.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/house-wren",
+  "plate": 83,
+  "scientific": null
+ },
+ "HUDSONIAN GODWIT": {
+  "audubonName": "Hudsonian Godwit",
+  "file": "plate-258-hudsonian-godwit.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/hudsonian-godwit",
+  "plate": 258,
+  "scientific": "Limosa haemastica"
+ },
+ "ICELAND GULL": {
+  "audubonName": "White-winged silvery Gull",
+  "file": "plate-282-white-winged-silvery-gull.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/white-winged-silvery-gull",
+  "plate": 282,
+  "scientific": "Larus glaucoides"
+ },
+ "INDIGO BUNTING": {
+  "audubonName": "Indigo Bird",
+  "file": "plate-74-indigo-bird.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/indigo-bird",
+  "plate": 74,
+  "scientific": "Passerina cyanea"
+ },
+ "IVORY BILLED WOODPECKER": {
+  "audubonName": "Ivory-billed Woodpecker",
+  "file": "plate-66-ivory-billed-woodpecker.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/ivory-billed-woodpecker",
+  "plate": 66,
+  "scientific": null
+ },
+ "IVORY GULL": {
+  "audubonName": "Ivory Gull",
+  "file": "plate-287-ivory-gull.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/ivory-gull",
+  "plate": 287,
+  "scientific": "Pagophila eburnea"
+ },
+ "KENTUCKY WARBLER": {
+  "audubonName": "Kentucky Warbler",
+  "file": "plate-38-kentucky-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/kentucky-warbler",
+  "plate": 38,
+  "scientific": "Geothlypis formosa"
+ },
+ "KILLDEER": {
+  "audubonName": "Kildeer Plover",
+  "file": "plate-225-kildeer-plover.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/kildeer-plover",
+  "plate": 225,
+  "scientific": "Charadrius vociferus"
+ },
+ "KING EIDER": {
+  "audubonName": "King Duck",
+  "file": "plate-276-king-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/king-duck",
+  "plate": 276,
+  "scientific": "Somateria spectabilis"
+ },
+ "KING RAIL": {
+  "audubonName": "Fresh Water Marsh Hen",
+  "file": "plate-203-fresh-water-marsh-hen.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/fresh-water-marsh-hen",
+  "plate": 203,
+  "scientific": "Rallus elegans"
+ },
+ "KNOT": {
+  "audubonName": "Red-breasted Sandpiper",
+  "file": "plate-315-red-breasted-sandpiper.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-breasted-sandpiper",
+  "plate": 315,
+  "scientific": "Calidris canutus"
+ },
+ "LAPLAND LONGSPUR": {
+  "audubonName": "Lapland Long-spur",
+  "file": "plate-365-lapland-long-spur.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/lapland-long-spur",
+  "plate": 365,
+  "scientific": "Calcarius lapponicus"
+ },
+ "LARK SPARROW": {
+  "audubonName": "Lark Finch, Prairie Finch, Brown Song Sparrow",
+  "file": "plate-390-lark-finch.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/lark-finch-prairie-finch-brown-song-sparrow",
+  "plate": 390,
+  "scientific": "Chondestes grammacus"
+ },
+ "LAUGHING GULL": {
+  "audubonName": "Black-headed Gull",
+  "file": "plate-314-black-headed-gull.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/black-headed-gull",
+  "plate": 314,
+  "scientific": "Leucophaeus atricilla"
+ },
+ "LEACH S PETREL": {
+  "audubonName": "Fork-tail Petrel",
+  "file": "plate-260-fork-tail-petrel.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/fork-tail-petrel",
+  "plate": 260,
+  "scientific": "Hydrobates leucorhous"
+ },
+ "LEAST BITTERN": {
+  "audubonName": "Least Bittern",
+  "file": "plate-210-least-bittern.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/least-bittern",
+  "plate": 210,
+  "scientific": "Botaurus exilis"
+ },
+ "LEAST SANDPIPER": {
+  "audubonName": "Little Sandpiper",
+  "file": "plate-320-little-sandpiper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/little-sandpiper",
+  "plate": 320,
+  "scientific": "Calidris minutilla"
+ },
+ "LEAST TERN": {
+  "audubonName": "Lesser Tern",
+  "file": "plate-319-lesser-tern.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/lesser-tern",
+  "plate": 319,
+  "scientific": "Sternula antillarum"
+ },
+ "LESSER SCAUP": {
+  "audubonName": "Scaup Duck",
+  "file": "plate-229-scaup-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/scaup-duck",
+  "plate": 229,
+  "scientific": "Aythya affinis"
+ },
+ "LESSER YELLOWLEGS": {
+  "audubonName": "Yellow Shank",
+  "file": "plate-288-yellow-shank.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-shank",
+  "plate": 288,
+  "scientific": "Tringa flavipes"
+ },
+ "LEWIS WOODPECKER": {
+  "audubonName": "Hairy Woodpecker, Red-bellied Woodpecker, Red-shafted Woodpecker, Lewis’ Woodpecker, Red-breasted Woodpecker",
+  "file": "plate-416-hairy-woodpecker.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/hairy-woodpecker-red-bellied-woodpecker-red-shafted-woodpecker-lewis",
+  "plate": 416,
+  "scientific": "Leuconotopicus villosus"
+ },
+ "LIMPKIN": {
+  "audubonName": "Scolopaceus Courlan",
+  "file": "plate-377-scolopaceus-courlan.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/scolopaceus-courlan",
+  "plate": 377,
+  "scientific": "Aramus guarauna"
+ },
+ "LINCOLN S SPARROW": {
+  "audubonName": "Lincoln Finch",
+  "file": "plate-193-lincoln-finch.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/lincoln-finch",
+  "plate": 193,
+  "scientific": "Melospiza lincolnii"
+ },
+ "LITTLE BLUE HERON": {
+  "audubonName": "Blue Crane, or Heron",
+  "file": "plate-307-blue-crane-or-heron.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/blue-crane-or-heron",
+  "plate": 307,
+  "scientific": "Egretta caerulea"
+ },
+ "LOGGERHEAD SHRIKE": {
+  "audubonName": "Loggerhead Shrike",
+  "file": "plate-57-loggerhead-shrike.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/loggerhead-shrike",
+  "plate": 57,
+  "scientific": "Lanius ludovicianus"
+ },
+ "LONG BILLED CURLEW": {
+  "audubonName": "Long-billed Curlew",
+  "file": "plate-231-long-billed-curlew.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/long-billed-curlew",
+  "plate": 231,
+  "scientific": "Numenius americanus"
+ },
+ "LONG BILLED MARSH WREN": {
+  "audubonName": "Marsh Wren",
+  "file": "plate-100-marsh-wren.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/marsh-wren",
+  "plate": 100,
+  "scientific": "Cistothorus palustris"
+ },
+ "LONG EARED OWL": {
+  "audubonName": "Long-eared Owl",
+  "file": "plate-383-long-eared-owl.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/long-eared-owl",
+  "plate": 383,
+  "scientific": "Asio otus"
+ },
+ "LONG TAILED JAEGER": {
+  "audubonName": "Arctic Yager",
+  "file": "plate-267-arctic-yager.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/arctic-yager",
+  "plate": 267,
+  "scientific": "Stercorarius longicaudus"
+ },
+ "LOUISIANA HERON": {
+  "audubonName": "Louisiana Heron",
+  "file": "plate-217-louisiana-heron.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/louisiana-heron",
+  "plate": 217,
+  "scientific": "Egretta tricolor"
+ },
+ "LOUISIANA WATERTHRUSH": {
+  "audubonName": "Louisiana Water Thrush",
+  "file": "plate-19-louisiana-water-thrush.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/louisiana-water-thrush",
+  "plate": 19,
+  "scientific": "Parkesia motacilla"
+ },
+ "MAGNIFICENT FRIGATEBIRD": {
+  "audubonName": "Frigate Pelican",
+  "file": "plate-271-frigate-pelican.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/frigate-pelican",
+  "plate": 271,
+  "scientific": "Fregata magnificens"
+ },
+ "MAGNOLIA WARBLER": {
+  "audubonName": "Black & Yellow Warbler",
+  "file": "plate-50-black-yellow-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/black-yellow-warbler",
+  "plate": 50,
+  "scientific": "Setophaga magnolia"
+ },
+ "MALLARD": {
+  "audubonName": "Mallard Duck",
+  "file": "plate-221-mallard-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/mallard-duck",
+  "plate": 221,
+  "scientific": "Anas platyrhynchos"
+ },
+ "MANGROVE CUCKOO": {
+  "audubonName": "Mangrove Cuckoo",
+  "file": "plate-169-mangrove-cuckoo.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/mangrove-cuckoo",
+  "plate": 169,
+  "scientific": "Coccyzus minor"
+ },
+ "MANX SHEARWATER": {
+  "audubonName": "Manks Shearwater",
+  "file": "plate-295-manks-shearwater.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/manks-shearwater",
+  "plate": 295,
+  "scientific": "Puffinus puffinus"
+ },
+ "MARBLED GODWIT": {
+  "audubonName": "Great Marbled Godwit",
+  "file": "plate-238-great-marbled-godwit.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/great-marbled-godwit",
+  "plate": 238,
+  "scientific": "Limosa fedoa"
+ },
+ "MARBLED MURRELET": {
+  "audubonName": "Slender-billed Guillemot",
+  "file": "plate-430-slender-billed-guillemot.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/slender-billed-guillemot",
+  "plate": 430,
+  "scientific": "Brachyramphus marmoratus"
+ },
+ "MARSH HAWK": {
+  "audubonName": "Marsh Hawk",
+  "file": "plate-356-marsh-hawk.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/marsh-hawk",
+  "plate": 356,
+  "scientific": "Circus hudsonius"
+ },
+ "MISSISSIPPI KITE": {
+  "audubonName": "Mississippi Kite",
+  "file": "plate-117-mississippi-kite.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/mississippi-kite",
+  "plate": 117,
+  "scientific": "Ictinia mississippiensis"
+ },
+ "MOCKINGBIRD": {
+  "audubonName": "Mocking Bird",
+  "file": "plate-21-mocking-bird.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/mocking-bird",
+  "plate": 21,
+  "scientific": "Mimus polyglottos"
+ },
+ "MOUNTAIN BLUEBIRD": {
+  "audubonName": "Townsend’s Warbler, Arctic Blue-bird, Western Blue-bird",
+  "file": "plate-393-townsends-warbler.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/townsends-warbler-arctic-blue-bird-western-blue-bird",
+  "plate": 393,
+  "scientific": "Sialia currucoides"
+ },
+ "MOUNTAIN PLOVER": {
+  "audubonName": "Rocky Mountain Plover",
+  "file": "plate-350-rocky-mountain-plover.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/rocky-mountain-plover",
+  "plate": 350,
+  "scientific": "Anarhynchus montanus"
+ },
+ "MOUNTAIN QUAIL": {
+  "audubonName": "Plumed Partridge and Thick-legged Partridge",
+  "file": "plate-423-plumed-partridge.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/plumed-partridge-and-thick-legged-partridge",
+  "plate": 423,
+  "scientific": "Oreortyx pictus"
+ },
+ "MOURNING DOVE": {
+  "audubonName": "Carolina Pigeon",
+  "file": "plate-17-carolina-pigeon.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/carolina-pigeon",
+  "plate": 17,
+  "scientific": "Zenaida macroura"
+ },
+ "MOURNING WARBLER": {
+  "audubonName": "Black-throated green Warbler, Blackburnian, Mourning Warbler",
+  "file": "plate-399-black-throated-green-warbler.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/black-throated-green-warbler-blackburnian-mourning-warbler",
+  "plate": 399,
+  "scientific": "Setophaga virens"
+ },
+ "NASHVILLE WARBLER": {
+  "audubonName": "Nashville Warbler",
+  "file": "plate-89-nashville-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/nashville-warbler",
+  "plate": 89,
+  "scientific": "Leiothlypis ruficapilla"
+ },
+ "NODDY TERN": {
+  "audubonName": "Noddy Tern",
+  "file": "plate-275-noddy-tern.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/noddy-tern",
+  "plate": 275,
+  "scientific": "Anous stolidus"
+ },
+ "NORTHERN PHALAROPE": {
+  "audubonName": "Hyperborean phalarope",
+  "file": "plate-215-hyperborean-phalarope.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/hyperborean-phalarope",
+  "plate": 215,
+  "scientific": "Phalaropus lobatus"
+ },
+ "NORTHERN SHRIKE": {
+  "audubonName": "Great cinereous Shrike, or Butcher Bird",
+  "file": "plate-192-great-cinereous-shrike-or-butcher-bird.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/great-cinereous-shrike-or-butcher-bird",
+  "plate": 192,
+  "scientific": "Lanius borealis"
+ },
+ "NORTHWESTERN CROW": {
+  "audubonName": "American Crow",
+  "file": "plate-156-american-crow.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/american-crow",
+  "plate": 156,
+  "scientific": "Corvus brachyrhynchos"
+ },
+ "OLDSQUAW": {
+  "audubonName": "Long-tailed Duck",
+  "file": "plate-312-long-tailed-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/long-tailed-duck",
+  "plate": 312,
+  "scientific": "Clangula hyemalis"
+ },
+ "OLIVE SIDED FLYCATCHER": {
+  "audubonName": "Olive sided Flycatcher",
+  "file": "plate-174-olive-sided-flycatcher.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/olive-sided-flycatcher",
+  "plate": 174,
+  "scientific": "Contopus cooperi"
+ },
+ "ORANGE CROWNED WARBLER": {
+  "audubonName": "Orange-crowned Warbler",
+  "file": "plate-178-orange-crowned-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/orange-crowned-warbler",
+  "plate": 178,
+  "scientific": "Leiothlypis celata"
+ },
+ "ORCHARD ORIOLE": {
+  "audubonName": "Orchard Oriole",
+  "file": "plate-42-orchard-oriole.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/orchard-oriole",
+  "plate": 42,
+  "scientific": "Icterus spurius"
+ },
+ "OREGON JUNCO": {
+  "audubonName": "Snow Bird",
+  "file": "plate-13-snow-bird.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/snow-bird",
+  "plate": 13,
+  "scientific": "Junco hyemalis"
+ },
+ "OSPREY": {
+  "audubonName": "Fish Hawk, or Osprey",
+  "file": "plate-81-fish-hawk-or-osprey.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/fish-hawk-or-osprey",
+  "plate": 81,
+  "scientific": "Pandion haliaetus"
+ },
+ "OVENBIRD": {
+  "audubonName": "Golden-crowned Thrush",
+  "file": "plate-143-golden-crowned-thrush.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/golden-crowned-thrush",
+  "plate": 143,
+  "scientific": "Seiurus aurocapilla"
+ },
+ "PAINTED BUNTING": {
+  "audubonName": "Painted Finch",
+  "file": "plate-53-painted-finch.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/painted-finch",
+  "plate": 53,
+  "scientific": "Passerina ciris"
+ },
+ "PALM WARBLER": {
+  "audubonName": "Palm Warbler",
+  "file": "plate-163-palm-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/palm-warbler",
+  "plate": 163,
+  "scientific": "Setophaga palmarum"
+ },
+ "PARASITIC JAEGER": {
+  "audubonName": "Richardson’s Jager",
+  "file": "plate-272-richardsons-jager.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/richardsons-jager",
+  "plate": 272,
+  "scientific": "Stercorarius parasiticus"
+ },
+ "PARULA WARBLER": {
+  "audubonName": "Blue Yellow back Warbler",
+  "file": "plate-15-blue-yellow-backed-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/blue-yellow-back-warbler",
+  "plate": 15,
+  "scientific": "Setophaga americana"
+ },
+ "PECTORAL SANDPIPER": {
+  "audubonName": "Pectoral Sandpiper",
+  "file": "plate-294-pectoral-sandpiper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/pectoral-sandpiper",
+  "plate": 294,
+  "scientific": "Calidris melanotos"
+ },
+ "PELAGIC CORMORANT": {
+  "audubonName": "Violet-green Cormorant and Townsend’s Cormorant",
+  "file": "plate-412-violet-green-cormorant.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/violet-green-cormorant-and-townsends-cormorant",
+  "plate": 412,
+  "scientific": "Urile pelagicus"
+ },
+ "PEREGRINE FALCON": {
+  "audubonName": "Great-footed Hawk",
+  "file": "plate-16-great-footed-hawk.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/great-footed-hawk",
+  "plate": 16,
+  "scientific": "Falco peregrinus"
+ },
+ "PIED BILLED GREBE": {
+  "audubonName": "American Pied-billed",
+  "file": "plate-248-american-pied-billed.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-pied-billed",
+  "plate": 248,
+  "scientific": "Podilymbus podiceps"
+ },
+ "PIGEON HAWK": {
+  "audubonName": "Pigeon Hawk",
+  "file": "plate-92-pigeon-hawk.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/pigeon-hawk",
+  "plate": 92,
+  "scientific": "Falco columbarius"
+ },
+ "PILEATED WOODPECKER": {
+  "audubonName": "Pileated Woodpecker",
+  "file": "plate-111-pileated-woodpecker.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/pileated-woodpecker",
+  "plate": 111,
+  "scientific": "Dryocopus pileatus"
+ },
+ "PINE GROSBEAK": {
+  "audubonName": "Pine Grosbeak",
+  "file": "plate-358-pine-grosbeak.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/pine-grosbeak",
+  "plate": 358,
+  "scientific": "Pinicola enucleator"
+ },
+ "PINE SISKIN": {
+  "audubonName": "Pine Finch",
+  "file": "plate-180-pine-finch.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/pine-finch",
+  "plate": 180,
+  "scientific": "Spinus pinus"
+ },
+ "PINE WARBLER": {
+  "audubonName": "Vigors Vireo",
+  "file": "plate-30-vigors-vireo.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/vigors-vireo",
+  "plate": 30,
+  "scientific": "Setophaga pinus"
+ },
+ "PINTAIL": {
+  "audubonName": "Pin-tailed Duck",
+  "file": "plate-227-pin-tailed-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/pin-tailed-duck",
+  "plate": 227,
+  "scientific": "Anas acuta"
+ },
+ "PIPING PLOVER": {
+  "audubonName": "Piping Plover",
+  "file": "plate-220-piping-plover.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/piping-plover",
+  "plate": 220,
+  "scientific": "Charadrius melodus"
+ },
+ "POMARINE JAEGER": {
+  "audubonName": "Jager",
+  "file": "plate-253-jager.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/jager",
+  "plate": 253,
+  "scientific": "Stercorarius pomarinus"
+ },
+ "PRAIRIE WARBLER": {
+  "audubonName": "Prairie Warbler",
+  "file": "plate-14-prairie-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/prairie-warbler",
+  "plate": 14,
+  "scientific": "Setophaga discolor"
+ },
+ "PROTHONOTARY WARBLER": {
+  "audubonName": "Prothonotary Warbler",
+  "file": "plate-3-prothonotary-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/prothonotary-warbler",
+  "plate": 3,
+  "scientific": "Protonotaria citrea"
+ },
+ "PURPLE FINCH": {
+  "audubonName": "Purple Finch",
+  "file": "plate-4-purple-finch.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/purple-finch",
+  "plate": 4,
+  "scientific": "Haemorhous purpureus"
+ },
+ "PURPLE GALLINULE": {
+  "audubonName": "Purple Gallinule",
+  "file": "plate-305-purple-gallinule.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/purple-gallinule",
+  "plate": 305,
+  "scientific": "Porphyrio martinica"
+ },
+ "PURPLE MARTIN": {
+  "audubonName": "Purple Martin",
+  "file": "plate-22-purple-martin.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/purple-martin",
+  "plate": 22,
+  "scientific": "Progne subis"
+ },
+ "PURPLE SANDPIPER": {
+  "audubonName": "Purple Sandpiper",
+  "file": "plate-284-purple-sandpiper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/purple-sandpiper",
+  "plate": 284,
+  "scientific": "Calidris maritima"
+ },
+ "RAZORBILL": {
+  "audubonName": "Razor Bill",
+  "file": "plate-214-razor-bill.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/razor-bill",
+  "plate": 214,
+  "scientific": "Alca torda"
+ },
+ "RED BELLIED WOODPECKER": {
+  "audubonName": "Hairy Woodpecker, Red-bellied Woodpecker, Red-shafted Woodpecker, Lewis’ Woodpecker, Red-breasted Woodpecker",
+  "file": "plate-416-hairy-woodpecker.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/hairy-woodpecker-red-bellied-woodpecker-red-shafted-woodpecker-lewis",
+  "plate": 416,
+  "scientific": "Leuconotopicus villosus"
+ },
+ "RED BREASTED MERGANSER": {
+  "audubonName": "Red-breasted Merganser",
+  "file": "plate-401-red-breasted-merganser.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-breasted-merganser",
+  "plate": 401,
+  "scientific": "Mergus serrator"
+ },
+ "RED BREASTED NUTHATCH": {
+  "audubonName": "Red-breasted Nuthatch",
+  "file": "plate-105-red-breasted-nuthatch.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-breasted-nuthatch",
+  "plate": 105,
+  "scientific": "Sitta canadensis"
+ },
+ "RED COCKADED WOODPECKER": {
+  "audubonName": "Red-Cockaded Woodpecker",
+  "file": "plate-389-red-cockaded-woodpecker.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/red-cockaded-woodpecker",
+  "plate": 389,
+  "scientific": "Dryobates borealis"
+ },
+ "RED CROSSBILL": {
+  "audubonName": "American Crossbill",
+  "file": "plate-197-american-crossbill.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/american-crossbill",
+  "plate": 197,
+  "scientific": "Loxia curvirostra"
+ },
+ "RED EYED VIREO": {
+  "audubonName": "Red-eyed Vireo",
+  "file": "plate-150-red-eyed-vireo.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/red-eyed-vireo",
+  "plate": 150,
+  "scientific": "Vireo olivaceus"
+ },
+ "RED HEADED WOODPECKER": {
+  "audubonName": "Red headed Woodpecker",
+  "file": "plate-27-red-headed-woodpecker.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-headed-woodpecker",
+  "plate": 27,
+  "scientific": "Melanerpes erythrocephalus"
+ },
+ "RED NECKED GREBE": {
+  "audubonName": "Red-necked Grebe",
+  "file": "plate-298-red-necked-grebe.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-necked-grebe",
+  "plate": 298,
+  "scientific": "Podiceps grisegena"
+ },
+ "RED PHALAROPE": {
+  "audubonName": "Red Phalarope",
+  "file": "plate-255-red-phalarope.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-phalarope",
+  "plate": 255,
+  "scientific": "Phalaropus fulicarius"
+ },
+ "RED SHOULDERED HAWK": {
+  "audubonName": "Red-shouldered Hawk",
+  "file": "plate-56-red-shouldered-hawk.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-shouldered-hawk",
+  "plate": 56,
+  "scientific": "Buteo lineatus"
+ },
+ "RED TAILED HAWK": {
+  "audubonName": "Red-tailed Hawk",
+  "file": "plate-51-red-tailed-hawk.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-tailed-hawk",
+  "plate": 51,
+  "scientific": "Buteo jamaicensis"
+ },
+ "RED THROATED LOON": {
+  "audubonName": "Red-Throated Diver",
+  "file": "plate-202-red-throated-diver.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-throated-diver",
+  "plate": 202,
+  "scientific": "Gavia stellata"
+ },
+ "RED WINGED BLACKBIRD": {
+  "audubonName": "Red winged Starling, or Marsh Blackbird",
+  "file": "plate-67-red-winged-starling.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-winged-starling-or-marsh-blackbird",
+  "plate": 67,
+  "scientific": "Agelaius phoeniceus"
+ },
+ "REDDISH EGRET": {
+  "audubonName": "Purple Heron",
+  "file": "plate-256-purple-heron.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/purple-heron",
+  "plate": 256,
+  "scientific": "Egretta rufescens"
+ },
+ "REDHEAD": {
+  "audubonName": "Red-headed Duck",
+  "file": "plate-322-red-headed-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-headed-duck",
+  "plate": 322,
+  "scientific": "Aythya americana"
+ },
+ "RING BILLED GULL": {
+  "audubonName": "Common American Gull",
+  "file": "plate-212-common-american-gull.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/common-american-gull",
+  "plate": 212,
+  "scientific": "Larus delawarensis"
+ },
+ "RING NECKED DUCK": {
+  "audubonName": "Ring-necked Duck",
+  "file": "plate-234-ring-necked-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/ring-necked-duck",
+  "plate": 234,
+  "scientific": "Aythya collaris"
+ },
+ "ROCK PTARMIGAN": {
+  "audubonName": "Rock Grous",
+  "file": "plate-368-rock-grous.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/rock-grous",
+  "plate": 368,
+  "scientific": "Lagopus muta"
+ },
+ "ROCK WREN": {
+  "audubonName": "Winter Wren and Rock Wren",
+  "file": "plate-360-winter-wren.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/winter-wren-and-rock-wren",
+  "plate": 360,
+  "scientific": "Troglodytes hiemalis"
+ },
+ "ROSE BREASTED GROSBEAK": {
+  "audubonName": "Rose-breasted Grosbeak",
+  "file": "plate-127-rose-breasted-grosbeak.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/rose-breasted-grosbeak",
+  "plate": 127,
+  "scientific": "Pheucticus ludovicianus"
+ },
+ "ROSEATE SPOONBILL": {
+  "audubonName": "Roseate Spoonbill",
+  "file": "plate-321-roseate-spoonbill.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/roseate-spoonbill",
+  "plate": 321,
+  "scientific": "Platalea ajaja"
+ },
+ "ROSEATE TERN": {
+  "audubonName": "Roseate Tern",
+  "file": "plate-240-roseate-tern.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/roseate-tern",
+  "plate": 240,
+  "scientific": "Sterna dougallii"
+ },
+ "ROUGH LEGGED HAWK": {
+  "audubonName": "Rough-legged Falcon",
+  "file": "plate-166-rough-legged-falcon.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/rough-legged-falcon-0",
+  "plate": 166,
+  "scientific": "Buteo lagopus"
+ },
+ "ROYAL TERN": {
+  "audubonName": "Cayenne Tern",
+  "file": "plate-273-cayenne-tern.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/cayenne-tern",
+  "plate": 273,
+  "scientific": "Thalasseus maximus"
+ },
+ "RUBY CROWNED KINGLET": {
+  "audubonName": "Ruby crowned Wren",
+  "file": "plate-195-ruby-crowned-wren.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/ruby-crowned-wren",
+  "plate": 195,
+  "scientific": "Corthylio calendula"
+ },
+ "RUBY THROATED HUMMINGBIRD": {
+  "audubonName": "Ruby-throated Humming Bird",
+  "file": "plate-47-ruby-throated-humming-bird.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/ruby-throated-humming-bird",
+  "plate": 47,
+  "scientific": "Archilochus colubris"
+ },
+ "RUDDY DUCK": {
+  "audubonName": "Ruddy Duck",
+  "file": "plate-343-ruddy-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/ruddy-duck",
+  "plate": 343,
+  "scientific": "Oxyura jamaicensis"
+ },
+ "RUDDY TURNSTONE": {
+  "audubonName": "Turn-stone",
+  "file": "plate-304-turn-stone.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/turn-stone",
+  "plate": 304,
+  "scientific": "Arenaria interpres"
+ },
+ "RUFFED GROUSE": {
+  "audubonName": "Ruffed Grouse",
+  "file": "plate-41-ruffed-grouse.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/ruffed-grouse",
+  "plate": 41,
+  "scientific": "Bonasa umbellus"
+ },
+ "RUFOUS HUMMINGBIRD": {
+  "audubonName": "Ruff-necked Humming-bird",
+  "file": "plate-379-ruff-necked-humming-bird.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/ruff-necked-humming-bird",
+  "plate": 379,
+  "scientific": "Selasphorus rufus"
+ },
+ "RUFOUS SIDED TOWHEE": {
+  "audubonName": "Towee Bunting",
+  "file": "plate-29-towee-bunting.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/towee-bunting",
+  "plate": 29,
+  "scientific": "Pipilo erythrophthalmus"
+ },
+ "RUSTY BLACKBIRD": {
+  "audubonName": "Rusty Grakle",
+  "file": "plate-157-rusty-grakle.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/rusty-grakle",
+  "plate": 157,
+  "scientific": "Euphagus carolinus"
+ },
+ "SABINE S GULL": {
+  "audubonName": "Fork-tailed Gull",
+  "file": "plate-285-fork-tailed-gull.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/fork-tailed-gull",
+  "plate": 285,
+  "scientific": "Xema sabini"
+ },
+ "SAGE GROUSE": {
+  "audubonName": "Cock of the Plains",
+  "file": "plate-371-cock-plains.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/cock-of-plains",
+  "plate": 371,
+  "scientific": "Centrocercus urophasianus"
+ },
+ "SAGE THRASHER": {
+  "audubonName": "Mountain Mocking bird and Varied Thrush",
+  "file": "plate-369-mountain-mocking-bird.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/mountain-mocking-bird-and-varied-thrush",
+  "plate": 369,
+  "scientific": "Oreoscoptes montanus"
+ },
+ "SANDERLING": {
+  "audubonName": "Sanderling",
+  "file": "plate-230-sanderling.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/sanderling",
+  "plate": 230,
+  "scientific": "Calidris alba"
+ },
+ "SANDHILL CRANE": {
+  "audubonName": "Hooping Crane",
+  "file": "plate-261-hooping-crane.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/hooping-crane-0",
+  "plate": 261,
+  "scientific": "Antigone canadensis"
+ },
+ "SANDWICH TERN": {
+  "audubonName": "Sandwich Tern",
+  "file": "plate-279-sandwich-tern.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/sandwich-tern",
+  "plate": 279,
+  "scientific": "Thalasseus sandvicensis"
+ },
+ "SAVANNAH SPARROW": {
+  "audubonName": "Savannah Finch",
+  "file": "plate-109-savannah-finch.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/savannah-finch",
+  "plate": 109,
+  "scientific": "Passerculus sandwichensis"
+ },
+ "SAW WHET OWL": {
+  "audubonName": "Little Owl",
+  "file": "plate-199-little-owl.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/little-owl",
+  "plate": 199,
+  "scientific": "Aegolius acadicus"
+ },
+ "SCARLET IBIS": {
+  "audubonName": "Scarlet Ibis",
+  "file": "plate-397-scarlet-ibis.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/scarlet-ibis",
+  "plate": 397,
+  "scientific": null
+ },
+ "SCARLET TANAGER": {
+  "audubonName": "Louisiana Tanager and Scarlet Tanager",
+  "file": "plate-354-louisiana-tanager.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/louisiana-tanager-and-scarlet-tanager",
+  "plate": 354,
+  "scientific": "Piranga ludoviciana"
+ },
+ "SCREECH OWL": {
+  "audubonName": "Little Screech Owl",
+  "file": "plate-97-little-screech-owl.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/little-screech-owl",
+  "plate": 97,
+  "scientific": "Megascops asio"
+ },
+ "SCRUB JAY": {
+  "audubonName": "Florida Jay",
+  "file": "plate-87-florida-jay.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/florida-jay",
+  "plate": 87,
+  "scientific": "Aphelocoma coerulescens"
+ },
+ "SEASIDE SPARROW": {
+  "audubonName": "Seaside Finch",
+  "file": "plate-93-seaside-finch.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/seaside-finch",
+  "plate": 93,
+  "scientific": "Ammospiza maritima"
+ },
+ "SEMIPALMATED PLOVER": {
+  "audubonName": "Ring Plover",
+  "file": "plate-330-ring-plover.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/ring-plover",
+  "plate": 330,
+  "scientific": "Charadrius semipalmatus"
+ },
+ "SEMIPALMATED SANDPIPER": {
+  "audubonName": "Semipalmated Sandpiper",
+  "file": "plate-405-semipalmated-sandpiper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/semipalmated-sandpiper",
+  "plate": 405,
+  "scientific": "Calidris pusilla"
+ },
+ "SHARP SHINNED HAWK": {
+  "audubonName": "Sharp-shinned Hawk",
+  "file": "plate-374-sharp-shinned-hawk.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/sharp-shinned-hawk",
+  "plate": 374,
+  "scientific": "Accipiter striatus"
+ },
+ "SHARP TAILED GROUSE": {
+  "audubonName": "Sharp-tailed Grouse",
+  "file": "plate-382-sharp-tailed-grouse.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/sharp-tailed-grouse",
+  "plate": 382,
+  "scientific": "Tympanuchus phasianellus"
+ },
+ "SHORT BILLED DOWITCHER": {
+  "audubonName": "Red-breasted Snipe",
+  "file": "plate-335-red-breasted-snipe.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/red-breasted-snipe",
+  "plate": 335,
+  "scientific": "Limnodromus griseus"
+ },
+ "SHORT EARED OWL": {
+  "audubonName": "Burrowing Owl, Large-headed Burrowing Owl, Little night Owl, Columbian Owl, Short-eared Owl",
+  "file": "plate-432-burrowing-owl.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/burrowing-owl-large-headed-burrowing-owl-little-night-owl-columbian-owl-short",
+  "plate": 432,
+  "scientific": "Athene cunicularia"
+ },
+ "SHOVELER": {
+  "audubonName": "Shoveller Duck",
+  "file": "plate-327-shoveller-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/shoveller-duck",
+  "plate": 327,
+  "scientific": "Spatula clypeata"
+ },
+ "SLATE COLORED JUNCO": {
+  "audubonName": "Snow Bird",
+  "file": "plate-13-snow-bird.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/snow-bird",
+  "plate": 13,
+  "scientific": "Junco hyemalis"
+ },
+ "SNOW BUNTING": {
+  "audubonName": "Snow Bunting",
+  "file": "plate-189-snow-bunting.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/snow-bunting",
+  "plate": 189,
+  "scientific": "Plectrophenax nivalis"
+ },
+ "SNOW GOOSE": {
+  "audubonName": "Snow Goose",
+  "file": "plate-381-snow-goose.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/snow-goose",
+  "plate": 381,
+  "scientific": "Anser caerulescens"
+ },
+ "SNOWY EGRET": {
+  "audubonName": "Snowy Heron, or White Egret",
+  "file": "plate-242-snowy-heron.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/snowy-heron-or-white-egret",
+  "plate": 242,
+  "scientific": "Egretta thula"
+ },
+ "SNOWY OWL": {
+  "audubonName": "Snowy Owl",
+  "file": "plate-121-snowy-owl.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/snowy-owl",
+  "plate": 121,
+  "scientific": "Bubo scandiacus"
+ },
+ "SOLITARY SANDPIPER": {
+  "audubonName": "Solitary Sandpiper",
+  "file": "plate-289-solitary-sandpiper.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/solitary-sandpiper",
+  "plate": 289,
+  "scientific": "Tringa solitaria"
+ },
+ "SONG SPARROW": {
+  "audubonName": "Song Sparrow",
+  "file": "plate-25-song-sparrow.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/song-sparrow",
+  "plate": 25,
+  "scientific": "Melospiza melodia"
+ },
+ "SOOTY TERN": {
+  "audubonName": "Sooty Tern",
+  "file": "plate-235-sooty-tern.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/sooty-tern",
+  "plate": 235,
+  "scientific": "Onychoprion fuscatus"
+ },
+ "SORA": {
+  "audubonName": "Sora, or Rail",
+  "file": "plate-233-sora-or-rail.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/sora-or-rail",
+  "plate": 233,
+  "scientific": "Porzana carolina"
+ },
+ "SPARROW HAWK": {
+  "audubonName": "American Sparrow Hawk",
+  "file": "plate-142-american-sparrow-hawk.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-sparrow-hawk",
+  "plate": 142,
+  "scientific": "Falco sparverius"
+ },
+ "SPOTTED SANDPIPER": {
+  "audubonName": "Spotted Sandpiper",
+  "file": "plate-310-spotted-sandpiper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/spotted-sandpiper",
+  "plate": 310,
+  "scientific": "Actitis macularius"
+ },
+ "SPRUCE GROUSE": {
+  "audubonName": "Spotted Grouse",
+  "file": "plate-176-spotted-grouse.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/spotted-grouse",
+  "plate": 176,
+  "scientific": "Canachites canadensis"
+ },
+ "STELLER S EIDER": {
+  "audubonName": "Western Duck",
+  "file": "plate-429-western-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/western-duck",
+  "plate": 429,
+  "scientific": "Polysticta stelleri"
+ },
+ "STELLER S JAY": {
+  "audubonName": "Yellow-Billed Magpie, Stellers Jay, Ultramarine Jay, Clark’s Crow",
+  "file": "plate-362-yellow-billed-magpie.jpg",
+  "matchedBy": "composite-modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-billed-magpie-stellers-jay-ultramarine-jay-clarks-crow",
+  "plate": 362,
+  "scientific": "Pica nuttalli"
+ },
+ "STILT SANDPIPER": {
+  "audubonName": "Long-legged Sandpiper",
+  "file": "plate-344-long-legged-sandpiper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/long-legged-sandpiper",
+  "plate": 344,
+  "scientific": "Calidris himantopus"
+ },
+ "SUMMER TANAGER": {
+  "audubonName": "Summer Red Bird",
+  "file": "plate-44-summer-red-bird.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/summer-red-bird",
+  "plate": 44,
+  "scientific": "Piranga rubra"
+ },
+ "SURF SCOTER": {
+  "audubonName": "Black, or Surf Duck",
+  "file": "plate-317-black-or-surf-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/black-or-surf-duck",
+  "plate": 317,
+  "scientific": "Melanitta perspicillata"
+ },
+ "SURFBIRD": {
+  "audubonName": "Townsend’s Sandpiper",
+  "file": "plate-428-townsends-sandpiper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/townsends-sandpiper",
+  "plate": 428,
+  "scientific": "Calidris virgata"
+ },
+ "SWAINSON S HAWK": {
+  "audubonName": "Common Buzzard",
+  "file": "plate-372-common-buzzard.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/common-buzzard",
+  "plate": 372,
+  "scientific": "Buteo swainsoni"
+ },
+ "SWAINSON S WARBLER": {
+  "audubonName": "Brown headed Worm eating Warbler",
+  "file": "plate-198-brown-headed-worm-eating-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/brown-headed-worm-eating-warbler",
+  "plate": 198,
+  "scientific": "Limnothlypis swainsonii"
+ },
+ "SWALLOW TAILED KITE": {
+  "audubonName": "Swallow-tailed Hawk",
+  "file": "plate-72-swallow-tailed-hawk.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/swallow-tailed-hawk",
+  "plate": 72,
+  "scientific": "Elanoides forficatus"
+ },
+ "SWAMP SPARROW": {
+  "audubonName": "Swamp Sparrow",
+  "file": "plate-64-swamp-sparrow.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/swamp-sparrow",
+  "plate": 64,
+  "scientific": "Melospiza georgiana"
+ },
+ "TENNESSEE WARBLER": {
+  "audubonName": "Tennessee Warbler",
+  "file": "plate-154-tennessee-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/tennessee-warbler",
+  "plate": 154,
+  "scientific": "Leiothlypis peregrina"
+ },
+ "THICK BILLED MURRE": {
+  "audubonName": "Uria Brunnichi",
+  "file": "plate-245-uria-brunnichi.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/uria-brunnichi",
+  "plate": 245,
+  "scientific": "Uria lomvia"
+ },
+ "TOWNSEND S WARBLER": {
+  "audubonName": "Townsend’s Warbler, Arctic Blue-bird, Western Blue-bird",
+  "file": "plate-393-townsends-warbler.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/townsends-warbler-arctic-blue-bird-western-blue-bird",
+  "plate": 393,
+  "scientific": "Sialia currucoides"
+ },
+ "TRAILL S FLYCATCHER": {
+  "audubonName": "Traill’s Flycatcher",
+  "file": "plate-45-traills-flycatcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/traills-flycatcher",
+  "plate": 45,
+  "scientific": "Empidonax traillii"
+ },
+ "TREE SPARROW": {
+  "audubonName": "Tree Sparrow",
+  "file": "plate-188-tree-sparrow.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/tree-sparrow",
+  "plate": 188,
+  "scientific": "Spizelloides arborea"
+ },
+ "TREE SWALLOW": {
+  "audubonName": "White-bellied Swallow",
+  "file": "plate-98-white-bellied-swallow.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/white-bellied-swallow",
+  "plate": 98,
+  "scientific": "Tachycineta bicolor"
+ },
+ "TRUMPETER SWAN": {
+  "audubonName": "Trumpeter Swan",
+  "file": "plate-376-trumpeter-swan.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/trumpeter-swan",
+  "plate": 376,
+  "scientific": "Cygnus buccinator"
+ },
+ "TUFTED PUFFIN": {
+  "audubonName": "Tufted Auk",
+  "file": "plate-249-tufted-auk.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/tufted-auk",
+  "plate": 249,
+  "scientific": "Fratercula cirrhata"
+ },
+ "TUFTED TITMOUSE": {
+  "audubonName": "Crested Titmouse",
+  "file": "plate-39-crested-titmouse.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/crested-titmouse",
+  "plate": 39,
+  "scientific": "Baeolophus bicolor"
+ },
+ "TURKEY": {
+  "audubonName": "Wild Turkey",
+  "file": "plate-1-wild-turkey.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/wild-turkey",
+  "plate": 1,
+  "scientific": "Meleagris gallopavo"
+ },
+ "TURKEY VULTURE": {
+  "audubonName": "Turkey Buzzard",
+  "file": "plate-151-turkey-buzzard.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/turkey-buzzard",
+  "plate": 151,
+  "scientific": "Cathartes aura"
+ },
+ "UPLAND PLOVER": {
+  "audubonName": "Bartram Sandpiper",
+  "file": "plate-303-bartram-sandpiper.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/bartram-sandpiper",
+  "plate": 303,
+  "scientific": "Bartramia longicauda"
+ },
+ "VARIED THRUSH": {
+  "audubonName": "Bullock’s Oriole, Baltimore Oriole, Mexican Goldfinch, Varied Thrush, Common Water Thrush",
+  "file": "plate-433-bullocks-oriole.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/bullocks-oriole-baltimore-oriole-mexican-goldfinch-varied-thrush-common-water",
+  "plate": 433,
+  "scientific": "Icterus bullockii"
+ },
+ "VEERY": {
+  "audubonName": "Tawny Thrush",
+  "file": "plate-164-tawny-thrush.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/tawny-thrush",
+  "plate": 164,
+  "scientific": "Catharus fuscescens"
+ },
+ "VESPER SPARROW": {
+  "audubonName": "Grass Finch, or Bay-winged Bunting",
+  "file": "plate-94-grass-finch.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/grass-finch-or-bay-winged-bunting",
+  "plate": 94,
+  "scientific": "Pooecetes gramineus"
+ },
+ "VIOLET GREEN SWALLOW": {
+  "audubonName": "Bank Swallow and Violet-green Swallow",
+  "file": "plate-385-bank-swallow.jpg",
+  "matchedBy": "plate-title-part",
+  "page": "https://www.audubon.org/art/birds-of-america/bank-swallow-and-violet-green-swallow",
+  "plate": 385,
+  "scientific": "Riparia riparia"
+ },
+ "VIRGINIA RAIL": {
+  "audubonName": "Virginia Rail",
+  "file": "plate-205-virginia-rail.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/virginia-rail",
+  "plate": 205,
+  "scientific": "Rallus limicola"
+ },
+ "WESTERN KINGBIRD": {
+  "audubonName": "Arkansaw Flycatcher, Swallow-Tailed Flycatcher, Says Flycatcher",
+  "file": "plate-359-arkansaw-flycatcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/arkansaw-flycatcher-swallow-tailed-flycatcher-says-flycatcher",
+  "plate": 359,
+  "scientific": "Tyrannus verticalis"
+ },
+ "WESTERN TANAGER": {
+  "audubonName": "Louisiana Tanager and Scarlet Tanager",
+  "file": "plate-354-louisiana-tanager.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/louisiana-tanager-and-scarlet-tanager",
+  "plate": 354,
+  "scientific": "Piranga ludoviciana"
+ },
+ "WHIP POOR WILL": {
+  "audubonName": "Whip-poor-will",
+  "file": "plate-82-whip-poor-will.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/whip-poor-will",
+  "plate": 82,
+  "scientific": "Antrostomus vociferus"
+ },
+ "WHITE BREASTED NUTHATCH": {
+  "audubonName": "White-breasted Black-capped Nuthatch",
+  "file": "plate-152-white-breasted-black-capped-nuthatch.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/white-breasted-black-capped-nuthatch",
+  "plate": 152,
+  "scientific": "Sitta carolinensis"
+ },
+ "WHITE CROWNED PIGEON": {
+  "audubonName": "White-crowned Pigeon",
+  "file": "plate-177-white-crowned-pigeon.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/white-crowned-pigeon",
+  "plate": 177,
+  "scientific": "Patagioenas leucocephala"
+ },
+ "WHITE CROWNED SPARROW": {
+  "audubonName": "White-crowned Sparrow",
+  "file": "plate-114-white-crowned-sparrow.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/white-crowned-sparrow",
+  "plate": 114,
+  "scientific": "Zonotrichia leucophrys"
+ },
+ "WHITE EYED VIREO": {
+  "audubonName": "White-eyed Flycatcher, or Vireo",
+  "file": "plate-63-white-eyed-flycatcher.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/white-eyed-flycatcher-or-vireo",
+  "plate": 63,
+  "scientific": "Vireo griseus"
+ },
+ "WHITE FRONTED GOOSE": {
+  "audubonName": "White-fronted Goose",
+  "file": "plate-286-white-fronted-goose.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/white-fronted-goose",
+  "plate": 286,
+  "scientific": "Anser albifrons"
+ },
+ "WHITE IBIS": {
+  "audubonName": "White Ibis",
+  "file": "plate-222-white-ibis.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/white-ibis",
+  "plate": 222,
+  "scientific": "Eudocimus albus"
+ },
+ "WHITE PELICAN": {
+  "audubonName": "American White Pelican",
+  "file": "plate-311-american-white-pelican.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/american-white-pelican",
+  "plate": 311,
+  "scientific": "Pelecanus erythrorhynchos"
+ },
+ "WHITE RUMPED SANDPIPER": {
+  "audubonName": "Schinz’s Sandpiper",
+  "file": "plate-278-schinzs-sandpiper.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/schinzs-sandpiper",
+  "plate": 278,
+  "scientific": "Calidris fuscicollis"
+ },
+ "WHITE TAILED KITE": {
+  "audubonName": "Black-Winged Hawk",
+  "file": "plate-352-black-winged-hawk.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/black-winged-hawk",
+  "plate": 352,
+  "scientific": "Elanus leucurus"
+ },
+ "WHITE TAILED TROPICBIRD": {
+  "audubonName": "Tropic Bird",
+  "file": "plate-262-tropic-bird.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/tropic-bird",
+  "plate": 262,
+  "scientific": "Phaethon lepturus"
+ },
+ "WHITE THROATED SPARROW": {
+  "audubonName": "White throated Sparrow",
+  "file": "plate-8-white-throated-sparrow.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/white-throated-sparrow",
+  "plate": 8,
+  "scientific": "Zonotrichia albicollis"
+ },
+ "WHITE WINGED CROSSBILL": {
+  "audubonName": "White-winged Crossbill",
+  "file": "plate-364-white-winged-crossbill.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/white-winged-crossbill",
+  "plate": 364,
+  "scientific": "Loxia leucoptera"
+ },
+ "WHITE WINGED JUNCO": {
+  "audubonName": "Snow Bird",
+  "file": "plate-13-snow-bird.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/snow-bird",
+  "plate": 13,
+  "scientific": "Junco hyemalis"
+ },
+ "WHITE WINGED SCOTER": {
+  "audubonName": "Velvet Duck",
+  "file": "plate-247-velvet-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/velvet-duck",
+  "plate": 247,
+  "scientific": "Melanitta deglandi"
+ },
+ "WHOOPING CRANE": {
+  "audubonName": "Hooping Crane",
+  "file": "plate-226-hooping-crane.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/hooping-crane",
+  "plate": 226,
+  "scientific": "Grus americana"
+ },
+ "WILLET": {
+  "audubonName": "Semipalmated Snipe, or Willet",
+  "file": "plate-274-semipalmated-snipe.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/semipalmated-snipe-or-willet",
+  "plate": 274,
+  "scientific": "Tringa semipalmata"
+ },
+ "WILLOW PTARMIGAN": {
+  "audubonName": "Willow Grouse, or Large Ptarmigan",
+  "file": "plate-191-willow-grouse.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/willow-grouse-or-large-ptarmigan",
+  "plate": 191,
+  "scientific": "Lagopus lagopus"
+ },
+ "WILSON S PETREL": {
+  "audubonName": "Stormy Petrel",
+  "file": "plate-270-stormy-petrel.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/stormy-petrel",
+  "plate": 270,
+  "scientific": "Oceanites oceanicus"
+ },
+ "WILSON S PHALAROPE": {
+  "audubonName": "Wilson’s Phalarope",
+  "file": "plate-254-wilsons-phalarope.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/wilsons-phalarope",
+  "plate": 254,
+  "scientific": "Phalaropus tricolor"
+ },
+ "WILSON S PLOVER": {
+  "audubonName": "Wilson’s Plover",
+  "file": "plate-209-wilsons-plover.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/wilsons-plover",
+  "plate": 209,
+  "scientific": "Anarhynchus wilsonia"
+ },
+ "WILSON S WARBLER": {
+  "audubonName": "Green Black-capt Flycatcher",
+  "file": "plate-124-green-black-capt-flycatcher.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/green-black-capt-flycatcher",
+  "plate": 124,
+  "scientific": "Cardellina pusilla"
+ },
+ "WILSONIA CANADENSIS": {
+  "audubonName": "Canada Warbler",
+  "file": "plate-103-canada-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/canada-warbler",
+  "plate": 103,
+  "scientific": "Cardellina canadensis"
+ },
+ "WILSONIA CITRINA": {
+  "audubonName": "Hooded Warbler",
+  "file": "plate-110-hooded-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/hooded-warbler",
+  "plate": 110,
+  "scientific": "Setophaga citrina"
+ },
+ "WILSONIA PUSILLA": {
+  "audubonName": "Green Black-capt Flycatcher",
+  "file": "plate-124-green-black-capt-flycatcher.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/green-black-capt-flycatcher",
+  "plate": 124,
+  "scientific": "Cardellina pusilla"
+ },
+ "WINTER WREN": {
+  "audubonName": "Winter Wren and Rock Wren",
+  "file": "plate-360-winter-wren.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/winter-wren-and-rock-wren",
+  "plate": 360,
+  "scientific": "Troglodytes hiemalis"
+ },
+ "WOOD DUCK": {
+  "audubonName": "Summer, or Wood Duck",
+  "file": "plate-206-summer-or-wood-duck.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/summer-or-wood-duck",
+  "plate": 206,
+  "scientific": "Aix sponsa"
+ },
+ "WOOD IBIS": {
+  "audubonName": "Wood Ibiss",
+  "file": "plate-216-wood-ibiss.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/wood-ibiss",
+  "plate": 216,
+  "scientific": "Mycteria americana"
+ },
+ "WOOD PEWEE": {
+  "audubonName": "Wood Pewee",
+  "file": "plate-115-wood-pewee.jpg",
+  "matchedBy": "plate-title",
+  "page": "https://www.audubon.org/art/birds-of-america/wood-pewee",
+  "plate": 115,
+  "scientific": "Contopus virens"
+ },
+ "WOOD THRUSH": {
+  "audubonName": "Wood Thrush",
+  "file": "plate-73-wood-thrush.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/wood-thrush",
+  "plate": 73,
+  "scientific": "Hylocichla mustelina"
+ },
+ "WORM EATING WARBLER": {
+  "audubonName": "Worm eating Warbler",
+  "file": "plate-34-worm-eating-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/worm-eating-warbler",
+  "plate": 34,
+  "scientific": "Helmitheros vermivorum"
+ },
+ "XANTHOCEPHALUS XANTHOCEPHALUS": {
+  "audubonName": "Nuttall’s Starling, Yellow-headed Troopial, Bullock’s Oriole",
+  "file": "plate-388-nuttalls-starling.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/nuttalls-starling-yellow-headed-troopial-bullocks-oriole",
+  "plate": 388,
+  "scientific": "Xanthocephalus xanthocephalus"
+ },
+ "YELLOW BELLIED SAPSUCKER": {
+  "audubonName": "Yellow bellied Woodpecker",
+  "file": "plate-190-yellow-bellied-woodpecker.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-bellied-woodpecker",
+  "plate": 190,
+  "scientific": "Sphyrapicus varius"
+ },
+ "YELLOW BILLED CUCKOO": {
+  "audubonName": "Yellow-billed Cuckoo",
+  "file": "plate-2-yellow-billed-cuckoo.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-billed-cuckoo",
+  "plate": 2,
+  "scientific": "Coccyzus americanus"
+ },
+ "YELLOW BILLED MAGPIE": {
+  "audubonName": "Yellow-Billed Magpie, Stellers Jay, Ultramarine Jay, Clark’s Crow",
+  "file": "plate-362-yellow-billed-magpie.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-billed-magpie-stellers-jay-ultramarine-jay-clarks-crow",
+  "plate": 362,
+  "scientific": "Pica nuttalli"
+ },
+ "YELLOW BREASTED CHAT": {
+  "audubonName": "Yellow-breasted Chat",
+  "file": "plate-137-yellow-breasted-chat.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-breasted-chat",
+  "plate": 137,
+  "scientific": "Icteria virens"
+ },
+ "YELLOW CROWNED NIGHT HERON": {
+  "audubonName": "Yellow-Crowned Heron",
+  "file": "plate-336-yellow-crowned-heron.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-crowned-heron",
+  "plate": 336,
+  "scientific": "Nyctanassa violacea"
+ },
+ "YELLOW HEADED BLACKBIRD": {
+  "audubonName": "Nuttall’s Starling, Yellow-headed Troopial, Bullock’s Oriole",
+  "file": "plate-388-nuttalls-starling.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/nuttalls-starling-yellow-headed-troopial-bullocks-oriole",
+  "plate": 388,
+  "scientific": "Xanthocephalus xanthocephalus"
+ },
+ "YELLOW RAIL": {
+  "audubonName": "Yellow-breasted Rail",
+  "file": "plate-329-yellow-breasted-rail.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-breasted-rail",
+  "plate": 329,
+  "scientific": "Coturnicops noveboracensis"
+ },
+ "YELLOW SHAFTED FLICKER": {
+  "audubonName": "Golden-winged Woodpecker",
+  "file": "plate-37-golden-winged-woodpecker.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/golden-winged-woodpecker",
+  "plate": 37,
+  "scientific": "Colaptes auratus"
+ },
+ "YELLOW THROATED VIREO": {
+  "audubonName": "Yellow-throated Vireo",
+  "file": "plate-119-yellow-throated-vireo.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-throated-vireo",
+  "plate": 119,
+  "scientific": "Vireo flavifrons"
+ },
+ "YELLOW THROATED WARBLER": {
+  "audubonName": "Yellow Throated Warbler",
+  "file": "plate-85-yellow-throated-warbler.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-throated-warbler",
+  "plate": 85,
+  "scientific": "Setophaga dominica"
+ },
+ "YELLOWTHROAT": {
+  "audubonName": "Yellow-breasted Warbler",
+  "file": "plate-23-yellow-breasted-warbler.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/yellow-breasted-warbler",
+  "plate": 23,
+  "scientific": "Geothlypis trichas"
+ },
+ "ZENAIDURA MACROURA": {
+  "audubonName": "Carolina Pigeon",
+  "file": "plate-17-carolina-pigeon.jpg",
+  "matchedBy": "modern-name",
+  "page": "https://www.audubon.org/art/birds-of-america/carolina-pigeon",
+  "plate": 17,
+  "scientific": "Zenaida macroura"
+ },
+ "ZONOTRICHIA ALBICOLLIS": {
+  "audubonName": "White throated Sparrow",
+  "file": "plate-8-white-throated-sparrow.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/white-throated-sparrow",
+  "plate": 8,
+  "scientific": "Zonotrichia albicollis"
+ },
+ "ZONOTRICHIA LEUCOPHRYS": {
+  "audubonName": "White-crowned Sparrow",
+  "file": "plate-114-white-crowned-sparrow.jpg",
+  "matchedBy": "scientific",
+  "page": "https://www.audubon.org/art/birds-of-america/white-crowned-sparrow",
+  "plate": 114,
+  "scientific": "Zonotrichia leucophrys"
+ }
+}

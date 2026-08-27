@@ -20,6 +20,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 JOURNAL = ROOT / "data" / "journal.json"
+PLATES = ROOT / "data" / "audubon_plates.json"
 PAGES_SRC = ROOT / "data" / "pages"
 WEB = ROOT / "web" / "public"
 OUT_JSON = WEB / "data" / "journal.json"
@@ -78,7 +79,17 @@ def title_case(name: str) -> str:
 
 
 def species_key(name: str) -> str:
-    """Group the same bird across the species account and the back index."""
+    """Group the same bird across the species account and the back index.
+
+    The two disagree about word order: an account prints "American Avocet" and the
+    back index files it as "Avocet, American". Reading them as different birds put
+    100 species on the life list twice, so the index's inversion is undone before
+    the key is taken. The printed name is left alone -- whichever page was read
+    first names the record, and that is the account wherever there is one.
+    """
+    if "," in name:
+        head, tail = name.split(",", 1)
+        name = f"{tail.strip()} {head.strip()}"
     k = re.sub(r"[^A-Z ]+", " ", name.upper())
     return re.sub(r"\s+", " ", k).strip()
 
@@ -118,6 +129,43 @@ def resize(src: Path, dst: Path, width: int, quality: int) -> None:
         im.save(dst, "JPEG", quality=quality, optimize=True, progressive=True)
 
 
+def focus_y(img: Image.Image) -> int:
+    """Where the picture actually is, as a percentage down the plate.
+
+    The cards crop to fill, which throws away half the height of a portrait plate,
+    and a fixed crop guesses wrong often: Audubon hung the Vesper Sparrow at the
+    foot of a prickly pear, so centring on the sheet gives a card of cactus. The
+    plates are ink on near-white paper, though, so the centre of mass of everything
+    that is not paper lands on the bird. Clamped, because a plate with a single
+    high branch should still not crop past the middle of the sheet.
+    """
+    grey = img.convert("L").resize((64, 64))
+    weights = [(y, sum(255 - v for v in grey.crop((0, y, 64, y + 1)).getdata() if v < 245))
+               for y in range(64)]
+    total = sum(w for _, w in weights)
+    if not total:
+        return 50
+    centre = sum(y * w for y, w in weights) / total
+    return max(30, min(70, round(centre / 64 * 100)))
+
+
+def plate_record(plate: dict) -> dict:
+    """Attach the shape of both files: the card's crop, and the whole plate.
+
+    Audubon composed to the page, not to a template: 154 of the plates are
+    landscape and the rest portrait, in 66 different sizes, so neither file can be
+    given an assumed aspect.
+    """
+    plates = WEB / "plates"
+    with Image.open(plates / f"plate-{plate['plate']}-card.webp") as card:
+        width, height = card.size
+        focus = focus_y(card)
+    with Image.open(plates / f"plate-{plate['plate']}.webp") as whole:
+        full_width, full_height = whole.size
+    return {**plate, "width": width, "height": height, "focusY": focus,
+            "fullWidth": full_width, "fullHeight": full_height}
+
+
 def main() -> int:
     if not JOURNAL.exists():
         print(f"missing {JOURNAL}; run extract.py first", file=sys.stderr)
@@ -125,6 +173,7 @@ def main() -> int:
 
     pages = json.loads(JOURNAL.read_text())
     pages.sort(key=lambda p: p["image"])
+    plates = json.loads(PLATES.read_text()) if PLATES.exists() else {}
 
     # ---- images -----------------------------------------------------------
     print(f"resizing {len(pages)} page images...")
@@ -230,6 +279,10 @@ def main() -> int:
     species = sorted(species_by_key.values(), key=lambda s: s["name"])
     for sp in species:
         sp["observations"].sort(key=lambda o: (o["date"] or "9999", o["location"] or ""))
+        # Audubon reaches a little under half the book; the rest keep the
+        # placeholder. See extract/fetch_plates.py for how the two are matched.
+        if sp["key"] in plates:
+            sp["plate"] = plate_record(plates[sp["key"]])
 
     all_obs = [
         {**o, "species": sp["name"], "family": sp["family"], "speciesKey": sp["key"]}
@@ -276,6 +329,8 @@ def main() -> int:
     print(f"  locations        {m['locations']}")
     print(f"  families         {m['families']}")
     print(f"  span             {m['firstDate']} to {m['lastDate']}")
+    plated = sum(1 for s in species if s.get("plate") and (s["marked"] or s["observations"]))
+    print(f"  audubon plates   {plated} of {m['speciesRecorded']} recorded species illustrated")
     print(f"\n  -> {OUT_JSON.relative_to(ROOT)} "
           f"({OUT_JSON.stat().st_size / 1024:.0f} KB)")
     imgs = sum(f.stat().st_size for f in (WEB / "pages").glob("*.jpg"))

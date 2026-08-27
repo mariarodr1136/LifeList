@@ -30,6 +30,7 @@ data/raw_heic/     151 original .HEIC photos (gitignored, 428 MB)
 data/pages/        JPEG conversions used for extraction
 data/extracted/    one JSON per page — the resumable unit of work
 data/journal.json  aggregated transcription
+data/audubon_plates.json  species -> Audubon plate, and how it was matched
 data/journal.db    SQLite: page / species / observation
 extract/           the pipeline
 web/               the Next.js site
@@ -105,18 +106,37 @@ never overwrites what was written.
 cd web && npm run build && npm run start
 ```
 
-`build_web.py` emits `web/public/data/journal.json`; all four routes prerender from
-it, so the site needs no database and no network at runtime. It also still resizes
-the page photographs into `web/public/pages` and `.../thumbs` — **the site no longer
-displays them**, so those 48 MB are dead weight in a deploy and the image step can be
-dropped whenever you are sure you want the scans gone.
+`build_web.py` emits `web/public/data/journal.json`, merging in the Audubon mapping
+from `data/audubon_plates.json` (see step 5); all four routes prerender from it, so
+the site needs no database and no network at runtime. It also resizes the page
+photographs into `web/public/pages` and `.../thumbs`, which `/review` and the life
+list's detail rail both read.
+
+### 5. Fetch the Audubon plates
+
+```bash
+.venv/bin/python extract/fetch_plates.py
+```
+
+Slow, and it hits the network, so it is a separate step: the mapping it writes to
+`data/audubon_plates.json` is committed and `build_web.py` just reads it. Rerun only
+to refresh the artwork.
+
+Matching the book to Audubon is the hard part. The 1966 guide and his 1830s plate
+titles agree on almost nothing — his Vesper Sparrow is a "Grass Finch, or Bay-winged
+Bunting" — and sixty years of taxonomy moved the genera under the scientific names
+(`Parus` -> `Poecile`). Matching on scientific name alone reaches 38% of what she
+recorded. Resolving both sides through Wikipedia, whose bird articles are titled with
+the current common name and whose redirects absorb both the synonyms and the archaic
+names, reaches 60%. The late plates carry up to six birds each ("Bank Swallow and
+Violet-green Swallow"), so their titles are split and resolved too.
 
 ### The site itself
 
 | Route | What it is |
 |---|---|
-| `/` | **Life list** — the 449 birds he recorded, as cards with a detail rail: every sighting, the date and place as written, his notes |
-| `/checklist` | **Checklist** — all 1,357 printed species grouped as the book groups them, ticked or not, with a per-group progress bar |
+| `/` | **Life list** — the 349 birds he recorded, as cards with a detail rail: every sighting, the date and place as written, his notes |
+| `/checklist` | **Checklist** — all 869 printed species grouped as the book groups them, ticked or not, with a per-group progress bar |
 | `/places` | **Places** — the 148 named locations, each with its span and everything recorded there |
 | `/overview` | **Overview** — the totals, entries by year, most-visited places, best-recorded groups |
 | `/review` | **Review** — the 43 flagged entries, each beside the photograph it was read from, with a place to record what the page actually says |
@@ -126,31 +146,57 @@ it rather than a rail beside it — 48px tall and sticky, which every in-page ra
 toolbar is offset against (`top-12`). The life list adds a rail on the right once a
 bird is chosen — the grid is laid out on `auto-fill`, so it reflows to fewer columns
 when the rail opens and takes the room back when it closes — and the checklist has
-one on the left for jumping between groups. Light and dark are both first-class, with the choice
-stored per browser.
+one on the left for jumping between groups. The site is light only: the plates are
+hand-coloured on cream paper, and dimming them to sit on a dark page was flattering
+neither the artwork nor the type.
 
 The masthead carries an Audubon plate of Carolina parakeets
 (`web/public/banner.jpg`), fitted whole rather than cropped: the plate keeps its
 proportions at the right of the band, and the rest of the band is its own paper tone,
 with the plate's left edge masked into that mount so the picture ends the way a plate
 ends on paper. The band is deep (280px) because the plate's width follows its height.
-It also carries the running total — 449 of 1,357 — that used to sit in the sidebar.
-The dark theme dims the plate rather than inverting it. The artwork is third-party:
-fine for something private, but it would need clearing before the site went public.
+It also carries the running total — 349 of 869 — that used to sit in the sidebar.
+The artwork is third-party: fine for something private, but it would need clearing
+before the site went public.
 
 The species placeholder is still line art of our own (see below), so the two do not
 compete.
 
-**Bird artwork is a placeholder.** The guide's plates are not digitised, so every
-species shows the same illustration (`web/public/bird-placeholder.svg`) and the detail
-panel says so outright rather than implying a photograph exists. It is line art on a
-transparent ground, matching the masthead: the card's own surface shows through, so
-one file reads correctly in both themes.
+**Bird artwork is Audubon where Audubon exists.** 209 of the 349 recorded species —
+400 of all 869 printed — carry their plate from *The Birds of America*, fetched into
+`web/public/plates` by `extract/fetch_plates.py`. He painted 435 plates and died in
+1851 having barely worked west of the Mississippi, so the western birds (Cactus Wren,
+Roadrunner, most hummingbirds) have no plate and never will; those keep the line-art
+placeholder (`web/public/bird-placeholder.svg`), and the detail panel says which case
+a bird is in. The placeholder is line art on a transparent ground, matching the
+masthead, so the card's own surface shows through.
+
+Under **Where it appears**, the rail shows the photographed spread the bird was read
+from — the transcription above it is a reading of that page, so the photograph is
+what settles an argument — and the thumbnail links to the full-size scan. Because a
+spread is wider than the rail is, the rail's left edge is a drag handle: it widens to
+whatever the window can spare (arrow keys work too, `Home` resets it).
+
+Each plate is stored twice. `plate-N.webp` is the whole sheet with only its blank
+paper margin trimmed — what a bird shows when you open it. `plate-N-card.webp` is
+cropped to the paint for the grid, because Audubon worked on bare sheets: the Brown
+Creeper sits bottom-left with its tree up the right and nothing between, and a card
+of that is mostly paper. `painted_box()` eats whichever edge carries the least paint
+until every edge is mostly paint, which also takes the engraved lettering. It may not
+take more than a third of either dimension — without that floor it walks into a
+corner and beheads the coot.
+
+Even cropped, a portrait plate loses half its height to a landscape card, so each
+carries a focal point computed from the ink itself (`focus_y()` in `build_web.py`)
+rather than a single crop guess — Audubon hung the Vesper Sparrow at the foot of a
+prickly pear, and centring on the sheet would give a card of cactus.
+
+The guide's own plates are still not digitised and are not shown anywhere.
 
 ### The review loop
 
-`/review` is the one page that shows the photographs, because settling a doubtful
-reading means looking at the hand. Each flagged entry gives the raw writing, what the
+`/review` shows the photographs at full size, because settling a doubtful reading
+means looking at the hand. Each flagged entry gives the raw writing, what the
 transcription made of it, why it was flagged, and the transcriber's own caveat.
 
 A verdict — *reading is right* / *needs correcting* / *still unsure*, plus an optional
@@ -193,7 +239,11 @@ taxonomy. That is what a reader of this particular book would recognise.
 
 - The back-index pages are dense checkbox grids photographed at an angle, and all
   return `confidence: low`. They contribute most of the life-list ticks, so the
-  species total is the softest number on the site.
+  species total is the softest number on the site. It was softer than it looked
+  until 2026-08-27: the index files birds surname-first — "Avocet, American" — and
+  reading that as a different bird from the account's "American Avocet" counted 488
+  printed species twice, 100 of them on the life list. `species_key()` now undoes
+  the inversion, which is why the totals are 349 of 869 rather than 449 of 1,357.
 - Only 560 printed species carry a family of their own, so a species inherits the
   heading of the page it sits on. 138 ticks come from the index grids alone and 51
   from pages whose heading was illegible; both land in named buckets — *Ticked in the
@@ -201,3 +251,9 @@ taxonomy. That is what a reader of this particular book would recognise.
 - 43 observations carry a `?`. They are listed on the summary page.
 - Nine numbers in the `IMG_8763`–`IMG_8922` sequence were never in the folder; the
   set is complete as delivered.
+- The Audubon match is name-based, so it inherits the guide's own naming. Audubon
+  painted 29 species twice and the matcher prefers the plate he titled with the
+  bird's own name; only the Bald Eagle needed a hand override (plate 11 is the
+  disputed "Bird of Washington"), in `OVERRIDES` in `fetch_plates.py`. Every mapping
+  records how it was made in `matchedBy`, so the loose ones — 24 matched only by a
+  name inside a composite plate's title — can be audited.

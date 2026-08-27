@@ -18,11 +18,39 @@ export type Observation = {
   speciesKey: string;
 };
 
+/**
+ * The Audubon plate that shows this bird, where one exists.
+ *
+ * He painted 435 plates and died in 1851 having barely worked the West, so a
+ * little under half the book can be illustrated and the rest keeps the
+ * placeholder. `audubonName` is his own title for the plate, which is usually not
+ * the name the guide prints — his Vesper Sparrow is a "Grass Finch, or Bay-winged
+ * Bunting" — so it is worth showing rather than hiding behind the modern name.
+ */
+export type Plate = {
+  /** Havell plate number, and the filename: /plates/plate-102.webp. */
+  plate: number;
+  audubonName: string;
+  scientific: string | null;
+  /** The card crop (plate-N-card.webp): the painted part, without the bare sheet. */
+  width: number;
+  height: number;
+  /** Where the ink sits, as a percentage down the crop; the card centres here. */
+  focusY: number;
+  /** The whole plate (plate-N.webp), shown when a bird is opened. */
+  fullWidth: number;
+  fullHeight: number;
+  /** How the plate was tied to this species; see extract/fetch_plates.py. */
+  matchedBy: string;
+  page: string;
+};
+
 export type Species = {
   key: string;
   name: string;
   scientific: string | null;
   family: string | null;
+  plate?: Plate;
   marked: boolean;
   circled: boolean;
   notes: string[];
@@ -109,6 +137,7 @@ export type LifeSpecies = {
   key: string;
   name: string;
   scientific: string | null;
+  plate?: Plate;
   /** The book's own grouping, falling back to the heading of the page it sits on. */
   group: string;
   marked: boolean;
@@ -117,6 +146,8 @@ export type LifeSpecies = {
   editorial: string[];
   observations: Species["observations"];
   pages: string[];
+  /** The photographed spreads this bird was read from, with the book's own paging. */
+  spreads: { image: string; label: string }[];
   firstDate: string | null;
   lastDate: string | null;
   places: string[];

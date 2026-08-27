@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Placeholder bird illustration">
   <!--
     Stand-in artwork, drawn to the same rule as the masthead: one closed outline,
-    one stroke weight, no fill. The grey sits between the light and dark themes'
-    muted ink, so the same file reads correctly on either surface.
+    one stroke weight, no fill, in the muted ink the rest of the page uses.
   -->
   <g fill="none" stroke="#8a8880" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
     <path d="M132 150 C132 122, 152 100, 182 96 C177 85, 182 74, 194 72

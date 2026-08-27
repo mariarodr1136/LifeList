@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useMemo, useState } from "react";
 import { Icon } from "@/components/Icon";
 import { Badge, BirdImage, EmptyState } from "@/components/ui";
@@ -39,6 +40,7 @@ export default function LifeList({ species, groups, locations, decades }: Props)
   const [sort, setSort] = useState<Sort>("name");
   const [view, setView] = useState<"grid" | "table">("grid");
   const [selected, setSelected] = useState<string | null>(null);
+  const [railWidth, setRailWidth] = useState(RAIL_DEFAULT);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -237,9 +239,15 @@ export default function LifeList({ species, groups, locations, decades }: Props)
           nothing, and the list would rather have the room. Below xl the same panel
           arrives as a slide-over instead. */}
       {current && (
-        <aside className="sticky top-12 hidden h-[calc(100vh-3rem)] w-[368px] shrink-0 overflow-y-auto border-l border-line bg-surface scroll-thin xl:block">
-          <SpeciesDetail species={current} onClose={() => setSelected(null)} />
-        </aside>
+        <>
+          <RailHandle width={railWidth} onResize={setRailWidth} />
+          <aside
+            style={{ width: railWidth }}
+            className="sticky top-12 hidden h-[calc(100vh-3rem)] shrink-0 overflow-y-auto bg-surface scroll-thin xl:block"
+          >
+            <SpeciesDetail species={current} onClose={() => setSelected(null)} />
+          </aside>
+        </>
       )}
 
       {current && (
@@ -278,8 +286,12 @@ function SpeciesCard({
         active ? "border-accent ring-1 ring-accent" : ""
       }`}
     >
-      <div className="relative aspect-[16/10] overflow-hidden bg-surface-muted p-6">
-        <BirdImage sizes="(max-width: 640px) 100vw, 320px" />
+      <div
+        className={`relative aspect-[16/10] overflow-hidden bg-surface-muted ${
+          species.plate ? "" : "p-6"
+        }`}
+      >
+        <BirdImage plate={species.plate} alt={species.name} sizes="(max-width: 640px) 100vw, 320px" />
         <div className="absolute right-2 top-2 flex gap-1">
           {species.marked && (
             <Badge tone="tick" title="Ticked in the book's index">
@@ -375,7 +387,7 @@ function SpeciesTable({
                 <td className="px-4 py-2.5">
                   <span className="flex items-center gap-2.5">
                     <span className="h-8 w-11 shrink-0 overflow-hidden rounded-md bg-surface-muted p-1">
-                      <BirdImage sizes="44px" />
+                      <BirdImage plate={s.plate} alt={s.name} sizes="44px" />
                     </span>
                     <span>
                       <span className="block font-medium text-fg">{s.name}</span>
@@ -427,8 +439,14 @@ function SpeciesDetail({
 
   return (
     <div className="panel-in">
-      <div className="relative aspect-[16/10] bg-surface-muted p-7">
-        <BirdImage sizes="368px" />
+      {/* No fixed frame when there is a plate: it is shown whole, at whatever
+          proportions Audubon gave it. */}
+      <div
+        className={`relative overflow-hidden bg-surface-muted ${
+          species.plate ? "" : "aspect-[16/10] p-7"
+        }`}
+      >
+        <BirdImage plate={species.plate} alt={species.name} sizes="100vw" whole />
         <button
           onClick={onClose}
           aria-label="Close panel"
@@ -438,7 +456,17 @@ function SpeciesDetail({
         </button>
       </div>
       <p className="border-b border-line px-5 py-1.5 text-[0.6875rem] text-fg-subtle">
-        Placeholder illustration — the book&apos;s plates are not digitised.
+        {species.plate ? (
+          <>
+            Audubon, plate {species.plate.plate}
+            {/* He rarely called it what the guide calls it, so name his name too. */}
+            {species.plate.audubonName.toLowerCase() !== species.name.toLowerCase() && (
+              <> — &ldquo;{species.plate.audubonName}&rdquo;</>
+            )}
+          </>
+        ) : (
+          <>No Audubon plate — he never painted this bird.</>
+        )}
       </p>
 
       <div className="px-5 py-5">
@@ -544,9 +572,113 @@ function SpeciesDetail({
               <> · {species.places.length} distinct {species.places.length === 1 ? "place" : "places"}</>
             )}
           </p>
+
+          {/* The page this bird was read from. The transcription above is a
+              reading of it, so the photograph is what settles any argument. */}
+          <ul className="mt-3 space-y-3">
+            {species.spreads.map((s) => (
+              <li key={s.image}>
+                <a
+                  href={`/pages/${s.image}.jpg`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block no-underline"
+                >
+                  <Image
+                    src={`/thumbs/${s.image}.jpg`}
+                    alt={`The photographed spread, ${s.label}`}
+                    width={420}
+                    height={315}
+                    sizes="368px"
+                    className="w-full rounded-lg border border-line bg-surface-muted transition-colors group-hover:border-line-strong"
+                  />
+                  <p className="mt-1 text-[0.6875rem] text-fg-subtle">
+                    {s.label} · open the full photograph
+                  </p>
+                </a>
+              </li>
+            ))}
+          </ul>
         </Section>
       </div>
     </div>
+  );
+}
+
+const RAIL_MIN = 320;
+const RAIL_DEFAULT = 368;
+
+/** How wide the rail may grow: past this the list stops being a list. */
+function railMax(): number {
+  return Math.max(RAIL_MIN, window.innerWidth - 480);
+}
+
+/**
+ * The rail's left edge, as a drag handle.
+ *
+ * A photographed spread is wider than it is tall and the rail is a column, so the
+ * page images arrive small. Rather than pick one width for every reader, the edge
+ * is draggable, and it answers the arrow keys too — a mouse-only resize would put
+ * the page photographs out of reach of anyone navigating by keyboard.
+ */
+function RailHandle({
+  width,
+  onResize,
+}: {
+  width: number;
+  onResize: (w: number) => void;
+}) {
+  const [dragging, setDragging] = useState(false);
+
+  const startDrag = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setDragging(true);
+    const startX = e.clientX;
+    const startWidth = width;
+    // The pointer leaves the handle the moment it moves, so a drag across the
+    // list would otherwise select every card it crossed.
+    document.body.style.userSelect = "none";
+    document.body.style.cursor = "col-resize";
+    const move = (ev: MouseEvent) => {
+      const next = startWidth + (startX - ev.clientX);
+      onResize(Math.min(railMax(), Math.max(RAIL_MIN, next)));
+    };
+    const stop = () => {
+      setDragging(false);
+      document.body.style.userSelect = "";
+      document.body.style.cursor = "";
+      document.removeEventListener("mousemove", move);
+      document.removeEventListener("mouseup", stop);
+    };
+    document.addEventListener("mousemove", move);
+    document.addEventListener("mouseup", stop);
+  };
+
+  const nudge = (e: React.KeyboardEvent) => {
+    const step = e.shiftKey ? 64 : 16;
+    if (e.key === "ArrowLeft") onResize(Math.min(railMax(), width + step));
+    else if (e.key === "ArrowRight") onResize(Math.max(RAIL_MIN, width - step));
+    else if (e.key === "Home") onResize(RAIL_DEFAULT);
+    else return;
+    e.preventDefault();
+  };
+
+  return (
+    <div
+      role="separator"
+      aria-orientation="vertical"
+      aria-label="Resize the detail panel"
+      aria-valuenow={Math.round(width)}
+      tabIndex={0}
+      onMouseDown={startDrag}
+      onKeyDown={nudge}
+      /* Wider than it looks: the visible seam is the left border, but the grab
+         target is the whole 12px, which is the difference between a handle you
+         catch first time and one you chase. */
+      className={`sticky top-12 hidden h-[calc(100vh-3rem)] w-3 shrink-0 cursor-col-resize border-l border-line transition-colors hover:bg-accent-line focus-visible:bg-accent-line focus-visible:outline-none xl:block ${
+        dragging ? "bg-accent-line" : ""
+      }`}
+    />
   );
 }
 

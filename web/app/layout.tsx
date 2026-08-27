@@ -23,11 +23,8 @@ const newsreader = Newsreader({
 export const metadata: Metadata = {
   title: "A Life List — Birds of North America",
   description:
-    "A hand-annotated Golden Guide, read page by page: 449 species recorded across 148 places between 1912 and 1995.",
+    "A hand-annotated Golden Guide, read page by page: 349 species recorded across 148 places between 1923 and 1995.",
 };
-
-// Applied before first paint so a stored theme choice never flashes the other one.
-const THEME_BOOT = `try{var t=localStorage.getItem("lifelist-theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t}catch(e){}`;
 
 export default function RootLayout({
   children,
@@ -35,10 +32,7 @@ export default function RootLayout({
   const { meta } = getJournal();
 
   return (
-    <html lang="en" suppressHydrationWarning>
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: THEME_BOOT }} />
-      </head>
+    <html lang="en">
       <body className={`${inter.variable} ${newsreader.variable} min-h-screen`}>
         {/* Masthead, then the navigation as a bar beneath it. */}
         <Masthead meta={meta} />

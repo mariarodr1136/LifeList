@@ -32,9 +32,12 @@ export default function OverviewPage() {
     .slice(0, 10)
     .map((g) => ({ label: g.name, value: g.marked, sub: null }));
 
-  const reread = j.observations.filter((o) => o.rereadFrom).length;
   const withNotes = j.species.filter((s) => s.notes.length > 0).length;
   const circled = j.species.filter((s) => s.circled).length;
+
+  const onList = j.species.filter((s) => s.marked || s.observations.length > 0);
+  const recorded = onList.length;
+  const plated = onList.filter((s) => s.plate).length;
 
   return (
     <>
@@ -110,13 +113,6 @@ export default function OverviewPage() {
               book was printed in the mid-1960s. Those are worth a human eye.
             </li>
             <li>
-              <strong className="font-medium text-fg">{reread} dates were re-read</strong>{" "}
-              from the 1910s into the 1970s. A 7 written short reads as a 1, and the
-              guide was not printed until 1966, so a two-digit year landing in the
-              1910s is almost certainly a 197x. Each one still shows what is on the
-              page and says what was changed.
-            </li>
-            <li>
               No sighting counts appear anywhere in the book, so there is no tally of
               how many birds were seen — only which, where and when.
             </li>
@@ -125,10 +121,23 @@ export default function OverviewPage() {
               April 1977; &ldquo;early 1950s&rdquo; stays a decade.
             </li>
             <li>
-              Bird artwork is a placeholder throughout — the guide&apos;s plates are
-              not digitised, so every species shows the same illustration.
+              <strong className="font-medium text-fg">
+                {plated} of the {recorded} recorded birds
+              </strong>{" "}
+              are shown as Audubon painted them, from the plates of{" "}
+              <em className="font-serif italic">The Birds of America</em>. He died in
+              1851 having barely worked west of the Mississippi, so the western birds
+              — the Cactus Wren, the Roadrunner, most of the hummingbirds — have no
+              plate and keep the placeholder. The guide&apos;s own artwork is not
+              digitised and is not shown anywhere.
             </li>
           </ul>
+          <p className="mt-5 text-[0.8125rem] leading-relaxed text-fg-subtle">
+            Plates from{" "}
+            <em className="font-serif italic">John James Audubon&apos;s Birds of America</em>,
+            courtesy of the John James Audubon Center at Mill Grove, the Montgomery
+            County Audubon Collection, and Zebra Publishing.
+          </p>
           <p className="mt-5">
             <Link
               href="/"

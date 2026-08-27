@@ -4,7 +4,7 @@ import { getChecklist, getJournal } from "@/lib/data";
 
 export const metadata = {
   title: "Checklist — A Life List",
-  description: "All 1,357 species printed in the guide, and which of them he ticked.",
+  description: "All 869 species printed in the guide, and which of them he ticked.",
 };
 
 export default function ChecklistPage() {

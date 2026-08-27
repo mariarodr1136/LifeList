@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
+import type { Plate } from "@/lib/types";
 
 /** The header every route opens with: eyebrow, title, one line of orientation. */
 export function PageHeader({
@@ -16,7 +17,9 @@ export function PageHeader({
   return (
     <header className="border-b border-line bg-surface px-5 py-6 sm:px-8">
       <div className="flex flex-wrap items-end justify-between gap-4">
-        <div className="max-w-[46rem]">
+        {/* Wide enough for a two-sentence lead to sit on one line on a desktop
+            window; it still wraps when the window cannot hold it. */}
+        <div className="max-w-[68rem]">
           <p className="eyebrow text-accent">{eyebrow}</p>
           <h1 className="mt-1.5 text-[1.75rem] font-semibold leading-tight tracking-[-0.02em] text-fg">
             {title}
@@ -75,27 +78,70 @@ export function StatTile({
 }
 
 /**
- * Stand-in artwork.
+ * The bird, as Audubon painted it — or the stand-in where he never painted it.
  *
- * Every bird shows the same illustration for now — the book's plates are not
- * digitised, and inventing a photograph for a species would be a worse lie than an
- * obvious placeholder.
+ * He covers a little under half the book: he died in 1851 having barely worked
+ * west of the Mississippi, and she birded California, so the Cactus Wren and the
+ * Roadrunner have no plate and never will. The rest keep the obvious placeholder
+ * rather than borrowing another artist's bird and passing it off as the record.
  */
 export function BirdImage({
+  plate,
+  alt = "",
   className = "",
   sizes = "300px",
+  whole = false,
 }: {
+  plate?: Plate;
+  alt?: string;
   className?: string;
   sizes?: string;
+  /** Show the plate as Audubon composed it, rather than the card's crop. */
+  whole?: boolean;
 }) {
+  if (!plate) {
+    return (
+      <Image
+        src="/bird-placeholder.svg"
+        alt=""
+        width={400}
+        height={300}
+        sizes={sizes}
+        className={`h-full w-full object-contain ${className}`}
+      />
+    );
+  }
+  const caption = alt ? `${alt}, from Audubon's plate ${plate.plate}` : "";
+
+  // Opened, the plate is shown whole and at its own proportions: the card's crop
+  // answers "which bird is this", and the sheet answers "what did he paint".
+  if (whole) {
+    return (
+      <Image
+        src={`/plates/plate-${plate.plate}.webp`}
+        alt={caption}
+        width={plate.fullWidth}
+        height={plate.fullHeight}
+        sizes={sizes}
+        className={`h-auto w-full ${className}`}
+      />
+    );
+  }
+
   return (
     <Image
-      src="/bird-placeholder.svg"
-      alt=""
-      width={400}
-      height={300}
+      src={`/plates/plate-${plate.plate}-card.webp`}
+      alt={caption}
+      width={plate.width}
+      height={plate.height}
       sizes={sizes}
-      className={`h-full w-full object-contain ${className}`}
+      /*
+        Filled rather than fitted, so the bird reads at card size. Even cropped to
+        the paint, a portrait plate loses half its height to a landscape frame, so
+        each carries its own focal point; see focus_y() in extract/build_web.py.
+      */
+      style={{ objectPosition: `50% ${plate.focusY}%` }}
+      className={`h-full w-full object-cover ${className}`}
     />
   );
 }

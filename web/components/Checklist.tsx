@@ -100,7 +100,7 @@ export default function Checklist({ groups }: { groups: ChecklistGroup[] }) {
           {visible.length === 0 ? (
             <EmptyState
               title="Nothing on the checklist matches"
-              note="The book prints 1,357 species; the spelling here is the book's, which is occasionally older than the modern name."
+              note="The book prints 869 species; the spelling here is the book's, which is occasionally older than the modern name."
             />
           ) : (
             visible.map((g) => <Group key={g.name} group={g} />)
