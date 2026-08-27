@@ -40,7 +40,7 @@ export default function Checklist({ groups }: { groups: ChecklistGroup[] }) {
       {/* Group index: a second rail, so 103 headings stay one click apart. */}
       <nav
         aria-label="Groups"
-        className="sticky top-0 hidden h-screen w-[232px] shrink-0 overflow-y-auto border-r border-line bg-surface px-3 py-4 scroll-thin xl:block"
+        className="sticky top-12 hidden h-[calc(100vh-3rem)] w-[232px] shrink-0 overflow-y-auto border-r border-line bg-surface px-3 py-4 scroll-thin xl:block"
       >
         <p className="eyebrow px-2 pb-2 text-fg-subtle">Groups</p>
         {visible.map((g) => (
@@ -58,7 +58,7 @@ export default function Checklist({ groups }: { groups: ChecklistGroup[] }) {
       </nav>
 
       <div className="min-w-0 flex-1">
-        <div className="sticky top-[45px] lg:top-0 z-20 flex flex-wrap items-center gap-2.5 border-b border-line bg-surface/95 px-5 py-3 backdrop-blur sm:px-8">
+        <div className="sticky top-12 z-20 flex flex-wrap items-center gap-2.5 border-b border-line bg-surface/95 px-5 py-3 backdrop-blur sm:px-8">
           <label className="relative min-w-[13rem] flex-1 sm:max-w-[22rem]">
             <span className="sr-only">Search the checklist</span>
             <Icon

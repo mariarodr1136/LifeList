@@ -96,7 +96,7 @@ export default function Review({ entries, initial }: Props) {
   return (
     <div className="flex min-h-0 flex-1">
       {/* The queue. */}
-      <div className="sticky top-0 hidden h-screen w-[268px] shrink-0 flex-col border-r border-line bg-surface xl:flex">
+      <div className="sticky top-12 hidden h-[calc(100vh-3rem)] w-[268px] shrink-0 flex-col border-r border-line bg-surface xl:flex">
         <div className="border-b border-line p-3">
           <div className="flex items-baseline justify-between">
             <span className="eyebrow text-fg-subtle">Reviewed</span>

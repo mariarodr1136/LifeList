@@ -28,7 +28,7 @@ export default function Places({ places }: { places: PlaceView[] }) {
 
   return (
     <div className="flex min-h-0 flex-1">
-      <div className="sticky top-0 hidden h-screen w-[300px] shrink-0 flex-col border-r border-line bg-surface xl:flex">
+      <div className="sticky top-12 hidden h-[calc(100vh-3rem)] w-[300px] shrink-0 flex-col border-r border-line bg-surface xl:flex">
         <div className="border-b border-line p-3">
           <label className="relative block">
             <span className="sr-only">Search places</span>

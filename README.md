@@ -121,21 +121,20 @@ dropped whenever you are sure you want the scans gone.
 | `/overview` | **Overview** — the totals, entries by year, most-visited places, best-recorded groups |
 | `/review` | **Review** — the 43 flagged entries, each beside the photograph it was read from, with a place to record what the page actually says |
 
-The masthead runs the full width of the window; the sidebar beneath it starts at the
-navigation and carries the running total. The life list adds a second rail on the
-right for the selected bird, and the checklist one on the left for jumping between
-groups. Light and dark are both first-class, with the choice
+The masthead runs the full width of the window, and the navigation is a bar beneath
+it rather than a rail beside it — 48px tall and sticky, which every in-page rail and
+toolbar is offset against (`top-12`). The life list adds a rail on the right for the
+selected bird, and the checklist one on the left for jumping between groups. Light and dark are both first-class, with the choice
 stored per browser.
 
-The masthead runs an Audubon plate of Carolina parakeets full bleed across the band
-(`web/public/banner.jpg`). The file arrives already cropped to 3:1, so the band shows
-about half the strip's height rather than a fifth of a portrait plate, and the birds
-survive the crop; `object-position: 50% 66%` frames the lower bird's head at the
-centre and keeps every face clear of the edges. Its left end is pale paper and bare
-branches, which is where the type goes — the scrim there only has to take the edge
-off. The dark theme dims the plate rather than inverting it. The artwork is
-third-party: fine for something private, but it would need clearing before the site
-went public.
+The masthead carries an Audubon plate of Carolina parakeets
+(`web/public/banner.jpg`), fitted whole rather than cropped: the plate keeps its
+proportions at the right of the band, and the rest of the band is its own paper tone,
+with the plate's left edge masked into that mount so the picture ends the way a plate
+ends on paper. The band is deep (280px) because the plate's width follows its height.
+It also carries the running total — 449 of 1,357 — that used to sit in the sidebar.
+The dark theme dims the plate rather than inverting it. The artwork is third-party:
+fine for something private, but it would need clearing before the site went public.
 
 The species placeholder is still line art of our own (see below), so the two do not
 compete.

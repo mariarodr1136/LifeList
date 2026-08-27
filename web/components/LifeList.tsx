@@ -78,7 +78,7 @@ export default function LifeList({ species, groups, locations, decades }: Props)
   return (
     <div className="flex min-h-0 flex-1">
       <div className="min-w-0 flex-1">
-        <div className="sticky top-[45px] lg:top-0 z-20 border-b border-line bg-surface/95 px-5 py-3 backdrop-blur sm:px-8">
+        <div className="sticky top-12 z-20 border-b border-line bg-surface/95 px-5 py-3 backdrop-blur sm:px-8">
           <div className="flex flex-wrap items-center gap-2.5">
             <label className="relative min-w-[13rem] flex-1 sm:max-w-[20rem]">
               <span className="sr-only">Search species</span>
@@ -234,7 +234,7 @@ export default function LifeList({ species, groups, locations, decades }: Props)
       </div>
 
       {/* Detail rail on a wide screen; the same panel as a slide-over below it. */}
-      <aside className="sticky top-0 hidden h-screen w-[368px] shrink-0 overflow-y-auto border-l border-line bg-surface scroll-thin xl:block">
+      <aside className="sticky top-12 hidden h-[calc(100vh-3rem)] w-[368px] shrink-0 overflow-y-auto border-l border-line bg-surface scroll-thin xl:block">
         {current ? (
           <SpeciesDetail species={current} onClose={() => setSelected(null)} />
         ) : (
