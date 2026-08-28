@@ -78,6 +78,12 @@ on a Five-striped Sparrow.
 
 ---
 
+<p align="center">
+  <img width="600" alt="IMG_8930" src="https://github.com/user-attachments/assets/1585f927-21ec-42d8-8d39-f93d255183d3" />
+</p>
+
+---
+
 ## The site
 
 Five routes, all prerendered from one JSON file. No database, no network at runtime.
