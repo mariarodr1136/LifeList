@@ -969,6 +969,16 @@
   "scientific": "Athene cunicularia",
   "title": "Burrowing Owl, Large-headed Burrowing Owl, Little night Owl, Columbian Owl, Short-eared Owl"
  },
+ "CACTUS WREN": {
+  "artist": "Nehrling",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Our_native_birds_of_song_and_beauty_%28Plate_IV%29_%286916115745%29.jpg/960px-Our_native_birds_of_song_and_beauty_%28Plate_IV%29_%286916115745%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "image": "nehrling-c428e00c7c",
+  "matchedBy": "commons-name",
+  "page": "https://commons.wikimedia.org/wiki/File%3AOur%20native%20birds%20of%20song%20and%20beauty%20%28Plate%20IV%29%20%286916115745%29.jpg",
+  "plate": "IV",
+  "scientific": "Campylorhynchus brunneicapillus",
+  "title": null
+ },
  "CALIFORNIA CONDOR": {
   "artist": "Audubon",
   "file": "plate-426-californian-vulture.jpg",
@@ -1160,11 +1170,11 @@
   "title": "Azure Warbler"
  },
  "CHESTNUT BACKED CHICKADEE": {
-  "artist": "Fuertes",
-  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Alaska_%281901%29_%2817760847818%29.jpg/960px-Alaska_%281901%29_%2817760847818%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "image": "fuertes-7982a9d051",
+  "artist": "Jasper",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/The_birds_of_North_America_%28PL._LXXI%29_%286022705716%29.jpg/960px-The_birds_of_North_America_%28PL._LXXI%29_%286022705716%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "image": "jasper-318ab56709",
   "matchedBy": "commons-name",
-  "page": "https://commons.wikimedia.org/wiki/File%3AAlaska%20%281901%29%20%2817760847818%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File%3AThe%20birds%20of%20North%20America%20%28PL.%20LXXI%29%20%286022705716%29.jpg",
   "plate": null,
   "scientific": "Poecile rufescens",
   "title": null
@@ -1670,11 +1680,11 @@
   "title": "Fulmar Petrel"
  },
  "FULVOUS TREE DUCK": {
-  "artist": "Brooks",
-  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/The_game_birds_of_California_%28Pl._7%29_%286714572401%29.jpg/960px-The_game_birds_of_California_%28Pl._7%29_%286714572401%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "image": "brooks-7f9252cb4e",
+  "artist": "Jasper",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/The_birds_of_North_America_%28PL._CXVIII%29_%286022726774%29.jpg/960px-The_birds_of_North_America_%28PL._CXVIII%29_%286022726774%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "image": "jasper-02bdad5120",
   "matchedBy": "commons-name",
-  "page": "https://commons.wikimedia.org/wiki/File%3AThe%20game%20birds%20of%20California%20%28Pl.%207%29%20%286714572401%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File%3AThe%20birds%20of%20North%20America%20%28PL.%20CXVIII%29%20%286022726774%29.jpg",
   "plate": null,
   "scientific": "Dendrocygna bicolor",
   "title": null
@@ -2147,16 +2157,6 @@
   "page": "https://commons.wikimedia.org/wiki/File%3AIllustrations%20of%20the%20birds%20of%20California%2C%20Texas%2C%20Oregon%2C%20British%20and%20Russian%20America.%20-%20Intended%20to%20contain%20descriptions%20and%20figures%20of%20all%20North%20American%20birds%20not%20given%20by%20former%20American%20authors%2C%20%2814751538875%29.jpg",
   "plate": "13",
   "scientific": "Haemorhous mexicanus",
-  "title": null
- },
- "HOUSE SPARROW": {
-  "artist": "Fuertes",
-  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/The_English_Sparrow-MBS_54.jpg/960px-The_English_Sparrow-MBS_54.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "image": "fuertes-21ff71a39b",
-  "matchedBy": "commons-name",
-  "page": "https://commons.wikimedia.org/wiki/File%3AThe%20English%20Sparrow-MBS%2054.jpg",
-  "plate": null,
-  "scientific": "Passer domesticus",
   "title": null
  },
  "HOUSE WREN": {
@@ -2669,6 +2669,16 @@
   "scientific": "Setophaga virens",
   "title": "Black-throated green Warbler, Blackburnian, Mourning Warbler"
  },
+ "MUTE SWAN": {
+  "artist": "Gould",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/The_birds_of_Europe_%281837%29_%2814563988068%29.jpg/960px-The_birds_of_Europe_%281837%29_%2814563988068%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "image": "gould-9fb9eb8540",
+  "matchedBy": "commons-name",
+  "page": "https://commons.wikimedia.org/wiki/File%3AThe%20birds%20of%20Europe%20%281837%29%20%2814563988068%29.jpg",
+  "plate": null,
+  "scientific": "Cygnus olor",
+  "title": null
+ },
  "NASHVILLE WARBLER": {
   "artist": "Audubon",
   "file": "plate-89-nashville-warbler.jpg",
@@ -2728,6 +2738,16 @@
   "plate": 312,
   "scientific": "Clangula hyemalis",
   "title": "Long-tailed Duck"
+ },
+ "OLIVACEOUS FLYCATCHER": {
+  "artist": "Bird-Lore",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Bird_lore_%281909%29_%2814775470403%29.jpg/960px-Bird_lore_%281909%29_%2814775470403%29.jpg",
+  "image": "picked-olivaceous-flycatcher",
+  "matchedBy": "read-from-the-plate",
+  "page": "https://commons.wikimedia.org/wiki/File:Bird_lore_(1909)_(14775470403).jpg",
+  "plate": null,
+  "scientific": "Myiarchus tuberculifer",
+  "title": null
  },
  "OLIVE SIDED FLYCATCHER": {
   "artist": "Audubon",
@@ -3119,6 +3139,16 @@
   "scientific": "Vireo olivaceus",
   "title": "Red-eyed Vireo"
  },
+ "RED FACED WARBLER": {
+  "artist": "Fuertes",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/The_warblers_of_North_America_%286309262602%29.jpg/960px-The_warblers_of_North_America_%286309262602%29.jpg",
+  "image": "picked-red-faced-warbler",
+  "matchedBy": "read-from-the-plate",
+  "page": "https://commons.wikimedia.org/wiki/File:The_warblers_of_North_America_(6309262602).jpg",
+  "plate": null,
+  "scientific": "Cardellina rubrifrons",
+  "title": "Red-faced Warbler"
+ },
  "RED HEADED WOODPECKER": {
   "artist": "Audubon",
   "file": "plate-27-red-headed-woodpecker.jpg",
@@ -3209,6 +3239,16 @@
   "scientific": "Aythya americana",
   "title": "Red-headed Duck"
  },
+ "RHINOCEROS AUKLET": {
+  "artist": "Audubon",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_birds_of_America_%28Pl._475%29_%288594228825%29.jpg/960px-The_birds_of_America_%28Pl._475%29_%288594228825%29.jpg",
+  "image": "picked-rhinoceros-auklet",
+  "matchedBy": "read-from-the-plate",
+  "page": "https://commons.wikimedia.org/wiki/File:The_birds_of_America_(Pl._475)_(8594228825).jpg",
+  "plate": null,
+  "scientific": "Cerorhinca monocerata",
+  "title": "Horned-billed Guillemot"
+ },
  "RING BILLED GULL": {
   "artist": "Audubon",
   "file": "plate-212-common-american-gull.jpg",
@@ -3239,6 +3279,16 @@
   "scientific": "Phasianus colchicus",
   "title": null
  },
+ "RINGED TURTLE DOVE": {
+  "artist": "Selby",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pigeons_%28Plate_17%29_%286976192811%29.jpg/960px-Pigeons_%28Plate_17%29_%286976192811%29.jpg",
+  "image": "picked-ringed-turtle-dove",
+  "matchedBy": "read-from-the-plate",
+  "page": "https://commons.wikimedia.org/wiki/File:Pigeons_(Plate_17)_(6976192811).jpg",
+  "plate": null,
+  "scientific": "Streptopelia risoria",
+  "title": null
+ },
  "RIVOLI HUMMINGBIRD": {
   "artist": "Gould",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/A_monograph_of_the_Trochilid%C3%A6%2C_or_family_of_humming-birds_%28Plate_59%29_%287175936878%29.jpg/960px-A_monograph_of_the_Trochilid%C3%A6%2C_or_family_of_humming-birds_%28Plate_59%29_%287175936878%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -3247,6 +3297,26 @@
   "page": "https://commons.wikimedia.org/wiki/File%3AA%20monograph%20of%20the%20Trochilid%C3%A6%2C%20or%20family%20of%20humming-birds%20%28Plate%2059%29%20%287175936878%29.jpg",
   "plate": "59",
   "scientific": "Eugenes fulgens",
+  "title": null
+ },
+ "ROADRUNNER": {
+  "artist": "Jasper",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/The_birds_of_North_America_%28PL._CXVIII%29_%286022726774%29.jpg/960px-The_birds_of_North_America_%28PL._CXVIII%29_%286022726774%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "image": "jasper-02bdad5120",
+  "matchedBy": "commons-name",
+  "page": "https://commons.wikimedia.org/wiki/File%3AThe%20birds%20of%20North%20America%20%28PL.%20CXVIII%29%20%286022726774%29.jpg",
+  "plate": null,
+  "scientific": "Geococcyx californianus",
+  "title": null
+ },
+ "ROCK DOVE": {
+  "artist": "Gould",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Rock_Dove.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "image": "gould-a67bd7f593",
+  "matchedBy": "commons-name",
+  "page": "https://commons.wikimedia.org/wiki/File%3ARock%20Dove.jpg",
+  "plate": null,
+  "scientific": "Columba livia",
   "title": null
  },
  "ROCK PTARMIGAN": {
@@ -3689,6 +3759,16 @@
   "scientific": "Melospiza melodia",
   "title": "Song Sparrow"
  },
+ "SOOTY SHEARWATER": {
+  "artist": "Gould",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/The_birds_of_Europe_%281837%29_%2814750436402%29.jpg/960px-The_birds_of_Europe_%281837%29_%2814750436402%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "image": "gould-3d2c095ea1",
+  "matchedBy": "commons-name",
+  "page": "https://commons.wikimedia.org/wiki/File%3AThe%20birds%20of%20Europe%20%281837%29%20%2814750436402%29.jpg",
+  "plate": null,
+  "scientific": "Ardenna grisea",
+  "title": null
+ },
  "SOOTY TERN": {
   "artist": "Audubon",
   "file": "plate-235-sooty-tern.jpg",
@@ -3750,11 +3830,11 @@
   "title": "Spotted Grouse"
  },
  "STARLING": {
-  "artist": "Fuertes",
-  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Starling-MBS_50.jpg/960px-Starling-MBS_50.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "image": "fuertes-0edd6c3031",
+  "artist": "Gould",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/SturnusVulgarisGould.jpg/960px-SturnusVulgarisGould.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "image": "gould-3d17e9460e",
   "matchedBy": "commons-name",
-  "page": "https://commons.wikimedia.org/wiki/File%3AStarling-MBS%2050.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File%3ASturnusVulgarisGould.jpg",
   "plate": null,
   "scientific": "Sturnus vulgaris",
   "title": null
@@ -4039,6 +4119,16 @@
   "scientific": "Rallus limicola",
   "title": "Virginia Rail"
  },
+ "WANDERING TATTLER": {
+  "artist": "Jasper",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_birds_of_North_America_%28PL._CII%29_%286022161307%29.jpg/960px-The_birds_of_North_America_%28PL._CII%29_%286022161307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "image": "jasper-e01dd6f06b",
+  "matchedBy": "commons-name",
+  "page": "https://commons.wikimedia.org/wiki/File%3AThe%20birds%20of%20North%20America%20%28PL.%20CII%29%20%286022161307%29.jpg",
+  "plate": null,
+  "scientific": "Tringa incana",
+  "title": null
+ },
  "WESTERN KINGBIRD": {
   "artist": "Audubon",
   "file": "plate-359-arkansaw-flycatcher.jpg",
@@ -4178,6 +4268,16 @@
   "plate": 352,
   "scientific": "Elanus leucurus",
   "title": "Black-Winged Hawk"
+ },
+ "WHITE TAILED PTARMIGAN": {
+  "artist": "Baird",
+  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/A_history_of_North_American_birds_%28Plate_LXII%29_%288413196299%29.jpg/960px-A_history_of_North_American_birds_%28Plate_LXII%29_%288413196299%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "image": "baird-6bf6a58fb9",
+  "matchedBy": "commons-name",
+  "page": "https://commons.wikimedia.org/wiki/File%3AA%20history%20of%20North%20American%20birds%20%28Plate%20LXII%29%20%288413196299%29.jpg",
+  "plate": "LXII",
+  "scientific": "Lagopus leucura",
+  "title": null
  },
  "WHITE TAILED TROPICBIRD": {
   "artist": "Audubon",

@@ -67,7 +67,10 @@ def fetch(url: str, tries: int = 8) -> bytes:
             with urllib.request.urlopen(req, timeout=60) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
-            if e.code not in (429, 503) or attempt == tries - 1:
+            # 403 belongs here too: Wikimedia returns it under load, not only for
+            # a genuine refusal, and a plate that 403s once fetches fine a moment
+            # later.
+            if e.code not in (403, 429, 503) or attempt == tries - 1:
                 raise
             wait = e.headers.get("Retry-After")
             time.sleep(float(wait) if wait and wait.isdigit() else min(60, 5 * 2 ** attempt))
@@ -194,19 +197,31 @@ COMMONS_SOURCES = [
     ("Cassin", 1856, [
         "Illustrations of the birds of California, Texas, Oregon, "
         "British and Russian America"]),
+    # Gould's hummingbirds for the ones Audubon lacks, and his Old World volumes
+    # for the birds that arrived here after him: the Rock Dove and the Mute Swan
+    # are European birds, and he painted them.
     ("Gould", 1861, [
         "A Monograph of the Trochilidae",
         "A Monograph of the Trochilidae Volume 2",
         "A Monograph of the Trochilidae Volume 3",
         "A Monograph of the Trochilidae Volume 4",
         "A Monograph of the Trochilidae Volume 5",
-        "A Monograph of the Trochilidae Supplement"]),
-    ("Brooks", 1923, ["The Birds of California (1923)", "Allan Brooks"]),
+        "A Monograph of the Trochilidae Supplement",
+        "The Birds of Great Britain (illustrations by John Gould)",
+        "The Birds of Europe (Gould)", "The Birds of Europe (Gould) Volume 3",
+        "The Birds of Europe (Gould) Volume 4", "The Birds of Europe (Gould) Volume 5",
+        "The Birds of Asia (John Gould)", "The Birds of Asia (John Gould), Volume 4",
+        "The Birds of Asia (John Gould), Volume 5",
+        "The Birds of Asia (John Gould), Volume 6"]),
+    ("Baird", 1874, ["A history of North American birds"]),
+    ("Nehrling", 1893, ["Our native birds of song and beauty"]),
+    ("Jasper", 1903, ["The Birds of North America (1903 book)"]),
     ("Fuertes", 1914, [
         "Works by Louis Agassiz Fuertes",
         "The warblers of North America (1907)",
         "Birds of New York (1910)", "Birds of New York (1912)",
         "Birds of New York (1914)", "Birds of New York (Eaton)"]),
+    ("Brooks", 1923, ["The Birds of California (1923)", "Allan Brooks"]),
 ]
 
 
@@ -234,6 +249,77 @@ ELLIOT = {
 }
 ELLIOT_PAGE = ("https://archive.org/download/newheretoforeun{vol}elli"
                "/page/n{leaf}_w{width}.jpg")
+
+
+"""
+Four more, hunted one bird at a time and checked by eye.
+
+Searching Commons per species turns up candidates for most of the birds still
+missing, but almost none survive looking at them: the results are nest
+photographs, landscape engravings, a distribution map, a page of a ledger. Of
+twenty-eight candidates reviewed, these four are what was left.
+
+Two were caught by their own captions. The plate offered for the Western
+Flycatcher and the Western Wood Pewee is captioned VIOLET-GREEN SWALLOWS, and the
+one offered for the Gila Woodpecker names Falco femoralis, a falcon. Both looked
+right at thumbnail size, which is the whole argument for reading the caption.
+"""
+HAND_PICKED = {
+    "RHINOCEROS AUKLET": {
+        "artist": "Audubon", "scientific": "Cerorhinca monocerata",
+        "title": "Horned-billed Guillemot",
+        # From the octavo edition, so outside the 435 Havell plates the site
+        # otherwise draws on -- his own bird, missed by the usual route.
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/"
+               "The_birds_of_America_%28Pl._475%29_%288594228825%29.jpg/"
+               "960px-The_birds_of_America_%28Pl._475%29_%288594228825%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:The_birds_of_America_(Pl._475)_(8594228825).jpg",
+    },
+    "RED FACED WARBLER": {
+        "artist": "Fuertes", "scientific": "Cardellina rubrifrons",
+        "title": "Red-faced Warbler",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/"
+               "The_warblers_of_North_America_%286309262602%29.jpg/"
+               "960px-The_warblers_of_North_America_%286309262602%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:The_warblers_of_North_America_(6309262602).jpg",
+    },
+    "RINGED TURTLE DOVE": {
+        "artist": "Selby", "scientific": "Streptopelia risoria",
+        "title": None,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/"
+               "Pigeons_%28Plate_17%29_%286976192811%29.jpg/"
+               "960px-Pigeons_%28Plate_17%29_%286976192811%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Pigeons_(Plate_17)_(6976192811).jpg",
+    },
+    "OLIVACEOUS FLYCATCHER": {
+        "artist": "Bird-Lore", "scientific": "Myiarchus tuberculifer",
+        "title": None,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/"
+               "Bird_lore_%281909%29_%2814775470403%29.jpg/"
+               "960px-Bird_lore_%281909%29_%2814775470403%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Bird_lore_(1909)_(14775470403).jpg",
+    },
+}
+
+
+def add_hand_picked(mapping: dict[str, dict], species: list[dict]) -> int:
+    known = {s["key"] for s in species}
+    added = 0
+    for key, rec in HAND_PICKED.items():
+        if key not in known or key in mapping:
+            continue
+        mapping[key] = {
+            "artist": rec["artist"],
+            "image": f"picked-{key.lower().replace(' ', '-')}",
+            "plate": None,
+            "title": rec["title"],
+            "scientific": rec["scientific"],
+            "file": rec["url"],
+            "page": rec["page"],
+            "matchedBy": "read-from-the-plate",
+        }
+        added += 1
+    return added
 
 
 def add_elliot(mapping: dict[str, dict], species: list[dict]) -> int:
@@ -309,6 +395,16 @@ def described_species(text: str) -> tuple[set[str], str | None]:
     return found, name
 
 
+# Plates that are the right bird but the wrong thing to look at. The site is
+# hand-coloured plates; a pen-and-ink field sketch sits on the page as an odd one
+# out even when the identification is perfect. Judged by eye, not by a rule --
+# measuring colour would throw out Audubon's white seabirds with it, and his
+# Gull-billed Tern and Manx Shearwater are as pale as anything Fuertes sketched.
+EXCLUDED_PAGES = {
+    "File:The English Sparrow-MBS 54.jpg",     # a line drawing, no colour at all
+}
+
+
 def gather_commons() -> list[dict]:
     """Candidate plates from the four later artists, ready to be matched."""
     candidates: list[dict] = []
@@ -322,7 +418,7 @@ def gather_commons() -> list[dict]:
                 print(f"  {artist}: skipped {cat[:40]} ({exc})")
                 continue
             for f in files:
-                if f["page"] in seen:
+                if f["page"] in seen or f["page"] in EXCLUDED_PAGES:
                     continue
                 seen.add(f["page"])
                 names, title = described_species(f["text"])
@@ -613,10 +709,27 @@ def download(mapping: dict[str, dict]) -> None:
         card.write_bytes(out.getvalue())
         return True
 
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        fetched = sum(pool.map(grab, sorted(wanted)))
+    def attempt(item: tuple[str, str, str]) -> bool:
+        """One plate failing must not take the rest of the run with it.
+
+        Wikimedia throttles a concurrent burst with a 403, and an exception out of
+        pool.map aborts every plate still queued behind it -- which is how a single
+        refused thumbnail left the run 40 plates short. Report and carry on; the
+        next run picks up whatever is still missing.
+        """
+        try:
+            return grab(item)
+        except Exception as exc:
+            print(f"    could not fetch {item[0]}: {exc}")
+            return False
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        fetched = sum(pool.map(attempt, sorted(wanted)))
+    missing = [i for i, _, _ in wanted if not (OUT_IMG / f"{i}.webp").exists()]
     size = sum(f.stat().st_size for f in OUT_IMG.glob("*.webp"))
     print(f"  plates      {len(wanted)} ({fetched} newly fetched, {size / 1e6:.1f} MB)")
+    if missing:
+        print(f"              {len(missing)} still missing -- run again to pick them up")
 
 
 def main() -> int:
@@ -632,7 +745,7 @@ def main() -> int:
     audubon = sum(1 for s in recorded if s["key"] in mapping)
 
     print("  gathering the artists who filled his gaps...")
-    elliot = add_elliot(mapping, species)
+    elliot = add_elliot(mapping, species) + add_hand_picked(mapping, species)
     filled = elliot + fill_gaps(mapping, species, gather_commons())
 
     OUT_MAP.write_text(json.dumps(mapping, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
