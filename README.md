@@ -13,6 +13,12 @@ says so.
 
 ---
 
+
+<img width="4310" height="3407" alt="IMG_9034" src="https://github.com/user-attachments/assets/502677d7-af8c-4b1e-973f-95f6a389260e" />
+
+
+---
+
 ## What was actually in the photographs
 
 The source is 151 phone photos, one per two-page spread. Contrary to the first
