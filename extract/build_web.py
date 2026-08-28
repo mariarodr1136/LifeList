@@ -18,9 +18,12 @@ from pathlib import Path
 
 from PIL import Image
 
+from derive import canonical_location, parse_date
+
 ROOT = Path(__file__).resolve().parent.parent
 JOURNAL = ROOT / "data" / "journal.json"
 PLATES = ROOT / "data" / "audubon_plates.json"
+REVIEW = ROOT / "data" / "review.json"
 PAGES_SRC = ROOT / "data" / "pages"
 WEB = ROOT / "web" / "public"
 OUT_JSON = WEB / "data" / "journal.json"
@@ -174,6 +177,44 @@ def focus_y(img: Image.Image) -> int:
     return max(30, min(70, round(centre / 64 * 100)))
 
 
+def apply_review(obs: dict, verdict: dict | None) -> dict:
+    """Fold a human's verdict into an observation.
+
+    The transcription is a reading of a photograph and the verdict is a person
+    looking at the same photograph, so the person wins -- but the reading is kept
+    beside it under `readAs`, because "the site says 1973 and the page appears to
+    say 1923" is the interesting fact, not something to bury.
+
+    A corrected date is parsed by parse_date, the same function that read the page,
+    so "1950's" and "7/3/73" resolve to the same precision the archive uses
+    everywhere else rather than to a second, hand-made convention.
+    """
+    if not verdict:
+        return obs
+
+    out = {**obs, "verdict": verdict["verdict"]}
+    if verdict["verdict"] != "corrected":
+        # Confirmed settles the doubt; unsure leaves it standing.
+        out["uncertain"] = verdict["verdict"] == "unsure"
+        return out
+
+    out["readAs"] = {"date": obs["date"], "dateRaw": obs["dateRaw"],
+                     "precision": obs["precision"]}
+    if verdict.get("date"):
+        parsed = parse_date(verdict["date"])
+        out.update(date=parsed["sort_date"], dateRaw=verdict["date"],
+                   precision=parsed["precision"], rereadFrom=None)
+    if verdict.get("location"):
+        place = canonical_location(verdict["location"])
+        out.update(location=place["display"], locationKey=place["key"],
+                   state=place["state"])
+    if verdict.get("note"):
+        out["verdictNote"] = verdict["note"]
+    # A person has looked at the page; the entry is no longer in doubt.
+    out["uncertain"] = False
+    return out
+
+
 def plate_record(plate: dict) -> dict:
     """Attach the shape of both files: the card's crop, and the whole plate.
 
@@ -199,6 +240,8 @@ def main() -> int:
     pages = json.loads(JOURNAL.read_text())
     pages.sort(key=lambda p: p["image"])
     plates = json.loads(PLATES.read_text()) if PLATES.exists() else {}
+    review = (json.loads(REVIEW.read_text()).get("entries", {})
+              if REVIEW.exists() else {})
 
     # ---- images -----------------------------------------------------------
     print(f"resizing {len(pages)} page images...")
@@ -255,7 +298,7 @@ def main() -> int:
                 marked_here.append(rec["name"])
 
             for obs in sp["observations"]:
-                rec["observations"].append({
+                entry = {
                     # Stable across rebuilds: the species, the page it was read
                     # from, and its position within that species. The review file
                     # keys human verdicts by this, so it must not drift.
@@ -270,7 +313,8 @@ def main() -> int:
                     "locationKey": obs["location_key"],
                     "state": obs["state"],
                     "image": page["image"],
-                })
+                }
+                rec["observations"].append(apply_review(entry, review.get(entry["id"])))
                 if obs["location_key"]:
                     loc = locations.setdefault(obs["location_key"], {
                         "key": obs["location_key"],

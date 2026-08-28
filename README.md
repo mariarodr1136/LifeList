@@ -6,7 +6,7 @@ circles round the plates, dates and place names in the margins, field notes in h
 hand.
 
 This project reads that book page by page and turns it into a site: **348 birds he
-recorded, across 148 places, between 1923 and 1995**. The printed text belongs to the
+recorded, across 148 places, between 1950 and 1995**. The printed text belongs to the
 book; the dates, places, circles and marginal notes are the part that matters, and they
 exist in no other copy. Nothing here is invented — where a reading is doubtful, the site
 says so.
@@ -33,9 +33,9 @@ used as a life list. His conventions:
 | | |
 |---:|:---|
 | **348** | species he recorded, of 866 the guide prints |
-| **303** | dated or placed entries, 258 of them carrying a date |
+| **303** | dated or placed entries, 275 of them carrying a date |
 | **148** | named places, from Upper Newport Bay to a pelagic trip off San Diego |
-| **72** | years between the first entry and the last |
+| **45** | years between the first entry and the last |
 | **138** | species carrying a field note in his own hand |
 | **33** | figures circled on the plate |
 | **151** | photographed spreads, read one at a time |
@@ -123,6 +123,18 @@ The 43 doubtful entries, each beside the photograph it came from. A verdict — 
 is right* / *needs correcting* / *still unsure* — is written to `data/review.json`
 beside the archive rather than into it, so the transcription stays as read and the
 human judgement stays separable.
+
+**All 43 have now been reviewed**: 41 corrected, 2 still unsure. `build_web.py` folds
+the verdicts in at build time, parsing a corrected date with the same `parse_date()`
+that read the page, so "1950's" resolves to the same decade precision the archive uses
+everywhere. The reading is kept beside the correction rather than replaced — the rail
+says *read from the page as "7/3/23"; corrected on review* — because the disagreement
+between the page and the reader is the interesting part.
+
+That review moved the archive's own headline. The earliest entry had been a Purple Finch
+at 1923, which is a 7 misread as a 2; the Ring-necked Pheasant's "EARLY 1930's" is
+"1950's". **The span is 1950–1995, not 1923–1995**, and 17 entries that had no readable
+date now have one.
 
 ![Review](docs/images/review.jpg)
 

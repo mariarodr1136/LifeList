@@ -9,6 +9,11 @@ export type Observation = {
   uncertain: boolean;
   /** The literal reading, when a 1910s two-digit year was re-read as the 1970s. */
   rereadFrom: number | null;
+  /** A human's verdict from /review, once someone has looked at the photograph. */
+  verdict?: Verdict;
+  /** What the transcription had made of it, when a verdict replaced the reading. */
+  readAs?: { date: string | null; dateRaw: string | null; precision: Precision };
+  verdictNote?: string;
   location: string | null;
   locationKey: string | null;
   state: string | null;

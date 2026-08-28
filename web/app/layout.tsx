@@ -23,7 +23,7 @@ const newsreader = Newsreader({
 export const metadata: Metadata = {
   title: "A Life List — Birds of North America",
   description:
-    "A hand-annotated Golden Guide, read page by page: 349 species recorded across 148 places between 1923 and 1995.",
+    "A hand-annotated Golden Guide, read page by page: 348 species recorded across 148 places between 1950 and 1995.",
 };
 
 export default function RootLayout({

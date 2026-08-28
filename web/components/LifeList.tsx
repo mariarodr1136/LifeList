@@ -544,6 +544,25 @@ function SpeciesDetail({
                         {o.date?.slice(0, 4)}.
                       </span>
                     )}
+                    {/* A person has looked at the photograph and overruled the
+                        reading. Say so, and keep the reading visible: that the page
+                        appears to say 1923 and a reader makes it 1973 is the
+                        interesting part, not something to quietly replace. */}
+                    {o.verdict === "corrected" && o.readAs && (
+                      <span className="mt-1 block text-[0.6875rem] leading-relaxed text-fg-subtle">
+                        Read from the page as{" "}
+                        {o.readAs.dateRaw
+                          ? `“${o.readAs.dateRaw}”`
+                          : formatDate(o.readAs.date, o.readAs.precision)}
+                        ; corrected on review.
+                        {o.verdictNote && <> {o.verdictNote}</>}
+                      </span>
+                    )}
+                    {o.verdict === "unsure" && (
+                      <span className="mt-1 block text-[0.6875rem] leading-relaxed text-flag">
+                        Looked at on review and still not settled.
+                      </span>
+                    )}
                   </span>
                 </li>
               ))}
