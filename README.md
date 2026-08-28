@@ -13,6 +13,8 @@ book; the dates, places, circles and marginal notes are the part that matters, a
 exist in no other copy. Nothing here is invented — where a reading is doubtful, the site
 says so.
 
+**Live Demo:** [mariarodr1136.github.io/LifeList/](https://mariarodr1136.github.io/LifeList/)
+
 ---
 
 
