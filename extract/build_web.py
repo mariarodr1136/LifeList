@@ -157,26 +157,6 @@ def resize(src: Path, dst: Path, width: int, quality: int) -> None:
         im.save(dst, "JPEG", quality=quality, optimize=True, progressive=True)
 
 
-def focus_y(img: Image.Image) -> int:
-    """Where the picture actually is, as a percentage down the plate.
-
-    The cards crop to fill, which throws away half the height of a portrait plate,
-    and a fixed crop guesses wrong often: Audubon hung the Vesper Sparrow at the
-    foot of a prickly pear, so centring on the sheet gives a card of cactus. The
-    plates are ink on near-white paper, though, so the centre of mass of everything
-    that is not paper lands on the bird. Clamped, because a plate with a single
-    high branch should still not crop past the middle of the sheet.
-    """
-    grey = img.convert("L").resize((64, 64))
-    weights = [(y, sum(255 - v for v in grey.crop((0, y, 64, y + 1)).getdata() if v < 245))
-               for y in range(64)]
-    total = sum(w for _, w in weights)
-    if not total:
-        return 50
-    centre = sum(y * w for y, w in weights) / total
-    return max(30, min(70, round(centre / 64 * 100)))
-
-
 def apply_review(obs: dict, verdict: dict | None) -> dict:
     """Fold a human's verdict into an observation.
 
@@ -218,17 +198,17 @@ def apply_review(obs: dict, verdict: dict | None) -> dict:
 def plate_record(plate: dict) -> dict:
     """Attach the shape of both files: the card's crop, and the whole plate.
 
-    Audubon composed to the page, not to a template: 154 of the plates are
-    landscape and the rest portrait, in 66 different sizes, so neither file can be
-    given an assumed aspect.
+    The card is cut to the frame it is shown in, so its two numbers are near enough
+    the same for every plate; the whole sheet is not. Audubon composed to the page,
+    not to a template -- 154 of the plates are landscape and the rest portrait, in
+    66 different sizes -- so it cannot be given an assumed aspect.
     """
     plates = WEB / "plates"
     with Image.open(plates / f"{plate['image']}-card.webp") as card:
         width, height = card.size
-        focus = focus_y(card)
     with Image.open(plates / f"{plate['image']}.webp") as whole:
         full_width, full_height = whole.size
-    return {**plate, "width": width, "height": height, "focusY": focus,
+    return {**plate, "width": width, "height": height,
             "fullWidth": full_width, "fullHeight": full_height}
 
 

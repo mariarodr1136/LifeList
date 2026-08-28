@@ -23,7 +23,6 @@ crisp at any size.
 
 from __future__ import annotations
 
-import json
 import sys
 from pathlib import Path
 
@@ -31,7 +30,6 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFilter
 
 ROOT = Path(__file__).resolve().parent.parent
 PLATES = ROOT / "web" / "public" / "plates"
-JOURNAL = ROOT / "web" / "public" / "data" / "journal.json"
 OUT_DIR = ROOT / "web" / "public"
 STEM = "bird-placeholder"
 
@@ -55,8 +53,8 @@ SATURATION = 0.50
 # Each entry is one stand-in. Only `plate` is required.
 #
 #   focus     where the crop window sits, 0 the top of the plate and 100 the
-#             bottom. Omitted means use focus_y()'s answer, which aims at the
-#             centre of the paint and is right for most.
+#             bottom. Only meaningful with source "full": a card file is already
+#             this frame's shape, so a window on it has nowhere to slide.
 #   zoom      how far to crop in. 1 uses the plate's full width; 1.4 takes the
 #             middle 71% of it, so the bird arrives larger.
 #   source    "card" (default) uses the tight crop the pipeline made; "full" uses
@@ -75,19 +73,6 @@ VARIANTS: list[dict] = [
     {"plate": "brooks-ef5abfcf28", "source": "full", "focus": 49, "zoom": 1.2},
     {"plate": "plate-425"},           # Anna's Hummingbird, Audubon -- in flowers
 ]
-
-
-def focus_map() -> dict[str, int]:
-    """Each plate's focal point, as the site already computed it.
-
-    Cropping a portrait plate to a landscape frame throws away most of its height,
-    and centring on the sheet is how the Vesper Sparrow became a card of cactus.
-    build_web.py already worked out where the paint sits; reuse it rather than
-    guess a second time.
-    """
-    data = json.loads(JOURNAL.read_text())
-    return {s["plate"]["image"]: s["plate"].get("focusY", 50)
-            for s in data["species"] if s.get("plate")}
 
 
 def crop_to_frame(img: Image.Image, focus_y: int, zoom: float = 1.0) -> Image.Image:
@@ -131,11 +116,6 @@ def sheet(name: str, focus_y: int, zoom: float, source: str) -> Image.Image:
 
 
 def main() -> int:
-    if not JOURNAL.exists():
-        print(f"missing {JOURNAL}; run build_web.py first", file=sys.stderr)
-        return 1
-    focus = focus_map()
-
     made = []
     for i, spec in enumerate(VARIANTS, start=1):
         name = spec["plate"]
@@ -143,9 +123,7 @@ def main() -> int:
             print(f"missing plate {name}", file=sys.stderr)
             return 1
         out = OUT_DIR / f"{STEM}-{i}.webp"
-        img = sheet(name,
-                    spec.get("focus", focus.get(name, 50)),
-                    spec.get("zoom", 1.0),
+        img = sheet(name, spec.get("focus", 50), spec.get("zoom", 1.0),
                     spec.get("source", "card"))
         img.save(out, "WEBP", quality=88, method=6)
         made.append(img)

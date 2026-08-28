@@ -41,11 +41,9 @@ export type Plate = {
   plate: number | string | null;
   title: string | null;
   scientific: string | null;
-  /** The card crop (plate-N-card.webp): the painted part, without the bare sheet. */
+  /** The card crop (plate-N-card.webp): 5:4, cut around the bird by the pipeline. */
   width: number;
   height: number;
-  /** Where the ink sits, as a percentage down the crop; the card centres here. */
-  focusY: number;
   /** The whole plate (plate-N.webp), shown when a bird is opened. */
   fullWidth: number;
   fullHeight: number;

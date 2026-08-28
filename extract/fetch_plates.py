@@ -2,10 +2,14 @@
 """Map the book's species onto Audubon's Birds of America, and fetch the plates.
 
     .venv/bin/python extract/fetch_plates.py
+    .venv/bin/python extract/fetch_plates.py --cards   # recut the cards only
 
 Writes data/audubon_plates.json (the mapping, checked in) and web/public/plates/
 (the artwork). Both steps are slow and hit the network, so build_web.py reads the
-mapping rather than deriving it; rerun this only to refresh the artwork.
+mapping rather than deriving it; rerun this only to refresh the artwork. Each plate
+is stored twice: the sheet as it was painted, and a card cut from it -- `--cards`
+recuts those from the sheets already on disk, which is all a change to the framing
+rule needs.
 
 Audubon painted 435 plates and died in 1851 having barely worked west of the
 Mississippi. The book lists 1,357 species and she birded California, so a little
@@ -35,7 +39,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageFilter
 
 ROOT = Path(__file__).resolve().parent.parent
 JOURNAL = ROOT / "web" / "public" / "data" / "journal.json"
@@ -505,53 +509,204 @@ def build_mapping(plates: list[dict], species: list[dict]) -> dict[str, dict]:
     return mapping
 
 
-def painted_box(picture: Image.Image, edge_min: float = 0.35,
-                keep_min: float = 0.65) -> tuple[int, int, int, int]:
-    """The part of the plate that is actually painted.
+# The card frame the interface crops to. Both files are made here so that the one
+# number lives in one place; changing it means rerunning this script.
+CARD_ASPECT = 5 / 4
 
-    Audubon worked on bare sheets: the Brown Creeper sits bottom-left with its tree
-    up the right and nothing in between, so a card showing the whole plate shows a
-    lot of paper. This eats whichever edge carries the least paint until every edge
-    is mostly paint -- which is the crop a person would make by eye. It also takes
-    the engraved lettering with it, that being an edge with no paint at all.
+# The window is worked out on a copy this many pixels along its longest edge.
+# Large enough that the edge of a printed picture lands within a percent of the
+# plate, small enough that 431 plates is a minute rather than an hour.
+CARD_WORK = 340
 
-    It cannot take more than a third of either dimension. Without that floor it
-    walks into a corner and beheads the coot; with it, the birds stay whole.
+# Where the rule below cannot see what a person can. Each entry is the card window
+# as (x, y, width) in fractions of the plate; the height follows from CARD_ASPECT.
+# These were picked by eye, plate by plate, after looking at every card on the life
+# list -- almost always because the bird is small and something louder shares the
+# sheet, or because a bird fills the plate and its head is the part that gets cut.
+CARD_CROPS = {
+    "cassin-d2bd3a3cbf": (0.15, 0.34, 0.62),   # Black-Throated Sparrow, in ocotillo
+    "plate-251": (0.05, 0.00, 0.90),           # Brown Pelican
+    "plate-426": (0.05, 0.02, 0.90),           # California Condor
+    "plate-103": (0.28, 0.28, 0.68),           # Canada Warbler, small in laurel
+    "plate-158": (0.05, 0.00, 0.90),           # Chimney Swift, above its nest
+    "plate-156": (0.05, 0.37, 0.90),           # Common Crow
+    "plate-309": (0.02, 0.25, 0.95),           # Common Tern, diving head-down
+    "plate-36": (0.10, 0.10, 0.90),            # Cooper's Hawk
+    "plate-181": (0.00, 0.02, 0.90),           # Golden Eagle
+    "plate-211": (0.05, 0.30, 0.95),           # Great Blue Heron, head low and right
+    "plate-271": (0.02, 0.42, 0.95),           # Magnificent Frigatebird
+    "plate-295": (0.02, 0.05, 0.66),           # Manx Shearwater
+    "plate-174": (0.05, 0.02, 0.90),           # Olive-Sided Flycatcher
+    "plate-105": (0.05, 0.15, 0.90),           # Red-Breasted Nuthatch
+    "fuertes-011dd74c21": (0.12, 0.42, 0.70),  # Pygmy Nuthatch, in a grey halftone
+    "picked-rhinoceros-auklet": (0.26, 0.03, 0.53),
+    "gould-a67bd7f593": (0.05, 0.15, 0.90),    # Rock Dove
+    "plate-379": (0.02, 0.00, 0.95),           # Rufous Hummingbird, both at the top
+    "plate-166": (0.02, 0.28, 0.95),           # Rough-Legged Hawk
+    "plate-242": (0.02, 0.02, 0.95),           # Snowy Egret
+    "plate-45": (0.20, 0.05, 0.75),            # Traill's Flycatcher
+    "plate-311": (0.02, 0.02, 0.95),           # White Pelican
+    "baird-6bf6a58fb9": (0.02, 0.00, 0.78),    # White-Tailed Ptarmigan, head studies
+    "plate-83": (0.05, 0.05, 0.90),            # House Wren
+}
+
+
+def _masks(picture: Image.Image) -> tuple[list, list, float, int, int]:
+    """Two views of a plate, small enough to walk pixel by pixel.
+
+    `printed` is everything that is not bare sheet, which finds the edge of the
+    picture. `bird` is the subject: detail, not colour, is what separates a bird
+    from what it stands against, because sky, water and paper are smooth and a
+    painted bird never is. Foliage is detailed too, so it comes out by hue -- the
+    one thing a leaf reliably is and a bird mostly is not.
     """
-    mask = picture.convert("HSV").getchannel("S").point(lambda v: 255 if v > 60 else 0)
-    full_w, full_h = mask.size
-    scale = max(full_w, full_h) / 160
-    if scale > 1:
-        mask = mask.resize((max(1, int(full_w / scale)), max(1, int(full_h / scale))))
-    w, h = mask.size
-    px = mask.load()
-    left, top, right, bottom = 0, 0, w, h
-    min_w, min_h = max(4, int(w * keep_min)), max(4, int(h * keep_min))
+    w, h = picture.size
+    scale = max(w, h) / CARD_WORK
+    small = (picture.resize((max(8, round(w / scale)), max(8, round(h / scale))),
+                            Image.BILINEAR) if scale > 1 else picture.copy())
+    sw, sh = small.size
+    rgb = small.load()
+    hue, sat, _ = (c.load() for c in small.convert("HSV").split())
 
-    for _ in range(w + h):
-        across, down = max(1, right - left), max(1, bottom - top)
-        edges = {
-            "top": sum(1 for x in range(left, right) if px[x, top]) / across,
-            "bottom": sum(1 for x in range(left, right) if px[x, bottom - 1]) / across,
-            "left": sum(1 for y in range(top, bottom) if px[left, y]) / down,
-            "right": sum(1 for y in range(top, bottom) if px[right - 1, y]) / down,
-        }
-        emptiest = min(edges, key=lambda k: edges[k])
-        if edges[emptiest] >= edge_min:
-            break
-        if emptiest == "top" and bottom - top > min_h:
-            top += 1
-        elif emptiest == "bottom" and bottom - top > min_h:
-            bottom -= 1
-        elif emptiest == "left" and right - left > min_w:
-            left += 1
-        elif emptiest == "right" and right - left > min_w:
-            right -= 1
-        else:
-            break
+    # The sheet's own tone, read off its border: these papers run cream to grey.
+    border = ([rgb[x, y] for y in (0, sh - 1) for x in range(sw)]
+              + [rgb[x, y] for x in (0, sw - 1) for y in range(sh)])
+    paper = tuple(sorted(c[i] for c in border)[len(border) // 2] for i in range(3))
 
-    sx, sy = full_w / w, full_h / h
-    return (int(left * sx), int(top * sy), int(right * sx), int(bottom * sy))
+    grey = small.convert("L")
+    hi = grey.filter(ImageFilter.MaxFilter(3)).load()
+    lo = grey.filter(ImageFilter.MinFilter(3)).load()
+
+    printed = [[0] * sw for _ in range(sh)]
+    bird = [[0] * sw for _ in range(sh)]
+    for y in range(sh):
+        for x in range(sw):
+            r, g, b = rgb[x, y][:3]
+            if abs(r - paper[0]) + abs(g - paper[1]) + abs(b - paper[2]) > 40:
+                printed[y][x] = 1
+                leaf = 40 <= hue[x, y] <= 108 and sat[x, y] > 40
+                if not leaf and hi[x, y] - lo[x, y] > 26:
+                    bird[y][x] = 1
+    return printed, bird, scale, sw, sh
+
+
+def _block(profile: list[int], floor: float, bridge: float) -> tuple[int, int]:
+    """The longest unbroken run of printed rows (or columns), small gaps bridged.
+
+    Where a plate is a picture printed on a larger sheet, its lettering is a line
+    of its own with bare paper above and below. Taking the longest run rather than
+    the first mark to the last leaves the caption out, and with it the white band
+    the card used to show down one side of the bird.
+    """
+    runs, start, gap = [], None, 0
+    for i, v in enumerate(profile):
+        if v >= floor:
+            if start is None:
+                start = i
+            gap = 0
+        elif start is not None:
+            gap += 1
+            if gap > bridge:
+                runs.append((start, i - gap))
+                start, gap = None, 0
+    if start is not None:
+        runs.append((start, len(profile) - gap))
+    if not runs:
+        return 0, len(profile)
+    lo, hi = max(runs, key=lambda r: r[1] - r[0])
+    # The bridge is there to hold a run together across a thin gap inside the
+    # picture; at the two ends it would hand back the sheet margin it just walked
+    # over, which is the pale strip the cards used to carry down one side.
+    while lo < hi and profile[lo] < floor:
+        lo += 1
+    while hi > lo and profile[hi - 1] < floor:
+        hi -= 1
+    return lo, hi
+
+
+def card_box(picture: Image.Image) -> tuple[int, int, int, int]:
+    """The card's window on a plate: the bird's head in, the paper out.
+
+    Two rules, in order. The window is the largest card-shaped one that fits inside
+    the printed picture, so no edge of it can be bare sheet. Then it slides up and
+    down to hold as much of the bird as it can *without slicing through one along
+    its top edge* -- because the top of a bird is its head, and a beheaded bird is
+    the one crop a reader will not forgive. Centring on the paint alone, which is
+    what this used to do, took the head off the Bald Eagle and both pelicans.
+    """
+    printed, bird, scale, sw, sh = _masks(picture)
+
+    rows = [sum(r) for r in printed]
+    top, bottom = _block(rows, max(2, sw * 0.12), max(2, sh * 0.02))
+    # Only the rows the picture occupies get a say in where its sides are. Read
+    # over the whole sheet instead and a caption set wider than the picture --
+    # "Cassin's Illustrations" runs the full measure -- votes the margin back in,
+    # which is how a band of bare paper survived down the left of those plates.
+    cols = [sum(printed[y][x] for y in range(top, bottom)) for x in range(sw)]
+    left, right = _block(cols, max(2, (bottom - top) * 0.12), max(2, sw * 0.02))
+    if bottom - top < 12 or right - left < 12:
+        top, bottom, left, right = 0, sh, 0, sw
+
+    across, down = right - left, bottom - top
+    if across / down >= CARD_ASPECT:
+        h = down
+        w = h * CARD_ASPECT
+    else:
+        w = across
+        h = w / CARD_ASPECT
+
+    brow = [sum(bird[y][x] for x in range(left, right)) for y in range(sh)]
+    total = sum(brow[top:bottom]) or 1
+    band = max(1, round(h * 0.04))
+    tall = round(h)
+    best, y0 = None, top
+    for y in range(top, max(top + 1, bottom - tall + 1)):
+        held = sum(brow[y:y + tall]) / total
+        cut = sum(brow[y:y + band]) / (band * across)
+        score = held - 1.6 * cut
+        if best is None or score > best:
+            best, y0 = score, y
+
+    # Sideways, the bird's own weight decides: a plate is often painted off-centre.
+    bcol = [sum(bird[y][x] for y in range(y0, y0 + tall)) for x in range(sw)]
+    mass = sum(bcol[left:right]) or 1
+    centre = sum(x * bcol[x] for x in range(left, right)) / mass
+    x0 = max(left, min(right - w, centre - w / 2))
+
+    # Back to the plate's own pixels, and inside them. A window that ends on the
+    # last column rounds up to one past it, and PIL answers a crop off the edge
+    # with black rather than an error, so it is the far edge that gives -- by a
+    # pixel or two, with the near one left where the picture starts.
+    full_w, full_h = picture.size
+    x1, y1 = round(x0 * scale), round(y0 * scale)
+    wide = min(full_w, round((x0 + w) * scale)) - x1
+    tall_px = min(full_h, round((y0 + h) * scale)) - y1
+    if wide / tall_px > CARD_ASPECT:
+        wide = round(tall_px * CARD_ASPECT)
+    else:
+        tall_px = round(wide / CARD_ASPECT)
+    return (x1, y1, x1 + wide, y1 + tall_px)
+
+
+def make_card(image: str, whole: bytes) -> bytes:
+    """The card file: a plate cropped to the frame, by rule or by hand."""
+    with Image.open(io.BytesIO(whole)) as img:
+        picture = img.convert("RGB")
+    hand = CARD_CROPS.get(image)
+    if hand:
+        fx, fy, fw = hand
+        # A hand-picked width on a plate barely taller than the frame can ask for
+        # a row that is not there; the frame gives, not the plate.
+        w = min(round(picture.width * fw), round(picture.height * CARD_ASPECT))
+        h = round(w / CARD_ASPECT)
+        x = max(0, min(picture.width - w, round(picture.width * fx)))
+        y = max(0, min(picture.height - h, round(picture.height * fy)))
+        box = (x, y, x + w, y + h)
+    else:
+        box = card_box(picture)
+    out = io.BytesIO()
+    picture.crop(box).save(out, "WEBP", quality=88, method=6)
+    return out.getvalue()
 
 
 def trim_paper(data: bytes) -> bytes:
@@ -685,28 +840,20 @@ def download(mapping: dict[str, dict]) -> None:
     wanted = {(m["image"], m["artist"], m["file"]) for m in mapping.values()}
 
     def grab(item: tuple[str, str, str]) -> bool:
-        """Two files per plate: the whole sheet, and a crop for the card.
+        """The whole sheet, as it was composed. The card is cut from it later.
 
-        The card wants the bird filling it; opening a bird wants the plate as it
-        was composed. Cropping the stored file would settle that argument in the
-        card's favour and lose the composition for good, so both are kept.
+        Cropping the stored file would settle "which bird is this" against "what
+        did he paint" for good, so the sheet is what gets kept.
         """
         image, artist, name = item
         dst = OUT_IMG / f"{image}.webp"
-        card = OUT_IMG / f"{image}-card.webp"
-        if dst.exists() and card.exists():
+        if dst.exists():
             return False
         # Audubon's own site resizes on request; Commons was asked for a sized
         # thumbnail when the file was listed, so its url is already the right one.
         url = (PLATE_IMG.format(name) + f"?width={IMG_WIDTH}&format=webp"
                if artist == "Audubon" else name)   # others carry a sized url
-        whole = trim_paper(fetch(url))
-        dst.write_bytes(whole)
-        with Image.open(io.BytesIO(whole)) as img:
-            picture = img.convert("RGB")
-        out = io.BytesIO()
-        picture.crop(painted_box(picture)).save(out, "WEBP", quality=88, method=6)
-        card.write_bytes(out.getvalue())
+        dst.write_bytes(trim_paper(fetch(url)))
         return True
 
     def attempt(item: tuple[str, str, str]) -> bool:
@@ -732,7 +879,33 @@ def download(mapping: dict[str, dict]) -> None:
         print(f"              {len(missing)} still missing -- run again to pick them up")
 
 
+def cut_cards() -> None:
+    """Cut each stored sheet down to its card.
+
+    Kept apart from the download so that changing how a card is framed does not
+    mean fetching 431 plates again. A card is recut when it is missing or older
+    than this file, which is what makes an edit to the rule -- or to CARD_CROPS --
+    reach the plates already on disk, and what makes a rerun otherwise free.
+    """
+    rule = Path(__file__).stat().st_mtime
+    stale = [p for p in sorted(OUT_IMG.glob("*.webp"))
+             if not p.name.endswith("-card.webp")
+             and (not (card := p.with_name(f"{p.stem}-card.webp")).exists()
+                  or card.stat().st_mtime < rule)]
+    for src in stale:
+        card = src.with_name(f"{src.stem}-card.webp")
+        card.write_bytes(make_card(src.stem, src.read_bytes()))
+    print(f"  cards       {len(stale)} cut"
+          f"{' (all current)' if not stale else ''}")
+
+
 def main() -> int:
+    # Recutting the cards needs nothing from the network, and the matching pass
+    # below takes minutes, so it is reachable on its own.
+    if "--cards" in sys.argv[1:]:
+        cut_cards()
+        return 0
+
     species = json.loads(JOURNAL.read_text())["species"]
 
     urls = plate_urls()
@@ -756,6 +929,7 @@ def main() -> int:
           f"-- {audubon} by Audubon, {filled} by the others")
 
     download(mapping)
+    cut_cards()
     return 0
 
 

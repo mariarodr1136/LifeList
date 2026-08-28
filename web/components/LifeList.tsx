@@ -288,10 +288,12 @@ function SpeciesCard({
       }`}
     >
       <div
-        /* 5:4. A landscape frame showed barely half the height of a portrait plate
-           and dropped the top of it, which is where the heads are -- at 16:10 the
-           Bald Eagle and both Barn Swallows were headless. Square fixed that but
-           stood too tall; this keeps nearly all of it and 20% less height. */
+        /* 5:4, and the card files are cut to it -- see card_box() in
+           extract/fetch_plates.py, which frames each plate on the bird's head and
+           leaves the sheet's white margin outside the crop. Change this shape and
+           the plates have to be recut (fetch_plates.py --cards) or every card
+           gains a band of paper. A landscape frame showed barely half the height
+           of a portrait plate; square stood too tall. */
         className="relative aspect-[5/4] overflow-hidden bg-surface-muted"
       >
         <BirdImage plate={species.plate} alt={species.name} seed={species.key} sizes="(max-width: 640px) 100vw, 320px" />

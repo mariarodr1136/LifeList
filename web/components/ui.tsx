@@ -189,11 +189,12 @@ export function BirdImage({
       height={plate.height}
       sizes={sizes}
       /*
-        Filled rather than fitted, so the bird reads at card size. Even cropped to
-        the paint, a portrait plate loses half its height to a landscape frame, so
-        each carries its own focal point; see focus_y() in extract/build_web.py.
+        This file is already the card's frame: card_box() in extract/fetch_plates.py
+        cut it to 5:4 around the bird, taking the sheet's margin and lettering with
+        it. Cover rather than contain so a rounding pixel fills rather than shows
+        as a hairline of background, and no object-position -- moving the window is
+        the pipeline's job, and doing it again here is what put paper down one side.
       */
-      style={{ objectPosition: `50% ${plate.focusY}%` }}
       className={`h-full w-full object-cover ${className}`}
     />
   );
