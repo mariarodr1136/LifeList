@@ -162,13 +162,20 @@ before the site went public.
 The species placeholder is still line art of our own (see below), so the two do not
 compete.
 
-**Bird artwork is Audubon where Audubon exists.** 209 of the 349 recorded species —
-400 of all 869 printed — carry their plate from *The Birds of America*, fetched into
+**Bird artwork is Audubon where Audubon exists, and the artists who filled his gaps
+where he does not.** 261 of the 349 recorded species — 452 of all 869 printed — carry
+a painted plate. 209 are Audubon's own, fetched into
 `web/public/plates` by `extract/fetch_plates.py`. He painted 435 plates and died in
-1851 having barely worked west of the Mississippi, so the western birds (Cactus Wren,
-Roadrunner, most hummingbirds) have no plate and never will; those keep the line-art
-placeholder (`web/public/bird-placeholder.svg`), and the detail panel says which case
-a bird is in. The placeholder is line art on a transparent ground, matching the
+1851 having barely worked west of the Mississippi, so the southwestern birds are not
+in him and never will be. The other 52 come from four artists who were there, tried
+oldest first so the page stays as much of a piece as it can: **Cassin** (1856, whose
+folio was explicitly the North American birds "not given by former American authors"),
+**Gould's** hummingbird monograph, then **Brooks** and **Fuertes**. Cassin in
+particular is indistinguishable from Audubon — the same hand-coloured lithography, the
+same decade. Their plates come through Wikimedia Commons as Biodiversity Heritage
+Library scans; all of this work is out of copyright. Where none of them painted a bird
+it keeps the line-art placeholder (`web/public/bird-placeholder.svg`), and the detail
+panel names the artist or says there is no plate. The placeholder is line art on a transparent ground, matching the
 masthead, so the card's own surface shows through.
 
 Under **Where it appears**, the rail shows the photographed spread the bird was read
@@ -251,6 +258,19 @@ taxonomy. That is what a reader of this particular book would recognise.
 - 43 observations carry a `?`. They are listed on the summary page.
 - Nine numbers in the `IMG_8763`–`IMG_8922` sequence were never in the folder; the
   set is complete as delivered.
+- Attributing a plate to a bird is the softest part of the artwork. Audubon's plates
+  come one species to a page from his own publisher; the other four are matched
+  through the scientific names BHL's name-finder read off a scanned page, which can
+  name a bird the plate only mentions. Two guards: a plate naming fewer other species
+  is preferred, and where the guide's name and the candidate's both resolve to a
+  Wikipedia article they must resolve to the *same* one. That second guard is not
+  theoretical — without it the guide's White-necked Raven (*Corvus cryptoleucus*, now
+  the Chihuahuan Raven) was illustrated with *Corvus albicollis*, an African bird that
+  once shared the English name. The 52 attributions are short enough to read in full,
+  and worth reading.
+- The transcription carries OCR misreads of its own that no merge can fix: `Housf
+  Finch` sits beside `Finch, House` as a separate species, because the typo makes a
+  genuinely different key.
 - The Audubon match is name-based, so it inherits the guide's own naming. Audubon
   painted 29 species twice and the matcher prefers the plate he titled with the
   bird's own name; only the Bald Eagle needed a hand override (plate 11 is the

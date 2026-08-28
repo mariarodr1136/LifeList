@@ -458,14 +458,24 @@ function SpeciesDetail({
       <p className="border-b border-line px-5 py-1.5 text-[0.6875rem] text-fg-subtle">
         {species.plate ? (
           <>
-            Audubon, plate {species.plate.plate}
-            {/* He rarely called it what the guide calls it, so name his name too. */}
-            {species.plate.audubonName.toLowerCase() !== species.name.toLowerCase() && (
-              <> — &ldquo;{species.plate.audubonName}&rdquo;</>
+            {species.plate.artist}
+            {species.plate.plate != null && <>, plate {species.plate.plate}</>}
+            {/* The plate rarely calls it what the guide calls it, so give its own
+                caption too — Audubon's Vesper Sparrow is a Grass Finch. Where the
+                scan carries no legible caption, the name the plate was matched on
+                says more than nothing. */}
+            {species.plate.title &&
+            species.plate.title.toLowerCase() !== species.name.toLowerCase() ? (
+              <> — &ldquo;{species.plate.title}&rdquo;</>
+            ) : (
+              !species.plate.title &&
+              species.plate.scientific && (
+                <> — <em className="font-serif italic">{species.plate.scientific}</em></>
+              )
             )}
           </>
         ) : (
-          <>No Audubon plate — he never painted this bird.</>
+          <>No plate — none of these artists painted this bird.</>
         )}
       </p>
 

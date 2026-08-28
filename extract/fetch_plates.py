@@ -22,6 +22,7 @@ Scientific name alone gets 38% of what she recorded; through Wikipedia, 60%.
 
 from __future__ import annotations
 
+import hashlib
 import html
 import io
 import json
@@ -41,7 +42,8 @@ JOURNAL = ROOT / "web" / "public" / "data" / "journal.json"
 OUT_MAP = ROOT / "data" / "audubon_plates.json"
 OUT_IMG = ROOT / "web" / "public" / "plates"
 
-UA = {"User-Agent": "BirdsJournal/1.0 (personal birding journal; contact via repo)"}
+UA = {"User-Agent": "BirdsJournal/1.0 "
+                    "(https://github.com/mariarodr1136/a-life-list)"}
 SITEMAP = "https://www.audubon.org/sitemap.xml"
 PLATE_IMG = "https://media.audubon.org/boa_illustration/{}"
 IMG_WIDTH = 800
@@ -174,6 +176,123 @@ def split_title(title: str) -> list[str]:
 ROUTES = ["scientific", "modern-name", "plate-title", "plate-title-part", "composite-modern-name"]
 
 
+"""
+The artists who filled Audubon's gaps.
+
+He never worked the Southwest, so the Cactus Wren and the hummingbirds are not in
+him and never will be. These four were: Cassin's folio was explicitly "all North
+American birds not given by former American authors", Gould's monograph is the
+hummingbirds, and Brooks and Fuertes painted the western avifauna in the decades
+after. They are tried in this order -- earliest and closest to Audubon's
+hand-coloured lithography first, so the page stays as much of a piece as it can.
+
+Their plates come through Wikimedia Commons, which holds them as scans uploaded
+from the Biodiversity Heritage Library. The BHL template carries the species BHL's
+own name-finder detected, which is what makes them matchable at all.
+"""
+COMMONS_SOURCES = [
+    ("Cassin", 1856, [
+        "Illustrations of the birds of California, Texas, Oregon, "
+        "British and Russian America"]),
+    ("Gould", 1861, [
+        "A Monograph of the Trochilidae",
+        "A Monograph of the Trochilidae Volume 2",
+        "A Monograph of the Trochilidae Volume 3",
+        "A Monograph of the Trochilidae Volume 4",
+        "A Monograph of the Trochilidae Volume 5",
+        "A Monograph of the Trochilidae Supplement"]),
+    ("Brooks", 1923, ["The Birds of California (1923)", "Allan Brooks"]),
+    ("Fuertes", 1914, [
+        "Works by Louis Agassiz Fuertes",
+        "The warblers of North America (1907)",
+        "Birds of New York (1910)", "Birds of New York (1912)",
+        "Birds of New York (1914)", "Birds of New York (Eaton)"]),
+]
+
+
+def commons(**params) -> dict:
+    params["format"] = "json"
+    url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)
+    return json.loads(fetch(url))
+
+
+def commons_category(cat: str) -> list[dict]:
+    """Every file in a Commons category, with its wikitext and a usable image."""
+    out: list[dict] = []
+    cont: dict = {}
+    while True:
+        d = commons(action="query", generator="categorymembers",
+                    gcmtitle=f"Category:{cat}", gcmtype="file", gcmlimit=50,
+                    prop="revisions|imageinfo", rvprop="content", rvslots="main",
+                    iiprop="url", iiurlwidth=IMG_WIDTH, **cont)
+        for page in d.get("query", {}).get("pages", {}).values():
+            info = (page.get("imageinfo") or [{}])[0]
+            url = info.get("thumburl") or info.get("url")
+            if url:
+                out.append({"page": page["title"],
+                            "text": page["revisions"][0]["slots"]["main"]["*"],
+                            "url": url})
+        if "continue" not in d:
+            return out
+        cont = d["continue"]
+        time.sleep(0.4)
+
+
+def described_species(text: str) -> tuple[set[str], str | None]:
+    """What species a Commons file says it shows, and the name it gives them.
+
+    Three routes, because the uploads are not uniform: BHL's own name-finding
+    (`NameFound:`), an italicised binomial in the description, and the species
+    categories a Commons editor filed it under.
+    """
+    found = set(re.findall(r"NameFound:([A-Z][a-z]+ [a-z]+)", text))
+    found |= set(re.findall(r"''([A-Z][a-z]+ [a-z]+)''", text))
+    found |= set(re.findall(r"\[\[Category:([A-Z][a-z]+ [a-z]+) \(", text))
+    # Only a caption that reads as a bird's name is worth showing. Many of these
+    # descriptions are raw OCR of the plate's imprint line -- "Cassin's
+    # flluslrations" -- or a fragment of the template, and a caption is worse than
+    # no caption when it is neither the bird's name nor English.
+    modern = (re.search(r"now known as ([^(\n]+?)\s*\(", text)
+              or re.search(r"\|\s*[Dd]escription\s*=\s*(?:\{\{en\|1=)?([A-Z][A-Za-z' -]{2,40}),\s*''",
+                           text))
+    name = modern.group(1).strip() if modern else None
+    if name and (len(name) < 3 or "<" in name or "{" in name
+                 or re.search(r"illustr|plate|figure", name, re.I)):
+        name = None
+    return found, name
+
+
+def gather_commons() -> list[dict]:
+    """Candidate plates from the four later artists, ready to be matched."""
+    candidates: list[dict] = []
+    for artist, year, cats in COMMONS_SOURCES:
+        seen: set[str] = set()
+        kept = 0
+        for cat in cats:
+            try:
+                files = commons_category(cat)
+            except Exception as exc:                      # a renamed category
+                print(f"  {artist}: skipped {cat[:40]} ({exc})")
+                continue
+            for f in files:
+                if f["page"] in seen:
+                    continue
+                seen.add(f["page"])
+                names, title = described_species(f["text"])
+                if not names:
+                    continue                              # a cover or a signature
+                plate = re.search(r"Plate ([IVXLC0-9]+)", f["text"])
+                candidates.append({
+                    "artist": artist, "year": year,
+                    "scientificNames": sorted(names),
+                    "title": title, "plateLabel": plate.group(1) if plate else None,
+                    "url": f["url"], "page": f["page"],
+                })
+                kept += 1
+        print(f"  {artist:8s} {kept} identifiable plates")
+    return candidates
+
+
 def build_mapping(plates: list[dict], species: list[dict]) -> dict[str, dict]:
     by_plate = {p["plate"]: p for p in plates}
 
@@ -231,8 +350,10 @@ def build_mapping(plates: list[dict], species: list[dict]) -> dict[str, dict]:
 
         p = by_plate[plate]
         mapping[s["key"]] = {
+            "artist": "Audubon",
+            "image": f"plate-{plate}",
             "plate": plate,
-            "audubonName": p["audubonName"],
+            "title": p["audubonName"],
             "scientific": p["scientific"],
             "file": p["image"],
             "page": p["page"],
@@ -342,24 +463,100 @@ def trim_paper(data: bytes) -> bytes:
     return out.getvalue()
 
 
-def download(mapping: dict[str, dict]) -> None:
-    """One image per plate, resized by their CDN rather than shipping 2 MB scans."""
-    OUT_IMG.mkdir(parents=True, exist_ok=True)
-    wanted = {(m["plate"], m["file"]) for m in mapping.values()}
+def fill_gaps(mapping: dict[str, dict], species: list[dict],
+              candidates: list[dict]) -> int:
+    """Give the birds Audubon never painted to the artists who did.
 
-    def grab(item: tuple[int, str]) -> bool:
+    Audubon is never displaced: this only reaches species he left, and among the
+    rest it takes the earliest artist who has the bird, so the page drifts from his
+    hand as slowly as the material allows.
+    """
+    wanted = [s for s in species
+              if (s["marked"] or s["observations"]) and s["key"] not in mapping]
+    if not wanted:
+        return 0
+
+    every_name = sorted({n for c in candidates for n in c["scientificNames"]})
+    modern = resolve(every_name)
+
+    # Keyed to the name that matched, not just the plate: a page naming three
+    # hummingbirds would otherwise be captioned with whichever sorted first, and
+    # Allen's Hummingbird would be labelled Anna's.
+    index: dict[str, list[tuple[dict, str | None]]] = {}
+    for c in candidates:
+        if c["title"]:
+            index.setdefault(norm(c["title"]), []).append((c, None))
+        for sci in c["scientificNames"]:
+            for k in {norm(sci), norm(modern.get(sci))}:
+                if k:
+                    index.setdefault(k, []).append((c, sci))
+
+    journal_sci = sorted({strip_accents(s["scientific"]) for s in wanted if s.get("scientific")})
+    journal_common = resolve(journal_sci)
+
+    filled = 0
+    for s in wanted:
+        keys = [norm(s["name"]), norm(uninvert(s["name"]))]
+        sci = strip_accents(s.get("scientific") or "")
+        if sci:
+            keys += [norm(sci), norm(journal_common.get(sci))]
+
+        hits = [pair for k in keys if k for pair in index.get(k, [])]
+
+        # A shared English name is not a shared bird. "White-necked Raven" belongs
+        # to Corvus cryptoleucus here and to Corvus albicollis in Africa, and the
+        # guide's raven was very nearly illustrated with the African one. Where both
+        # sides resolve to a Wikipedia article, they must resolve to the same one.
+        here = journal_common.get(sci) if sci else None
+        if here:
+            hits = [(c, m) for c, m in hits
+                    if not (m and modern.get(m)) or modern[m] == here]
+        if not hits:
+            continue
+        # Earliest artist first, then the plate that names fewest other birds: a
+        # sheet captioned with one species is far likelier to be of that species
+        # than a page whose text mentions six.
+        best, matched_on = sorted(
+            hits, key=lambda h: (h[0]["year"], len(h[0]["scientificNames"]), h[0]["page"]))[0]
+        # Named by a digest of the Commons title, not the title itself: these books
+        # have long names and the plate number falls at the end, so any readable
+        # truncation collides every plate in a volume onto one filename.
+        digest = hashlib.md5(best["page"].encode("utf8")).hexdigest()[:10]
+        mapping[s["key"]] = {
+            "artist": best["artist"],
+            "image": f"{best['artist'].lower()}-{digest}",
+            "plate": best["plateLabel"],
+            "title": best["title"],
+            "scientific": matched_on or best["scientificNames"][0],
+            "file": best["url"],
+            "page": f"https://commons.wikimedia.org/wiki/{urllib.parse.quote(best['page'])}",
+            "matchedBy": "commons-name",
+        }
+        filled += 1
+    return filled
+
+
+def download(mapping: dict[str, dict]) -> None:
+    """One image per plate, resized at the source rather than shipping 2 MB scans."""
+    OUT_IMG.mkdir(parents=True, exist_ok=True)
+    wanted = {(m["image"], m["artist"], m["file"]) for m in mapping.values()}
+
+    def grab(item: tuple[str, str, str]) -> bool:
         """Two files per plate: the whole sheet, and a crop for the card.
 
-        The card wants the bird filling it; opening a bird wants the plate as
-        Audubon composed it. Cropping the stored file would settle that argument in
-        the card's favour and lose the composition for good, so both are kept.
+        The card wants the bird filling it; opening a bird wants the plate as it
+        was composed. Cropping the stored file would settle that argument in the
+        card's favour and lose the composition for good, so both are kept.
         """
-        plate, name = item
-        dst = OUT_IMG / f"plate-{plate}.webp"
-        card = OUT_IMG / f"plate-{plate}-card.webp"
+        image, artist, name = item
+        dst = OUT_IMG / f"{image}.webp"
+        card = OUT_IMG / f"{image}-card.webp"
         if dst.exists() and card.exists():
             return False
-        url = PLATE_IMG.format(name) + f"?width={IMG_WIDTH}&format=webp"
+        # Audubon's own site resizes on request; Commons was asked for a sized
+        # thumbnail when the file was listed, so its url is already the right one.
+        url = (PLATE_IMG.format(name) + f"?width={IMG_WIDTH}&format=webp"
+               if artist == "Audubon" else name)
         whole = trim_paper(fetch(url))
         dst.write_bytes(whole)
         with Image.open(io.BytesIO(whole)) as img:
@@ -384,13 +581,18 @@ def main() -> int:
         plates = [p for p in pool.map(scrape, urls) if p["plate"]]
 
     mapping = build_mapping(plates, species)
-    OUT_MAP.write_text(json.dumps(mapping, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
-
     recorded = [s for s in species if s["marked"] or s["observations"]]
+    audubon = sum(1 for s in recorded if s["key"] in mapping)
+
+    print("  gathering the artists who filled his gaps...")
+    filled = fill_gaps(mapping, species, gather_commons())
+
+    OUT_MAP.write_text(json.dumps(mapping, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
     hit = sum(1 for s in recorded if s["key"] in mapping)
     print(f"  matched     {len(mapping)} of {len(species)} printed species")
     print(f"              {hit} of {len(recorded)} she recorded "
-          f"({round(100 * hit / len(recorded))}%)")
+          f"({round(100 * hit / len(recorded))}%) "
+          f"-- {audubon} by Audubon, {filled} by the others")
 
     download(mapping)
     return 0

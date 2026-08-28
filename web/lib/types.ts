@@ -19,18 +19,22 @@ export type Observation = {
 };
 
 /**
- * The Audubon plate that shows this bird, where one exists.
+ * The plate that shows this bird, where one exists.
  *
- * He painted 435 plates and died in 1851 having barely worked the West, so a
- * little under half the book can be illustrated and the rest keeps the
- * placeholder. `audubonName` is his own title for the plate, which is usually not
- * the name the guide prints — his Vesper Sparrow is a "Grass Finch, or Bay-winged
- * Bunting" — so it is worth showing rather than hiding behind the modern name.
+ * Audubon first, and the artists who filled his gaps where he has nothing:
+ * he died in 1851 having barely worked the West. `title` is the plate's own
+ * caption, which is usually not the name the guide prints — his Vesper Sparrow is
+ * a "Grass Finch, or Bay-winged Bunting" — so it is worth showing rather than
+ * hiding behind the modern name.
  */
 export type Plate = {
-  /** Havell plate number, and the filename: /plates/plate-102.webp. */
-  plate: number;
-  audubonName: string;
+  /** Who painted it: Audubon, Cassin, Gould, Brooks or Fuertes. */
+  artist: string;
+  /** Basename of both files: /plates/{image}.webp and /plates/{image}-card.webp. */
+  image: string;
+  /** Plate number where the work numbers its plates. */
+  plate: number | string | null;
+  title: string | null;
   scientific: string | null;
   /** The card crop (plate-N-card.webp): the painted part, without the bare sheet. */
   width: number;

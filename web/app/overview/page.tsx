@@ -38,6 +38,7 @@ export default function OverviewPage() {
   const onList = j.species.filter((s) => s.marked || s.observations.length > 0);
   const recorded = onList.length;
   const plated = onList.filter((s) => s.plate).length;
+  const byAudubon = onList.filter((s) => s.plate?.artist === "Audubon").length;
 
   return (
     <>
@@ -124,11 +125,11 @@ export default function OverviewPage() {
               <strong className="font-medium text-fg">
                 {plated} of the {recorded} recorded birds
               </strong>{" "}
-              are shown as Audubon painted them, from the plates of{" "}
-              <em className="font-serif italic">The Birds of America</em>. He died in
+              carry a painted plate, {byAudubon} of them Audubon&apos;s own. He died in
               1851 having barely worked west of the Mississippi, so the western birds
-              — the Cactus Wren, the Roadrunner, most of the hummingbirds — have no
-              plate and keep the placeholder. The guide&apos;s own artwork is not
+              come from the artists who followed him into that country — Cassin, Gould
+              for the hummingbirds, then Brooks and Fuertes. Where none of them painted
+              a bird it keeps the placeholder, and the guide&apos;s own artwork is not
               digitised and is not shown anywhere.
             </li>
           </ul>
@@ -136,7 +137,9 @@ export default function OverviewPage() {
             Plates from{" "}
             <em className="font-serif italic">John James Audubon&apos;s Birds of America</em>,
             courtesy of the John James Audubon Center at Mill Grove, the Montgomery
-            County Audubon Collection, and Zebra Publishing.
+            County Audubon Collection, and Zebra Publishing. The later plates are
+            scans held by the Biodiversity Heritage Library, by way of Wikimedia
+            Commons. Every one of these works is out of copyright.
           </p>
           <p className="mt-5">
             <Link

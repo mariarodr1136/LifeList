@@ -111,14 +111,14 @@ export function BirdImage({
       />
     );
   }
-  const caption = alt ? `${alt}, from Audubon's plate ${plate.plate}` : "";
+  const caption = alt ? `${alt}, painted by ${plate.artist}` : "";
 
   // Opened, the plate is shown whole and at its own proportions: the card's crop
   // answers "which bird is this", and the sheet answers "what did he paint".
   if (whole) {
     return (
       <Image
-        src={`/plates/plate-${plate.plate}.webp`}
+        src={`/plates/${plate.image}.webp`}
         alt={caption}
         width={plate.fullWidth}
         height={plate.fullHeight}
@@ -130,7 +130,7 @@ export function BirdImage({
 
   return (
     <Image
-      src={`/plates/plate-${plate.plate}-card.webp`}
+      src={`/plates/${plate.image}-card.webp`}
       alt={caption}
       width={plate.width}
       height={plate.height}

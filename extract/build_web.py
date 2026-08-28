@@ -157,10 +157,10 @@ def plate_record(plate: dict) -> dict:
     given an assumed aspect.
     """
     plates = WEB / "plates"
-    with Image.open(plates / f"plate-{plate['plate']}-card.webp") as card:
+    with Image.open(plates / f"{plate['image']}-card.webp") as card:
         width, height = card.size
         focus = focus_y(card)
-    with Image.open(plates / f"plate-{plate['plate']}.webp") as whole:
+    with Image.open(plates / f"{plate['image']}.webp") as whole:
         full_width, full_height = whole.size
     return {**plate, "width": width, "height": height, "focusY": focus,
             "fullWidth": full_width, "fullHeight": full_height}
