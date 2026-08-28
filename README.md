@@ -11,8 +11,6 @@ book; the dates, places, circles and marginal notes are the part that matters, a
 exist in no other copy. Nothing here is invented — where a reading is doubtful, the site
 says so.
 
-![The life list](docs/images/life-list.jpg)
-
 ---
 
 ## What was actually in the photographs
@@ -51,8 +49,6 @@ He birded California, mostly. Upper Newport Bay is his commonest place by some w
 The guide's own plates are not digitised, so the birds are illustrated with the work of
 the people who painted them first. **275 of the 348 carry a plate.**
 
-![One plate from each artist](docs/images/plates-by-artist.jpg)
-
 Audubon does most of it — 210 birds — and stops where he stopped: he died in 1851 having
 barely worked west of the Mississippi, and the man with the guide birded the Southwest.
 So the gaps go to the artists who were there, tried oldest first, so the page drifts
@@ -85,8 +81,6 @@ Five routes, all prerendered from one JSON file. No database, no network at runt
 Every bird he recorded, as cards. Choosing one opens a rail with the sightings exactly
 as written, his notes, the transcriber's caveats, and the plate.
 
-![The detail rail](docs/images/detail-rail.jpg)
-
 The card shows a crop tightened onto the paint; opening a bird shows the whole plate as
 its artist composed it, engraved caption and all. The rail's left edge drags to widen
 it, because a photographed spread is wider than a column is.
@@ -96,26 +90,18 @@ it, because a photographed spread is wider than a column is.
 Under the sightings, the rail carries the photograph the bird was read from. The
 transcription is a reading of that page, so the page is what settles an argument.
 
-![The page a bird was read from](docs/images/detail-rail-scan.jpg)
-
 ### Checklist
 
 All 866 printed species, grouped the way the book groups them, ticked or not.
-
-![The checklist](docs/images/checklist.jpg)
 
 ### Places
 
 The 148 places he named, each with its span and everything recorded there. Spelling
 variants are folded together; the page itself always keeps the wording he used that day.
 
-![Places](docs/images/places.jpg)
-
 ### Overview
 
 The totals, entries by year, most-visited places, best-recorded groups.
-
-![Overview](docs/images/overview.jpg)
 
 ### Review
 
@@ -135,8 +121,6 @@ That review moved the archive's own headline. The earliest entry had been a Purp
 at 1923, which is a 7 misread as a 2; the Ring-necked Pheasant's "EARLY 1930's" is
 "1950's". **The span is 1950–1995, not 1923–1995**, and 17 entries that had no readable
 date now have one.
-
-![Review](docs/images/review.jpg)
 
 ---
 
