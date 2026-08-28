@@ -1,5 +1,7 @@
 # A Life List – Birds of North America 🦆
 
+[![Deploy](https://github.com/mariarodr1136/LifeList/actions/workflows/pages.yml/badge.svg)](https://github.com/mariarodr1136/LifeList/actions/workflows/pages.yml) ![Next.js](https://img.shields.io/badge/Next.js-16-000000) ![React](https://img.shields.io/badge/React-19-61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4) ![Python](https://img.shields.io/badge/Python-3.10-3776AB) ![Claude](https://img.shields.io/badge/Claude-Opus%205-D97757) ![Pillow](https://img.shields.io/badge/Pillow-Imaging-8A2BE2) ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-222222)
+
 One man carried a single field guide — *Birds of North America* (Robbins, Bruun & Zim,
 Golden Press, mid-1960s) — for fifty years, and wrote in it. Ticks in the back index,
 circles round the plates, dates and place names in the margins, field notes in his own
