@@ -66,7 +66,14 @@ export default function Review({ entries, initial }: Props) {
 
   const current = entries.find((e) => e.id === selected) ?? null;
   const saved = current ? reviews[current.id] : undefined;
-  const done = Object.keys(reviews).length;
+  /*
+    Only the verdicts belonging to entries still in the queue. The review file
+    keeps every verdict ever saved, including those already applied to the archive
+    -- whose entries are no longer flagged and so are not in `entries` at all.
+    Counting the file's keys read "43 of 2" once most of the queue had been
+    settled, and filled the bar while two entries were still outstanding.
+  */
+  const done = entries.filter((e) => reviews[e.id]).length;
 
   const save = async (patch: Patch) => {
     if (!current) return;

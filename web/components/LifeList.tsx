@@ -297,12 +297,10 @@ function SpeciesCard({
         }`}
       >
         <BirdImage plate={species.plate} alt={species.name} sizes="(max-width: 640px) 100vw, 320px" />
+        {/* No "Recorded" badge here: every bird on this page is on the life list by
+            definition, so the badge sat on all 348 cards saying nothing and covering
+            the plate. Only the marks that actually vary are worth the corner. */}
         <div className="absolute right-2 top-2 flex gap-1">
-          {species.marked && (
-            <Badge tone="tick" title="Ticked in the book's index">
-              <Icon name="tick" className="h-3 w-3" /> Recorded
-            </Badge>
-          )}
           {species.circled && (
             <Badge tone="accent" title="He circled this figure on the plate">
               ◯
@@ -331,10 +329,17 @@ function SpeciesCard({
         <p className="mt-2 text-[0.75rem] text-fg-subtle">{species.group}</p>
 
         <div className="mt-3 flex items-center gap-2 border-t border-line pt-2.5 text-[0.75rem] text-fg-muted">
-          <span className="tnum">
-            {species.observations.length || "—"}{" "}
-            {species.observations.length === 1 ? "sighting" : "sightings"}
-          </span>
+          {/* 79 of these are ticked in the index with nothing written beside them.
+              "— sightings" left that looking like missing data rather than what it
+              is, which is the record saying only that he saw it. */}
+          {species.observations.length === 0 ? (
+            <span>Ticked, no sighting written</span>
+          ) : (
+            <span className="tnum">
+              {species.observations.length}{" "}
+              {species.observations.length === 1 ? "sighting" : "sightings"}
+            </span>
+          )}
           {last && (
             <>
               <span className="text-fg-subtle">·</span>
@@ -391,7 +396,16 @@ function SpeciesTable({
               >
                 <td className="px-4 py-2.5">
                   <span className="flex items-center gap-2.5">
-                    <span className="h-8 w-11 shrink-0 overflow-hidden rounded-md bg-surface-muted p-1">
+                    {/* Round, and the full 44px square rather than a 32px-tall
+                        letterbox. A circle crops to the bird itself, which is what
+                        the row is for; the plate's paper, which is most of what a
+                        wide thumbnail showed, falls outside it. The hairline keeps
+                        the pale plates from dissolving into the row. */}
+                    <span
+                      className={`h-11 w-11 shrink-0 overflow-hidden rounded-full bg-surface-muted ring-1 ring-line ${
+                        s.plate ? "" : "p-1.5"
+                      }`}
+                    >
                       <BirdImage plate={s.plate} alt={s.name} sizes="44px" />
                     </span>
                     <span>
@@ -494,13 +508,10 @@ function SpeciesDetail({
           </p>
         )}
 
+        {/* As on the card, "on the life list" is true of everything reachable from
+            this page, so it is left out here too. */}
         <div className="mt-3 flex flex-wrap gap-1.5">
           <Badge tone="neutral">{species.group}</Badge>
-          {species.marked && (
-            <Badge tone="tick">
-              <Icon name="tick" className="h-3 w-3" /> On the life list
-            </Badge>
-          )}
           {species.circled && <Badge tone="accent">◯ Circled on the plate</Badge>}
           {species.flagged && <Badge tone="flag">Needs review</Badge>}
         </div>

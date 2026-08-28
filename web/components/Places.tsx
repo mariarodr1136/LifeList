@@ -30,6 +30,16 @@ export default function Places({ places }: { places: PlaceView[] }) {
     <div className="flex min-h-0 flex-1">
       <div className="sticky top-12 hidden h-[calc(100vh-3rem)] w-[300px] shrink-0 flex-col border-r border-line bg-surface xl:flex">
         <div className="border-b border-line p-3">
+          {/* The checklist and review rails both name themselves and say how much
+              is in them; this one was the odd one out. */}
+          <div className="flex items-baseline justify-between px-0.5 pb-2">
+            <span className="eyebrow text-fg-subtle">Places</span>
+            <span className="tnum text-[0.6875rem] text-fg-subtle">
+              {visible.length === places.length
+                ? places.length
+                : `${visible.length} of ${places.length}`}
+            </span>
+          </div>
           <label className="relative block">
             <span className="sr-only">Search places</span>
             <Icon

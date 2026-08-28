@@ -11,7 +11,9 @@ import { useState } from "react";
 type YearDatum = { year: string; count: number };
 
 export function YearTimeline({ data }: { data: YearDatum[] }) {
-  const [hover, setHover] = useState<YearDatum | null>(null);
+  // The hovered year is held as an index rather than a datum, because the label
+  // has to be placed over the bar it describes, not just name it.
+  const [hover, setHover] = useState<number | null>(null);
 
   if (data.length === 0) return null;
 
@@ -26,6 +28,16 @@ export function YearTimeline({ data }: { data: YearDatum[] }) {
   }
   const max = Math.max(...years.map((y) => y.count));
   const peak = years.find((y) => y.count === max);
+
+  const hovered = hover === null ? null : years[hover];
+  // The centre of the hovered bar, as a percentage across the plot.
+  const hoverX = hover === null ? 0 : ((hover + 0.5) / years.length) * 100;
+  /*
+    Centred on its bar, except within a tooltip's half-width of either end, where
+    centring would hang the label off the card. There it anchors to the edge it is
+    near instead, which keeps it inside the figure without measuring anything.
+  */
+  const anchor = hoverX < 6 ? "start" : hoverX > 94 ? "end" : "middle";
 
   return (
     <figure className="m-0">
@@ -42,10 +54,10 @@ export function YearTimeline({ data }: { data: YearDatum[] }) {
         role="img"
         aria-label={`Bar chart of entries per year from ${first} to ${last}, peaking at ${max} in ${peak?.year}.`}
       >
-        {years.map((y) => (
+        {years.map((y, i) => (
           <div
             key={y.year}
-            onMouseEnter={() => setHover(y)}
+            onMouseEnter={() => setHover(i)}
             className="group relative flex h-full flex-1 cursor-default items-end"
           >
             {/* Invisible full-height hit target, larger than the mark itself. */}
@@ -55,18 +67,27 @@ export function YearTimeline({ data }: { data: YearDatum[] }) {
               style={{
                 height: `${Math.max((y.count / max) * 100, y.count > 0 ? 3 : 0)}%`,
                 background:
-                  hover?.year === y.year ? "var(--color-fg)" : "var(--color-accent)",
+                  hover === i ? "var(--color-fg)" : "var(--color-accent)",
               }}
             />
           </div>
         ))}
 
-        {hover && (
-          <div className="pointer-events-none absolute -top-2 left-1/2 -translate-x-1/2 rounded-lg border border-line bg-surface px-2.5 py-1 text-[0.75rem] text-fg shadow-[0_6px_20px_-8px_rgba(0,0,0,0.35)]">
-            <span className="tnum font-medium">{hover.year}</span>
+        {hovered && (
+          <div
+            style={{ left: `${hoverX}%` }}
+            className={`pointer-events-none absolute -top-2 z-10 whitespace-nowrap rounded-lg border border-line bg-surface px-2.5 py-1 text-[0.75rem] text-fg shadow-[0_6px_20px_-8px_rgba(0,0,0,0.35)] ${
+              anchor === "start"
+                ? ""
+                : anchor === "end"
+                  ? "-translate-x-full"
+                  : "-translate-x-1/2"
+            }`}
+          >
+            <span className="tnum font-medium">{hovered.year}</span>
             <span className="text-fg-muted">
               {" "}
-              · {hover.count} {hover.count === 1 ? "entry" : "entries"}
+              · {hovered.count} {hovered.count === 1 ? "entry" : "entries"}
             </span>
           </div>
         )}
