@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Journal } from "@/lib/types";
+import { asset } from "@/lib/asset";
 
 /*
   The masthead.
@@ -31,7 +32,7 @@ export default function Masthead({ meta }: { meta: Journal["meta"] }) {
         style={{ backgroundColor: MOUNT }}
       >
         <Image
-          src="/banner.jpg"
+          src={asset("/banner.jpg")}
           alt=""
           width={1920}
           height={640}

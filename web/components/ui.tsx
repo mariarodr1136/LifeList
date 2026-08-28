@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
 import type { Plate } from "@/lib/types";
+import { asset } from "@/lib/asset";
 
 /** The header every route opens with: eyebrow, title, one line of orientation. */
 export function PageHeader({
@@ -102,7 +103,7 @@ export function BirdImage({
   if (!plate) {
     return (
       <Image
-        src="/bird-placeholder.svg"
+        src={asset("/bird-placeholder.svg")}
         alt=""
         width={400}
         height={300}
@@ -118,7 +119,7 @@ export function BirdImage({
   if (whole) {
     return (
       <Image
-        src={`/plates/${plate.image}.webp`}
+        src={asset(`/plates/${plate.image}.webp`)}
         alt={caption}
         width={plate.fullWidth}
         height={plate.fullHeight}
@@ -130,7 +131,7 @@ export function BirdImage({
 
   return (
     <Image
-      src={`/plates/${plate.image}-card.webp`}
+      src={asset(`/plates/${plate.image}-card.webp`)}
       alt={caption}
       width={plate.width}
       height={plate.height}

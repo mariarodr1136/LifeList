@@ -15,8 +15,9 @@ const nextConfig: NextConfig = {
   ...(staticExport
     ? {
         output: "export" as const,
-        // The site lives under the repository name on github.io.
-        basePath: "/LifeList",
+        // A project site lives under the repository name on github.io. Shared with
+        // lib/asset.ts, which prefixes the image srcs basePath cannot reach.
+        basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? "",
         // Pages serves /checklist/index.html, not /checklist.
         trailingSlash: true,
       }

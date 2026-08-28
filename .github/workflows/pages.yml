@@ -45,6 +45,8 @@ jobs:
         env:
           STATIC_EXPORT: "1"
           NEXT_PUBLIC_READ_ONLY: "1"
+          # The project site's subdirectory. Change this if the repo is renamed.
+          NEXT_PUBLIC_BASE_PATH: "/LifeList"
 
       # Jekyll never runs on an artifact deploy, but _next/ would be skipped if it did.
       - run: touch out/.nojekyll

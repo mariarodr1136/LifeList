@@ -6,6 +6,7 @@ import { Icon } from "@/components/Icon";
 import { Badge, BirdImage, EmptyState } from "@/components/ui";
 import type { LifeSpecies, LocationRec } from "@/lib/types";
 import { formatDate } from "@/lib/types";
+import { asset } from "@/lib/asset";
 
 type Props = {
   species: LifeSpecies[];
@@ -618,7 +619,7 @@ function SpeciesDetail({
                   className="group block no-underline"
                 >
                   <Image
-                    src={`/thumbs/${s.image}.jpg`}
+                    src={asset(`/thumbs/${s.image}.jpg`)}
                     alt={`The photographed spread, ${s.label}`}
                     width={420}
                     height={315}

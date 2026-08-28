@@ -6,6 +6,7 @@ import { Icon } from "@/components/Icon";
 import { Badge } from "@/components/ui";
 import type { FlagReason, FlaggedEntry, ReviewEntry, ReviewFile, Verdict } from "@/lib/types";
 import { formatDate } from "@/lib/types";
+import { asset } from "@/lib/asset";
 
 type Props = { entries: FlaggedEntry[]; initial: ReviewFile };
 
@@ -206,7 +207,7 @@ export default function Review({ entries, initial }: Props) {
                 aria-label="Enlarge the page photograph"
               >
                 <Image
-                  src={`/pages/${current.image}.jpg`}
+                  src={asset(`/pages/${current.image}.jpg`)}
                   alt={`Photograph of ${current.pageLabel}`}
                   width={1400}
                   height={1050}
@@ -326,7 +327,7 @@ export default function Review({ entries, initial }: Props) {
           className="fixed inset-0 z-50 cursor-zoom-out overflow-auto bg-fg/90 p-4 scroll-thin"
         >
           <Image
-            src={`/pages/${current.image}.jpg`}
+            src={asset(`/pages/${current.image}.jpg`)}
             alt={`Photograph of ${current.pageLabel}`}
             width={2800}
             height={2100}
