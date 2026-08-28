@@ -1,4 +1,4 @@
-# A Life List
+# A Life List – Birds of North America 🦆
 
 One man carried a single field guide — *Birds of North America* (Robbins, Bruun & Zim,
 Golden Press, mid-1960s) — for fifty years, and wrote in it. Ticks in the back index,
