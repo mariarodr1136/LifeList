@@ -194,9 +194,11 @@ until every edge is mostly paint, which also takes the engraved lettering. It ma
 take more than a third of either dimension — without that floor it walks into a
 corner and beheads the coot.
 
-Even cropped, a portrait plate loses half its height to a landscape card, so each
-carries a focal point computed from the ink itself (`focus_y()` in `build_web.py`)
-rather than a single crop guess — Audubon hung the Vesper Sparrow at the foot of a
+The card frame is square. A 16:10 frame showed barely half the height of a portrait
+plate and dropped the top of it, which is where the heads are -- the Bald Eagle, the
+Black Skimmer and both Barn Swallows were headless. Even square, a tall plate loses
+some height, so each carries a focal point computed from the ink itself (`focus_y()`
+in `build_web.py`) rather than a single crop guess — Audubon hung the Vesper Sparrow at the foot of a
 prickly pear, and centring on the sheet would give a card of cactus.
 
 The guide's own plates are still not digitised and are not shown anywhere.
