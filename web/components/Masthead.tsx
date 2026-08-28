@@ -44,11 +44,7 @@ export default function Masthead({ meta }: { meta: Journal["meta"] }) {
       {/* Ground for the type: see globals.css. */}
       <div aria-hidden className="masthead-scrim absolute inset-0" />
 
-      {/* The band is fitted to its type rather than to the plate: at 280px the
-          masthead and the page header below it together pushed the first row of
-          content off a laptop screen. The plate is scaled, not cropped, so it
-          survives the trim whole. */}
-      <div className="relative flex min-h-[132px] flex-col justify-center px-5 py-5 sm:min-h-[228px] sm:px-8">
+      <div className="relative flex min-h-[132px] flex-col justify-center px-5 py-5 sm:min-h-[280px] sm:px-8">
         <p className="eyebrow text-fg-subtle">
           Golden Press · Robbins, Bruun &amp; Zim
         </p>

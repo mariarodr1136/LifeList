@@ -292,11 +292,9 @@ function SpeciesCard({
            and dropped the top of it, which is where the heads are -- at 16:10 the
            Bald Eagle and both Barn Swallows were headless. Square fixed that but
            stood too tall; this keeps nearly all of it and 20% less height. */
-        className={`relative aspect-[5/4] overflow-hidden bg-surface-muted ${
-          species.plate ? "" : "p-6"
-        }`}
+        className="relative aspect-[5/4] overflow-hidden bg-surface-muted"
       >
-        <BirdImage plate={species.plate} alt={species.name} sizes="(max-width: 640px) 100vw, 320px" />
+        <BirdImage plate={species.plate} alt={species.name} seed={species.key} sizes="(max-width: 640px) 100vw, 320px" />
         {/* No "Recorded" badge here: every bird on this page is on the life list by
             definition, so the badge sat on all 348 cards saying nothing and covering
             the plate. Only the marks that actually vary are worth the corner. */}
@@ -406,7 +404,7 @@ function SpeciesTable({
                         s.plate ? "" : "p-1.5"
                       }`}
                     >
-                      <BirdImage plate={s.plate} alt={s.name} sizes="44px" />
+                      <BirdImage plate={s.plate} alt={s.name} sizes="44px" compact />
                     </span>
                     <span>
                       <span className="block font-medium text-fg">{s.name}</span>
@@ -462,10 +460,10 @@ function SpeciesDetail({
           proportions Audubon gave it. */}
       <div
         className={`relative overflow-hidden bg-surface-muted ${
-          species.plate ? "" : "aspect-[16/10] p-7"
+          species.plate ? "" : "aspect-[16/10]"
         }`}
       >
-        <BirdImage plate={species.plate} alt={species.name} sizes="100vw" whole />
+        <BirdImage plate={species.plate} alt={species.name} seed={species.key} sizes="100vw" whole />
         <button
           onClick={onClose}
           aria-label="Close panel"

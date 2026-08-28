@@ -78,13 +78,32 @@ export function StatTile({
   );
 }
 
+/** How many bird-placeholder-N.webp exist. Written by extract/make_placeholder.py. */
+const PLACEHOLDERS = 6;
+
+/**
+ * Which stand-in an unplated bird gets.
+ *
+ * Hashed from the species key rather than picked at random, because the choice has
+ * to survive a re-render and has to agree between the server's HTML and the
+ * browser's — a random pick would hydrate into a mismatch, and a bird would change
+ * its picture on every keystroke in the search box.
+ */
+function variantFor(seed: string): number {
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
+  return (h % PLACEHOLDERS) + 1;
+}
+
 /**
  * The bird, as Audubon painted it — or the stand-in where he never painted it.
  *
  * He covers a little under half the book: he died in 1851 having barely worked
  * west of the Mississippi, and she birded California, so the Cactus Wren and the
- * Roadrunner have no plate and never will. The rest keep the obvious placeholder
- * rather than borrowing another artist's bird and passing it off as the record.
+ * Roadrunner have no plate and never will. Those 73 species get a stand-in that
+ * says so — several birds at once, captioned, so it cannot be read as a claim
+ * about which bird this is. Still no borrowing of one artist's bird to stand for
+ * another's.
  */
 export function BirdImage({
   plate,
@@ -92,6 +111,8 @@ export function BirdImage({
   className = "",
   sizes = "300px",
   whole = false,
+  compact = false,
+  seed = "",
 }: {
   plate?: Plate;
   alt?: string;
@@ -99,17 +120,48 @@ export function BirdImage({
   sizes?: string;
   /** Show the plate as Audubon composed it, rather than the card's crop. */
   whole?: boolean;
+  /** A frame of a few dozen pixels: too small for a plate or for words. */
+  compact?: boolean;
+  /** Chooses which stand-in an unplated bird gets. Pass the species key. */
+  seed?: string;
 }) {
   if (!plate) {
+    // The sheet keeps its middle clear for the caption, so at thumbnail size it
+    // would crop to bare paper. The line drawing was made for that size; it stays.
+    if (compact) {
+      return (
+        <Image
+          src={asset("/bird-placeholder.svg")}
+          alt=""
+          width={400}
+          height={300}
+          sizes={sizes}
+          className={`h-full w-full object-contain ${className}`}
+        />
+      );
+    }
     return (
-      <Image
-        src={asset("/bird-placeholder.svg")}
-        alt=""
-        width={400}
-        height={300}
-        sizes={sizes}
-        className={`h-full w-full object-contain ${className}`}
-      />
+      <span className="relative block h-full w-full">
+        {/*
+          A plate by one of the same hands credited elsewhere, washed back toward
+          the paper -- see extract/make_placeholder.py. Which one is decided by the
+          species' own key, so a bird keeps its stand-in from render to render
+          while a screenful of unplated birds is not the same tile six times.
+        */}
+        <Image
+          src={asset(`/bird-placeholder-${variantFor(seed)}.webp`)}
+          alt=""
+          width={800}
+          height={640}
+          sizes={sizes}
+          className={`h-full w-full object-cover ${className}`}
+        />
+        <span className="absolute inset-0 flex items-center justify-center p-3">
+          <span className="eyebrow rounded-full border border-line/80 bg-surface/75 px-2.5 py-1 text-center text-fg-subtle backdrop-blur-[2px]">
+            No image available
+          </span>
+        </span>
+      </span>
     );
   }
   const caption = alt ? `${alt}, painted by ${plate.artist}` : "";
