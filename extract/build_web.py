@@ -78,20 +78,45 @@ def title_case(name: str) -> str:
     return re.sub(r"'S\b", "'s", out)
 
 
+# Words the transcription misread, with what the book actually prints. Only for
+# readings that are certainly errors -- "Housf" is not a bird -- never for a name
+# the book spells oddly of its own accord, which is the book's business.
+MISREADINGS = {"HOUSF": "HOUSE", "LAYSON": "LAYSAN"}
+
+
 def species_key(name: str) -> str:
     """Group the same bird across the species account and the back index.
 
-    The two disagree about word order: an account prints "American Avocet" and the
-    back index files it as "Avocet, American". Reading them as different birds put
-    100 species on the life list twice, so the index's inversion is undone before
-    the key is taken. The printed name is left alone -- whichever page was read
-    first names the record, and that is the account wherever there is one.
+    Three ways the same bird gets written differently:
+
+    The two pages disagree about word order -- an account prints "American Avocet"
+    and the back index files it as "Avocet, American". Reading those as different
+    birds put 100 species on the life list twice.
+
+    Possessives are inconsistent between them: "Xantus' Murrelet" against
+    "Murrelet, Xantus's". Both become Xantus.
+
+    And the transcription misread a few words outright, which no rule can infer, so
+    those are listed above and corrected.
     """
     if "," in name:
         head, tail = name.split(",", 1)
         name = f"{tail.strip()} {head.strip()}"
+    name = re.sub(r"'s\b|'", "", name, flags=re.I)
     k = re.sub(r"[^A-Z ]+", " ", name.upper())
-    return re.sub(r"\s+", " ", k).strip()
+    words = [MISREADINGS.get(w, w) for w in k.split()]
+    return " ".join(words)
+
+
+def fix_misreadings(name: str) -> str:
+    """The printed name, with the transcription's own typos corrected.
+
+    The book prints "House Finch"; the page was read as "Housf Finch". Leaving the
+    typo on display would be faithful to the reading rather than to the book, which
+    is the wrong loyalty -- everything else on the site is the book's.
+    """
+    return " ".join(MISREADINGS[w.upper()].title() if w.upper() in MISREADINGS else w
+                    for w in name.split())
 
 
 def clean_family(heading: str | None) -> str | None:
@@ -200,7 +225,7 @@ def main() -> int:
                 continue
             rec = species_by_key.setdefault(key, {
                 "key": key,
-                "name": title_case(sp["common_name"]),
+                "name": fix_misreadings(title_case(sp["common_name"])),
                 "scientific": None,
                 "family": None,
                 "marked": False,

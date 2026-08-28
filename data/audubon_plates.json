@@ -19,7 +19,7 @@
   "scientific": "Melanerpes formicivorus",
   "title": null
  },
- "ALLEN S HUMMINGBIRD": {
+ "ALLEN HUMMINGBIRD": {
   "artist": "Gould",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/MonographTrochi3Goul_0100.jpg/960px-MonographTrochi3Goul_0100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "gould-499f45bf0e",
@@ -149,7 +149,7 @@
   "scientific": "Anhinga anhinga",
   "title": "Black-bellied Darter"
  },
- "ANNA S HUMMINGBIRD": {
+ "ANNA HUMMINGBIRD": {
   "artist": "Audubon",
   "file": "plate-425-columbian-humming-bird.jpg",
   "image": "plate-425",
@@ -179,7 +179,7 @@
   "scientific": "Sterna paradisaea",
   "title": "Arctic Tern"
  },
- "AUDUBON S SHEARWATER": {
+ "AUDUBON SHEARWATER": {
   "artist": "Audubon",
   "file": "plate-299-dusky-petrel.jpg",
   "image": "plate-299",
@@ -189,7 +189,7 @@
   "scientific": "Puffinus lherminieri",
   "title": "Dusky Petrel"
  },
- "AUDUBON S WARBLER": {
+ "AUDUBON WARBLER": {
   "artist": "Audubon",
   "file": "plate-395-audubons-warbler.jpg",
   "image": "plate-395",
@@ -199,7 +199,7 @@
   "scientific": "Setophaga occidentalis",
   "title": "Audubon’s Warbler, Hermit Warbler, Black-throated gray Warbler"
  },
- "BACHMAN S SPARROW": {
+ "BACHMAN SPARROW": {
   "artist": "Audubon",
   "file": "plate-165-bachmans-finch.jpg",
   "image": "plate-165",
@@ -209,7 +209,7 @@
   "scientific": "Peucaea aestivalis",
   "title": "Bachman’s Finch"
  },
- "BACHMAN S WARBLER": {
+ "BACHMAN WARBLER": {
   "artist": "Audubon",
   "file": "plate-185-bachmans-warbler.jpg",
   "image": "plate-185",
@@ -299,7 +299,7 @@
   "scientific": "Strix varia",
   "title": "Barred Owl"
  },
- "BARROW S GOLDENEYE": {
+ "BARROW GOLDENEYE": {
   "artist": "Audubon",
   "file": "plate-403-golden-eye-duck.jpg",
   "image": "plate-403",
@@ -319,6 +319,16 @@
   "scientific": "Setophaga castanea",
   "title": "Bay-breasted Warbler"
  },
+ "BELL VIREO": {
+  "artist": "Elliot",
+  "file": "https://archive.org/download/newheretoforeun1elli/page/n64_w800.jpg",
+  "image": "elliot-7",
+  "matchedBy": "read-from-the-plate",
+  "page": "https://archive.org/details/newheretoforeun1elli",
+  "plate": 7,
+  "scientific": "Vireo pusillus",
+  "title": null
+ },
  "BELTED KINGFISHER": {
   "artist": "Audubon",
   "file": "plate-77-belted-kingfisher.jpg",
@@ -329,7 +339,7 @@
   "scientific": "Megaceryle alcyon",
   "title": "Belted Kingfisher"
  },
- "BENDIRE S THRASHER": {
+ "BENDIRE THRASHER": {
   "artist": "Fuertes",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Bird_lore_%281916%29_%2814732448046%29.jpg/960px-Bird_lore_%281916%29_%2814732448046%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "fuertes-f6e492c6ee",
@@ -339,7 +349,7 @@
   "scientific": "Toxostoma bendirei",
   "title": null
  },
- "BEWICK S WREN": {
+ "BEWICK WREN": {
   "artist": "Audubon",
   "file": "plate-18-bewicks-wren.jpg",
   "image": "plate-18",
@@ -548,6 +558,16 @@
   "plate": 323,
   "scientific": "Rynchops niger",
   "title": "Black Skimmer, or Shearwater"
+ },
+ "BLACK SWIFT": {
+  "artist": "Elliot",
+  "file": "https://archive.org/download/newheretoforeun1elli/page/n116_w800.jpg",
+  "image": "elliot-20",
+  "matchedBy": "read-from-the-plate",
+  "page": "https://archive.org/details/newheretoforeun1elli",
+  "plate": 20,
+  "scientific": "Nephoecetes niger",
+  "title": null
  },
  "BLACK TERN": {
   "artist": "Audubon",
@@ -759,7 +779,7 @@
   "scientific": "Bombycilla garrulus",
   "title": "Bohemian Chatterer"
  },
- "BONAPARTE S GULL": {
+ "BONAPARTE GULL": {
   "artist": "Audubon",
   "file": "plate-324-bonapartian-gull.jpg",
   "image": "plate-324",
@@ -799,7 +819,7 @@
   "scientific": "Branta bernicla",
   "title": "Brant Goose"
  },
- "BREWER S BLACKBIRD": {
+ "BREWER BLACKBIRD": {
   "artist": "Fuertes",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Birds_of_California_in_Relation_to_the_Fruit_Industry_%281910%29_%2814565586247%29.jpg/960px-Birds_of_California_in_Relation_to_the_Fruit_Industry_%281910%29_%2814565586247%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "fuertes-d9b99083fc",
@@ -929,7 +949,7 @@
   "scientific": "Bucephala albeola",
   "title": "Buffel-headed Duck"
  },
- "BULLOCK S ORIOLE": {
+ "BULLOCK ORIOLE": {
   "artist": "Audubon",
   "file": "plate-433-bullocks-oriole.jpg",
   "image": "plate-433",
@@ -1089,7 +1109,7 @@
   "scientific": "Hydroprogne caspia",
   "title": null
  },
- "CASSIN S FINCH": {
+ "CASSIN FINCH": {
   "artist": "Brooks",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animal_life_in_the_Yosemite%3B_an_account_of_the_mammals%2C_birds%2C_reptiles%2C_and_amphibians_in_a_cross-section_of_the_Sierra_Nevada_%281924%29_%2818009994128%29.jpg/960px-Animal_life_in_the_Yosemite%3B_an_account_of_the_mammals%2C_birds%2C_reptiles%2C_and_amphibians_in_a_cross-section_of_the_Sierra_Nevada_%281924%29_%2818009994128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "brooks-f7fe087fee",
@@ -1099,7 +1119,7 @@
   "scientific": "Haemorhous cassinii",
   "title": null
  },
- "CASSIN S SPARROW": {
+ "CASSIN SPARROW": {
   "artist": "Fuertes",
   "file": "https://upload.wikimedia.org/wikipedia/commons/0/09/Fuertes_Bird_Lore.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
   "image": "fuertes-a25a651453",
@@ -1189,7 +1209,7 @@
   "scientific": "Spizella passerina",
   "title": "Chipping Sparrow"
  },
- "CHUCK WILL S WIDOW": {
+ "CHUCK WILL WIDOW": {
   "artist": "Audubon",
   "file": "plate-52-chuck-wills-widow.jpg",
   "image": "plate-52",
@@ -1219,7 +1239,7 @@
   "scientific": "Rallus crepitans",
   "title": "Salt Water Marsh Hen"
  },
- "CLARK S NUTCRACKER": {
+ "CLARK NUTCRACKER": {
   "artist": "Fuertes",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Bird_lore_%281919%29_%2814750355755%29.jpg/960px-Bird_lore_%281919%29_%2814750355755%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "fuertes-5bdb7051f4",
@@ -1389,7 +1409,7 @@
   "scientific": "Oporornis agilis",
   "title": "Connecticut Warbler"
  },
- "COOPER S HAWK": {
+ "COOPER HAWK": {
   "artist": "Audubon",
   "file": "plate-36-stanley-hawk.jpg",
   "image": "plate-36",
@@ -1399,7 +1419,7 @@
   "scientific": "Astur cooperii",
   "title": "Stanley Hawk"
  },
- "COSTA S HUMMINGBIRD": {
+ "COSTA HUMMINGBIRD": {
   "artist": "Gould",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/MonographTrochi3Goul_0080.jpg/960px-MonographTrochi3Goul_0080.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "gould-a6dc05f66c",
@@ -1619,7 +1639,7 @@
   "scientific": "Tyrannus savana",
   "title": "Fork-tailed Flycatcher"
  },
- "FORSTER S TERN": {
+ "FORSTER TERN": {
   "artist": "Audubon",
   "file": "plate-409-havells-tern.jpg",
   "image": "plate-409",
@@ -1669,7 +1689,7 @@
   "scientific": "Mareca strepera",
   "title": "Gadwall Duck"
  },
- "GAMBEL S QUAIL": {
+ "GAMBEL QUAIL": {
   "artist": "Cassin",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Illustrations_of_the_birds_of_California%2C_Texas%2C_Oregon%2C_British_and_Russian_America_%28Plate_9%29_%286306531276%29.jpg/960px-Illustrations_of_the_birds_of_California%2C_Texas%2C_Oregon%2C_British_and_Russian_America_%28Plate_9%29_%286306531276%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "cassin-21b2001a4b",
@@ -1749,7 +1769,7 @@
   "scientific": "Astur atricapillus",
   "title": "Goshawk and Stanley Hawk"
  },
- "GRACE S WARBLER": {
+ "GRACE WARBLER": {
   "artist": "Fuertes",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Bird-Lore-6-4_0146-scan.png/960px-Bird-Lore-6-4_0146-scan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "fuertes-41aba730fb",
@@ -2009,7 +2029,7 @@
   "scientific": "Icterus spurius",
   "title": "Orchard Oriole"
  },
- "HEERMANN S GULL": {
+ "HEERMANN GULL": {
   "artist": "Cassin",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Illustrations_of_the_birds_of_California%2C_Texas%2C_Oregon%2C_British_and_Russian_America_%28Plate_5%29_%286306530264%29.jpg/960px-Illustrations_of_the_birds_of_California%2C_Texas%2C_Oregon%2C_British_and_Russian_America_%28Plate_5%29_%286306530264%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "cassin-d926933b6e",
@@ -2019,7 +2039,7 @@
   "scientific": "Larus heermanni",
   "title": null
  },
- "HENSLOW S SPARROW": {
+ "HENSLOW SPARROW": {
   "artist": "Audubon",
   "file": "plate-70-henslows-bunting.jpg",
   "image": "plate-70",
@@ -2149,16 +2169,6 @@
   "scientific": null,
   "title": "House Wren"
  },
- "HOUSF FINCH": {
-  "artist": "Cassin",
-  "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Illustrations_of_the_birds_of_California%2C_Texas%2C_Oregon%2C_British_and_Russian_America._-_Intended_to_contain_descriptions_and_figures_of_all_North_American_birds_not_given_by_former_American_authors%2C_%2814751538875%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "image": "cassin-683d1dbabf",
-  "matchedBy": "commons-name",
-  "page": "https://commons.wikimedia.org/wiki/File%3AIllustrations%20of%20the%20birds%20of%20California%2C%20Texas%2C%20Oregon%2C%20British%20and%20Russian%20America.%20-%20Intended%20to%20contain%20descriptions%20and%20figures%20of%20all%20North%20American%20birds%20not%20given%20by%20former%20American%20authors%2C%20%2814751538875%29.jpg",
-  "plate": "13",
-  "scientific": "Haemorhous mexicanus",
-  "title": null
- },
  "HUDSONIAN GODWIT": {
   "artist": "Audubon",
   "file": "plate-258-hudsonian-godwit.jpg",
@@ -2178,6 +2188,16 @@
   "plate": 282,
   "scientific": "Larus glaucoides",
   "title": "White-winged silvery Gull"
+ },
+ "INCA DOVE": {
+  "artist": "Elliot",
+  "file": "https://archive.org/download/newheretoforeun2elli/page/n40_w800.jpg",
+  "image": "elliot-37",
+  "matchedBy": "read-from-the-plate",
+  "page": "https://archive.org/details/newheretoforeun2elli",
+  "plate": 37,
+  "scientific": "Scardafella inca",
+  "title": null
  },
  "INDIGO BUNTING": {
   "artist": "Audubon",
@@ -2289,7 +2309,7 @@
   "scientific": "Leucophaeus atricilla",
   "title": "Black-headed Gull"
  },
- "LE CONTE S THRASHER": {
+ "LE CONTE THRASHER": {
   "artist": "Brooks",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_birds_of_California_-_a_complete%2C_scientific_and_popular_account_of_the_580_species_and_subspecies_of_birds_found_in_the_state_%281923%29_%2820196915430%29.jpg/960px-The_birds_of_California_-_a_complete%2C_scientific_and_popular_account_of_the_580_species_and_subspecies_of_birds_found_in_the_state_%281923%29_%2820196915430%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "brooks-4baf246e98",
@@ -2299,7 +2319,7 @@
   "scientific": "Toxostoma lecontei",
   "title": null
  },
- "LEACH S PETREL": {
+ "LEACH PETREL": {
   "artist": "Audubon",
   "file": "plate-260-fork-tail-petrel.jpg",
   "image": "plate-260",
@@ -2379,7 +2399,7 @@
   "scientific": "Aramus guarauna",
   "title": "Scolopaceus Courlan"
  },
- "LINCOLN S SPARROW": {
+ "LINCOLN SPARROW": {
   "artist": "Audubon",
   "file": "plate-193-lincoln-finch.jpg",
   "image": "plate-193",
@@ -2478,6 +2498,16 @@
   "plate": 19,
   "scientific": "Parkesia motacilla",
   "title": "Louisiana Water Thrush"
+ },
+ "LUCY WARBLER": {
+  "artist": "Elliot",
+  "file": "https://archive.org/download/newheretoforeun1elli/page/n56_w800.jpg",
+  "image": "elliot-5",
+  "matchedBy": "read-from-the-plate",
+  "page": "https://archive.org/details/newheretoforeun1elli",
+  "plate": 5,
+  "scientific": "Helminthophaga luciae",
+  "title": null
  },
  "MAGNIFICENT FRIGATEBIRD": {
   "artist": "Audubon",
@@ -3209,7 +3239,7 @@
   "scientific": "Phasianus colchicus",
   "title": null
  },
- "RIVOLI S HUMMINGBIRD": {
+ "RIVOLI HUMMINGBIRD": {
   "artist": "Gould",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/A_monograph_of_the_Trochilid%C3%A6%2C_or_family_of_humming-birds_%28Plate_59%29_%287175936878%29.jpg/960px-A_monograph_of_the_Trochilid%C3%A6%2C_or_family_of_humming-birds_%28Plate_59%29_%287175936878%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "gould-1fe71771b8",
@@ -3379,7 +3409,7 @@
   "scientific": "Euphagus carolinus",
   "title": "Rusty Grakle"
  },
- "SABINE S GULL": {
+ "SABINE GULL": {
   "artist": "Audubon",
   "file": "plate-285-fork-tailed-gull.jpg",
   "image": "plate-285",
@@ -3398,6 +3428,16 @@
   "plate": 371,
   "scientific": "Centrocercus urophasianus",
   "title": "Cock of the Plains"
+ },
+ "SAGE SPARROW": {
+  "artist": "Elliot",
+  "file": "https://archive.org/download/newheretoforeun1elli/page/n92_w800.jpg",
+  "image": "elliot-14",
+  "matchedBy": "read-from-the-plate",
+  "page": "https://archive.org/details/newheretoforeun1elli",
+  "plate": 14,
+  "scientific": "Zonotrichia belli",
+  "title": null
  },
  "SAGE THRASHER": {
   "artist": "Audubon",
@@ -3719,7 +3759,7 @@
   "scientific": "Sturnus vulgaris",
   "title": null
  },
- "STELLER S EIDER": {
+ "STELLER EIDER": {
   "artist": "Audubon",
   "file": "plate-429-western-duck.jpg",
   "image": "plate-429",
@@ -3729,7 +3769,7 @@
   "scientific": "Polysticta stelleri",
   "title": "Western Duck"
  },
- "STELLER S JAY": {
+ "STELLER JAY": {
   "artist": "Audubon",
   "file": "plate-362-yellow-billed-magpie.jpg",
   "image": "plate-362",
@@ -3779,7 +3819,7 @@
   "scientific": "Calidris virgata",
   "title": "Townsend’s Sandpiper"
  },
- "SWAINSON S HAWK": {
+ "SWAINSON HAWK": {
   "artist": "Audubon",
   "file": "plate-372-common-buzzard.jpg",
   "image": "plate-372",
@@ -3789,7 +3829,7 @@
   "scientific": "Buteo swainsoni",
   "title": "Common Buzzard"
  },
- "SWAINSON S WARBLER": {
+ "SWAINSON WARBLER": {
   "artist": "Audubon",
   "file": "plate-198-brown-headed-worm-eating-warbler.jpg",
   "image": "plate-198",
@@ -3839,7 +3879,7 @@
   "scientific": "Uria lomvia",
   "title": "Uria Brunnichi"
  },
- "TOWNSEND S SOLITAIRE": {
+ "TOWNSEND SOLITAIRE": {
   "artist": "Fuertes",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Birds_of_the_Rockies_%281902%29_%2814568550920%29.jpg/960px-Birds_of_the_Rockies_%281902%29_%2814568550920%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "fuertes-9e5109ab2a",
@@ -3849,7 +3889,7 @@
   "scientific": "Myadestes townsendi",
   "title": null
  },
- "TOWNSEND S WARBLER": {
+ "TOWNSEND WARBLER": {
   "artist": "Audubon",
   "file": "plate-393-townsends-warbler.jpg",
   "image": "plate-393",
@@ -3859,7 +3899,7 @@
   "scientific": "Sialia currucoides",
   "title": "Townsend’s Warbler, Arctic Blue-bird, Western Blue-bird"
  },
- "TRAILL S FLYCATCHER": {
+ "TRAILL FLYCATCHER": {
   "artist": "Audubon",
   "file": "plate-45-traills-flycatcher.jpg",
   "image": "plate-45",
@@ -4209,7 +4249,7 @@
   "scientific": "Tringa semipalmata",
   "title": "Semipalmated Snipe, or Willet"
  },
- "WILLIAMSON S SAPSUCKER": {
+ "WILLIAMSON SAPSUCKER": {
   "artist": "Cassin",
   "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Illustrations_of_the_birds_of_California%2C_Texas%2C_Oregon%2C_British_and_Russian_America_%28Plate_32%29_%286306538168%29.jpg/960px-Illustrations_of_the_birds_of_California%2C_Texas%2C_Oregon%2C_British_and_Russian_America_%28Plate_32%29_%286306538168%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "image": "cassin-0d5c60db85",
@@ -4229,7 +4269,7 @@
   "scientific": "Lagopus lagopus",
   "title": "Willow Grouse, or Large Ptarmigan"
  },
- "WILSON S PETREL": {
+ "WILSON PETREL": {
   "artist": "Audubon",
   "file": "plate-270-stormy-petrel.jpg",
   "image": "plate-270",
@@ -4239,7 +4279,7 @@
   "scientific": "Oceanites oceanicus",
   "title": "Stormy Petrel"
  },
- "WILSON S PHALAROPE": {
+ "WILSON PHALAROPE": {
   "artist": "Audubon",
   "file": "plate-254-wilsons-phalarope.jpg",
   "image": "plate-254",
@@ -4249,7 +4289,7 @@
   "scientific": "Phalaropus tricolor",
   "title": "Wilson’s Phalarope"
  },
- "WILSON S PLOVER": {
+ "WILSON PLOVER": {
   "artist": "Audubon",
   "file": "plate-209-wilsons-plover.jpg",
   "image": "plate-209",
@@ -4259,7 +4299,7 @@
   "scientific": "Anarhynchus wilsonia",
   "title": "Wilson’s Plover"
  },
- "WILSON S WARBLER": {
+ "WILSON WARBLER": {
   "artist": "Audubon",
   "file": "plate-124-green-black-capt-flycatcher.jpg",
   "image": "plate-124",

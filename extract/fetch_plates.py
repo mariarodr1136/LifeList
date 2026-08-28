@@ -210,6 +210,53 @@ COMMONS_SOURCES = [
 ]
 
 
+"""
+Elliot, read by eye.
+
+His folio exists precisely to figure the North American birds Audubon did not,
+which makes it the best possible source for this gap -- but the only scan is the
+Internet Archive's, whose OCR mangles the engraved captions ("IIELMINT IIOPHAGA
+LUCLF" for Helminthophaga luciae) and whose plate numbering does not agree with
+Elliot's own list of plates. Matching on that would mean guessing, and a wrong
+guess here is a bird misattributed on the page.
+
+So these five were read off the plates themselves and written down. Five of his
+seventy-two are on her list at all: the rest are birds she never recorded. The
+captions of the seabird plates sit outside any fixed crop and were not read, so
+there may be one or two more.
+"""
+ELLIOT = {
+    "LUCY WARBLER": (5, 1, 56, "Helminthophaga luciae"),
+    "BELL VIREO": (7, 1, 64, "Vireo pusillus"),
+    "SAGE SPARROW": (14, 1, 92, "Zonotrichia belli"),
+    "BLACK SWIFT": (20, 1, 116, "Nephoecetes niger"),
+    "INCA DOVE": (37, 2, 40, "Scardafella inca"),
+}
+ELLIOT_PAGE = ("https://archive.org/download/newheretoforeun{vol}elli"
+               "/page/n{leaf}_w{width}.jpg")
+
+
+def add_elliot(mapping: dict[str, dict], species: list[dict]) -> int:
+    """Hand-verified plates, added only where nothing else reached the bird."""
+    known = {s["key"] for s in species}
+    added = 0
+    for key, (plate, vol, leaf, name) in ELLIOT.items():
+        if key not in known or key in mapping:
+            continue
+        mapping[key] = {
+            "artist": "Elliot",
+            "image": f"elliot-{plate}",
+            "plate": plate,
+            "title": None,
+            "scientific": name,
+            "file": ELLIOT_PAGE.format(vol=vol, leaf=leaf, width=IMG_WIDTH),
+            "page": f"https://archive.org/details/newheretoforeun{vol}elli",
+            "matchedBy": "read-from-the-plate",
+        }
+        added += 1
+    return added
+
+
 def commons(**params) -> dict:
     params["format"] = "json"
     url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)
@@ -556,7 +603,7 @@ def download(mapping: dict[str, dict]) -> None:
         # Audubon's own site resizes on request; Commons was asked for a sized
         # thumbnail when the file was listed, so its url is already the right one.
         url = (PLATE_IMG.format(name) + f"?width={IMG_WIDTH}&format=webp"
-               if artist == "Audubon" else name)
+               if artist == "Audubon" else name)   # others carry a sized url
         whole = trim_paper(fetch(url))
         dst.write_bytes(whole)
         with Image.open(io.BytesIO(whole)) as img:
@@ -585,7 +632,8 @@ def main() -> int:
     audubon = sum(1 for s in recorded if s["key"] in mapping)
 
     print("  gathering the artists who filled his gaps...")
-    filled = fill_gaps(mapping, species, gather_commons())
+    elliot = add_elliot(mapping, species)
+    filled = elliot + fill_gaps(mapping, species, gather_commons())
 
     OUT_MAP.write_text(json.dumps(mapping, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
     hit = sum(1 for s in recorded if s["key"] in mapping)

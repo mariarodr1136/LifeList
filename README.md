@@ -163,14 +163,15 @@ The species placeholder is still line art of our own (see below), so the two do 
 compete.
 
 **Bird artwork is Audubon where Audubon exists, and the artists who filled his gaps
-where he does not.** 261 of the 349 recorded species — 452 of all 869 printed — carry
+where he does not.** 265 of the 348 recorded species — 456 of all 866 printed — carry
 a painted plate. 209 are Audubon's own, fetched into
 `web/public/plates` by `extract/fetch_plates.py`. He painted 435 plates and died in
 1851 having barely worked west of the Mississippi, so the southwestern birds are not
-in him and never will be. The other 52 come from four artists who were there, tried
-oldest first so the page stays as much of a piece as it can: **Cassin** (1856, whose
-folio was explicitly the North American birds "not given by former American authors"),
-**Gould's** hummingbird monograph, then **Brooks** and **Fuertes**. Cassin in
+in him and never will be. The other 56 come from five artists who were there, tried
+oldest first so the page stays as much of a piece as it can: **Elliot** (1866, whose
+folio exists precisely to figure the birds Audubon did not), **Cassin** (1856, "all
+North American birds not given by former American authors"), **Gould's** hummingbird
+monograph, then **Brooks** and **Fuertes**. Cassin in
 particular is indistinguishable from Audubon — the same hand-coloured lithography, the
 same decade. Their plates come through Wikimedia Commons as Biodiversity Heritage
 Library scans; all of this work is out of copyright. Where none of them painted a bird
@@ -268,9 +269,18 @@ taxonomy. That is what a reader of this particular book would recognise.
   the Chihuahuan Raven) was illustrated with *Corvus albicollis*, an African bird that
   once shared the English name. The 52 attributions are short enough to read in full,
   and worth reading.
-- The transcription carries OCR misreads of its own that no merge can fix: `Housf
-  Finch` sits beside `Finch, House` as a separate species, because the typo makes a
-  genuinely different key.
+- Elliot's five plates were read off the images by eye and written into `ELLIOT` in
+  `fetch_plates.py`, not matched. The only scan is the Internet Archive's, whose OCR
+  mangles his engraved captions and whose plate numbering disagrees with his own list
+  of plates, so matching would have been guessing: of five automatic pairings tried,
+  three were wrong. Five of his seventy-two are birds she recorded; the captions on
+  the seabird plates sit outside a fixed crop and were never read, so one or two more
+  may be in there.
+- The transcription's own misreadings are corrected in `MISREADINGS` in
+  `build_web.py` — `Housf Finch` was sitting beside `Finch, House` as a separate
+  species. Possessives are normalised in the key for the same reason (`Xantus'` and
+  `Xantus's`). Only certain errors are corrected: a name the book spells oddly of its
+  own accord is the book's business.
 - The Audubon match is name-based, so it inherits the guide's own naming. Audubon
   painted 29 species twice and the matcher prefers the plate he titled with the
   bird's own name; only the Bald Eagle needed a hand override (plate 11 is the
