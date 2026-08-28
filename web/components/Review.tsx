@@ -14,6 +14,13 @@ type Patch = Omit<Partial<ReviewEntry>, "verdict"> & { verdict: Verdict | null }
 
 type Filter = "todo" | "done" | "all";
 
+/*
+  A static export has no server to POST a verdict to. Saying so plainly beats
+  letting the save fall through to the host's 404 page, whose HTML comes back as a
+  JSON parse error.
+*/
+const READ_ONLY = process.env.NEXT_PUBLIC_READ_ONLY === "1";
+
 const REASONS: Record<FlagReason, string> = {
   reread: "Year re-read into the 1970s",
   illegible: "Transcriber could not read it",
@@ -62,6 +69,12 @@ export default function Review({ entries, initial }: Props) {
 
   const save = async (patch: Patch) => {
     if (!current) return;
+    if (READ_ONLY) {
+      setError(
+        "This copy of the site is read-only. The verdicts shown are the ones already applied to the archive.",
+      );
+      return;
+    }
     setSaving(true);
     setError(null);
     try {
