@@ -287,11 +287,11 @@ function SpeciesCard({
       }`}
     >
       <div
-        /* Square, not 16:10. A landscape frame shows barely half the height of a
-           portrait plate, and the half it drops is the top -- which is where the
-           heads are. The Bald Eagle, the Black Skimmer and both Barn Swallows were
-           all headless at 16:10. */
-        className={`relative aspect-square overflow-hidden bg-surface-muted ${
+        /* 5:4. A landscape frame showed barely half the height of a portrait plate
+           and dropped the top of it, which is where the heads are -- at 16:10 the
+           Bald Eagle and both Barn Swallows were headless. Square fixed that but
+           stood too tall; this keeps nearly all of it and 20% less height. */
+        className={`relative aspect-[5/4] overflow-hidden bg-surface-muted ${
           species.plate ? "" : "p-6"
         }`}
       >
