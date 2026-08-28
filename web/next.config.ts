@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
     ? {
         output: "export" as const,
         // The site lives under the repository name on github.io.
-        basePath: "/a-life-list",
+        basePath: "/LifeList",
         // Pages serves /checklist/index.html, not /checklist.
         trailingSlash: true,
       }
