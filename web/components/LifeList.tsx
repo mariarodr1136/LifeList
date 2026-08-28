@@ -215,7 +215,7 @@ export default function LifeList({ species, groups, locations, decades }: Props)
               note="Try widening the place or decade — most entries in the book carry only one of the two."
             />
           ) : view === "grid" ? (
-            <div className="grid grid-cols-[repeat(auto-fill,minmax(20rem,1fr))] gap-4">
+            <div className="grid grid-cols-[repeat(auto-fill,minmax(15rem,1fr))] gap-4">
               {filtered.map((s) => (
                 <SpeciesCard
                   key={s.key}
@@ -287,9 +287,7 @@ function SpeciesCard({
       }`}
     >
       <div
-        /* 4:3 rather than 16:10: the plates are mostly portrait, and every row of
-           the frame that is not there is a row of the bird cropped away. */
-        className={`relative aspect-[4/3] overflow-hidden bg-surface-muted ${
+        className={`relative aspect-[16/10] overflow-hidden bg-surface-muted ${
           species.plate ? "" : "p-6"
         }`}
       >
