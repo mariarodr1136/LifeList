@@ -528,6 +528,7 @@ CARD_CROPS = {
     "plate-251": (0.05, 0.00, 0.90),           # Brown Pelican
     "plate-426": (0.05, 0.02, 0.90),           # California Condor
     "plate-103": (0.28, 0.28, 0.68),           # Canada Warbler, small in laurel
+    "plate-160": (0.08, 0.14, 0.85),           # Carolina Chickadee
     "plate-158": (0.05, 0.00, 0.90),           # Chimney Swift, above its nest
     "plate-156": (0.05, 0.37, 0.90),           # Common Crow
     "plate-309": (0.02, 0.25, 0.95),           # Common Tern, diving head-down
@@ -541,11 +542,18 @@ CARD_CROPS = {
     "fuertes-011dd74c21": (0.12, 0.42, 0.70),  # Pygmy Nuthatch, in a grey halftone
     "picked-rhinoceros-auklet": (0.26, 0.03, 0.53),
     "gould-a67bd7f593": (0.05, 0.15, 0.90),    # Rock Dove
+    "plate-180": (0.05, 0.16, 0.90),           # Pine Siskin
+    "plate-413": (0.08, 0.02, 0.69),           # California Quail, plume against the sky
+    "plate-348": (0.10, 0.01, 0.75),           # Gadwall
+    "plate-314": (0.08, 0.01, 0.75),           # Laughing Gull
     "plate-379": (0.02, 0.00, 0.95),           # Rufous Hummingbird, both at the top
+    "plate-328": (0.02, 0.03, 0.83),           # Black-Necked Stilt
+    "plate-335": (0.24, 0.10, 0.63),           # Short-Billed Dowitcher
     "plate-166": (0.02, 0.28, 0.95),           # Rough-Legged Hawk
     "plate-242": (0.02, 0.02, 0.95),           # Snowy Egret
     "plate-45": (0.20, 0.05, 0.75),            # Traill's Flycatcher
     "plate-311": (0.02, 0.02, 0.95),           # White Pelican
+    "brooks-ef5abfcf28": (0.12, 0.22, 0.62),   # Western Meadowlark, beak up and out
     "baird-6bf6a58fb9": (0.02, 0.00, 0.78),    # White-Tailed Ptarmigan, head studies
     "plate-83": (0.05, 0.05, 0.90),            # House Wren
 }

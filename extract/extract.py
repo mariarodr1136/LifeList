@@ -21,14 +21,12 @@ import argparse
 import base64
 import json
 import random
-import re
 import sqlite3
 import sys
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
-from datetime import date
 from pathlib import Path
 
 import os

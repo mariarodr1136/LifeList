@@ -48,7 +48,6 @@ const PATHS: Record<string, React.ReactNode> = {
       <path d="M9 6v12" />
     </>
   ),
-  menu: <path d="M4 6h16M4 12h16M4 18h16" />,
   close: <path d="M6 6l12 12M18 6L6 18" />,
   arrow: <path d="M5 12h14M13 6l6 6-6 6" />,
   flag: (
@@ -62,13 +61,6 @@ const PATHS: Record<string, React.ReactNode> = {
       <path d="M14 4h6v6" />
       <path d="M20 4 11 13" />
       <path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" />
-    </>
-  ),
-  question: (
-    <>
-      <circle cx="12" cy="12" r="9" />
-      <path d="M9.5 9.2a2.6 2.6 0 0 1 5 .9c0 1.7-2.5 2.2-2.5 3.9" />
-      <path d="M12 17.5h.01" />
     </>
   ),
   copy: (
